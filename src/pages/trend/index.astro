@@ -34,20 +34,63 @@ const past = issues.slice(1);
       past.length > 0 && (
         <section class="trend-archive">
           <p class="cli-label">ls archive/</p>
-          <ul>
-            {past.map((it) => (
-              <li>
-                <a href={`/trend/${it.data.date}/`}>
-                  NO.{it.data.issue_no} — {it.data.date}
-                </a>
-                {it.data.keywords.length > 0 && (
-                  <span class="kw">{it.data.keywords.map((k) => `#${k}`).join(' ')}</span>
-                )}
-              </li>
-            ))}
-          </ul>
+          <div class="table-scroll">
+            <table class="data-table" id="archive-table">
+              <thead>
+                <tr>
+                  <th data-sort="num" scope="col">
+                    NO.<span class="sort-icon" aria-hidden="true">↕</span>
+                  </th>
+                  <th data-sort="date" scope="col">
+                    Date<span class="sort-icon" aria-hidden="true">↓</span>
+                  </th>
+                  <th scope="col">Keywords</th>
+                </tr>
+              </thead>
+              <tbody>
+                {past.map((it) => (
+                  <tr data-num={it.data.issue_no} data-date={it.data.date}>
+                    <td class="num">NO.{it.data.issue_no}</td>
+                    <td>
+                      <a href={`/trend/${it.data.date}/`}>{it.data.date}</a>
+                    </td>
+                    <td class="kw">
+                      {it.data.keywords.map((k) => `#${k}`).join(' ')}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       )
     }
   </div>
+
+  <script is:inline>
+    // 아카이브 테이블 정렬 — 헤더 클릭으로 오름/내림 토글 (기본: Date 내림차순)
+    (() => {
+      const table = document.getElementById('archive-table');
+      if (!table) return;
+      const tbody = table.tBodies[0];
+      const state = { key: 'date', dir: -1 };
+      table.querySelectorAll('th[data-sort]').forEach((th) => {
+        th.addEventListener('click', () => {
+          const key = th.dataset.sort;
+          state.dir = state.key === key ? -state.dir : -1;
+          state.key = key;
+          [...tbody.rows]
+            .sort((a, b) => {
+              const av = a.dataset[key];
+              const bv = b.dataset[key];
+              const cmp = key === 'num' ? Number(av) - Number(bv) : av.localeCompare(bv);
+              return cmp * state.dir;
+            })
+            .forEach((r) => tbody.appendChild(r));
+          table.querySelectorAll('th[data-sort] .sort-icon').forEach((i) => (i.textContent = '↕'));
+          th.querySelector('.sort-icon').textContent = state.dir === -1 ? '↓' : '↑';
+        });
+      });
+    })();
+  </script>
 </Base>
