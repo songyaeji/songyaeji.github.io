@@ -21,7 +21,7 @@ export const profile = {
   // GitHub 아바타 URL 직결이면 프로필 사진 변경 시 사이트도 예고 없이 바뀜 — 정적 고정
   avatar: '/avatar.jpg',
   bio: [
-    'AI·LLM 공급망 보안과 취약점 분석을 연구합니다. 현재 BoB(Best of the Best) 15기 AI기업보안 트랙에서 훈련 중이며, MCP(Model Context Protocol) 생태계의 공급망 위협 탐지를 주제로 연구하고 있습니다.',
+    'AI·LLM 공급망 보안과 취약점 분석을 연구합니다. 현재 BoB(Best of the Best) 15기 AI기업보안 트랙에서 훈련 중이며, SIFT Lab(경희대)에서 MCP(Model Context Protocol) 생태계의 공급망 위협 탐지를 연구하고 있습니다.',
     '보안 동향 수집·채용 공고 알림 같은 개인 인프라를 직접 만들어 운영하는 것을 좋아합니다. 목표는 금융권 AI 보안 담당자입니다.',
   ],
   contact: {
@@ -60,10 +60,10 @@ export const profile = {
       current: true,
     },
     {
-      period: '2026',
+      period: '2026 — present',
       title: 'MCP Supply-Chain Security Research',
-      detail: 'Remote MCP server rug-pull 탐지 연구 및 보안 도구 개발.',
-      current: false,
+      detail: 'Remote MCP server rug-pull 탐지 연구 — SIFT Lab @ Kyung Hee Univ.',
+      current: true,
     },
     {
       period: '2025.06 — present',
@@ -78,9 +78,10 @@ export const profile = {
       current: false,
     },
     {
-      period: '2025',
-      title: 'Proxy Phishing Research',
-      detail: '프록시 기반 피싱(AitM) 기법·탐지 공동 연구.',
+      period: '2025 — 2026',
+      title: 'Translation-Proxy Abuse Research — IEEE Access',
+      detail:
+        '"A Large-Scale Investigation of URLs Abusing Translation Proxies" 게재 (IEEE Access, vol. 14, 2026) — SIFT Lab 공동 연구.',
       current: false,
     },
     {
