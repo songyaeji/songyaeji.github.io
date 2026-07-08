@@ -10,7 +10,7 @@ const projects = (await getCollection('projects')).sort(
 // 성격이 다른 프로젝트가 한 grid에 섞이지 않게 카테고리 섹션으로 배치
 const sections = [
   { key: 'research', cmd: 'ls projects/research/', title: 'Security Research' },
-  { key: 'oss', cmd: 'ls projects/oss/', title: 'Open Source' },
+  { key: 'oss', cmd: 'ls projects/oss/', title: 'Open Source Contribution' },
   { key: 'tool', cmd: 'ls projects/tools/', title: 'Tools & Automation' },
   { key: 'team', cmd: 'ls projects/team/', title: 'Team Projects' },
 ] as const;

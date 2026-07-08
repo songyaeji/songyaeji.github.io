@@ -36,7 +36,7 @@ export const profile = {
       period: '2022 — present',
     },
     {
-      school: 'Best of the Best 15th',
+      school: 'Best of the Best 15th — KISA',
       degree: 'AI Enterprise Security Track',
       period: '2026 — present',
     },
@@ -46,8 +46,8 @@ export const profile = {
       period: '2025.06 — present',
     },
     {
-      school: 'Whitehat School 1st — KITRI',
-      degree: '화이트해커 기초 역량 교육 (네트워크·OSINT·리버싱·Linux)',
+      school: 'KITRI',
+      degree: 'Whitehat School 1st',
       period: '2023.09 — 2024.03',
     },
   ],
@@ -69,7 +69,7 @@ export const profile = {
     {
       period: '2026 — present',
       title: 'Best of the Best (BoB) 15th',
-      detail: 'AI Enterprise Security Track — KITRI. AI 기업보안 교육·연구 과정.',
+      detail: 'AI Enterprise Security Track — KISA. AI 기업보안 교육·연구 과정.',
       current: true,
     },
     {

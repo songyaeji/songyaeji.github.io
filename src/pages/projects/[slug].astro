@@ -28,6 +28,13 @@ const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[d.s
         )
       }
       <span class="proj-year">{d.year}</span>
+      {
+        d.tags.length > 0 && (
+          <ul class="tags tags-interest">
+            {d.tags.map((t) => <li class="tag tag-interest">{t}</li>)}
+          </ul>
+        )
+      }
       <ul class="tags">
         {d.stack.map((s) => <li class="tag">{s}</li>)}
       </ul>

@@ -5,12 +5,6 @@ import NowPanel from '../components/NowPanel.astro';
 import Icon from '../components/Icon.astro';
 import { profile } from '../data/profile';
 
-const projects = await getCollection('projects');
-const featured = projects
-  .filter((p) => p.data.featured)
-  .sort((a, b) => a.data.order - b.data.order)
-  .slice(0, 4);
-
 // 최신 보안동향 카드뉴스 회차 — 없으면(첫 발행 전) 홈에 표시 안 함
 const trendIssues = await getCollection('trend');
 const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.date))[0];
@@ -108,26 +102,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
           </ul>
         </section>
       </div>
-
-      <section>
-        <p class="cli-label">ls projects/ --featured</p>
-        <ul class="mini-list">
-          {
-            featured.map((p) => (
-              <li class="mini">
-                <span class="t">
-                  {p.data.repo ? <a href={p.data.repo}>{p.data.title}</a> : p.data.title}
-                </span>
-                <span class="d">{p.data.summary}</span>
-                <span class="y">{p.data.year}</span>
-              </li>
-            ))
-          }
-          <li class="mini">
-            <a href="/projects/">All projects →</a>
-          </li>
-        </ul>
-      </section>
     </div>
   </div>
 

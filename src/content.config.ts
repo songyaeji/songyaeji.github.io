@@ -45,6 +45,8 @@ const projects = defineCollection({
     role: z.string().optional(),
     collaborators: z.string().optional(),
     highlights: z.array(z.string()).default([]),
+    // interests(src/data/profile.ts)와 연계되는 관심분야 태그 — stack(기술)과 별도 축
+    tags: z.array(z.string()).default([]),
   }),
 });
 

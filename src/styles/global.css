@@ -439,6 +439,13 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   white-space: nowrap;
 }
 
+.tag-interest {
+  background: var(--yellow-soft);
+  color: var(--yellow-deep);
+}
+
+.tags-interest { margin-bottom: 0.5rem; }
+
 .badge {
   font-size: 0.7rem;
   font-weight: 700;
