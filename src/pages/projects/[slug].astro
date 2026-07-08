@@ -1,0 +1,74 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((p) => ({ params: { slug: p.id }, props: { project: p } }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const d = project.data;
+const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[d.status];
+---
+
+<Base title={d.title} description={d.summary}>
+  <div class="page wrap">
+    <p class="cli-label">cat projects/{project.id}.md</p>
+    <h1 class="page-title">{d.title}</h1>
+    <p class="lede">{d.summary}</p>
+
+    <div class="proj-meta">
+      {
+        d.private ? (
+          <span class="badge badge-private">Private research</span>
+        ) : (
+          <span class={`badge badge-${d.status}`}>{statusLabel}</span>
+        )
+      }
+      <span class="proj-year">{d.year}</span>
+      <ul class="tags">
+        {d.stack.map((s) => <li class="tag">{s}</li>)}
+      </ul>
+    </div>
+
+    {
+      (d.role || d.collaborators) && (
+        <dl class="proj-facts">
+          {d.role && (
+            <div>
+              <dt>Role</dt>
+              <dd>{d.role}</dd>
+            </div>
+          )}
+          {d.collaborators && (
+            <div>
+              <dt>With</dt>
+              <dd>{d.collaborators}</dd>
+            </div>
+          )}
+        </dl>
+      )
+    }
+
+    {
+      d.highlights.length > 0 && (
+        <ul class="proj-highlights">
+          {d.highlights.map((h) => (
+            <li>{h}</li>
+          ))}
+        </ul>
+      )
+    }
+
+    <article class="prose">
+      <Content />
+    </article>
+
+    <p class="proj-links">
+      {d.repo && <a href={d.repo}>GitHub repository →</a>}
+      <a href="/projects/">← All projects</a>
+    </p>
+  </div>
+</Base>

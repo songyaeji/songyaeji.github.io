@@ -6,14 +6,14 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { title, summary, stack, repo, year, status, private: isPrivate } = project.data;
+const { title, summary, stack, year, status, private: isPrivate } = project.data;
 const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[status];
 ---
 
 <li class="card">
   <div class="card-head">
     <h3>
-      {repo ? <a href={repo}>{title}</a> : title}
+      <a href={`/projects/${project.id}/`}>{title}</a>
     </h3>
     {isPrivate ? (
       <span class="badge badge-private">Private research</span>

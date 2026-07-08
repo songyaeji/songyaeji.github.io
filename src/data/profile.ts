@@ -18,7 +18,8 @@ export const profile = {
     'Vulnerability Analysis',
     'Privacy',
   ],
-  avatar: 'https://avatars.githubusercontent.com/songyaeji',
+  // GitHub 아바타 URL 직결이면 프로필 사진 변경 시 사이트도 예고 없이 바뀜 — 정적 고정
+  avatar: '/avatar.jpg',
   bio: [
     'AI·LLM 공급망 보안과 취약점 분석을 연구합니다. 현재 BoB(Best of the Best) 15기 AI기업보안 트랙에서 훈련 중이며, MCP(Model Context Protocol) 생태계의 공급망 위협 탐지를 주제로 연구하고 있습니다.',
     '보안 동향 수집·채용 공고 알림 같은 개인 인프라를 직접 만들어 운영하는 것을 좋아합니다. 목표는 금융권 AI 보안 담당자입니다.',
@@ -26,8 +27,7 @@ export const profile = {
   contact: {
     github: 'https://github.com/songyaeji',
     email: 'skaehdlf0318@khu.ac.kr',
-    // TODO: LinkedIn 프로필 URL 확보 후 교체
-    linkedin: '#',
+    // TODO: LinkedIn 프로필 URL 확보 시 항목 추가
   },
   education: [
     {
@@ -46,11 +46,11 @@ export const profile = {
       period: '2025.06 — present',
     },
   ],
+  // 프로젝트·기여로 근거를 댈 수 있는 것만 나열 (면접 검증 대비)
   skills: {
     Languages: ['Python', 'Go', 'C++', 'TypeScript'],
-    'Security / Infra': ['Linux', 'Docker', 'Nginx', 'MySQL'],
-    'AI / Data': ['scikit-learn', 'Anomaly Detection', 'LLM Agents / MCP'],
-    Tools: ['Git', 'Burp Suite', 'Wireshark', 'Sigma'],
+    'Security & Infra': ['Linux', 'Docker', 'Git', 'GitHub Actions', 'Nuclei'],
+    'AI & Data': ['scikit-learn', 'Anomaly Detection', 'LLM Agents / MCP'],
   },
   timeline: [
     {
@@ -70,6 +70,12 @@ export const profile = {
       title: 'Undergraduate Researcher — SIFT Lab',
       detail: 'Security & Incident Forensic Technology Lab @ Kyung Hee Univ. (Prof. Jeman Park)',
       current: true,
+    },
+    {
+      period: '2025.08 — 2025.11',
+      title: 'OSS Contribution — nuclei-templates',
+      detail: 'projectdiscovery/nuclei-templates merged PR 18건 (K8s 하드닝·SMTP/DNS·CVE 템플릿).',
+      current: false,
     },
     {
       period: '2025',

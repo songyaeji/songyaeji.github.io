@@ -5,7 +5,9 @@ stack: [Go, gRPC]
 year: 2025
 status: done
 repo: https://github.com/songyaeji/yaeji_gRPC
-order: 8
+order: 9
+role: 개인 학습 프로젝트
 ---
 
-Full-stack service networking 학습 산출물.
+서비스 간 통신(RPC, 스트리밍, proto 스키마)을 바닥부터 이해하려고 진행한 학습
+프로젝트. 이후 봇·MCP 서버 같은 네트워크 서비스를 만들 때의 기반이 됐다.

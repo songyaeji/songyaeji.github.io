@@ -18,7 +18,8 @@ const past = issues.slice(1);
       직접 만들어 운영하는 수집 봇(<a href="https://github.com/songyaeji/sec-feed-bot"
         >sec-feed-bot</a
       >)이 매일 07:00 KST에 발행하는 보안동향 카드뉴스입니다. CISA KEV·NVD·KISA 보호나라 등 20여 개
-      공식 소스를 수집·요약하며, 카드 하단 번호는 원문 링크와 1:1로 대응합니다.
+      공식 소스(<a href="https://github.com/songyaeji/sec-feed-bot/blob/main/config.yaml">전체 목록</a>)를
+      수집·요약하며, 카드 하단 번호는 원문 링크와 1:1로 대응합니다.
     </p>
 
     {
@@ -26,7 +27,8 @@ const past = issues.slice(1);
         <TrendIssue issue={latest.data} />
       ) : (
         <p class="trend-empty">
-          첫 브리핑이 아직 게시되지 않았습니다 — 매일 아침 07:00 KST에 발행됩니다.
+          Discord 채널로는 2026-07-06부터 매일 발행 중이며, 웹 게시는 2026-07-09 회차부터
+          시작합니다 — 매일 아침 07:00 KST 자동 게시.
         </p>
       )
     }

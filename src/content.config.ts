@@ -16,8 +16,11 @@ const research = defineCollection({
         slides: z.string().optional(),
       })
       .default({}),
-    // 예시 항목 표시용 — 실제 논문으로 오인 방지
+    // placeholder = 레이아웃용 더미(실제 연구 아님). 실제 미게재 연구는
+    // status: in-preparation으로 구분 — 둘을 겹쳐 쓰면 진행 연구가
+    // "가짜 예시"로 오인된다
     placeholder: z.boolean().default(false),
+    status: z.enum(['in-preparation', 'published']).default('published'),
     order: z.number().default(0),
   }),
 });
@@ -34,6 +37,11 @@ const projects = defineCollection({
     private: z.boolean().default(false),
     featured: z.boolean().default(false),
     order: z.number().default(0),
+    // 채용자 관점 보강 — 본인 역할(공동 작업 오해 방지), 협업자,
+    // 검증 가능한 성과 하이라이트
+    role: z.string().optional(),
+    collaborators: z.string().optional(),
+    highlights: z.array(z.string()).default([]),
   }),
 });
 
