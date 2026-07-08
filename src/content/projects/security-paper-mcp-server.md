@@ -5,8 +5,8 @@ stack: [TypeScript, MCP]
 year: 2026
 status: done
 repo: https://github.com/songyaeji/security-paper-mcp-server
-featured: true
-order: 4
+featured: false
+order: 5
 role: 개인 프로젝트
 highlights:
   - 보안 4대 학회(S&P·USENIX Security·CCS·NDSS)와 ACSAC·RAID·ESORICS 논문 검색을 MCP 도구로 제공

@@ -7,7 +7,23 @@ import { profile } from '../data/profile';
   <div class="page wrap">
     <p class="cli-label">history</p>
     <h1 class="page-title">Activities</h1>
-    <p class="lede">교육·연구·대외 활동 이력입니다.</p>
+    <p class="lede">교육·연구·수상·대외 활동 이력입니다.</p>
+    <section class="awards">
+      <p class="cli-label">ls awards/</p>
+      <ul class="award-list">
+        {
+          profile.awards.map((a) => (
+            <li>
+              <div class="a-title">{a.title}</div>
+              <div class="a-by">
+                {a.by} · {a.date}
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <p class="cli-label">history --all</p>
     <div>
       <ul class="timeline">
         {

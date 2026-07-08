@@ -185,6 +185,13 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   padding: 0 0.06em;
 }
 
+/* statement 아래 보안 철학 한 줄 — 조용하게, 기억에 남게 */
+.whoami .philosophy {
+  font-size: 0.86rem;
+  color: var(--muted);
+  word-break: keep-all;
+}
+
 .contact-rows { list-style: none; padding: 0; display: grid; gap: 0.45rem; }
 
 .contact-rows li {
@@ -466,6 +473,13 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .pub .pub-authors { font-size: 0.84rem; color: var(--muted); margin-top: 0.1rem; }
 .pub .pub-links { font-size: 0.84rem; margin-top: 0.5rem; display: flex; gap: 1rem; }
 .pub .tags { margin-top: 0.6rem; }
+
+/* ---------- awards ---------- */
+.awards { margin-bottom: 2.2rem; }
+.award-list { list-style: none; padding: 0; display: grid; gap: 0.9rem; }
+.award-list li { border-left: 3px solid var(--yellow); padding-left: 0.9rem; }
+.award-list .a-title { font-size: 1.02rem; font-weight: 700; color: var(--ink); }
+.award-list .a-by { font-size: 0.84rem; color: var(--muted); margin-top: 0.1rem; }
 
 /* ---------- timeline ---------- */
 .timeline { list-style: none; padding: 0 0 0 1rem; position: relative; }
