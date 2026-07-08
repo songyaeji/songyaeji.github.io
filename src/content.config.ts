@@ -30,7 +30,6 @@ const projects = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),
-    stack: z.array(z.string()).default([]),
     repo: z.string().optional(),
     year: z.number(),
     status: z.enum(['active', 'done', 'research']).default('done'),
@@ -45,7 +44,7 @@ const projects = defineCollection({
     role: z.string().optional(),
     collaborators: z.string().optional(),
     highlights: z.array(z.string()).default([]),
-    // interests(src/data/profile.ts)와 연계되는 관심분야 태그 — stack(기술)과 별도 축
+    // 카드에 노출되는 짧은 도메인/기술 키워드 (예: OSINT, LLM, MCP)
     tags: z.array(z.string()).default([]),
   }),
 });

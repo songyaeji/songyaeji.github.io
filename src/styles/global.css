@@ -330,6 +330,17 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 
 /* ---------- tile — 공용 카드 단위 (홈 education/awards, pub 카드가 공유) ---------- */
 .tile-list { list-style: none; padding: 0; display: grid; gap: 0.7rem; }
+.tile-list + .tile-group-label { margin-top: 1.1rem; }
+
+.tile-group-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
 
 .tile {
   background: var(--surface);
@@ -743,9 +754,32 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   border-radius: 14px;
   background: var(--surface);
   box-shadow: var(--shadow-1);
+  cursor: zoom-in;
 }
 
 .trend-strip:focus-visible { outline: 2px solid var(--yellow-deep); outline-offset: 4px; }
+
+/* 카드 더블클릭 확대 뷰 */
+.trend-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vw;
+  background: rgba(10, 18, 38, 0.86);
+  cursor: zoom-out;
+}
+
+.trend-lightbox[hidden] { display: none; }
+
+.trend-lightbox img {
+  max-width: 100%;
+  max-height: 92vh;
+  border-radius: 10px;
+  box-shadow: var(--shadow-2, 0 20px 60px rgba(0, 0, 0, 0.4));
+}
 
 .trend-links ol {
   margin: 0.7rem 0 0;
@@ -767,24 +801,19 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 
 .trend-archive { margin-top: 3.2rem; }
 
-/* ---------- footer — 네이비 터미널 밴드 ($ exit) ---------- */
-.site-footer { background: var(--navy-950); color: var(--term-text); }
+/* ---------- footer — $ exit 한 줄 ---------- */
+.site-footer { color: var(--muted); border-top: 1px solid var(--hairline); }
 
 .site-footer .wrap {
   padding: 1.6rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
   font-size: 0.8rem;
 }
 
 .site-footer .exit { font-family: var(--mono); }
-.site-footer .exit .ps1 { color: var(--yellow); }
-.site-footer a { color: var(--term-bright); font-weight: 600; }
-.site-footer a:hover { box-shadow: inset 0 -2px 0 var(--yellow); }
-.site-footer :focus-visible { outline-color: var(--yellow); }
+.site-footer .exit .ps1 { color: var(--yellow-deep); }
 
 /* ---------- responsive ---------- */
 @media (max-width: 860px) {

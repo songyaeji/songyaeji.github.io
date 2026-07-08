@@ -1,7 +1,6 @@
 ---
 title: Remote MCP Rug-Pull Detection
-summary: 원격 MCP 서버가 승인 이후 도구 정의를 몰래 바꾸는 rug-pull 공격을 탐지하는 연구. 도구 스키마 변조 감시와 공급망 관점의 위협 모델링.
-stack: [Python, MCP, LLM Security]
+summary: 원격 MCP 서버의 도구 정의 변조(rug-pull)를 탐지하는 공급망 보안 연구.
 year: 2026
 category: research
 status: research
@@ -9,7 +8,7 @@ private: true
 featured: true
 order: 1
 role: SIFT Lab(경희대) 학부연구생 연구 — 위협 모델링과 탐지 도구 구현
-tags: [AI / LLM Security, Supply Chain Security]
+tags: [MCP, LLM, Supply Chain]
 highlights:
   - 원격 MCP 서버가 승인 후 도구 정의(이름·설명·스키마)를 몰래 바꾸는 rug-pull을 시계열 관점에서 탐지
   - 선행 연구로 MCP 서버 메타데이터 기반 공급망 위협 탐지 연구를 [KCC 2026에서 발표](/publications/)

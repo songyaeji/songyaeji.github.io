@@ -9,7 +9,7 @@ export const profile = {
   // "지금 뭐 하나" — 홈 Currently 패널에 굵은 라벨로 표시
   now: [
     { label: 'BoB 15th', detail: 'AI Enterprise Security Track' },
-    { label: 'SIFT Lab', detail: 'Undergraduate Researcher @ Kyung Hee Univ.' },
+    { label: 'SIFT Lab', detail: 'Undergraduate Researcher' },
   ],
   interests: [
     'AI / LLM Security',
@@ -29,34 +29,40 @@ export const profile = {
     email: 'skaehdlf0318@gmail.com',
     // TODO: LinkedIn 프로필 URL 확보 시 항목 추가
   },
+  // type: 'school'(경희대 소속 활동) vs 'external'(대외 교육·훈련 프로그램) — 홈에서 구분 표시
   education: [
     {
       school: 'Kyung Hee University',
       degree: 'B.S. Software Convergence',
       period: '2022 — present',
-    },
-    {
-      school: 'Best of the Best 15th — KISA',
-      degree: 'AI Enterprise Security Track',
-      period: '2026 — present',
+      type: 'school',
     },
     {
       school: 'SIFT Lab, Kyung Hee University',
       degree: 'Undergraduate Researcher',
       period: '2025.06 — present',
+      type: 'school',
+      url: 'https://sites.google.com/view/siftlab/home',
+    },
+    {
+      school: 'Best of the Best 15th — KISA',
+      degree: 'AI Enterprise Security Track',
+      period: '2026 — present',
+      type: 'external',
     },
     {
       school: 'KITRI',
       degree: 'Whitehat School 1st',
       period: '2023.09 — 2024.03',
+      type: 'external',
     },
   ],
   // 수상 — Activities 페이지 Awards 섹션에 표시
   awards: [
     {
-      title: '정보통신산업진흥원장상 (팀)',
-      by: '2025 오픈소스 컨트리뷰션 아카데미(OSSCA) — Project Discovery 팀',
-      date: '2025',
+      title: '정보통신산업진흥원장상',
+      by: '2025 오픈소스 컨트리뷰션 아카데미(OSSCA) — Project Discovery 리드멘티',
+      date: '2025.12',
     },
     {
       title: 'BDA 연합 데이터 분석/활용 공모전 최우수상',
@@ -109,7 +115,7 @@ export const profile = {
       period: '2025.08 — 2025.11',
       title: 'OSSCA 2025 — Project Discovery 리드멘티',
       detail:
-        '오픈소스 컨트리뷰션 아카데미. nuclei-templates merged PR 18건, KISA 가이드 기반 Linux 점검 템플릿 37개 작성 — 팀 정보통신산업진흥원장상 수상.',
+        '오픈소스 컨트리뷰션 아카데미. nuclei-templates merged PR 18건, KISA 가이드 기반 Linux 점검 템플릿 37개 작성 — 정보통신산업진흥원장상 수상.',
       current: false,
     },
     {

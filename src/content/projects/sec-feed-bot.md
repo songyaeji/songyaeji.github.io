@@ -1,7 +1,6 @@
 ---
 title: Trend of Security — Discord Feed Bot
-summary: 보안 뉴스·연구·취약점 피드 20여 종을 수집해 매일 아침 카드뉴스로 브리핑하는 자동화 봇. 보안 동향 추적을 루틴으로 만든 개인 인프라.
-stack: [Python, Discord API, GitHub Actions, LLM]
+summary: 보안 뉴스·취약점 피드 20여 종을 매일 카드뉴스로 브리핑하는 자동화 봇.
 year: 2026
 category: tool
 status: active
@@ -9,7 +8,7 @@ repo: https://github.com/songyaeji/sec-feed-bot
 featured: true
 order: 3
 role: 개인 프로젝트 — 설계·구현·운영 전부
-tags: [AI / LLM Security]
+tags: [LLM, Automation]
 highlights:
   - CISA KEV·NVD·KISA 보호나라·보안 블로그·탑티어 학회 등 소스 20여 종 수집 (config.yaml에 전체 목록)
   - 대형 사건은 LLM 판정으로 즉시 알림, 나머지는 매일 07:00 KST 카드뉴스 다이제스트로 발행하는 하이브리드 구조

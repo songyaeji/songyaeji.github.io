@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { title, summary, stack, tags, year, status, private: isPrivate } = project.data;
+const { title, summary, tags, year, status, private: isPrivate } = project.data;
 const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[status];
 ---
 
@@ -30,9 +30,6 @@ const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[sta
     )
   }
   <div class="meta">
-    <ul class="tags">
-      {stack.map((s) => <li class="tag">{s}</li>)}
-    </ul>
     <span class="year">{year}</span>
   </div>
 </li>

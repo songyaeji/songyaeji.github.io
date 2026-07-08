@@ -6,20 +6,12 @@ import Icon from '../components/Icon.astro';
 const pubs = (await getCollection('research')).sort(
   (a, b) => b.data.year - a.data.year || a.data.order - b.data.order,
 );
-const hasExamples = pubs.some((p) => p.data.placeholder);
 ---
 
 <Base title="Publications" description="논문 및 리서치 목록">
   <div class="page wrap">
     <p class="cli-label">ls publications/</p>
     <h1 class="page-title">Publications</h1>
-    <p class="lede">
-      논문·연구 산출물 목록입니다. 게재 논문은{' '}
-      <a href="https://ieeexplore.ieee.org/author/551539848666305">IEEE Xplore</a>·<a
-        href="https://orcid.org/0009-0006-4733-9791">ORCID</a
-      >에서 검증할 수 있습니다.
-      {hasExamples && <>(<strong>Example</strong> 배지는 레이아웃용 예시입니다.)</>}
-    </p>
     <div>
       <ul class="pub-list">
         {

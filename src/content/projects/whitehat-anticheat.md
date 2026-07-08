@@ -1,14 +1,13 @@
 ---
 title: 게임 핵 분석 & 안티치트 개발
-summary: 화이트햇스쿨 1기 교육 프로젝트 — 게임 핵을 직접 구현·분석하고 이를 탐지하는 안티치트까지 개발한 공방 양면 프로젝트.
-stack: [C++, Reversing, Windows Internals]
+summary: 게임 핵을 구현·분석하고 탐지하는 안티치트까지 개발한 공방 프로젝트.
 year: 2024
 category: team
 status: done
 private: true
 order: 9
 role: 팀 7인 (참여율 20%) — 리버싱 구조 분석 참여, 안티치트 구조 제안
-tags: [Vulnerability Analysis]
+tags: [Reversing]
 highlights:
   - 메모리 디버깅으로 핵심 주소를 찾아 메모리 값·연산·포인터 조작 방식의 핵 6종 구현, DLL Injection으로 통합 (팀)
   - API 첫 5바이트·IAT 배열을 원본과 비교하는 후킹 탐지, 주입된 DLL·디버거 attach 실시간 감지 후 프로세스 종료하는 안티치트 개발 (팀)

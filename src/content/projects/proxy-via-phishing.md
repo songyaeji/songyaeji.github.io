@@ -1,7 +1,6 @@
 ---
 title: Proxy-based Phishing Research
-summary: 번역 프록시 악용 URL 59,537건 대규모 조사 — IEEE Access 게재 (2026). 프록시 기반 피싱의 공격 구조 분석.
-stack: [Python, Playwright, Web Security]
+summary: 번역 프록시 악용 URL 59,537건 대규모 조사 — IEEE Access 게재(2026).
 year: 2026
 category: research
 status: done
@@ -9,6 +8,7 @@ featured: true
 order: 4
 collaborators: Doyeon Kim · Yaeji Song · Jeman Park — SIFT Lab, Kyung Hee Univ.
 role: 2저자 (참여율 50%) — 정기 수집 파이프라인 구축, URL 정규화 알고리즘 설계, 동적 분석·교차 검증, 논문 집필
+tags: [Phishing, Web Security]
 highlights:
   - "논문 게재: A Large-Scale Investigation of URLs Abusing Translation Proxies — IEEE Access, vol. 14 (2026)"
   - urlscan.io API로 번역 프록시 악용 URL 59,537건 수집, 구글 도메인 변환 규칙을 역추적하는 URL 정규화 알고리즘으로 원본 악성 주소 98.4% 복원

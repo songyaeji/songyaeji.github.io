@@ -69,18 +69,40 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
       <div class="home-row-2">
         <section>
           <p class="cli-label">cat education_research.md</p>
+          <p class="tile-group-label">School</p>
           <ul class="tile-list">
             {
-              profile.education.map((e) => (
-                <li class="tile tile-row">
-                  <Icon name="cap" size={15} />
-                  <div>
-                    <div class="t-name">{e.degree}</div>
-                    <div class="t-sub">{e.school}</div>
-                    <div class="t-date">{e.period}</div>
-                  </div>
-                </li>
-              ))
+              profile.education
+                .filter((e) => e.type === 'school')
+                .map((e) => (
+                  <li class="tile tile-row">
+                    <Icon name="cap" size={15} />
+                    <div>
+                      <div class="t-name">{e.degree}</div>
+                      <div class="t-sub">
+                        {e.url ? <a href={e.url}>{e.school}</a> : e.school}
+                      </div>
+                      <div class="t-date">{e.period}</div>
+                    </div>
+                  </li>
+                ))
+            }
+          </ul>
+          <p class="tile-group-label">External</p>
+          <ul class="tile-list">
+            {
+              profile.education
+                .filter((e) => e.type === 'external')
+                .map((e) => (
+                  <li class="tile tile-row">
+                    <Icon name="cap" size={15} />
+                    <div>
+                      <div class="t-name">{e.degree}</div>
+                      <div class="t-sub">{e.school}</div>
+                      <div class="t-date">{e.period}</div>
+                    </div>
+                  </li>
+                ))
             }
           </ul>
         </section>

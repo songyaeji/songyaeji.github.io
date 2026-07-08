@@ -28,7 +28,7 @@ const { issue } = Astro.props;
   <div
     class="trend-strip"
     tabindex="0"
-    aria-label={`${issue.date} 보안동향 카드뉴스 ${issue.cards.length}장 — 좌우로 스크롤`}
+    aria-label={`${issue.date} 보안동향 카드뉴스 ${issue.cards.length}장 — 좌우로 스크롤, 더블클릭으로 확대`}
   >
     {
       issue.cards.map((c, i) => (
@@ -59,4 +59,30 @@ const { issue } = Astro.props;
       </div>
     )
   }
+
+  <div class="trend-lightbox" id="trend-lightbox" hidden>
+    <img id="trend-lightbox-img" src="" alt="" />
+  </div>
 </article>
+
+<script is:inline>
+  // 카드 더블클릭 → 전체 화면 확대. 배경 클릭·Esc로 닫기
+  (() => {
+    const overlay = document.getElementById('trend-lightbox');
+    const lbImg = document.getElementById('trend-lightbox-img');
+    if (!overlay || !lbImg) return;
+    document.querySelectorAll('.trend-strip img').forEach((el) => {
+      el.addEventListener('dblclick', () => {
+        lbImg.src = el.src;
+        lbImg.alt = el.alt;
+        overlay.hidden = false;
+      });
+    });
+    overlay.addEventListener('click', () => {
+      overlay.hidden = true;
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') overlay.hidden = true;
+    });
+  })();
+</script>

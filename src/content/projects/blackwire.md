@@ -1,14 +1,13 @@
 ---
 title: BlackWire — Threat Intelligence Dashboard
-summary: 다크웹 유출·랜섬웨어 그룹·보안 뉴스를 수집해 MITRE ATT&CK과 매칭하는 위협 인텔리전스 대시보드. OSINT 수집 파트 담당.
-stack: [Python, OSINT, MITRE ATT&CK, Streamlit]
+summary: 다크웹 유출·랜섬웨어 동향을 MITRE ATT&CK과 매칭하는 위협 인텔리전스 대시보드.
 year: 2025
 category: team
 status: done
 repo: https://github.com/songyaeji/BlackWire
 order: 6
 role: 팀 프로젝트 (참여율 33%) — OSINT 기반 위협 데이터 수집 담당
-tags: [Vulnerability Analysis]
+tags: [OSINT]
 highlights:
   - 다크웹 유출 정보·주요 랜섬웨어 그룹 활동 크롤링으로 분석의 원천 데이터셋 구축
   - Transformer 기반 모델로 보안 뉴스·CVE를 MITRE ATT&CK 기법과 의미 기반 매칭 (팀)
