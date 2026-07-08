@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, summary, stack, repo, year, status, private: isPrivate } = project.data;
+const statusLabel = { active: 'active', research: 'research', done: 'done' }[status];
+---
+
+<li class="card">
+  <div class="card-head">
+    <h3>
+      {repo ? <a href={repo}>{title}</a> : title}
+    </h3>
+    {isPrivate ? (
+      <span class="badge badge-private">private research</span>
+    ) : (
+      <span class={`badge badge-${status}`}>{statusLabel}</span>
+    )}
+  </div>
+  <p class="summary">{summary}</p>
+  <div class="meta">
+    <ul class="tags">
+      {stack.map((s) => <li class="tag">{s}</li>)}
+    </ul>
+    <span>{year}</span>
+  </div>
+</li>

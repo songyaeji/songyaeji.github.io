@@ -1,0 +1,38 @@
+---
+import { profile } from '../data/profile';
+
+const current = profile.timeline.filter((t) => t.current);
+---
+
+<section class="status-panel" aria-label="현재 활동">
+  <div>
+    <span class="status-dot">●</span>
+    <span class="status-title"> now.service</span>
+    <span> — </span>
+    <span class="status-dot">active (running)</span>
+  </div>
+  <dl>
+    <dt>Loaded</dt>
+    <dd>{profile.affiliation}</dd>
+    <dt>Focus</dt>
+    <dd>{profile.now}</dd>
+    {current.map((t) => (
+      <>
+        <dt>Since</dt>
+        <dd>{t.period} — {t.title}</dd>
+      </>
+    ))}
+    <dt>Interests</dt>
+    <dd>{profile.interests.join(' · ')}</dd>
+  </dl>
+  <div class="contrib">
+    <img
+      src={`https://ghchart.rshah.org/2a6f66/${profile.handle}`}
+      alt={`${profile.handle}의 최근 1년 GitHub 기여 그래프`}
+      loading="lazy"
+    />
+    <p class="caption">
+      GitHub contributions, last 12 months — <a href={profile.contact.github}>live profile</a>
+    </p>
+  </div>
+</section>

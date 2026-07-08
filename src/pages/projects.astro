@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+
+const projects = (await getCollection('projects')).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<Base title="projects" description="보안 연구·개발 프로젝트 목록">
+  <h1>projects</h1>
+  <p class="section-note">보안 연구·자동화·데이터 분석 프로젝트. 카드를 누르면 저장소로 이동.</p>
+  <ul class="card-grid">
+    {projects.map((p) => <ProjectCard project={p} />)}
+  </ul>
+</Base>

@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import { profile } from '../data/profile';
+---
+
+<Base title="about" description={`${profile.name} 이력·기술스택·연락처`}>
+  <h1>about</h1>
+  <p class="section-note">
+    {profile.school} · {profile.location}
+  </p>
+
+  <h2>timeline</h2>
+  <ul class="timeline">
+    {
+      profile.timeline.map((t) => (
+        <li class={t.current ? 'current' : undefined}>
+          <div class="period">{t.period}</div>
+          <div class="t-title">{t.title}</div>
+          <div class="t-detail">{t.detail}</div>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>skills</h2>
+  <div class="skills">
+    {
+      Object.entries(profile.skills).map(([group, items]) => (
+        <div class="skill-group">
+          <h3>{group}</h3>
+          <ul class="tags">
+            {items.map((s) => (
+              <li class="tag">{s}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+
+  <h2>contact</h2>
+  <ul class="contact-list">
+    <li>
+      <span class="k">github</span>
+      <a href={profile.contact.github}>github.com/{profile.handle}</a>
+    </li>
+    <li>
+      <span class="k">email</span>
+      <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a>
+    </li>
+    {
+      profile.contact.linkedin !== '#' && (
+        <li>
+          <span class="k">linkedin</span>
+          <a href={profile.contact.linkedin}>profile</a>
+        </li>
+      )
+    }
+  </ul>
+</Base>

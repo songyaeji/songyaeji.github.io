@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const pubs = (await getCollection('research')).sort(
+  (a, b) => b.data.year - a.data.year || a.data.order - b.data.order,
+);
+---
+
+<Base title="research" description="논문 및 리서치 목록">
+  <h1>research</h1>
+  <p class="section-note">
+    논문·연구 산출물. <strong>표시된 예시 항목은 레이아웃용 플레이스홀더</strong>이며 실제 게재
+    논문이 아닙니다.
+  </p>
+  <ul class="pub-list">
+    {
+      pubs.map((pub) => (
+        <li class="pub">
+          <div class="pub-title">
+            {pub.data.title}
+            {pub.data.placeholder && <span class="badge badge-placeholder"> example</span>}
+          </div>
+          <div class="pub-venue">
+            {pub.data.venue} · {pub.data.year}
+          </div>
+          {pub.data.authors.length > 0 && (
+            <div class="pub-authors">{pub.data.authors.join(', ')}</div>
+          )}
+          {(pub.data.links.pdf || pub.data.links.code || pub.data.links.slides) && (
+            <div class="pub-links">
+              {pub.data.links.pdf && <a href={pub.data.links.pdf}>[pdf]</a>}
+              {pub.data.links.code && <a href={pub.data.links.code}>[code]</a>}
+              {pub.data.links.slides && <a href={pub.data.links.slides}>[slides]</a>}
+            </div>
+          )}
+          {pub.data.tags.length > 0 && (
+            <ul class="tags">
+              {pub.data.tags.map((t) => (
+                <li class="tag">{t}</li>
+              ))}
+            </ul>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</Base>

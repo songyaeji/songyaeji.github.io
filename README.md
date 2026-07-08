@@ -1,43 +1,24 @@
-# Astro Starter Kit: Minimal
+# songyaeji.github.io
+
+보안 연구실 스타일 개인 포트폴리오. Astro 정적 사이트, GitHub Actions로 자동 배포.
+
+**Live:** https://songyaeji.github.io
+
+## 콘텐츠 수정 방법
+
+| 무엇을 | 어디를 |
+|---|---|
+| 이름·소속·현재 활동·관심분야·타임라인·스킬·연락처 | `src/data/profile.ts` |
+| 논문 추가 | `src/content/research/*.md` 파일 1개 추가 (플레이스홀더 파일 교체) |
+| 프로젝트 추가 | `src/content/projects/*.md` 파일 1개 추가 |
+
+frontmatter 필드는 `src/content.config.ts` 스키마 참고. `main`에 push하면 자동 배포.
+
+## 로컬 개발
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev      # 개발 서버
+npm run build    # dist/ 빌드
+npm run preview  # 빌드 결과 확인
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

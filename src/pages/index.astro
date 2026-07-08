@@ -1,17 +1,42 @@
 ---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import NowPanel from '../components/NowPanel.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import { profile } from '../data/profile';
 
+const projects = await getCollection('projects');
+const featured = projects
+  .filter((p) => p.data.featured)
+  .sort((a, b) => a.data.order - b.data.order)
+  .slice(0, 4);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base>
+  <section class="terminal" aria-label="소개">
+    <div class="terminal-bar">
+      <span class="dots"><span></span><span></span><span></span></span>
+      <span>{profile.handle}@lab — zsh</span>
+    </div>
+    <div class="terminal-body">
+      <p class="line"><span class="ps1">$</span> <span class="cmd">whoami</span></p>
+      <p class="hero-name">{profile.name} <span lang="ko">({profile.nameKo})</span></p>
+      <p class="hero-sub">{profile.tagline}</p>
+      <p class="hero-meta">{profile.affiliation} · {profile.school}</p>
+      <p class="line" style="margin-top: 0.8rem;">
+        <span class="ps1">$</span> <span class="cursor" aria-hidden="true"></span>
+      </p>
+    </div>
+  </section>
+
+  <h2>now</h2>
+  <NowPanel />
+
+  <h2>featured work</h2>
+  <ul class="card-grid">
+    {featured.map((p) => <ProjectCard project={p} />)}
+  </ul>
+  <p class="more-link" style="margin-top: 1rem;">
+    <a href="/projects/">ls /projects --all →</a>
+  </p>
+</Base>
