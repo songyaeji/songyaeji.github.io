@@ -10,7 +10,9 @@
   --yellow-deep: #8a6d00;
   --ok: #15803d;
   --warn: #a16207;
-  --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  /* 한글 폴백을 Pretendard로 — IBM Plex Mono에 한글 글리프가 없어
+     키워드(#금융 등)가 시스템에 따라 tofu(□)로 깨진다 */
+  --mono: 'IBM Plex Mono', 'Pretendard Variable', Pretendard, ui-monospace, monospace;
   --sans: 'Pretendard Variable', Pretendard, 'Inter', system-ui, sans-serif;
   --maxw: 1320px;
 }
@@ -270,19 +272,29 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   min-width: 8.5rem;
 }
 
-/* activity */
-.activity-card img { width: 100%; max-width: 760px; height: auto; display: block; }
-
-.activity-card .caption {
+/* home: latest trend one-liner */
+.trend-line {
   display: flex;
-  justify-content: space-between;
-  max-width: 760px;
-  gap: 1rem;
-  flex-wrap: wrap;
-  font-size: 0.78rem;
-  color: var(--muted);
-  margin-top: 0.5rem;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.8rem;
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: none;
 }
+
+.trend-line .badge-new {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  background: var(--yellow);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+}
+
+.trend-line:hover { box-shadow: inset 0 -2px 0 var(--yellow); }
 
 /* featured mini rows */
 .mini-list { list-style: none; padding: 0; display: grid; gap: 0.45rem; }
@@ -431,6 +443,83 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .timeline li.current .period { color: var(--yellow-deep); font-weight: 600; }
 .timeline .t-title { font-size: 1.02rem; font-weight: 700; color: var(--ink); margin-top: 0.1rem; }
 .timeline .t-detail { font-size: 0.89rem; }
+
+/* ---------- trend (카드뉴스) ---------- */
+.trend-issue { display: grid; gap: 1.4rem; margin-top: 0.5rem; }
+
+.trend-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.trend-head .no {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: var(--yellow);
+  color: var(--ink);
+  border-radius: 6px;
+  padding: 0.15rem 0.55rem;
+}
+
+.trend-head .date { font-family: var(--mono); font-size: 0.85rem; color: var(--muted); }
+.trend-head .kw { font-family: var(--mono); font-size: 0.78rem; color: var(--yellow-deep); }
+
+/* 가로 스크롤 카드 스트립 — 4:5 카드, 스냅 */
+.trend-strip {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.8rem; /* 스크롤바와 카드 그림자 여유 */
+}
+
+.trend-strip img {
+  width: min(432px, 82vw);
+  height: auto;
+  flex: none;
+  scroll-snap-align: start;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--band);
+}
+
+.trend-strip:focus-visible { outline: 2px solid var(--yellow-deep); outline-offset: 4px; }
+
+.trend-links ol {
+  margin: 0.6rem 0 0;
+  padding-left: 2.2rem;
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.86rem;
+}
+
+.trend-links li::marker { font-family: var(--mono); font-size: 0.74rem; color: var(--yellow-deep); }
+
+.trend-empty {
+  font-size: 0.92rem;
+  color: var(--muted);
+  background: var(--band);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+}
+
+.trend-archive { margin-top: 2.6rem; }
+.trend-archive ul { list-style: none; padding: 0; display: grid; gap: 0.5rem; margin-top: 0.8rem; }
+
+.trend-archive li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+.trend-archive li a { font-family: var(--mono); font-size: 0.84rem; font-weight: 600; }
+.trend-archive .kw { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
 
 /* ---------- footer ---------- */
 .site-footer { border-top: 1px solid var(--border); }

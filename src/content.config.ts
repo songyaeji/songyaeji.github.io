@@ -37,4 +37,20 @@ const projects = defineCollection({
   }),
 });
 
-export const collections = { research, projects };
+// 보안동향 카드뉴스 회차 — sec-feed-bot이 매일 발행 후 meta.json을
+// src/content/trend/<date>.json으로, 카드 PNG를 public/trend/<date>/로 push
+const trend = defineCollection({
+  loader: glob({ pattern: '*.json', base: './src/content/trend' }),
+  schema: z.object({
+    date: z.string(), // YYYY-MM-DD (KST)
+    issue_no: z.number(),
+    briefing: z.string().nullable().optional(),
+    keywords: z.array(z.string()).default([]),
+    links: z
+      .array(z.object({ n: z.number(), title: z.string(), url: z.string() }))
+      .default([]),
+    cards: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { research, projects, trend };

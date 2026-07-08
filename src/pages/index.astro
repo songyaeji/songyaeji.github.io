@@ -9,6 +9,10 @@ const featured = projects
   .filter((p) => p.data.featured)
   .sort((a, b) => a.data.order - b.data.order)
   .slice(0, 4);
+
+// 최신 보안동향 카드뉴스 회차 — 없으면(첫 발행 전) 홈에 표시 안 함
+const trendIssues = await getCollection('trend');
+const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.date))[0];
 ---
 
 <Base>
@@ -47,6 +51,14 @@ const featured = projects
         </li>
       </ul>
       <NowPanel />
+      {
+        latestTrend && (
+          <a class="trend-line" href="/trend/">
+            <span class="badge-new" aria-hidden="true">TREND</span>
+            NO.{latestTrend.data.issue_no} — {latestTrend.data.date} daily briefing →
+          </a>
+        )
+      }
     </aside>
 
     <div class="home-main">
@@ -88,21 +100,6 @@ const featured = projects
               </div>
             ))
           }
-        </div>
-      </section>
-
-      <section>
-        <p class="cli-label">git log --graph</p>
-        <div class="activity-card">
-          <img
-            src={`https://ghchart.rshah.org/f5c518/${profile.handle}`}
-            alt={`${profile.handle}의 최근 1년 GitHub 기여 그래프`}
-            loading="lazy"
-          />
-          <p class="caption">
-            <span>GitHub contributions, last 12 months</span>
-            <a href={profile.contact.github}>github.com/{profile.handle} →</a>
-          </p>
         </div>
       </section>
 

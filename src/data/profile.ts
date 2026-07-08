@@ -37,6 +37,11 @@ export const profile = {
       degree: 'AI Enterprise Security Track',
       period: '2026 — present',
     },
+    {
+      school: 'SIFT Lab, Kyung Hee University',
+      degree: 'Undergraduate Researcher',
+      period: '2025.06 — present',
+    },
   ],
   skills: {
     Languages: ['Python', 'Go', 'C++', 'TypeScript'],
@@ -56,6 +61,12 @@ export const profile = {
       title: 'MCP Supply-Chain Security Research',
       detail: 'Remote MCP server rug-pull 탐지 연구 및 보안 도구 개발.',
       current: false,
+    },
+    {
+      period: '2025.06 — present',
+      title: 'Undergraduate Researcher — SIFT Lab',
+      detail: 'Security & Incident Forensic Technology Lab @ Kyung Hee Univ. (Prof. Jeman Park)',
+      current: true,
     },
     {
       period: '2025',

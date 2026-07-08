@@ -1,0 +1,62 @@
+---
+// 카드뉴스 한 회차 뷰어 — 가로 스크롤 카드 스트립 + 카드 번호와 1:1로
+// 대응하는 원문 링크 목록 (Discord 발행본과 동일 구성)
+interface Props {
+  issue: {
+    date: string;
+    issue_no: number;
+    briefing?: string | null;
+    keywords: string[];
+    links: { n: number; title: string; url: string }[];
+    cards: string[];
+  };
+}
+const { issue } = Astro.props;
+---
+
+<article class="trend-issue">
+  <header class="trend-head">
+    <span class="no">NO.{issue.issue_no}</span>
+    <span class="date">{issue.date}</span>
+    {
+      issue.keywords.length > 0 && (
+        <span class="kw">{issue.keywords.map((k) => `#${k}`).join(' ')}</span>
+      )
+    }
+  </header>
+
+  <div
+    class="trend-strip"
+    tabindex="0"
+    aria-label={`${issue.date} 보안동향 카드뉴스 ${issue.cards.length}장 — 좌우로 스크롤`}
+  >
+    {
+      issue.cards.map((c, i) => (
+        <img
+          src={`/trend/${issue.date}/${c}`}
+          alt={`${issue.date} 보안동향 카드 ${i + 1} / ${issue.cards.length}`}
+          width="432"
+          height="540"
+          loading={i < 2 ? 'eager' : 'lazy'}
+        />
+      ))
+    }
+  </div>
+
+  {
+    issue.links.length > 0 && (
+      <div class="trend-links">
+        <p class="cli-label">cat links.md</p>
+        <ol>
+          {issue.links.map((l) => (
+            <li value={l.n}>
+              <a href={l.url} rel="noopener">
+                {l.title}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    )
+  }
+</article>

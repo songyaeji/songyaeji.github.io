@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TrendIssue from '../../components/TrendIssue.astro';
+
+const issues = (await getCollection('trend')).sort((a, b) =>
+  b.data.date.localeCompare(a.data.date),
+);
+const latest = issues[0];
+const past = issues.slice(1);
+---
+
+<Base title="Trend" description="매일 아침 발행하는 보안동향 카드뉴스 아카이브">
+  <div class="page wrap">
+    <p class="cli-label">tail -f trend.log</p>
+    <h1 class="page-title">Trend</h1>
+    <p class="lede">
+      직접 만들어 운영하는 수집 봇(<a href="https://github.com/songyaeji/sec-feed-bot"
+        >sec-feed-bot</a
+      >)이 매일 07:00 KST에 발행하는 보안동향 카드뉴스입니다. CISA KEV·NVD·KISA 보호나라 등 20여 개
+      공식 소스를 수집·요약하며, 카드 하단 번호는 원문 링크와 1:1로 대응합니다.
+    </p>
+
+    {
+      latest ? (
+        <TrendIssue issue={latest.data} />
+      ) : (
+        <p class="trend-empty">
+          첫 브리핑이 아직 게시되지 않았습니다 — 매일 아침 07:00 KST에 발행됩니다.
+        </p>
+      )
+    }
+
+    {
+      past.length > 0 && (
+        <section class="trend-archive">
+          <p class="cli-label">ls archive/</p>
+          <ul>
+            {past.map((it) => (
+              <li>
+                <a href={`/trend/${it.data.date}/`}>
+                  NO.{it.data.issue_no} — {it.data.date}
+                </a>
+                {it.data.keywords.length > 0 && (
+                  <span class="kw">{it.data.keywords.map((k) => `#${k}`).join(' ')}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+  </div>
+</Base>

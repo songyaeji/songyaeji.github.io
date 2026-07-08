@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TrendIssue from '../../components/TrendIssue.astro';
+
+export async function getStaticPaths() {
+  const issues = await getCollection('trend');
+  return issues.map((it) => ({
+    params: { date: it.data.date },
+    props: { issue: it.data },
+  }));
+}
+
+const { issue } = Astro.props;
+---
+
+<Base
+  title={`Trend NO.${issue.issue_no}`}
+  description={`${issue.date} 보안동향 카드뉴스 (NO.${issue.issue_no})`}
+>
+  <div class="page wrap">
+    <p class="cli-label">cat archive/{issue.date}.log</p>
+    <h1 class="page-title">Trend NO.{issue.issue_no}</h1>
+    <p class="lede"><a href="/trend/">← 전체 아카이브</a></p>
+    <TrendIssue issue={issue} />
+  </div>
+</Base>
