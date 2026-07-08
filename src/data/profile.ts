@@ -2,12 +2,15 @@ export const profile = {
   name: 'Yaeji Song',
   nameKo: '송예지',
   handle: 'songyaeji',
-  tagline: 'AI · Enterprise Security Researcher',
+  tagline: 'AI Security Researcher',
   affiliation: 'BoB 15th — AI Enterprise Security Track',
   school: 'Software & Cyber Security, Kyung Hee University',
   location: 'Seoul, KR',
-  // "지금 뭐 하나" 한 줄 — 갱신은 이 문자열만 수정
-  now: 'Training at Best of the Best 15th (AI Enterprise Security Track), researching MCP supply-chain threats.',
+  // "지금 뭐 하나" — 홈 Currently 패널에 굵은 라벨로 표시
+  now: [
+    { label: 'BoB 15th', detail: 'AI Enterprise Security Track — KITRI' },
+    { label: 'SIFT Lab', detail: 'Undergraduate Researcher @ Kyung Hee Univ.' },
+  ],
   interests: [
     'Supply Chain Security',
     'AI / LLM Security',

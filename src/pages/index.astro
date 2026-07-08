@@ -27,15 +27,8 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
       />
       <div>
         <h1 class="name">{profile.name}<span class="ko" lang="ko">{profile.nameKo}</span></h1>
-        <p class="role">{profile.tagline} · {profile.affiliation}</p>
+        <p class="role">{profile.tagline}</p>
       </div>
-      <p class="cli-line">
-        <span class="ps1">$</span>
-        <span class="typed" data-cmd="whoami"></span><span class="cursor" aria-hidden="true"></span>
-      </p>
-      <p class="statement">
-        저는 <span class="mark">"한계를 뛰어넘기 위해 끊임없이 노력하는"</span> 보안 담당자입니다.
-      </p>
       <ul class="contact-rows">
         <li>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg>
@@ -62,6 +55,16 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
     </aside>
 
     <div class="home-main">
+      <section class="whoami">
+        <p class="cli-line">
+          <span class="ps1">$</span>
+          <span class="typed" data-cmd="whoami"></span><span class="cursor" aria-hidden="true"></span>
+        </p>
+        <p class="statement">
+          저는 <span class="mark">"한계를 뛰어넘기 위해 끊임없이 노력하는"</span> 보안 담당자입니다.
+        </p>
+      </section>
+
       <div class="home-row-2">
         <section>
           <p class="cli-label">cat interests.md</p>

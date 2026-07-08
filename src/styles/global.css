@@ -148,7 +148,7 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   color: var(--muted);
 }
 
-.cli-line .ps1 { color: var(--yellow-deep); font-weight: 600; }
+.cli-line .ps1 { color: var(--yellow-deep); font-weight: 600; margin-right: 0.45em; }
 .cli-line .typed { color: var(--ink); }
 
 .cursor {
@@ -174,6 +174,11 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   line-height: 1.6;
   word-break: keep-all;
 }
+
+/* whoami — 메인 컬럼 상단 (사용자 지시: 사진 밑 말고 메인 위에 잘 보이게) */
+.whoami { display: grid; gap: 0.4rem; }
+.whoami .cli-line { font-size: 0.95rem; }
+.whoami .statement { font-size: 1.12rem; }
 
 .statement .mark {
   background: linear-gradient(transparent 55%, var(--yellow) 55%);
@@ -212,6 +217,23 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 }
 
 .now-strip b { color: var(--ink); }
+
+.now-body { display: grid; gap: 0.3rem; }
+.now-body ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.25rem; }
+.now-body li { display: flex; align-items: baseline; gap: 0.5rem; }
+
+.now-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  flex: none;
+  background: var(--yellow);
+  color: var(--ink);
+  border-radius: 4px;
+  padding: 0.05rem 0.4rem;
+}
+
+.now-detail { color: var(--ink); font-size: 0.8rem; }
 
 .pulse {
   position: relative;

@@ -9,7 +9,7 @@ interface Props {
 
 const { title, description = `${profile.name} — ${profile.tagline}. ${profile.affiliation}.` } =
   Astro.props;
-const pageTitle = title ? `${title} · ${profile.name}` : `${profile.name} — Security Portfolio`;
+const pageTitle = title ? `${title} | ${profile.name}` : `${profile.name} | Portfolio`;
 const nav = [
   { href: '/', label: 'Home' },
   { href: '/publications/', label: 'Publications' },

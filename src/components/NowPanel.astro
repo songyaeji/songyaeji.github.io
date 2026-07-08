@@ -2,7 +2,19 @@
 import { profile } from '../data/profile';
 ---
 
-<p class="now-strip">
+<div class="now-strip">
   <span class="pulse" aria-hidden="true"></span>
-  <span><b>Currently</b> — {profile.now}</span>
-</p>
+  <div class="now-body">
+    <b>Currently</b>
+    <ul>
+      {
+        profile.now.map((n) => (
+          <li>
+            <span class="now-label">{n.label}</span>
+            <span class="now-detail">{n.detail}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</div>
