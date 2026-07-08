@@ -147,10 +147,13 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 /* profile column */
 .profile { display: grid; gap: 1.3rem; align-content: start; }
 
+/* 아바타·이름·연락처 — 좁은 사이드바에서 중앙 정렬로 시각적 무게중심을 잡는다 */
+.identity { display: grid; justify-items: center; gap: 0.9rem; text-align: center; }
+
 .avatar {
-  width: 108px;
-  height: 108px;
-  border-radius: 22px;
+  width: 140px;
+  height: 140px;
+  border-radius: 26px;
   object-fit: cover;
   background: var(--surface);
   box-shadow: var(--shadow-1);
@@ -167,7 +170,7 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 }
 
 .cli-line .ps1 { color: var(--yellow-deep); font-weight: 600; margin-right: 0.45em; }
-.cli-line .typed { color: var(--ink); }
+.cli-line .typed { color: var(--ink); font-weight: 600; }
 
 .cursor {
   display: inline-block;
@@ -436,6 +439,9 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 
 .page .lede { color: var(--muted); max-width: 640px; margin: 0.8rem 0 2.8rem; }
 
+/* lede 없는 페이지(publications, activities) — 제목과 목록 사이 여백 보충 */
+.page-title + div { margin-top: 1.8rem; }
+
 /* ---------- tags & badges ---------- */
 .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; padding: 0; }
 
@@ -599,6 +605,16 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .pub .pub-year { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
 .pub .pub-top .badge { margin-left: auto; }
 .pub .pub-title { font-size: 1.05rem; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; margin-top: 0.45rem; }
+.pub .pub-title-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.4rem;
+  color: var(--muted);
+  vertical-align: middle;
+  box-shadow: none;
+}
+.pub .pub-title-link:hover { color: var(--yellow-deep); }
 .pub .pub-authors { font-size: 0.84rem; color: var(--muted); margin-top: 0.25rem; }
 .pub .pub-authors b { color: var(--text); font-weight: 600; }
 .pub .pub-foot { display: flex; align-items: center; gap: 0.8rem; margin-top: 0.85rem; }

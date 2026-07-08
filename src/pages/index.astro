@@ -13,30 +13,37 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
 <Base>
   <div class="home-grid wrap">
     <aside class="profile">
-      <img
-        class="avatar"
-        src={profile.avatar}
-        alt={`${profile.name} 프로필 사진`}
-        width="108"
-        height="108"
-      />
-      <div>
-        <h1 class="name">{profile.name}<span class="ko" lang="ko">{profile.nameKo}</span></h1>
-        <p class="role">{profile.tagline}</p>
-        <p class="loc"><Icon name="pin" size={13} /> {profile.location}</p>
+      <div class="identity">
+        <img
+          class="avatar"
+          src={profile.avatar}
+          alt={`${profile.name} 프로필 사진`}
+          width="140"
+          height="140"
+        />
+        <div>
+          <h1 class="name">{profile.name}<span class="ko" lang="ko">{profile.nameKo}</span></h1>
+          <p class="role">{profile.tagline}</p>
+          <p class="loc"><Icon name="pin" size={13} /> {profile.location}</p>
+        </div>
+        <ul class="contact-icons">
+          <li>
+            <a href={`mailto:${profile.contact.email}`} aria-label="Email" title={profile.contact.email}>
+              <Icon name="mail" size={17} />
+            </a>
+          </li>
+          <li>
+            <a href={profile.contact.github} aria-label="GitHub" title={`github.com/${profile.handle}`}>
+              <Icon name="github" size={17} />
+            </a>
+          </li>
+          <li>
+            <a href={profile.contact.lab} aria-label="SIFT Lab" title="SIFT Lab">
+              <Icon name="external" size={17} />
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul class="contact-icons">
-        <li>
-          <a href={`mailto:${profile.contact.email}`} aria-label="Email" title={profile.contact.email}>
-            <Icon name="mail" size={17} />
-          </a>
-        </li>
-        <li>
-          <a href={profile.contact.github} aria-label="GitHub" title={`github.com/${profile.handle}`}>
-            <Icon name="github" size={17} />
-          </a>
-        </li>
-      </ul>
       <NowPanel />
       <div>
         <p class="cli-label">cat interests.md</p>
@@ -61,7 +68,7 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
           <span class="typed" data-cmd="whoami"></span><span class="cursor" aria-hidden="true"></span>
         </p>
         <p class="statement">
-          저는 <span class="mark">"한계를 뛰어넘기 위해 끊임없이 노력하는"</span> 보안 담당자입니다.
+          저는 <span class="mark">"한계를 뛰어넘기 위해 끊임없이 노력하는"</span> AI 보안 연구자입니다.
         </p>
         <p class="philosophy">{profile.philosophy}</p>
       </section>
@@ -79,9 +86,7 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
                     <Icon name="cap" size={15} />
                     <div>
                       <div class="t-name">{e.degree}</div>
-                      <div class="t-sub">
-                        {e.url ? <a href={e.url}>{e.school}</a> : e.school}
-                      </div>
+                      <div class="t-sub">{e.school}</div>
                       <div class="t-date">{e.period}</div>
                     </div>
                   </li>

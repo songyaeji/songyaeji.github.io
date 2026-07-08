@@ -23,14 +23,21 @@ export const profile = {
     '보안 동향 수집·채용 공고 알림 같은 개인 인프라를 직접 만들어 운영하는 것을 좋아합니다. 목표는 금융권 AI 보안 담당자입니다.',
   ],
   // 홈 statement 아래 보조 문구 — 지원서 진로계획에서 발췌한 보안 철학
-  philosophy: '보안은 +를 만드는 일이 아니라, −를 막아 0을 지키는 일이라 생각합니다.',
+  philosophy: '보안은 +를 만드는 일이 아닌 −를 막아 0을 지키는 일입니다.',
   contact: {
     github: 'https://github.com/songyaeji',
     email: 'skaehdlf0318@gmail.com',
+    lab: 'https://sites.google.com/view/siftlab/home',
     // TODO: LinkedIn 프로필 URL 확보 시 항목 추가
   },
   // type: 'school'(경희대 소속 활동) vs 'external'(대외 교육·훈련 프로그램) — 홈에서 구분 표시
   education: [
+    {
+      school: 'SIFT Lab, Kyung Hee University',
+      degree: 'Undergraduate Researcher',
+      period: '2025.06 — present',
+      type: 'school',
+    },
     {
       school: 'Kyung Hee University',
       degree: 'B.S. Software Convergence',
@@ -38,15 +45,8 @@ export const profile = {
       type: 'school',
     },
     {
-      school: 'SIFT Lab, Kyung Hee University',
-      degree: 'Undergraduate Researcher',
-      period: '2025.06 — present',
-      type: 'school',
-      url: 'https://sites.google.com/view/siftlab/home',
-    },
-    {
-      school: 'Best of the Best 15th — KISA',
-      degree: 'AI Enterprise Security Track',
+      school: 'AI Enterprise Security Track — KISA',
+      degree: 'BoB 15th',
       period: '2026 — present',
       type: 'external',
     },

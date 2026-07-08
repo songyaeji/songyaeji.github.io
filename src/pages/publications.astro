@@ -28,7 +28,19 @@ const pubs = (await getCollection('research')).sort(
                   <span class="badge badge-prep">In Preparation</span>
                 )}
               </div>
-              <div class="pub-title">{pub.data.title}</div>
+              <div class="pub-title">
+                {pub.data.title}
+                {pub.data.links.pdf && (
+                  <a
+                    class="pub-title-link"
+                    href={pub.data.links.pdf}
+                    aria-label="논문 원문 (PDF/DOI)"
+                    title="Paper (PDF/DOI)"
+                  >
+                    <Icon name="doc" size={15} />
+                  </a>
+                )}
+              </div>
               {pub.data.authors.length > 0 && (
                 <div class="pub-authors">{pub.data.authors.join(', ')}</div>
               )}
@@ -40,13 +52,8 @@ const pubs = (await getCollection('research')).sort(
                     ))}
                   </ul>
                 )}
-                {(pub.data.links.pdf || pub.data.links.code || pub.data.links.slides) && (
+                {(pub.data.links.code || pub.data.links.slides) && (
                   <div class="icon-links">
-                    {pub.data.links.pdf && (
-                      <a href={pub.data.links.pdf} aria-label="논문 원문 (PDF/DOI)" title="Paper (PDF/DOI)">
-                        <Icon name="doc" size={15} />
-                      </a>
-                    )}
                     {pub.data.links.code && (
                       <a href={pub.data.links.code} aria-label="코드 저장소" title="Code">
                         <Icon name="code" size={15} />
