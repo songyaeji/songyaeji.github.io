@@ -3,6 +3,7 @@ title: Trend of Security — Discord Feed Bot
 summary: 보안 뉴스·연구·취약점 피드 20여 종을 수집해 매일 아침 카드뉴스로 브리핑하는 자동화 봇. 보안 동향 추적을 루틴으로 만든 개인 인프라.
 stack: [Python, Discord API, GitHub Actions, LLM]
 year: 2026
+category: tool
 status: active
 repo: https://github.com/songyaeji/sec-feed-bot
 featured: true

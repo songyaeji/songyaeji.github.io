@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
 
 const pubs = (await getCollection('research')).sort(
   (a, b) => b.data.year - a.data.year || a.data.order - b.data.order,
@@ -13,49 +14,60 @@ const hasExamples = pubs.some((p) => p.data.placeholder);
     <p class="cli-label">ls publications/</p>
     <h1 class="page-title">Publications</h1>
     <p class="lede">
-      논문·연구 산출물 목록입니다. <strong>In Preparation</strong>은 작성 중인 연구로, 게재 확정 시 갱신됩니다. 게재 논문은
-      <a href="https://ieeexplore.ieee.org/author/551539848666305">IEEE Xplore 저자 프로필</a>과
-      <a href="https://orcid.org/0009-0006-4733-9791">ORCID</a>에서도 확인할 수 있습니다.
-      {
-        hasExamples && (
-          <>
-            <strong>Example 배지가 붙은 항목은 레이아웃용 예시</strong>이며 실제 논문이 아닙니다.
-          </>
-        )
-      }
+      논문·연구 산출물 목록입니다. 게재 논문은{' '}
+      <a href="https://ieeexplore.ieee.org/author/551539848666305">IEEE Xplore</a>·<a
+        href="https://orcid.org/0009-0006-4733-9791">ORCID</a
+      >에서 검증할 수 있습니다.
+      {hasExamples && <>(<strong>Example</strong> 배지는 레이아웃용 예시입니다.)</>}
     </p>
     <div>
       <ul class="pub-list">
         {
           pubs.map((pub) => (
             <li class={`pub${pub.data.placeholder ? ' placeholder' : ''}`}>
-              <div class="pub-title">
-                {pub.data.title}
-                {pub.data.placeholder && <span class="badge badge-placeholder"> Example</span>}
+              <div class="pub-top">
+                {/* in-preparation은 배지가 상태를 말하므로 venue 텍스트("In preparation") 중복 표기 생략 */}
+                {pub.data.status !== 'in-preparation' && (
+                  <span class="pub-venue">{pub.data.venue}</span>
+                )}
+                <span class="pub-year">{pub.data.year}</span>
+                {pub.data.placeholder && <span class="badge badge-placeholder">Example</span>}
                 {!pub.data.placeholder && pub.data.status === 'in-preparation' && (
-                  <span class="badge badge-prep"> In Preparation</span>
+                  <span class="badge badge-prep">In Preparation</span>
                 )}
               </div>
-              <div class="pub-venue">
-                {pub.data.venue} · {pub.data.year}
-              </div>
+              <div class="pub-title">{pub.data.title}</div>
               {pub.data.authors.length > 0 && (
                 <div class="pub-authors">{pub.data.authors.join(', ')}</div>
               )}
-              {(pub.data.links.pdf || pub.data.links.code || pub.data.links.slides) && (
-                <div class="pub-links">
-                  {pub.data.links.pdf && <a href={pub.data.links.pdf}>PDF</a>}
-                  {pub.data.links.code && <a href={pub.data.links.code}>Code</a>}
-                  {pub.data.links.slides && <a href={pub.data.links.slides}>Slides</a>}
-                </div>
-              )}
-              {pub.data.tags.length > 0 && (
-                <ul class="tags">
-                  {pub.data.tags.map((t) => (
-                    <li class="tag">{t}</li>
-                  ))}
-                </ul>
-              )}
+              <div class="pub-foot">
+                {pub.data.tags.length > 0 && (
+                  <ul class="tags">
+                    {pub.data.tags.map((t) => (
+                      <li class="tag">{t}</li>
+                    ))}
+                  </ul>
+                )}
+                {(pub.data.links.pdf || pub.data.links.code || pub.data.links.slides) && (
+                  <div class="icon-links">
+                    {pub.data.links.pdf && (
+                      <a href={pub.data.links.pdf} aria-label="논문 원문 (PDF/DOI)" title="Paper (PDF/DOI)">
+                        <Icon name="doc" size={15} />
+                      </a>
+                    )}
+                    {pub.data.links.code && (
+                      <a href={pub.data.links.code} aria-label="코드 저장소" title="Code">
+                        <Icon name="code" size={15} />
+                      </a>
+                    )}
+                    {pub.data.links.slides && (
+                      <a href={pub.data.links.slides} aria-label="발표 자료" title="Slides">
+                        <Icon name="external" size={15} />
+                      </a>
+                    )}
+                  </div>
+                )}
+              </div>
             </li>
           ))
         }

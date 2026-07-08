@@ -3,6 +3,7 @@ title: Security Paper Search MCP Server
 summary: 보안 학회 논문 검색을 LLM 에이전트 도구로 노출하는 MCP 서버. 에이전트 워크플로에서 문헌 조사를 자동화.
 stack: [TypeScript, MCP]
 year: 2026
+category: tool
 status: done
 repo: https://github.com/songyaeji/security-paper-mcp-server
 featured: false

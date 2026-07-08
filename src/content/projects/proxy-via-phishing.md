@@ -3,6 +3,7 @@ title: Proxy-based Phishing Research
 summary: 번역 프록시 악용 URL 59,537건 대규모 조사 — IEEE Access 게재 (2026). 프록시 기반 피싱의 공격 구조 분석.
 stack: [Python, Playwright, Web Security]
 year: 2026
+category: research
 status: done
 featured: true
 order: 4

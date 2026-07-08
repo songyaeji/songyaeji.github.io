@@ -43,6 +43,9 @@ body {
   line-height: 1.7;
   /* 연도·날짜·수치 열이 흔들리지 않게 — 전역 고정폭 숫자 */
   font-variant-numeric: tabular-nums;
+  /* 한글이 음절 단위로 꺾이지 않게 어절 단위 줄바꿈, 긴 URL은 강제 개행 */
+  word-break: keep-all;
+  overflow-wrap: break-word;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -54,13 +57,13 @@ h1, h2, h3 {
 
 a { color: var(--ink); text-decoration: none; }
 
-p a, .pub-links a, .caption a, .more, .mini a {
+p a, .caption a, .more, .mini a {
   font-weight: 600;
   box-shadow: inset 0 -2px 0 var(--yellow);
   transition: background 120ms ease;
 }
 
-p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
+p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   background: var(--yellow-soft);
 }
 
@@ -211,25 +214,38 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   padding: 0 0.06em;
 }
 
-.contact-rows { list-style: none; padding: 0; display: grid; gap: 0.55rem; }
+/* 연락처 — 텍스트 전문 대신 원형 아이콘 버튼 (참고 사이트 패턴) */
+.contact-icons { list-style: none; padding: 0; display: flex; gap: 0.6rem; }
 
-.contact-rows li {
+.contact-icons a {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  font-size: 0.86rem;
-  min-width: 0;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  transition: background 140ms ease, color 140ms ease, border-color 140ms ease;
 }
 
-.contact-rows svg { width: 15px; height: 15px; flex: none; color: var(--yellow-deep); }
-
-.contact-rows a:hover, .contact-rows a {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.contact-icons a:hover {
+  background: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--ink);
 }
 
-.contact-rows a:hover { box-shadow: inset 0 -2px 0 var(--yellow); }
+.profile .loc {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.profile .loc svg { color: var(--yellow-deep); }
 
 .now-strip {
   display: flex;
@@ -299,13 +315,42 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   gap: 3.2rem;
 }
 
-.interest-list { list-style: none; padding: 0; display: grid; gap: 0.4rem; font-size: 0.9rem; }
-.interest-list li::before { content: '▸ '; color: var(--yellow-deep); }
+.interest-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
 
-.edu-list { list-style: none; padding: 0; display: grid; gap: 1rem; }
-.edu-list .degree { color: var(--ink); font-weight: 700; font-size: 0.92rem; }
-.edu-list .school { font-size: 0.85rem; }
-.edu-list .period { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+.interest-list li {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.22rem 0.75rem;
+  white-space: nowrap;
+}
+
+/* ---------- tile — 공용 카드 단위 (홈 education/awards, pub 카드가 공유) ---------- */
+.tile-list { list-style: none; padding: 0; display: grid; gap: 0.7rem; }
+
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 0.85rem 1.05rem;
+  transition: background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.tile:hover {
+  background: var(--bg);
+  border-color: var(--yellow);
+  box-shadow: var(--shadow-1);
+}
+
+.tile-row { display: flex; align-items: flex-start; gap: 0.75rem; }
+.tile-row svg { flex: none; color: var(--yellow-deep); margin-top: 0.25rem; }
+
+.tile .t-name { color: var(--ink); font-weight: 700; font-size: 0.9rem; line-height: 1.45; }
+.tile .t-sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+.tile .t-date { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); margin-top: 0.2rem; }
 
 /* skills: inline groups */
 .skills-inline { display: grid; gap: 0.65rem; }
@@ -387,7 +432,8 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   font-family: var(--mono);
   font-size: 0.7rem;
   color: var(--text);
-  background: var(--surface);
+  /* 카드 배경이 surface라 한 단계 어두운 층위로 구분 */
+  background: var(--surface-2);
   border-radius: 6px;
   padding: 0.16rem 0.55rem;
   white-space: nowrap;
@@ -419,14 +465,15 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 
 .card {
   position: relative;
-  background: var(--bg);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
   border-radius: 14px;
-  box-shadow: var(--shadow-1);
-  padding: 1.7rem 1.8rem;
+  padding: 1.6rem 1.7rem;
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
-  transition: box-shadow 160ms ease, transform 160ms ease;
+  transition: background 160ms ease, border-color 160ms ease,
+    box-shadow 160ms ease, transform 160ms ease;
 }
 
 /* hover 시 상단 노랑 액센트 라인 — 하드 보더 대신 조용한 시그니처 */
@@ -445,6 +492,8 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 }
 
 .card:hover {
+  background: var(--bg);
+  border-color: var(--yellow);
   box-shadow: var(--shadow-2);
   transform: translateY(-3px);
 }
@@ -463,6 +512,20 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .card .summary { font-size: 0.88rem; flex: 1; }
 .card .meta { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
 .card .year { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+
+/* 카테고리 그룹 — CLI 라벨 + 소제목으로 섹션 구분 */
+.proj-section { margin-bottom: 3rem; }
+.proj-section:last-child { margin-bottom: 0; }
+.proj-section .cli-label { margin-bottom: 0.35rem; }
+
+.proj-section h2 {
+  font-size: 1.18rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.1rem;
+  display: inline-block;
+  box-shadow: inset 0 -0.34em 0 var(--yellow-soft);
+}
 
 /* ---------- project detail ---------- */
 .proj-meta { display: flex; align-items: center; gap: 0.9rem; flex-wrap: wrap; margin-bottom: 1.8rem; }
@@ -500,38 +563,65 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .proj-links a { font-weight: 600; }
 
 /* ---------- publications ---------- */
-.pub-list { list-style: none; padding: 0; display: grid; gap: 1.4rem; }
+.pub-list { list-style: none; padding: 0; display: grid; gap: 1.1rem; }
 
 .pub {
-  background: var(--bg);
-  border-left: 4px solid var(--yellow);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
   border-radius: 12px;
-  box-shadow: var(--shadow-1);
-  padding: 1.6rem 1.8rem;
+  padding: 1.35rem 1.6rem;
+  transition: background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
-.pub.placeholder { border-left-style: dashed; border-left-color: var(--warn); }
+.pub:hover {
+  background: var(--bg);
+  border-color: var(--yellow);
+  box-shadow: var(--shadow-1);
+}
 
-.pub .pub-title { font-size: 1.08rem; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; }
-.pub .pub-venue { font-family: var(--mono); font-size: 0.76rem; color: var(--yellow-deep); margin-top: 0.4rem; }
-.pub .pub-authors { font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem; }
-.pub .pub-links { font-size: 0.85rem; margin-top: 0.7rem; display: flex; gap: 1rem; }
-.pub .tags { margin-top: 0.8rem; }
+.pub.placeholder { border-style: dashed; border-color: var(--warn); }
 
-/* ---------- awards ---------- */
-.awards { margin-bottom: 3rem; }
-.award-list { list-style: none; padding: 0; display: grid; gap: 1.2rem; }
-.award-list li { border-left: 3px solid var(--yellow); padding-left: 1.1rem; }
-.award-list .a-title { font-size: 1.02rem; font-weight: 700; color: var(--ink); }
-.award-list .a-by { font-size: 0.85rem; color: var(--muted); margin-top: 0.15rem; }
+.pub .pub-top { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
+.pub .pub-venue { font-family: var(--mono); font-size: 0.74rem; font-weight: 600; color: var(--yellow-deep); }
+.pub .pub-year { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+.pub .pub-top .badge { margin-left: auto; }
+.pub .pub-title { font-size: 1.05rem; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; margin-top: 0.45rem; }
+.pub .pub-authors { font-size: 0.84rem; color: var(--muted); margin-top: 0.25rem; }
+.pub .pub-authors b { color: var(--text); font-weight: 600; }
+.pub .pub-foot { display: flex; align-items: center; gap: 0.8rem; margin-top: 0.85rem; }
+.pub .pub-foot .tags { flex: 1; }
+
+/* 링크는 텍스트 라벨 대신 아이콘 버튼 — aria-label·title로 목적지 명시 */
+.icon-links { display: flex; gap: 0.45rem; }
+
+.icon-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  transition: background 140ms ease, color 140ms ease, border-color 140ms ease;
+}
+
+.icon-links a:hover {
+  background: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--ink);
+}
 
 /* ---------- timeline ---------- */
 .timeline { list-style: none; padding: 0 0 0 1rem; position: relative; }
 
+/* 선 중심(x=6px)과 원 중심(x=-1rem+6px, li 기준)이 일치해야 한다 —
+   원 지름 12px·선 left 5px+width 2px 조합으로 정수 정렬 */
 .timeline::before {
   content: '';
   position: absolute;
-  left: 4px;
+  left: 5px;
   top: 8px;
   bottom: 8px;
   width: 2px;
@@ -546,8 +636,8 @@ p a:hover, .pub-links a:hover, .caption a:hover, .more:hover, .mini a:hover {
   position: absolute;
   left: -1rem;
   top: 8px;
-  width: 11px;
-  height: 11px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--bg);
   border: 3px solid var(--surface-2);

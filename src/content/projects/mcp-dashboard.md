@@ -3,6 +3,7 @@ title: MCP Dashboard
 summary: MCP 생태계 현황과 rug-pull 연구에서 수집한 데이터를 보여주는 대시보드.
 stack: [HTML, JavaScript]
 year: 2026
+category: research
 status: active
 repo: https://github.com/songyaeji/mcp-dashboard
 order: 8

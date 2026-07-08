@@ -3,6 +3,7 @@ title: Nuclei Templates — OSS Contribution
 summary: projectdiscovery/nuclei-templates에 보안 점검 템플릿 기여 — merged PR 18건. Kubernetes API 서버 하드닝, SMTP/DNS 보안 체크, CVE 탐지 템플릿.
 stack: [YAML, Nuclei, Kubernetes Security]
 year: 2025
+category: oss
 status: done
 repo: https://github.com/projectdiscovery/nuclei-templates/pulls?q=author%3Asongyaeji+is%3Amerged
 featured: true

@@ -3,6 +3,7 @@ title: FAE — File Analysis Exiftool
 summary: 파일 헤더·메타데이터 구조를 분석해 확장자 조작을 탐지하는 GUI 도구. 1인 개발.
 stack: [Python, Digital Forensics]
 year: 2025
+category: tool
 status: done
 repo: https://github.com/songyaeji/FAE_fileAnalysisExiftool
 order: 7

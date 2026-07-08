@@ -3,6 +3,7 @@ title: 게임 핵 분석 & 안티치트 개발
 summary: 화이트햇스쿨 1기 교육 프로젝트 — 게임 핵을 직접 구현·분석하고 이를 탐지하는 안티치트까지 개발한 공방 양면 프로젝트.
 stack: [C++, Reversing, Windows Internals]
 year: 2024
+category: team
 status: done
 private: true
 order: 9

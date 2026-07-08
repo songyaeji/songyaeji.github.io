@@ -6,20 +6,38 @@ import ProjectCard from '../../components/ProjectCard.astro';
 const projects = (await getCollection('projects')).sort(
   (a, b) => a.data.order - b.data.order,
 );
+
+// 성격이 다른 프로젝트가 한 grid에 섞이지 않게 카테고리 섹션으로 배치
+const sections = [
+  { key: 'research', cmd: 'ls projects/research/', title: 'Security Research' },
+  { key: 'oss', cmd: 'ls projects/oss/', title: 'Open Source' },
+  { key: 'tool', cmd: 'ls projects/tools/', title: 'Tools & Automation' },
+  { key: 'team', cmd: 'ls projects/team/', title: 'Team Projects' },
+] as const;
 ---
 
 <Base title="Projects" description="보안 연구·개발 프로젝트 목록">
   <div class="page wrap">
     <p class="cli-label">ls projects/ --all</p>
     <h1 class="page-title">Projects</h1>
-    <p class="lede">
-      보안 연구·자동화·데이터 분석 프로젝트. 카드 제목을 누르면 역할·구조·성과를 담은 상세
-      페이지로 이동합니다.
-    </p>
-    <div>
-      <ul class="card-grid">
-        {projects.map((p) => <ProjectCard project={p} />)}
-      </ul>
-    </div>
+    <p class="lede">보안 연구·자동화·데이터 분석 프로젝트 — 카드 제목을 누르면 상세 페이지로 이동합니다.</p>
+    {
+      sections.map((s) => {
+        const group = projects.filter((p) => p.data.category === s.key);
+        return (
+          group.length > 0 && (
+            <section class="proj-section">
+              <p class="cli-label">{s.cmd}</p>
+              <h2>{s.title}</h2>
+              <ul class="card-grid">
+                {group.map((p) => (
+                  <ProjectCard project={p} />
+                ))}
+              </ul>
+            </section>
+          )
+        );
+      })
+    }
   </div>
 </Base>

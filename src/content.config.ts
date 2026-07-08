@@ -34,6 +34,9 @@ const projects = defineCollection({
     repo: z.string().optional(),
     year: z.number(),
     status: z.enum(['active', 'done', 'research']).default('done'),
+    // Projects 페이지 그룹 배치 기준 — 기본값 없이 필수로 두어
+    // 새 프로젝트 추가 시 분류 누락을 빌드에서 잡는다
+    category: z.enum(['research', 'oss', 'tool', 'team']),
     private: z.boolean().default(false),
     featured: z.boolean().default(false),
     order: z.number().default(0),
