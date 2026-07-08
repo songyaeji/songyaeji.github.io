@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import NowPanel from '../components/NowPanel.astro';
-import ProjectCard from '../components/ProjectCard.astro';
 import { profile } from '../data/profile';
 
 const projects = await getCollection('projects');
@@ -13,88 +12,53 @@ const featured = projects
 ---
 
 <Base>
-  <section class="hero">
-    <div class="wrap">
+  <div class="home-grid wrap">
+    <aside class="profile">
+      <img
+        class="avatar"
+        src={profile.avatar}
+        alt={`${profile.name} 프로필 사진`}
+        width="108"
+        height="108"
+      />
+      <div>
+        <h1 class="name">{profile.name}<span class="ko" lang="ko">{profile.nameKo}</span></h1>
+        <p class="role">{profile.tagline} · {profile.affiliation}</p>
+      </div>
       <p class="cli-line">
-        <span class="ps1">yaeji@sec:~$</span>
+        <span class="ps1">$</span>
         <span class="typed" data-cmd="whoami"></span><span class="cursor" aria-hidden="true"></span>
       </p>
-      <h1 class="statement">
+      <p class="statement">
         저는 <span class="mark">"한계를 뛰어넘기 위해 끊임없이 노력하는"</span> 보안 담당자입니다.
-      </h1>
-      <p class="sub">
-        <b>{profile.name} ({profile.nameKo})</b> · {profile.affiliation} · {profile.school}
       </p>
-      <div class="hero-links">
-        <a class="btn btn-primary" href={`mailto:${profile.contact.email}`}>Contact</a>
-        <a class="btn" href={profile.contact.github}>GitHub</a>
-      </div>
-    </div>
-    <a class="scroll-hint" href="#about">더 알아보기 ↓</a>
-  </section>
-
-  <section class="band band-alt" id="about">
-    <div class="wrap">
-      <p class="eyebrow">cat about.md</p>
-      <h2>About Me</h2>
-      <div class="prose">
-        {profile.bio.map((p) => <p>{p}</p>)}
-      </div>
+      <ul class="contact-rows">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg>
+          <a href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          <a href={profile.contact.github}>github.com/{profile.handle}</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <span>{profile.location}</span>
+        </li>
+      </ul>
       <NowPanel />
-      <div class="about-grid" style="margin-top: 2rem;">
-        <div class="about-item">
-          <span class="icon-box" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
-          </span>
-          <div><span class="label">Name</span><span class="value">{profile.name} ({profile.nameKo})</span></div>
-        </div>
-        <div class="about-item">
-          <span class="icon-box" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 2 8l10 5 10-5-10-5ZM6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5"/></svg>
-          </span>
-          <div><span class="label">Education</span><span class="value">{profile.school}</span></div>
-        </div>
-        <div class="about-item">
-          <span class="icon-box" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
-          </span>
-          <div><span class="label">Training</span><span class="value">{profile.affiliation}</span></div>
-        </div>
-        <div class="about-item">
-          <span class="icon-box" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
-          </span>
-          <div><span class="label">Location</span><span class="value">{profile.location}</span></div>
-        </div>
-        <div class="about-item">
-          <span class="icon-box" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg>
-          </span>
-          <div><span class="label">Email</span><a class="value" href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a></div>
-        </div>
-        <div class="about-item">
-          <span class="icon-box" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
-          </span>
-          <div><span class="label">GitHub</span><a class="value" href={profile.contact.github}>@{profile.handle}</a></div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </aside>
 
-  <section class="band">
-    <div class="wrap">
-      <p class="eyebrow">cat interests.md education.md</p>
-      <h2>Interests & Education</h2>
-      <div class="info-cols">
-        <div class="info-col">
-          <h3>Research Interests</h3>
+    <div class="home-main">
+      <div class="home-row-2">
+        <section>
+          <p class="cli-label">cat interests.md</p>
           <ul class="interest-list">
             {profile.interests.map((i) => <li>{i}</li>)}
           </ul>
-        </div>
-        <div class="info-col">
-          <h3>Education</h3>
+        </section>
+        <section>
+          <p class="cli-label">cat education.md</p>
           <ul class="edu-list">
             {
               profile.education.map((e) => (
@@ -106,65 +70,66 @@ const featured = projects
               ))
             }
           </ul>
+        </section>
+      </div>
+
+      <section>
+        <p class="cli-label">ls skills/</p>
+        <div class="skills-inline">
+          {
+            Object.entries(profile.skills).map(([group, items]) => (
+              <div class="row">
+                <span class="group">{group}</span>
+                <ul class="tags">
+                  {items.map((s) => (
+                    <li class="tag">{s}</li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="band band-alt">
-    <div class="wrap">
-      <p class="eyebrow">ls skills/</p>
-      <h2>Skills</h2>
-      <div class="skills">
-        {
-          Object.entries(profile.skills).map(([group, items]) => (
-            <div class="skill-group">
-              <h3>{group}</h3>
-              <ul class="tags">
-                {items.map((s) => (
-                  <li class="tag">{s}</li>
-                ))}
-              </ul>
-            </div>
-          ))
-        }
-      </div>
-    </div>
-  </section>
+      <section>
+        <p class="cli-label">git log --graph</p>
+        <div class="activity-card">
+          <img
+            src={`https://ghchart.rshah.org/f5c518/${profile.handle}`}
+            alt={`${profile.handle}의 최근 1년 GitHub 기여 그래프`}
+            loading="lazy"
+          />
+          <p class="caption">
+            <span>GitHub contributions, last 12 months</span>
+            <a href={profile.contact.github}>github.com/{profile.handle} →</a>
+          </p>
+        </div>
+      </section>
 
-  <section class="band">
-    <div class="wrap">
-      <p class="eyebrow">git log --graph</p>
-      <h2>Activity</h2>
-      <div class="activity-card">
-        <img
-          src={`https://ghchart.rshah.org/f5c518/${profile.handle}`}
-          alt={`${profile.handle}의 최근 1년 GitHub 기여 그래프`}
-          loading="lazy"
-        />
-        <p class="caption">
-          <span>GitHub contributions, last 12 months</span>
-          <a href={profile.contact.github}>github.com/{profile.handle} →</a>
-        </p>
-      </div>
+      <section>
+        <p class="cli-label">ls projects/ --featured</p>
+        <ul class="mini-list">
+          {
+            featured.map((p) => (
+              <li class="mini">
+                <span class="t">
+                  {p.data.repo ? <a href={p.data.repo}>{p.data.title}</a> : p.data.title}
+                </span>
+                <span class="d">{p.data.summary}</span>
+                <span class="y">{p.data.year}</span>
+              </li>
+            ))
+          }
+          <li class="mini">
+            <a href="/projects/">All projects →</a>
+          </li>
+        </ul>
+      </section>
     </div>
-  </section>
-
-  <section class="band band-alt">
-    <div class="wrap">
-      <p class="eyebrow">ls projects/ --featured</p>
-      <div class="section-head">
-        <h2>Featured Projects</h2>
-        <a class="more" href="/projects/">All projects →</a>
-      </div>
-      <ul class="card-grid">
-        {featured.map((p) => <ProjectCard project={p} />)}
-      </ul>
-    </div>
-  </section>
+  </div>
 
   <script is:inline>
-    // 히어로 CLI 타이핑 — reduced-motion이면 즉시 표시
+    // 프로필 CLI 타이핑 — reduced-motion이면 즉시 표시
     (() => {
       const el = document.querySelector('.typed');
       if (!el) return;

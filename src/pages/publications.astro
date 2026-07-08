@@ -8,16 +8,14 @@ const pubs = (await getCollection('research')).sort(
 ---
 
 <Base title="Publications" description="논문 및 리서치 목록">
-  <div class="page-title-band wrap">
-    <p class="eyebrow">ls publications/</p>
-    <h1>Publications</h1>
+  <div class="page wrap">
+    <p class="cli-label">ls publications/</p>
+    <h1 class="page-title">Publications</h1>
     <p class="lede">
       논문·연구 산출물 목록입니다. <strong>Example 배지가 붙은 항목은 레이아웃용 예시</strong>이며
       실제 게재 논문이 아닙니다.
     </p>
-  </div>
-  <div class="band">
-    <div class="wrap">
+    <div>
       <ul class="pub-list">
         {
           pubs.map((pub) => (

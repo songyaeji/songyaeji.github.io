@@ -4,13 +4,11 @@ import { profile } from '../data/profile';
 ---
 
 <Base title="Activities" description={`${profile.name} 활동 이력`}>
-  <div class="page-title-band wrap">
-    <p class="eyebrow">history</p>
-    <h1>Activities</h1>
+  <div class="page wrap">
+    <p class="cli-label">history</p>
+    <h1 class="page-title">Activities</h1>
     <p class="lede">교육·연구·대외 활동 이력입니다.</p>
-  </div>
-  <div class="band">
-    <div class="wrap">
+    <div>
       <ul class="timeline">
         {
           profile.timeline.map((t) => (
