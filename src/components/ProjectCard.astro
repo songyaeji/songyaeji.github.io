@@ -7,7 +7,7 @@ interface Props {
 
 const { project } = Astro.props;
 const { title, summary, stack, repo, year, status, private: isPrivate } = project.data;
-const statusLabel = { active: 'active', research: 'research', done: 'done' }[status];
+const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[status];
 ---
 
 <li class="card">
@@ -16,7 +16,7 @@ const statusLabel = { active: 'active', research: 'research', done: 'done' }[sta
       {repo ? <a href={repo}>{title}</a> : title}
     </h3>
     {isPrivate ? (
-      <span class="badge badge-private">private research</span>
+      <span class="badge badge-private">Private research</span>
     ) : (
       <span class={`badge badge-${status}`}>{statusLabel}</span>
     )}
@@ -26,6 +26,6 @@ const statusLabel = { active: 'active', research: 'research', done: 'done' }[sta
     <ul class="tags">
       {stack.map((s) => <li class="tag">{s}</li>)}
     </ul>
-    <span>{year}</span>
+    <span class="year">{year}</span>
   </div>
 </li>

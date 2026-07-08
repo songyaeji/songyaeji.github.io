@@ -8,9 +8,9 @@ const projects = (await getCollection('projects')).sort(
 );
 ---
 
-<Base title="projects" description="보안 연구·개발 프로젝트 목록">
-  <h1>projects</h1>
-  <p class="section-note">보안 연구·자동화·데이터 분석 프로젝트. 카드를 누르면 저장소로 이동.</p>
+<Base title="Projects" description="보안 연구·개발 프로젝트 목록">
+  <h1 class="page-title">Projects</h1>
+  <p class="page-lede">보안 연구·자동화·데이터 분석 프로젝트. 카드 제목을 누르면 저장소로 이동합니다.</p>
   <ul class="card-grid">
     {projects.map((p) => <ProjectCard project={p} />)}
   </ul>

@@ -13,30 +13,50 @@ const featured = projects
 ---
 
 <Base>
-  <section class="terminal" aria-label="소개">
-    <div class="terminal-bar">
-      <span class="dots"><span></span><span></span><span></span></span>
-      <span>{profile.handle}@lab — zsh</span>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">{profile.affiliation}</p>
+      <h1>
+        {profile.name}<span class="name-ko" lang="ko">{profile.nameKo}</span>
+      </h1>
+      <p class="role">{profile.tagline}</p>
+      <p class="intro">
+        {profile.school} 재학. AI·LLM 공급망 보안과 취약점 분석을 연구합니다. 지금은
+        MCP(Model Context Protocol) 생태계의 공급망 위협을 탐지하는 연구에 집중하고 있습니다.
+      </p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href={`mailto:${profile.contact.email}`}>Contact</a>
+        <a class="btn" href={profile.contact.github}>GitHub</a>
+        <a class="btn" href="/about/">CV & About</a>
+      </div>
     </div>
-    <div class="terminal-body">
-      <p class="line"><span class="ps1">$</span> <span class="cmd">whoami</span></p>
-      <p class="hero-name">{profile.name} <span lang="ko">({profile.nameKo})</span></p>
-      <p class="hero-sub">{profile.tagline}</p>
-      <p class="hero-meta">{profile.affiliation} · {profile.school}</p>
-      <p class="line" style="margin-top: 0.8rem;">
-        <span class="ps1">$</span> <span class="cursor" aria-hidden="true"></span>
+    <NowPanel />
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Activity</h2>
+    </div>
+    <div class="activity-card">
+      <img
+        src={`https://ghchart.rshah.org/2456c9/${profile.handle}`}
+        alt={`${profile.handle}의 최근 1년 GitHub 기여 그래프`}
+        loading="lazy"
+      />
+      <p class="caption">
+        <span>GitHub contributions, last 12 months</span>
+        <a href={profile.contact.github}>github.com/{profile.handle} →</a>
       </p>
     </div>
   </section>
 
-  <h2>now</h2>
-  <NowPanel />
-
-  <h2>featured work</h2>
-  <ul class="card-grid">
-    {featured.map((p) => <ProjectCard project={p} />)}
-  </ul>
-  <p class="more-link" style="margin-top: 1rem;">
-    <a href="/projects/">ls /projects --all →</a>
-  </p>
+  <section>
+    <div class="section-head">
+      <h2>Featured Projects</h2>
+      <a class="more" href="/projects/">All projects →</a>
+    </div>
+    <ul class="card-grid">
+      {featured.map((p) => <ProjectCard project={p} />)}
+    </ul>
+  </section>
 </Base>
