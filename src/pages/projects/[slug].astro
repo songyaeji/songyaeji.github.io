@@ -11,6 +11,11 @@ const { project } = Astro.props;
 const { Content } = await render(project);
 const d = project.data;
 const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[d.status];
+
+// highlights는 렌더되지 않는 frontmatter 문자열이라 [텍스트](url) 마크다운 링크가
+// 그대로 노출됐다 — 여기서만 앵커로 변환
+const linkify = (text: string) =>
+  text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 ---
 
 <Base title={d.title} description={d.summary}>
@@ -60,7 +65,7 @@ const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[d.s
       d.highlights.length > 0 && (
         <ul class="proj-highlights">
           {d.highlights.map((h) => (
-            <li>{h}</li>
+            <li set:html={linkify(h)} />
           ))}
         </ul>
       )
