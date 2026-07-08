@@ -5,6 +5,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://songyaeji.github.io',
   redirects: {
-    '/about': '/resume',
+    '/about': '/',
+    '/resume': '/activities',
+    '/research': '/publications',
   },
 });

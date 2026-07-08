@@ -9,9 +9,16 @@ const projects = (await getCollection('projects')).sort(
 ---
 
 <Base title="Projects" description="보안 연구·개발 프로젝트 목록">
-  <h1 class="article-title">Projects</h1>
-  <p class="lede">보안 연구·자동화·데이터 분석 프로젝트. 카드 제목을 누르면 저장소로 이동합니다.</p>
-  <ul class="card-grid">
-    {projects.map((p) => <ProjectCard project={p} />)}
-  </ul>
+  <div class="page-title-band wrap">
+    <p class="eyebrow">ls projects/ --all</p>
+    <h1>Projects</h1>
+    <p class="lede">보안 연구·자동화·데이터 분석 프로젝트. 카드 제목을 누르면 저장소로 이동합니다.</p>
+  </div>
+  <div class="band">
+    <div class="wrap">
+      <ul class="card-grid">
+        {projects.map((p) => <ProjectCard project={p} />)}
+      </ul>
+    </div>
+  </div>
 </Base>

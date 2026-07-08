@@ -9,12 +9,12 @@ interface Props {
 
 const { title, description = `${profile.name} — ${profile.tagline}. ${profile.affiliation}.` } =
   Astro.props;
-const pageTitle = title ? `${title} · ${profile.name}` : `${profile.name} — Security Researcher`;
+const pageTitle = title ? `${title} · ${profile.name}` : `${profile.name} — Security Portfolio`;
 const nav = [
-  { href: '/', label: 'About' },
-  { href: '/resume/', label: 'Resume' },
-  { href: '/research/', label: 'Research' },
+  { href: '/', label: 'Home' },
+  { href: '/publications/', label: 'Publications' },
   { href: '/projects/', label: 'Projects' },
+  { href: '/activities/', label: 'Activities' },
 ];
 const path = Astro.url.pathname;
 const isCurrent = (href: string) =>
@@ -33,78 +33,22 @@ const isCurrent = (href: string) =>
     <meta property="og:type" content="website" />
     <meta property="og:url" content={new URL(path, Astro.site)} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <script is:inline>
-      // FOUC 방지: 렌더 전에 저장된 테마 적용 (기본 다크)
-      document.documentElement.dataset.theme = localStorage.getItem('theme') || 'dark';
-    </script>
   </head>
   <body>
-    <div class="shell">
-      <aside class="sidebar">
-        <img class="avatar" src={profile.avatar} alt={`${profile.name} 프로필 사진`} width="120" height="120" />
-        <div>
-          <h1 class="name">{profile.name}</h1>
-          <span class="name-ko" lang="ko">{profile.nameKo}</span>
-          <span class="role-chip">{profile.tagline}</span>
-        </div>
-        <hr />
-        <ul class="contact-rows">
-          <li>
-            <span class="icon-box" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6 9 7 9-7"/></svg>
-            </span>
-            <div style="min-width:0">
-              <span class="label">Email</span>
-              <a class="value" href={`mailto:${profile.contact.email}`}>{profile.contact.email}</a>
-            </div>
-          </li>
-          <li>
-            <span class="icon-box" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
-            </span>
-            <div style="min-width:0">
-              <span class="label">Location</span>
-              <span class="value">{profile.location}</span>
-            </div>
-          </li>
-          <li>
-            <span class="icon-box" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
-            </span>
-            <div style="min-width:0">
-              <span class="label">GitHub</span>
-              <a class="value" href={profile.contact.github}>@{profile.handle}</a>
-            </div>
-          </li>
-          {
-            profile.contact.linkedin !== '#' && (
-              <li>
-                <span class="icon-box" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.2 8h4.6v14.5H.2V8Zm7.5 0h4.4v2h.06c.61-1.16 2.11-2.38 4.35-2.38 4.65 0 5.51 3.06 5.51 7.04v7.84h-4.6v-6.95c0-1.66-.03-3.79-2.31-3.79-2.31 0-2.66 1.8-2.66 3.67v7.07H7.7V8Z"/></svg>
-                </span>
-                <div style="min-width:0">
-                  <span class="label">LinkedIn</span>
-                  <a class="value" href={profile.contact.linkedin}>Profile</a>
-                </div>
-              </li>
-            )
-          }
-        </ul>
-        <button class="theme-toggle" type="button" aria-label="테마 전환">
-          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.3M12 19.7V22M2 12h2.3M19.7 12H22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></svg>
-          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11Z"/></svg>
-          <span class="toggle-text">Switch theme</span>
-        </button>
-      </aside>
-
-      <div class="panel">
-        <nav class="panel-nav" aria-label="주 메뉴">
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">yaeji@sec<span class="tilde">:~$</span></a>
+        <nav aria-label="주 메뉴">
           {
             nav.map((item) => (
               <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
@@ -113,18 +57,22 @@ const isCurrent = (href: string) =>
             ))
           }
         </nav>
-        <main>
-          <slot />
-        </main>
       </div>
-    </div>
+    </header>
 
-    <script is:inline>
-      document.querySelector('.theme-toggle')?.addEventListener('click', () => {
-        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-        document.documentElement.dataset.theme = next;
-        localStorage.setItem('theme', next);
-      });
-    </script>
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span class="exit"><span class="ps1">$</span> exit — © {new Date().getFullYear()} {profile.name}</span>
+        <span>
+          <a href={profile.contact.github}>GitHub</a>
+          {' · '}
+          <a href={`mailto:${profile.contact.email}`}>Email</a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>

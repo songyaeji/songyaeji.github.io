@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import { profile } from '../data/profile';
+---
+
+<Base title="Activities" description={`${profile.name} 활동 이력`}>
+  <div class="page-title-band wrap">
+    <p class="eyebrow">history</p>
+    <h1>Activities</h1>
+    <p class="lede">교육·연구·대외 활동 이력입니다.</p>
+  </div>
+  <div class="band">
+    <div class="wrap">
+      <ul class="timeline">
+        {
+          profile.timeline.map((t) => (
+            <li class={t.current ? 'current' : undefined}>
+              <div class="period">{t.period}</div>
+              <div class="t-title">{t.title}</div>
+              <div class="t-detail">{t.detail}</div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</Base>
