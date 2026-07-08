@@ -1,6 +1,6 @@
 ---
 title: "대한민국 국가 도메인(.kr) 사칭 피싱 도메인 분석"
-venue: "KSC 2025 (한국소프트웨어종합학술대회), 제주"
+venue: "KSC 2025 (한국소프트웨어종합학술대회)"
 year: 2025
 authors: []
 tags: [Phishing, Domain Abuse, Measurement]

@@ -1,6 +1,6 @@
 ---
 title: "MCP 서버 메타데이터 기반 공급망 위협 탐지 연구 — Smithery Marketplace를 중심으로"
-venue: "KCC 2026 (한국컴퓨터종합학술대회), 여수"
+venue: "KCC 2026 (한국컴퓨터종합학술대회)"
 year: 2026
 authors: []
 tags: [MCP, Supply Chain, LLM Security, Measurement]
