@@ -1,0 +1,98 @@
+{
+  "date": "2026-07-09",
+  "issue_no": 2,
+  "briefing": "AI 공급망부터 클라우드·인프라까지 광범위한 기술 스택에서 CVSS 9.8 이상의 임계점 공격들이 연쇄 공개되고 있다. AI 코딩 어시스턴트 악용(HalluSquatting), LLM 엔진 정책 우회(vLLM), AI 에이전트 SSRF(FastMCP) 같은 AI 고유의 신규 공격면 확대와 금융 사이버 공격·유령 피싱 같은 정교한 사회공학적 공격이 병행되면서 방어 난제가 심화되고 있다.",
+  "keywords": [
+    "AI공급망공격",
+    "AI에이전트공격",
+    "원격코드실행",
+    "인증우회",
+    "금융사이버공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "[카드뉴스] 파일 하나 누락에 거인 붕괴… AI 공급망 무너뜨리는 ‘인적 리스크’와 대응책",
+      "url": "http://www.boannews.com/media/view.asp?idx=144575&kind=&sub_kind="
+    },
+    {
+      "n": 2,
+      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+      "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html"
+    },
+    {
+      "n": 3,
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
+    },
+    {
+      "n": 4,
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html"
+    },
+    {
+      "n": 5,
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html"
+    },
+    {
+      "n": 6,
+      "title": "CVE-2026-27893 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27893"
+    },
+    {
+      "n": 7,
+      "title": "CVE-2026-54763 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54763"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-32871 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32871"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-41283 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41283"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-33784 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33784"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-47103 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47103"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-9701 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9701"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-12153 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12153"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-9695 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9695"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-31402 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31402"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png"
+  ]
+}
