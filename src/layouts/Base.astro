@@ -9,7 +9,8 @@ interface Props {
 
 const { title, description = `${profile.name} — ${profile.tagline}. ${profile.affiliation}.` } =
   Astro.props;
-const pageTitle = title ? `${title} | ${profile.name}` : `${profile.name} | Portfolio`;
+// 사용자 지시: 브라우저 탭은 모든 페이지에서 "Yaeji Song"만 표시
+const pageTitle = profile.name;
 const nav = [
   { href: '/', label: 'Home' },
   { href: '/publications/', label: 'Publications' },

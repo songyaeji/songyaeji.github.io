@@ -44,6 +44,12 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         </li>
       </ul>
       <NowPanel />
+      <div>
+        <p class="cli-label">cat interests.md</p>
+        <ul class="interest-list">
+          {profile.interests.map((i) => <li>{i}</li>)}
+        </ul>
+      </div>
       {
         latestTrend && (
           <a class="trend-line" href="/trend/">
@@ -68,12 +74,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
 
       <div class="home-row-2">
         <section>
-          <p class="cli-label">cat interests.md</p>
-          <ul class="interest-list">
-            {profile.interests.map((i) => <li>{i}</li>)}
-          </ul>
-        </section>
-        <section>
           <p class="cli-label">cat education_research.md</p>
           <ul class="edu-list">
             {
@@ -82,6 +82,20 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
                   <div class="degree">{e.degree}</div>
                   <div class="school">{e.school}</div>
                   <div class="period">{e.period}</div>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+        <section>
+          <p class="cli-label">ls awards/</p>
+          <ul class="edu-list">
+            {
+              profile.awards.map((a) => (
+                <li>
+                  <div class="degree">{a.title}</div>
+                  <div class="school">{a.by}</div>
+                  <div class="period">{a.date}</div>
                 </li>
               ))
             }
