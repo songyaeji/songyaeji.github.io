@@ -4,7 +4,7 @@ export const profile = {
   handle: 'songyaeji',
   tagline: 'AI Security Researcher',
   affiliation: 'BoB 15th — AI Enterprise Security Track',
-  school: 'Software & Cyber Security, Kyung Hee University',
+  school: 'Software Convergence, Kyung Hee University',
   location: 'Seoul, KR',
   // "지금 뭐 하나" — 홈 Currently 패널에 굵은 라벨로 표시
   now: [
@@ -30,7 +30,7 @@ export const profile = {
   education: [
     {
       school: 'Kyung Hee University',
-      degree: 'B.S. Software & Cyber Security',
+      degree: 'B.S. Software Convergence',
       period: '2022 — present',
     },
     {
