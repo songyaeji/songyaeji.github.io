@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import { profile } from '../data/profile';
+---
+
+<Base title="Resume" description={`${profile.name} 이력·기술스택`}>
+  <h1 class="article-title">Resume</h1>
+  <p class="lede">{profile.school} · {profile.location}</p>
+
+  <section>
+    <div class="resume-section-title">
+      <span class="icon-box" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="17" height="17"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6.5A2.5 2.5 0 0 0 4 21.5v-2A2.5 2.5 0 0 1 6.5 17H19"/></svg>
+      </span>
+      <h2>Experience & Education</h2>
+    </div>
+    <ul class="timeline">
+      {
+        profile.timeline.map((t) => (
+          <li class={t.current ? 'current' : undefined}>
+            <div class="period">{t.period}</div>
+            <div class="t-title">{t.title}</div>
+            <div class="t-detail">{t.detail}</div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section>
+    <div class="resume-section-title">
+      <span class="icon-box" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="17" height="17"><path d="m14.5 4-9 9 5.5 5.5 9-9L14.5 4ZM3 21l3-1-2-2-1 3ZM13 6l5 5"/></svg>
+      </span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills">
+      {
+        Object.entries(profile.skills).map(([group, items]) => (
+          <div class="skill-group">
+            <h3>{group}</h3>
+            <ul class="tags">
+              {items.map((s) => (
+                <li class="tag">{s}</li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Base>

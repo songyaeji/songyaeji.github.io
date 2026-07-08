@@ -2,23 +2,7 @@
 import { profile } from '../data/profile';
 ---
 
-<aside class="now-card" aria-label="현재 활동">
-  <div class="now-head">
-    <span class="pulse" aria-hidden="true"></span>
-    Currently
-  </div>
-  <dl>
-    <div>
-      <dt>Training</dt>
-      <dd>{profile.affiliation}</dd>
-    </div>
-    <div>
-      <dt>Research focus</dt>
-      <dd>{profile.now}</dd>
-    </div>
-    <div>
-      <dt>Interests</dt>
-      <dd>{profile.interests.join(' · ')}</dd>
-    </div>
-  </dl>
-</aside>
+<p class="now-strip">
+  <span class="pulse" aria-hidden="true"></span>
+  <span><b>Currently</b> — {profile.now}</span>
+</p>

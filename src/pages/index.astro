@@ -13,24 +13,37 @@ const featured = projects
 ---
 
 <Base>
-  <section class="hero">
-    <div>
-      <p class="eyebrow">{profile.affiliation}</p>
-      <h1>
-        {profile.name}<span class="name-ko" lang="ko">{profile.nameKo}</span>
-      </h1>
-      <p class="role">{profile.tagline}</p>
-      <p class="intro">
-        {profile.school} 재학. AI·LLM 공급망 보안과 취약점 분석을 연구합니다. 지금은
-        MCP(Model Context Protocol) 생태계의 공급망 위협을 탐지하는 연구에 집중하고 있습니다.
-      </p>
-      <div class="hero-links">
-        <a class="btn btn-primary" href={`mailto:${profile.contact.email}`}>Contact</a>
-        <a class="btn" href={profile.contact.github}>GitHub</a>
-        <a class="btn" href="/about/">CV & About</a>
-      </div>
-    </div>
+  <h1 class="article-title">About Me</h1>
+
+  <section class="prose">
+    {profile.bio.map((p) => <p>{p}</p>)}
+  </section>
+
+  <section>
     <NowPanel />
+  </section>
+
+  <section class="info-cols">
+    <div class="info-col">
+      <h2>Interests</h2>
+      <ul class="interest-list">
+        {profile.interests.map((i) => <li>{i}</li>)}
+      </ul>
+    </div>
+    <div class="info-col">
+      <h2>Education</h2>
+      <ul class="edu-list">
+        {
+          profile.education.map((e) => (
+            <li>
+              <div class="degree">{e.degree}</div>
+              <div class="school">{e.school}</div>
+              <div class="period">{e.period}</div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </section>
 
   <section>
@@ -39,7 +52,7 @@ const featured = projects
     </div>
     <div class="activity-card">
       <img
-        src={`https://ghchart.rshah.org/2456c9/${profile.handle}`}
+        src={`https://ghchart.rshah.org/b45309/${profile.handle}`}
         alt={`${profile.handle}의 최근 1년 GitHub 기여 그래프`}
         loading="lazy"
       />
