@@ -89,24 +89,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
       </div>
 
       <section>
-        <p class="cli-label">ls skills/</p>
-        <div class="skills-inline">
-          {
-            Object.entries(profile.skills).map(([group, items]) => (
-              <div class="row">
-                <span class="group">{group}</span>
-                <ul class="tags">
-                  {items.map((s) => (
-                    <li class="tag">{s}</li>
-                  ))}
-                </ul>
-              </div>
-            ))
-          }
-        </div>
-      </section>
-
-      <section>
         <p class="cli-label">ls projects/ --featured</p>
         <ul class="mini-list">
           {
