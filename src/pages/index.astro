@@ -26,6 +26,9 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
           <p class="role">{profile.tagline}</p>
           <p class="loc"><Icon name="pin" size={13} /> {profile.location}</p>
         </div>
+        <ul class="interest-list">
+          {profile.interests.map((i) => <li>{i}</li>)}
+        </ul>
         <ul class="contact-icons">
           <li>
             <a href={`mailto:${profile.contact.email}`} aria-label="Email" title={profile.contact.email}>
@@ -45,12 +48,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         </ul>
       </div>
       <NowPanel />
-      <div>
-        <p class="cli-label">cat interests.md</p>
-        <ul class="interest-list">
-          {profile.interests.map((i) => <li>{i}</li>)}
-        </ul>
-      </div>
       {
         latestTrend && (
           <a class="trend-line" href="/trend/">
@@ -73,9 +70,28 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         <p class="philosophy">{profile.philosophy}</p>
       </section>
 
+      <section aria-label="주요 성과 요약">
+        <p class="cli-label">wc -l achievements/*</p>
+        <ul class="proof-strip">
+          <li>
+            <a href="/publications/"><b class="n">1</b><span>IEEE Access</span></a>
+          </li>
+          <li>
+            <a href="/publications/"><b class="n">2</b><span>Domestic Conferences</span></a>
+          </li>
+          <li>
+            <a href="/activities/"><b class="n">18</b><span>nuclei PRs merged</span></a>
+          </li>
+          <li>
+            <a href="#awards"><b class="n">2</b><span>Awards</span></a>
+          </li>
+        </ul>
+      </section>
+
       <div class="home-row-2">
         <section>
           <p class="cli-label">cat education_research.md</p>
+          <h2 class="sec-title">Education &amp; Research</h2>
           <p class="tile-group-label">School</p>
           <ul class="tile-list">
             {
@@ -111,8 +127,9 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
             }
           </ul>
         </section>
-        <section>
+        <section id="awards">
           <p class="cli-label">ls awards/</p>
+          <h2 class="sec-title">Awards</h2>
           <ul class="tile-list">
             {
               profile.awards.map((a) => (
@@ -142,12 +159,13 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         el.textContent = cmd;
         return;
       }
+      // 리크루터 3초 스캔 기준 — 장식이 헤드라인 읽기를 지연하지 않게 짧게
       let i = 0;
       const tick = () => {
         el.textContent = cmd.slice(0, ++i);
-        if (i < cmd.length) setTimeout(tick, 90 + Math.random() * 90);
+        if (i < cmd.length) setTimeout(tick, 45 + Math.random() * 45);
       };
-      setTimeout(tick, 400);
+      setTimeout(tick, 80);
     })();
   </script>
 </Base>
