@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-10",
+  "issue_no": 3,
+  "briefing": "최근 보안 위협의 중심에는 AI 코딩 에이전트와 개발자 도구의 결함이 있다. GhostApproval과 Friendly Fire는 Claude Code, GitHub Copilot 등의 주요 AI 에이전트를 악용하도록 만들었고, Ruflo와 Hermes WebUI의 미인증 RCE 취약점(CVSS 10.0)은 원격 공격자에게 완벽한 침입 경로를 제공한다. GodDamn 랜섬웨어의 PoisonX 커널 드라이버 악용과 Windows 시스템의 권한상향 결함들이 엔드포인트와 인프라 방어를 무력화하고 있다.",
+  "keywords": [
+    "AI에이전트",
+    "미인증RCE",
+    "권한상향",
+    "커널악용",
+    "랜섬웨어"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "GodDamn Ransomware Uses PoisonX to Blind Security Software",
+      "url": "https://securityaffairs.com/195042/malware/goddamn-ransomware-uses-poisonx-to-blind-security-software.html"
+    },
+    {
+      "n": 2,
+      "title": "AssuranceAmerica Breach Exposes 7 Million Driver’s Licenses After Employee Account Hack",
+      "url": "https://securityaffairs.com/195027/data-breach/assuranceamerica-breach-exposes-7-million-drivers-licenses-after-employee-account-hack.html"
+    },
+    {
+      "n": 3,
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html"
+    },
+    {
+      "n": 4,
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "url": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html"
+    },
+    {
+      "n": 5,
+      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+      "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+    },
+    {
+      "n": 6,
+      "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
+      "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html"
+    },
+    {
+      "n": 7,
+      "title": "CVE-2025-27462 (CVSS N/A)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27462"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-59726 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59726"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-14245 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14245"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-58025 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58025"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-58123 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58123"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-15123 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15123"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-15125 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15125"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-15126 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15126"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-15129 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15129"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-15133 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15133"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-15110 (CVSS 8.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15110"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ]
+}
