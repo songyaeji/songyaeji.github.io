@@ -6,37 +6,37 @@
   "links": [
     {
       "n": 1,
-      "title": "보안뉴스",
+      "title": "금융권의 섀도우 AI 위협",
       "url": "https://www.boannews.com/media/view.asp?idx=144544&kind=&sub_kind="
     },
     {
       "n": 2,
-      "title": "CVE-2026-54602",
+      "title": "FastGPT AI 플랫폼 팀 간 데이터 무단 접근",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54602"
     },
     {
       "n": 3,
-      "title": "Redwing MaaS Packages Android Banking Trojan",
+      "title": "RedWing 안드로이드 뱅킹 악성코드 임차 서비스",
       "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html"
     },
     {
       "n": 4,
-      "title": "데일리시큐",
+      "title": "Tenda 공유기 펌웨어 관리자 백도어 발견",
       "url": "https://www.dailysecu.com/news/articleView.html?idxno=207490"
     },
     {
       "n": 5,
-      "title": "Suspected China-Aligned Hackers Exploit",
+      "title": "Roundcube 플로우 악용 대학 캠페인 (중국 계열)",
       "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html"
     },
     {
       "n": 6,
-      "title": "AI-Generated Malware Powers New Armored Likho APT Campaign",
+      "title": "Armored Likho APT AI 생성 멀웨어 캠페인",
       "url": "https://securityaffairs.com/194854/apt/ai-generated-malware-powers-new-armored-likho-apt-campaign.html"
     },
     {
       "n": 7,
-      "title": "Writer AI Flaw Could Let Agent Previews",
+      "title": "Writer AI 플랫폼 멀티테넌트 격리 실패",
       "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html"
     },
     {
