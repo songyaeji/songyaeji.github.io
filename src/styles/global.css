@@ -371,6 +371,9 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   align-items: start;
 }
 
+/* education 내용을 열 오른쪽 끝에 붙여 페이지 좌우 여백 대칭 */
+.home-row-2 > section:last-child { justify-self: end; }
+
 /* home-row-2 왼쪽 열 — achievements + awards 세로 스택 */
 .home-col { display: grid; gap: 2.2rem; align-content: start; }
 
