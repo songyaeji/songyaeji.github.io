@@ -25,7 +25,8 @@
      키워드(#금융 등)가 시스템에 따라 tofu(□)로 깨진다 */
   --mono: 'IBM Plex Mono', 'Pretendard Variable', Pretendard, ui-monospace, monospace;
   --sans: 'Pretendard Variable', Pretendard, 'Inter', system-ui, sans-serif;
-  --maxw: 1440px;
+  /* 1320px — home 콘텐츠 자연 폭에 맞춰 좌우 여백이 저절로 대칭이 되는 값 */
+  --maxw: 1320px;
 }
 
 * {
@@ -366,13 +367,11 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   display: grid;
   /* 고정 비율 두 열 — awards가 남는 폭을 전부 먹고 education을
      화면 끝까지 밀어내지 않게 한다 */
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  /* education 열은 내용 폭만큼만 — 남는 공간이 열 안쪽 빈틈으로 남지 않게 */
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 4.5rem;
   align-items: start;
 }
-
-/* education 내용을 열 오른쪽 끝에 붙여 페이지 좌우 여백 대칭 */
-.home-row-2 > section:last-child { justify-self: end; }
 
 /* home-row-2 왼쪽 열 — achievements + awards 세로 스택 */
 .home-col { display: grid; gap: 2.2rem; align-content: start; }
