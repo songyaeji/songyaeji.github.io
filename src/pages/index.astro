@@ -86,21 +86,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
       </section>
 
       <div class="home-row-2">
-        <section>
-          <p class="cli-label">cat education_research.md</p>
-          <h2 class="sec-title">Education &amp; Research</h2>
-          <ul class="timeline">
-            {
-              profile.education.map((e) => (
-                <li class={e.period.includes('present') ? 'current' : undefined}>
-                  <div class="period">{e.period}</div>
-                  <div class="t-title">{e.degree}</div>
-                  <div class="t-detail">{e.school}</div>
-                </li>
-              ))
-            }
-          </ul>
-        </section>
         <section id="awards">
           <p class="cli-label">ls awards/</p>
           <h2 class="sec-title">Awards</h2>
@@ -114,6 +99,21 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
                     <div class="t-sub">{a.by}</div>
                     <div class="t-date">{a.date}</div>
                   </div>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+        <section>
+          <p class="cli-label">cat education_research.md</p>
+          <h2 class="sec-title">Education &amp; Research</h2>
+          <ul class="timeline">
+            {
+              profile.education.map((e) => (
+                <li class={e.period.includes('present') ? 'current' : undefined}>
+                  <div class="period">{e.period}</div>
+                  <div class="t-title">{e.degree}</div>
+                  <div class="t-detail">{e.school}</div>
                 </li>
               ))
             }
