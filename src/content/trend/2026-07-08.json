@@ -3,7 +3,93 @@
   "issue_no": 1,
   "briefing": null,
   "keywords": ["금융", "AI", "APT"],
-  "links": [],
+  "links": [
+    {
+      "n": 1,
+      "title": "보안뉴스",
+      "url": "https://www.boannews.com/media/view.asp?idx=144544&kind=&sub_kind="
+    },
+    {
+      "n": 2,
+      "title": "CVE-2026-54602",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54602"
+    },
+    {
+      "n": 3,
+      "title": "Redwing MaaS Packages Android Banking Trojan",
+      "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html"
+    },
+    {
+      "n": 4,
+      "title": "데일리시큐",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207490"
+    },
+    {
+      "n": 5,
+      "title": "Suspected China-Aligned Hackers Exploit",
+      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html"
+    },
+    {
+      "n": 6,
+      "title": "AI-Generated Malware Powers New Armored Likho APT Campaign",
+      "url": "https://securityaffairs.com/194854/apt/ai-generated-malware-powers-new-armored-likho-apt-campaign.html"
+    },
+    {
+      "n": 7,
+      "title": "Writer AI Flaw Could Let Agent Previews",
+      "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-40141 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40141"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-40139 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40139"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-48746 (CVSS 9.1)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48746"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-41523 (CVSS 7.5)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41523"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-3823 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3823"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-14345 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14345"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-53481 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53481"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-53483 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53483"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-33264 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33264"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-26292 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26292"
+    }
+  ],
   "cards": [
     "card_01.jpg",
     "card_02.jpg",
