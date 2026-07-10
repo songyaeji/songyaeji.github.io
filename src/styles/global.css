@@ -153,7 +153,7 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .avatar {
   width: 172px;
   height: 172px;
-  border-radius: 26px;
+  border-radius: 50%;
   object-fit: cover;
   background: var(--surface);
   box-shadow: var(--shadow-1);
