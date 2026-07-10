@@ -1,23 +1,30 @@
 {
   "date": "2026-07-09",
   "issue_no": 2,
-  "briefing": "Android 17의 심각한 루팅 취약점이 공개되었다. Nebula Security의 IonStack 익스플로잇은 악성 URL 클릭으로 브라우저에서 커널까지 공격 경로를 제공한다. 루트 권한 획득으로 스마트폰 전체 제어가 가능해진다.",
-  "keywords": [
-    "안드로이드취약점",
-    "루팅익스플로잇",
-    "권한상승",
-    "커널공격"
-  ],
+  "briefing": "SCMBANKER 악성코드가 ClickFix 피싱으로 멕시코 금융권을 노리고, 15년 된 Linux 커널 결함 GhostLock은 root 권한 탈취를 허용한다. EvilTokens 유령 피싱은 이메일 보안 솔루션을 회피하고, HalluSquatting은 AI 코딩 어시스턴트의 환각을 악용해 악성 패키지를 설치시킨다.",
+  "keywords": ["금융", "피싱", "권한상승", "공급망공격"],
   "links": [
-    {
-      "n": 1,
-      "title": "IonStack Exploit Chain Lets Hackers Root Android 17 Phones With a Single URL Click",
-      "url": "https://gbhackers.com/ionstack-exploit-chain/"
-    }
+    { "n": 1, "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users", "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html" },
+    { "n": 2, "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros", "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html" },
+    { "n": 3, "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security", "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html" },
+    { "n": 4, "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware", "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html" },
+    { "n": 5, "title": "CVE-2026-27893 — vLLM 원격 코드 실행 정책 우회 (CVSS 8.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27893" },
+    { "n": 6, "title": "CVE-2026-54763 — Traefik 리버스 프록시 인증 우회 취약점 (CVSS 10.0)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54763" },
+    { "n": 7, "title": "CVE-2026-32871 — FastMCP OpenAPI 서버 요청 위조 (CVSS 10.0)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32871" },
+    { "n": 8, "title": "CVE-2026-41283 — OpenStack Mistral 임의 코드 실행 (CVSS 9.9)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41283" },
+    { "n": 9, "title": "CVE-2026-33784 — Juniper JSI 가상 수집기 기본 비밀번호 원격 제어 취약점 (CVSS 9.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33784" },
+    { "n": 10, "title": "CVE-2026-47103 — Python StateMachine 라이브러리 원격 코드 실행 (CVSS 9.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47103" },
+    { "n": 11, "title": "CVE-2026-9701 (CVSS 9.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9701" },
+    { "n": 12, "title": "CVE-2026-12153 (CVSS 9.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12153" },
+    { "n": 13, "title": "CVE-2026-9695 (CVSS 9.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9695" },
+    { "n": 14, "title": "CVE-2026-31402 (CVSS 9.8)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31402" }
   ],
   "cards": [
     "card_01.png",
     "card_02.png",
-    "card_03.png"
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png"
   ]
 }
