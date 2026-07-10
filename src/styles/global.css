@@ -143,8 +143,8 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   gap: 4.5rem;
   padding-top: 2rem;
   padding-bottom: 2.2rem;
-  /* 전체를 살짝 오른쪽으로 — 크기·간격은 그대로 두고 위치만 이동 */
-  padding-left: 3.375rem;
+  /* 전체를 오른쪽으로 이동해 좌우 여백 대칭 — 크기·간격은 그대로 */
+  padding-left: 5.35rem;
 }
 
 /* home-main 내부 세로 간격 압축 — 첫 화면에 전체가 들어오게 */
