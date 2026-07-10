@@ -151,8 +151,8 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .identity { display: grid; justify-items: center; gap: 0.9rem; text-align: center; }
 
 .avatar {
-  width: 172px;
-  height: 172px;
+  width: 224px;
+  height: 224px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--surface);
