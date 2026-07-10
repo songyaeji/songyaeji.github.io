@@ -369,8 +369,8 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   align-items: start;
 }
 
-/* awards 하단 전폭 — 좌우 균형 위해 타일 2열로 채움 */
-#awards .tile-list { grid-template-columns: repeat(2, 1fr); }
+/* home-row-2 왼쪽 열 — achievements + awards 세로 스택 */
+.home-col { display: grid; gap: 2.2rem; align-content: start; }
 
 .interest-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
 
@@ -887,7 +887,6 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 @media (max-width: 860px) {
   .home-grid { grid-template-columns: 1fr; gap: 2.4rem; }
   .home-row-2 { grid-template-columns: 1fr; gap: 2.2rem; }
-  #awards .tile-list { grid-template-columns: 1fr; }
   .site-header .wrap { height: auto; padding: 0.6rem 1rem; flex-direction: column; gap: 0.35rem; }
   .site-header nav { flex-wrap: wrap; justify-content: center; }
   .wrap { padding: 0 1.25rem; }
