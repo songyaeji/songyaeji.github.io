@@ -88,7 +88,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
       <div class="home-row-2">
         <section id="awards">
           <p class="cli-label">ls awards/</p>
-          <h2 class="sec-title">Awards</h2>
           <ul class="tile-list">
             {
               profile.awards.map((a) => (
@@ -106,7 +105,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         </section>
         <section>
           <p class="cli-label">cat education_research.md</p>
-          <h2 class="sec-title">Education &amp; Research</h2>
           <ul class="timeline">
             {
               profile.education.map((e) => (
