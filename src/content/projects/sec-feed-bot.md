@@ -1,5 +1,5 @@
 ---
-title: Trend of Security — Discord Feed Bot
+title: Trend of Security - Discord Bot
 summary: 보안 뉴스·취약점 피드 20여 종을 매일 카드뉴스로 브리핑하는 자동화 봇.
 year: 2026
 category: tool

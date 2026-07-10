@@ -1,5 +1,5 @@
 ---
-title: Nuclei Templates — OSS Contribution
+title: Nuclei Templates
 summary: projectdiscovery/nuclei-templates에 보안 점검 템플릿 merged PR 18건 기여.
 year: 2025
 category: oss
