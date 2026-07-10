@@ -368,7 +368,7 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   /* awards 열 폭 상한 — education을 왼쪽으로 당겨 우측 여백 확보 */
   grid-template-columns: minmax(0, 460px) auto;
   justify-content: start;
-  gap: 4.5rem;
+  gap: 3rem;
   align-items: start;
 }
 
