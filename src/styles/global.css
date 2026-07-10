@@ -25,7 +25,7 @@
      키워드(#금융 등)가 시스템에 따라 tofu(□)로 깨진다 */
   --mono: 'IBM Plex Mono', 'Pretendard Variable', Pretendard, ui-monospace, monospace;
   --sans: 'Pretendard Variable', Pretendard, 'Inter', system-ui, sans-serif;
-  --maxw: 1600px;
+  --maxw: 1440px;
 }
 
 * {
@@ -368,6 +368,9 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   gap: 4.5rem;
   align-items: start;
 }
+
+/* awards 하단 전폭 — 좌우 균형 위해 타일 2열로 채움 */
+#awards .tile-list { grid-template-columns: repeat(2, 1fr); }
 
 .interest-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
 
@@ -884,6 +887,7 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 @media (max-width: 860px) {
   .home-grid { grid-template-columns: 1fr; gap: 2.4rem; }
   .home-row-2 { grid-template-columns: 1fr; gap: 2.2rem; }
+  #awards .tile-list { grid-template-columns: 1fr; }
   .site-header .wrap { height: auto; padding: 0.6rem 1rem; flex-direction: column; gap: 0.35rem; }
   .site-header nav { flex-wrap: wrap; justify-content: center; }
   .wrap { padding: 0 1.25rem; }

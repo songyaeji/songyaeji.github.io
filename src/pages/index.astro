@@ -70,37 +70,19 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         <p class="philosophy">{profile.philosophy}</p>
       </section>
 
-      <section aria-label="주요 성과 요약">
-        <p class="cli-label">wc -l achievements/*</p>
-        <ul class="proof-strip">
-          <li>
-            <a href="/publications/"><b class="n">3</b><span>Publications</span></a>
-          </li>
-          <li>
-            <a href="#awards"><b class="n">2</b><span>Awards</span></a>
-          </li>
-          <li>
-            <a href="/projects/"><b class="n">18</b><span>Open Source Contribution</span></a>
-          </li>
-        </ul>
-      </section>
-
       <div class="home-row-2">
-        <section id="awards">
-          <p class="cli-label">ls awards/</p>
-          <ul class="tile-list">
-            {
-              profile.awards.map((a) => (
-                <li class="tile tile-row">
-                  <Icon name="trophy" size={15} />
-                  <div>
-                    <div class="t-name">{a.title}</div>
-                    <div class="t-sub">{a.by}</div>
-                    <div class="t-date">{a.date}</div>
-                  </div>
-                </li>
-              ))
-            }
+        <section aria-label="주요 성과 요약">
+          <p class="cli-label">wc -l achievements/*</p>
+          <ul class="proof-strip">
+            <li>
+              <a href="/publications/"><b class="n">3</b><span>Publications</span></a>
+            </li>
+            <li>
+              <a href="#awards"><b class="n">2</b><span>Awards</span></a>
+            </li>
+            <li>
+              <a href="/projects/"><b class="n">18</b><span>Open Source Contribution</span></a>
+            </li>
           </ul>
         </section>
         <section>
@@ -118,6 +100,24 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
           </ul>
         </section>
       </div>
+
+      <section id="awards">
+        <p class="cli-label">ls awards/</p>
+        <ul class="tile-list">
+          {
+            profile.awards.map((a) => (
+              <li class="tile tile-row">
+                <Icon name="trophy" size={15} />
+                <div>
+                  <div class="t-name">{a.title}</div>
+                  <div class="t-sub">{a.by}</div>
+                  <div class="t-date">{a.date}</div>
+                </div>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
     </div>
   </div>
 
