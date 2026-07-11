@@ -17,7 +17,6 @@ export interface Pick {
 export const pickSections: { key: PickCategory; cmd: string }[] = [
   { key: 'skill', cmd: 'ls picks/skills/' },
   { key: 'mcp', cmd: 'ls picks/mcp/' },
-  { key: 'harness', cmd: 'ls picks/harness-engineering/' },
   { key: 'article', cmd: 'ls picks/articles/' },
 ];
 
@@ -43,12 +42,6 @@ export const picks: Pick[] = [
     name: '(예시) Context7 MCP',
     category: 'mcp',
     link: 'https://github.com/upstash/context7',
-    tagline: '예시 항목 — 교체 필요',
-    reason: '여기에 추천 이유 작성.',
-  },
-  {
-    name: '(예시) 스크린샷 검증 루프',
-    category: 'harness',
     tagline: '예시 항목 — 교체 필요',
     reason: '여기에 추천 이유 작성.',
   },

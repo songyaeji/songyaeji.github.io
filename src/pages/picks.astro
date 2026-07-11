@@ -3,33 +3,29 @@ import Base from '../layouts/Base.astro';
 import { picks, pickSections } from '../data/picks';
 ---
 
-<Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·harness engineering 모음">
+<Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·articles 모음">
   <div class="page wrap">
     <p class="cli-label">cat picks.md</p>
-    <h1 class="sr-only">Picks</h1>
-    <p class="lede">직접 써보고 좋았던 AI skills · MCP · harness engineering을 이유와 함께 정리합니다.</p>
-    {
-      pickSections.map((s) => {
-        const group = picks.filter((p) => p.category === s.key);
-        return (
-          group.length > 0 && (
+    <h1 class="page-title">Picks</h1>
+    <p class="lede">직접 써보고 좋았던 AI skills · MCP · articles 모음입니다.</p>
+    <div class="pick-columns">
+      {
+        pickSections.map((s) => {
+          const group = picks.filter((p) => p.category === s.key);
+          return (
             <section class="pick-section">
               <p class="cli-label">{s.cmd}</p>
               <ul class="pick-list">
                 {group.map((p) => (
                   <li class="pick">
-                    <div class="pick-head">
-                      {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
-                      <span class="pick-tagline">{p.tagline}</span>
-                    </div>
-                    <p class="pick-reason">{p.reason}</p>
+                    {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
                   </li>
                 ))}
               </ul>
             </section>
-          )
-        );
-      })
-    }
+          );
+        })
+      }
+    </div>
   </div>
 </Base>
