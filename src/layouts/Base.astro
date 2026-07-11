@@ -34,6 +34,7 @@ const isCurrent = (href: string) =>
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={new URL(path, Astro.site)} />
+    <meta property="og:image" content={new URL(profile.avatar, Astro.site)} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link
       rel="stylesheet"
@@ -47,6 +48,7 @@ const isCurrent = (href: string) =>
     />
   </head>
   <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
     <header class="site-header">
       <div class="wrap">
         <a class="brand" href="/">yaeji@sec<span class="tilde">:~$</span></a>
@@ -62,7 +64,7 @@ const isCurrent = (href: string) =>
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <slot />
     </main>
 

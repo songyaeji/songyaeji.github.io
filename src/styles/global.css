@@ -79,6 +79,22 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
   padding: 0 2rem;
 }
 
+/* 키보드 사용자용 본문 건너뛰기 — 포커스 전에는 화면 밖 */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 30;
+  background: var(--ink);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 0 0 8px 8px;
+  padding: 0.5rem 1rem;
+}
+
+.skip-link:focus-visible { top: 0; outline-color: var(--yellow); }
+
 /* ---------- header ---------- */
 .site-header {
   position: sticky;
@@ -629,6 +645,9 @@ p a:hover, .caption a:hover, .more:hover, .mini a:hover {
 .pick-head { display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; }
 .pick-head a,
 .pick-name { font-weight: 700; font-size: 0.95rem; color: var(--ink); }
+/* 링크인 항목은 링크로 보이게 — 이름만 있는 항목과 시각적으로 구분 */
+.pick-head a { box-shadow: inset 0 -2px 0 var(--yellow); }
+.pick-head a:hover { background: var(--yellow-soft); }
 .pick-tagline { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
 .pick-reason { margin: 0.55rem 0 0; font-size: 0.9rem; color: var(--text); }
 
