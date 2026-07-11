@@ -13,7 +13,7 @@ import { picks, pickSections } from '../data/picks';
         pickSections.map((s) => {
           const group = picks.filter((p) => p.category === s.key);
           return (
-            <section class="pick-section">
+            <section class="pick-section" data-cat={s.key}>
               <p class="cli-label">{s.cmd}</p>
               <ul class="pick-list">
                 {group.map((p) => (

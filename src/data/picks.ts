@@ -31,14 +31,6 @@ export const picks: Pick[] = [
     reason:
       'Claude Code 응답에서 관사·수식어·인사말 같은 군더더기를 걷어내고 기술적 실질만 남기는 플러그인. 세션마다 출력이 짧아져 토큰이 절약되고, 긴 작업에서 요점 파악이 빨라진다. 코드·커밋 메시지·보안 경고는 정상 문장으로 유지되어 실사용에 지장이 없다.',
   },
-  {
-    name: 'ECC (everything-claude-code)',
-    category: 'skill',
-    link: 'https://github.com/affaan-m/everything-claude-code',
-    tagline: '에이전트·스킬·훅·룰 올인원 팩',
-    reason:
-      '코드리뷰·보안리뷰·빌드 에러 해결 등 역할별 서브에이전트와 언어별 룰셋, TDD·커밋 규약 같은 워크플로 스킬을 한 번에 설치하는 종합 팩. 프로젝트마다 규칙을 새로 쓰는 대신 검증된 기본값 위에서 시작할 수 있다.',
-  },
   // ---------- mcp ----------
   {
     name: 'Context7',
@@ -65,6 +57,14 @@ export const picks: Pick[] = [
       'PR 생성·리뷰 코멘트·이슈 트리아지를 에이전트에 위임할 때 표준 선택지. gh CLI보다 구조화된 응답을 받아 후속 자동화에 잇기 좋다.',
   },
   // ---------- tools ----------
+  {
+    name: 'ECC (everything-claude-code)',
+    category: 'tool',
+    link: 'https://github.com/affaan-m/everything-claude-code',
+    tagline: '에이전트·스킬·훅·룰 올인원 팩',
+    reason:
+      '코드리뷰·보안리뷰·빌드 에러 해결 등 역할별 서브에이전트와 언어별 룰셋, TDD·커밋 규약 같은 워크플로 스킬을 한 번에 설치하는 종합 팩. 프로젝트마다 규칙을 새로 쓰는 대신 검증된 기본값 위에서 시작할 수 있다.',
+  },
   {
     name: 'Orca',
     category: 'tool',
