@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-11",
+  "issue_no": 4,
+  "briefing": "주요 플랫폼들(Google Chrome, WordPress, Microsoft Defender)에서 원격 코드 실행과 샌드박스 탈출 같은 중대 취약점들이 집중 발견되고 있다. 동시에 피해자 기기를 주거용 프록시로 악용하려는 고도화된 트로이목마 캠페인도 활동 중이다. 카카오톡 소스코드 유출 의혹은 정보유출 정황 부재로 해명되었다.",
+  "keywords": [
+    "크롬샌드박스탈출",
+    "플러그인파일업로드RCE",
+    "디펜더권한상향",
+    "주거용프록시악용",
+    "이커머스SQL인젝션"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Fake VPN and 7-Zip Apps Turn Victims Into Residential Proxy Nodes",
+      "url": "https://securityaffairs.com/194990/malware/fake-vpn-and-7-zip-apps-turn-victims-into-residential-proxy-nodes.html"
+    },
+    {
+      "n": 2,
+      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+      "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+    },
+    {
+      "n": 3,
+      "title": "[단독] 다크웹에 ‘카카오톡 소스코드 판매’ 주장…카카오 “해킹·정보유출 정황 없다”",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207523"
+    },
+    {
+      "n": 4,
+      "title": "CVE-2026-15113 (CVSS 9.6)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15113"
+    },
+    {
+      "n": 5,
+      "title": "CVE-2026-15158 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15158"
+    },
+    {
+      "n": 6,
+      "title": "CVE-2026-5955 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5955"
+    },
+    {
+      "n": 7,
+      "title": "CVE-2026-2342 (CVSS 9.3)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2342"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png"
+  ]
+}
