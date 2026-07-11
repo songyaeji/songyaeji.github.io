@@ -2,7 +2,7 @@
 // reason은 본인 경험 기반 주관 평가라 코드가 아닌 데이터로 분리해
 // 수정 부담을 없앤다.
 
-export type PickCategory = 'skill' | 'mcp' | 'harness' | 'article';
+export type PickCategory = 'skill' | 'mcp' | 'harness' | 'tool' | 'article';
 
 export interface Pick {
   name: string;
@@ -17,6 +17,7 @@ export interface Pick {
 export const pickSections: { key: PickCategory; cmd: string }[] = [
   { key: 'skill', cmd: 'ls picks/skills/' },
   { key: 'mcp', cmd: 'ls picks/mcp/' },
+  { key: 'tool', cmd: 'ls picks/tools/' },
   { key: 'article', cmd: 'ls picks/articles/' },
 ];
 
@@ -62,6 +63,15 @@ export const picks: Pick[] = [
     tagline: 'PR·이슈·CI를 대화 안에서 처리',
     reason:
       'PR 생성·리뷰 코멘트·이슈 트리아지를 에이전트에 위임할 때 표준 선택지. gh CLI보다 구조화된 응답을 받아 후속 자동화에 잇기 좋다.',
+  },
+  // ---------- tools ----------
+  {
+    name: 'Orca',
+    category: 'tool',
+    link: 'https://github.com/stablyai/orca',
+    tagline: '코딩 에이전트 병렬 실행 오케스트레이션 ADE',
+    reason:
+      '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 고를 수 있는 데스크톱 앱. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄여준다.',
   },
   // ---------- articles ----------
   {

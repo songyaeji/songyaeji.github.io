@@ -26,9 +26,9 @@ export const profile = {
   philosophy: '보안은 +를 만드는 일이 아닌 −를 막아 0을 지키는 일입니다.',
   contact: {
     github: 'https://github.com/songyaeji',
+    linkedin: 'https://www.linkedin.com/in/yaeji-song-angma/',
     email: 'skaehdlf0318@gmail.com',
     lab: 'https://sites.google.com/view/siftlab/home',
-    // TODO: LinkedIn 프로필 URL 확보 시 항목 추가
   },
   // type: 'school'(경희대 소속 활동) vs 'external'(대외 교육·훈련 프로그램) — 홈에서 구분 표시
   education: [

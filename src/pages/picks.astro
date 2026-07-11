@@ -3,11 +3,11 @@ import Base from '../layouts/Base.astro';
 import { picks, pickSections } from '../data/picks';
 ---
 
-<Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·articles 모음">
+<Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·tools·articles 모음">
   <div class="page wrap">
     <p class="cli-label">cat picks.md</p>
     <h1 class="page-title">Picks</h1>
-    <p class="lede">직접 써보고 좋았던 AI skills · MCP · articles 모음입니다.</p>
+    <p class="lede">직접 써보고 좋았던 AI skills · MCP · tools · articles 모음입니다.</p>
     <div class="pick-columns">
       {
         pickSections.map((s) => {
