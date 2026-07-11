@@ -38,11 +38,15 @@ const past = issues.slice(1);
             <table class="data-table" id="archive-table">
               <thead>
                 <tr>
-                  <th data-sort="num" scope="col">
-                    NO.<span class="sort-icon" aria-hidden="true">↕</span>
+                  <th scope="col" aria-sort="none">
+                    <button type="button" data-sort="num">
+                      NO.<span class="sort-icon" aria-hidden="true">↕</span>
+                    </button>
                   </th>
-                  <th data-sort="date" scope="col">
-                    Date<span class="sort-icon" aria-hidden="true">↓</span>
+                  <th scope="col" aria-sort="descending">
+                    <button type="button" data-sort="date">
+                      Date<span class="sort-icon" aria-hidden="true">↓</span>
+                    </button>
                   </th>
                   <th scope="col">Keywords</th>
                 </tr>
@@ -68,15 +72,16 @@ const past = issues.slice(1);
   </div>
 
   <script is:inline>
-    // 아카이브 테이블 정렬 — 헤더 클릭으로 오름/내림 토글 (기본: Date 내림차순)
+    // 아카이브 테이블 정렬 — 버튼 클릭(키보드 포함)으로 오름/내림 토글 (기본: Date 내림차순)
+    // th의 aria-sort를 함께 갱신해 스크린리더에 현재 정렬 상태를 알린다
     (() => {
       const table = document.getElementById('archive-table');
       if (!table) return;
       const tbody = table.tBodies[0];
       const state = { key: 'date', dir: -1 };
-      table.querySelectorAll('th[data-sort]').forEach((th) => {
-        th.addEventListener('click', () => {
-          const key = th.dataset.sort;
+      table.querySelectorAll('th button[data-sort]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const key = btn.dataset.sort;
           state.dir = state.key === key ? -state.dir : -1;
           state.key = key;
           [...tbody.rows]
@@ -87,8 +92,12 @@ const past = issues.slice(1);
               return cmp * state.dir;
             })
             .forEach((r) => tbody.appendChild(r));
-          table.querySelectorAll('th[data-sort] .sort-icon').forEach((i) => (i.textContent = '↕'));
-          th.querySelector('.sort-icon').textContent = state.dir === -1 ? '↓' : '↑';
+          table.querySelectorAll('th button[data-sort]').forEach((b) => {
+            b.querySelector('.sort-icon').textContent = '↕';
+            b.closest('th').setAttribute('aria-sort', 'none');
+          });
+          btn.querySelector('.sort-icon').textContent = state.dir === -1 ? '↓' : '↑';
+          btn.closest('th').setAttribute('aria-sort', state.dir === -1 ? 'descending' : 'ascending');
         });
       });
     })();

@@ -19,6 +19,11 @@ import { picks, pickSections } from '../data/picks';
                 {group.map((p) => (
                   <li class="pick">
                     {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
+                    <p class="pick-tagline">{p.tagline}</p>
+                    <details>
+                      <summary>why</summary>
+                      <p class="pick-reason">{p.reason}</p>
+                    </details>
                   </li>
                 ))}
               </ul>
