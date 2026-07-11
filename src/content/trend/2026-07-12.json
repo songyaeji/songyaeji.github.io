@@ -1,0 +1,80 @@
+{
+  "date": "2026-07-12",
+  "issue_no": 5,
+  "briefing": "가짜 VPN과 변조된 7-Zip을 통한 악성 앱 유포부터 소프트웨어 및 IoT 기기의 고위험 취약점까지 다층적인 사이버 위협이 발견되었다. CVSS 9.0 이상의 RCE, 인증 우회, 권한 상향 취약점이 집중적으로 보고되었으며, 엔드포인트부터 임베디드 기기까지 광범위하게 노출되었다. 악성 앱 배포와 미패치 취약점에 대한 긴급 보안 대응이 필수적이다.",
+  "keywords": [
+    "악성앱유포",
+    "RCE",
+    "인증우회취약점",
+    "IoT기기취약점",
+    "권한상향취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Fake VPN and 7-Zip Apps Turn Victims Into Residential Proxy Nodes",
+      "url": "https://securityaffairs.com/194990/malware/fake-vpn-and-7-zip-apps-turn-victims-into-residential-proxy-nodes.html"
+    },
+    {
+      "n": 2,
+      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+      "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+    },
+    {
+      "n": 3,
+      "title": "CVE-2026-54782 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54782"
+    },
+    {
+      "n": 4,
+      "title": "CVE-2026-14261 (CVSS 9.1)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14261"
+    },
+    {
+      "n": 5,
+      "title": "CVE-2026-15158 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15158"
+    },
+    {
+      "n": 6,
+      "title": "CVE-2026-5955 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5955"
+    },
+    {
+      "n": 7,
+      "title": "CVE-2026-52200 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52200"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-15113 (CVSS 9.6)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15113"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2025-27462 (CVSS N/A)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27462"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-37270 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37270"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-37271 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37271"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-2342 (CVSS 9.3)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2342"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png"
+  ]
+}
