@@ -14,6 +14,9 @@ export interface Pick {
   reason: string;
 }
 
+/** Picks를 마지막으로 손본 날짜 — "이 날짜 기준으로 고른 목록"임을 밝힌다. */
+export const picksUpdated = '2026-07-12';
+
 export const pickSections: { key: PickCategory; cmd: string }[] = [
   { key: 'skill', cmd: 'ls picks/skills/' },
   { key: 'mcp', cmd: 'ls picks/mcp/' },
@@ -74,6 +77,30 @@ export const picks: Pick[] = [
       '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 고를 수 있는 데스크톱 앱. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄여준다.',
   },
   // ---------- articles ----------
+  {
+    name: '금융분야 AI 보안 가이드라인 — 금융보안원',
+    category: 'article',
+    link: 'https://www.korea.kr/archive/expDocView.do?docId=40456',
+    tagline: '금융권 AI 서비스 개발주기별 보안 고려사항 + 챗봇 보안성 체크리스트',
+    reason:
+      '금융보안원이 발간한 국내 금융권 AI 보안의 기준 문서. 학습 데이터 수집·전처리, 모델 설계·학습, 검증·평가 단계별 보안 고려사항과 AI 챗봇 서비스 보안성 자체점검 항목을 제공한다. 금융 도메인에서 AI 보안 리뷰를 설계할 때 위협 범위와 통제 항목을 맞추는 출발점으로 삼는다.',
+  },
+  {
+    name: '2025년 AI 레드팀 보고서 — 금융보안원',
+    category: 'article',
+    link: 'https://www.dailysecu.com/news/articleView.html?idxno=203865',
+    tagline: '금융 AI 모델 제3자 레드티밍 결과 — 세대별 공격에 대한 실측 취약성',
+    reason:
+      '국내 금융권 최초의 체계적 AI 레드티밍 결과. 공격을 1~4세대(단순 우회 → 자동 프롬프트 생성 → 긴 문맥 인지 조작·RAG 지식베이스 오염)로 분류하고, 금융 AI가 1~2세대엔 잘 버티지만 3세대 이상 고도화 공격엔 안전장치가 무력화되는 경향을 실측으로 보여준다. AI 보안 위협을 "막연히 위험"이 아니라 세대별로 나눠 평가하게 해준다.',
+  },
+  {
+    name: '금융권 안전한 AI 활용 — 보안성 검증체계 — 금융보안원',
+    category: 'article',
+    link: 'https://www.fsec.or.kr/bbs/detail?menuNo=69&bbsNo=11629',
+    tagline: '혁신금융서비스 보안대책 평가 + 모의공격 기반 AI 모델 보안성 검증',
+    reason:
+      '금융회사가 실제로 쓰는 AI 모델에 조작된 질의로 모의 공격을 수행해 취약점을 찾는 보안성 검증 실무를 정리한 자료. 망분리 예외 구간에서의 생성형 AI 활용, 연합학습 기반 사기탐지 공동모델 등 규제 환경에서 AI를 안전하게 태우는 제도적·기술적 통제를 함께 볼 수 있다.',
+  },
   {
     name: 'The Lethal Trifecta for AI Agents — Simon Willison',
     category: 'article',

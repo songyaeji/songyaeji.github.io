@@ -1,6 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
-import { picks, pickSections } from '../data/picks';
+import { picks, pickSections, picksUpdated } from '../data/picks';
+
+const [uy, um, ud] = picksUpdated.split('-');
+const updatedLabel = `${uy}년 ${Number(um)}월 ${Number(ud)}일`;
 ---
 
 <Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·tools·articles 모음">
@@ -8,6 +11,10 @@ import { picks, pickSections } from '../data/picks';
     <p class="cli-label">cat picks.md</p>
     <h1 class="page-title">Picks</h1>
     <p class="lede">직접 써보고 좋았던 AI skills · MCP · tools · articles 모음입니다.</p>
+    <p class="picks-updated">
+      <span class="cli-label">git log -1 --format=%cd</span>
+      <time datetime={picksUpdated}>{updatedLabel}</time> 기준으로 고른 목록입니다.
+    </p>
     <div class="pick-columns">
       {
         pickSections.map((s) => {
