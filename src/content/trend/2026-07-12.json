@@ -1,44 +1,68 @@
 {
   "date": "2026-07-12",
   "issue_no": 5,
-  "briefing": "Windows, WordPress, 전자상거래 솔루션 등 다양한 플랫폼에서 CVSS 9 이상의 높은 심각도 취약점들이 연달아 발견되었다. 미인증 파일 업로드, SQL 인젝션, 저장 XSS, 사용 후 해제 등 다양한 공격 벡터를 통해 원격 코드 실행, 데이터베이스 접근, 세션 탈취가 가능하다. 모든 항목이 공개 후 또는 발견 직후 보안 업데이트 대상이 되어 즉시 대응이 필수이다.",
+  "briefing": "오늘 보도된 보안 취약점들은 Linux 커널의 메모리 관리 및 동시성 제어 계층에서의 광범위한 설계 결함을 드러낸다. 범위 초과 접근·정수 오버플로우·사용 후 해제·경합 조건 등 다양한 메모리 안전 문제가 권한상향부터 서비스 거부까지 심각한 피해를 야기할 수 있다. 특히 가상화·암호화·네트워킹·GPU 드라이버 등 저수준 인터페이스에서 안전 검증이 부족한 것으로 보인다.",
   "keywords": [
-    "RCE",
-    "SQL인젝션",
-    "저장XSS",
-    "미인증파일업로드",
-    "샌드박스탈출"
+    "권한상향취약점",
+    "사용후해제",
+    "범위초과접근",
+    "경합조건",
+    "정수오버플로우"
   ],
   "links": [
     {
       "n": 1,
-      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-      "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+      "title": "CVE-2026-52969 (CVSS 7.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52969"
     },
     {
       "n": 2,
-      "title": "CVE-2026-15158 (CVSS 9.8)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15158"
+      "title": "CVE-2026-52959 (CVSS 7.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52959"
     },
     {
       "n": 3,
-      "title": "CVE-2026-5955 (CVSS 9.8)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5955"
+      "title": "CVE-2026-52971 (CVSS 7.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52971"
     },
     {
       "n": 4,
-      "title": "CVE-2026-2342 (CVSS 9.3)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2342"
+      "title": "CVE-2026-52976 (CVSS 7.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52976"
     },
     {
       "n": 5,
-      "title": "CVE-2026-15113 (CVSS 9.6)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15113"
+      "title": "CVE-2026-52987 (CVSS 7.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52987"
+    },
+    {
+      "n": 6,
+      "title": "CVE-2026-52991 (CVSS 7.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52991"
+    },
+    {
+      "n": 7,
+      "title": "CVE-2026-52956 (CVSS 7.5)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52956"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-52988 (CVSS 7.1)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52988"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-52968 (CVSS N/A)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52968"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-52977 (CVSS N/A)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52977"
     }
   ],
   "cards": [
     "card_01.png",
-    "card_02.png",
-    "card_03.png"
+    "card_02.png"
   ]
 }
