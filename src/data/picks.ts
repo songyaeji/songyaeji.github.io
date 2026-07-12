@@ -12,6 +12,8 @@ export interface Pick {
   tagline: string;
   /** 추천 이유 — 직접 써보고 느낀 근거 위주로 작성 */
   reason: string;
+  /** 특히 중요한 항목 — 제목 앞에 노란 별로 강조 */
+  important?: boolean;
 }
 
 /** Picks를 마지막으로 손본 날짜 — "이 날짜 기준으로 고른 목록"임을 밝힌다. */
@@ -80,6 +82,7 @@ export const picks: Pick[] = [
   {
     name: '금융분야 AI 보안 가이드라인 — 금융보안원',
     category: 'article',
+    important: true,
     link: 'https://www.korea.kr/archive/expDocView.do?docId=40456',
     tagline: '금융권 AI 서비스 개발주기별 보안 고려사항 + 챗봇 보안성 체크리스트',
     reason:
@@ -88,6 +91,7 @@ export const picks: Pick[] = [
   {
     name: '2025년 AI 레드팀 보고서 — 금융보안원',
     category: 'article',
+    important: true,
     link: 'https://www.dailysecu.com/news/articleView.html?idxno=203865',
     tagline: '금융 AI 모델 제3자 레드티밍 결과 — 세대별 공격에 대한 실측 취약성',
     reason:
@@ -96,6 +100,7 @@ export const picks: Pick[] = [
   {
     name: '금융권 안전한 AI 활용 — 보안성 검증체계 — 금융보안원',
     category: 'article',
+    important: true,
     link: 'https://www.fsec.or.kr/bbs/detail?menuNo=69&bbsNo=11629',
     tagline: '혁신금융서비스 보안대책 평가 + 모의공격 기반 AI 모델 보안성 검증',
     reason:
@@ -104,6 +109,7 @@ export const picks: Pick[] = [
   {
     name: 'The Lethal Trifecta for AI Agents — Simon Willison',
     category: 'article',
+    important: true,
     link: 'https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/',
     tagline: '에이전트 프롬프트 인젝션 위험의 3요소 프레임',
     reason:
@@ -128,6 +134,7 @@ export const picks: Pick[] = [
   {
     name: 'OWASP Top 10 for LLM Applications',
     category: 'article',
+    important: true,
     link: 'https://genai.owasp.org/',
     tagline: 'LLM 애플리케이션 보안 위협 표준 분류',
     reason:

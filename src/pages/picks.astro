@@ -24,7 +24,8 @@ const updatedLabel = `${uy}년 ${Number(um)}월 ${Number(ud)}일`;
               <p class="cli-label">{s.cmd}</p>
               <ul class="pick-list">
                 {group.map((p) => (
-                  <li class="pick">
+                  <li class="pick" class:list={{ important: p.important }}>
+                    {p.important && <span class="pick-star" aria-label="중요" title="중요">⭐</span>}
                     {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
                     <p class="pick-tagline">{p.tagline}</p>
                     <details>

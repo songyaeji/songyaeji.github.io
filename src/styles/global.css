@@ -704,6 +704,10 @@ p a:hover {
 .pick a { box-shadow: inset 0 -2px 0 var(--yellow); }
 .pick a:hover { background: var(--yellow-soft); }
 
+/* 중요 항목 — 제목 앞 노란 별 강조 */
+.pick-star { font-size: 0.9em; margin-right: 0.3rem; line-height: 1; }
+.pick.important { border-color: var(--yellow); }
+
 /* 한 줄 요약 — 이름 아래 상시 노출 */
 .pick .pick-tagline { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.3rem; }
 
