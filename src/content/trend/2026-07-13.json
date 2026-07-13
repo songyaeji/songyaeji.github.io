@@ -1,34 +1,22 @@
 {
   "date": "2026-07-13",
-  "issue_no": 6,
-  "briefing": "Progress ShareFile, Microsoft Edge, Zephyr RTOS 등 주요 소프트웨어에서 원격 공격 가능한 고위험도 취약점이 발견되었다. Progress의 외부 위협 탐지에 따른 긴급 서버 종료 권고, Edge의 권한상향 취약점(CVSS 8.3), Zephyr RTOS의 스택 오버플로우(CVSS 8.1)로 인한 메모리 손상이 보고되어 조직 수준의 신속한 대응이 필요하다.",
+  "issue_no": 7,
+  "briefing": "Comfast 무선공유기 V3에서 명령 인젝션 취약점(CVSS 9.8)이 발견되었다. 공개 익스플로잇 존재와 벤더 미응답으로 대규모 기기 침해가 우려된다.",
   "keywords": [
-    "StorageZone외부위협",
-    "Edge권한상향",
-    "Zephyr스택오버플로우",
-    "메모리손상",
-    "원격코드실행"
+    "무선공유기RCE",
+    "명령인젝션",
+    "공개익스플로잇",
+    "벤더미응답"
   ],
   "links": [
     {
       "n": 1,
-      "title": "Progress Told ShareFile Customers to Pull the Plug on Their Servers. Here’s What We Know.",
-      "url": "https://securityaffairs.com/195194/hacking/progress-told-sharefile-customers-to-pull-the-plug-on-their-servers-heres-what-we-know.html"
-    },
-    {
-      "n": 2,
-      "title": "CVE-2026-58596 (CVSS 8.3)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58596"
-    },
-    {
-      "n": 3,
-      "title": "CVE-2026-10666 (CVSS 8.1)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10666"
+      "title": "CVE-2026-15511 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15511"
     }
   ],
   "cards": [
     "card_01.png",
-    "card_02.png",
-    "card_03.png"
+    "card_02.png"
   ]
 }
