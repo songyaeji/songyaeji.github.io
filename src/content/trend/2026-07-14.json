@@ -1,0 +1,120 @@
+{
+  "date": "2026-07-14",
+  "issue_no": 7,
+  "briefing": null,
+  "keywords": [
+    "제로데이",
+    "RCE",
+    "APT",
+    "금융"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/"
+    },
+    {
+      "n": 2,
+      "title": "The Proliferation of DarkSword: iOS Exploit Chain Adopted by Multiple Threat Actors",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/"
+    },
+    {
+      "n": 3,
+      "title": "미토스(Mythos) 위협에 대한 FAQ",
+      "url": "https://www.genians.co.kr/blog/mythos"
+    },
+    {
+      "n": 4,
+      "title": "Russia's FSB blamed for Poland grid attack as UK and EU impose first joint cyber sanctions",
+      "url": "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package"
+    },
+    {
+      "n": 5,
+      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/"
+    },
+    {
+      "n": 6,
+      "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/"
+    },
+    {
+      "n": 7,
+      "title": "Exploitation of KnowledgeDeliver via ViewState Deserialization Vulnerability",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-4769 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4769"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-57811 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57811"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-57401 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57401"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-57724 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57724"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-57738 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57738"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-57744 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57744"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-57770 (CVSS 9.8)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57770"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2008-4128: Cisco IOS Cross-Site Request Forgery Vulnerability (Cisco IOS)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-57719 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57719"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-57710 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57710"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
