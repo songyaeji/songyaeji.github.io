@@ -1,11 +1,29 @@
 {
   "date": "2026-07-13",
-  "issue_no": 8,
-  "briefing": null,
-  "keywords": [],
-  "links": [],
+  "issue_no": 9,
+  "briefing": "국제 사이버 범죄 단속이 강화되어 Ryuk 랜섬웨어 운영진이 유죄를 인정했다. 금융 분야에서는 AI 보안 역량 강화를 위해 챌린지를 개최하고 있다.",
+  "keywords": [
+    "Ryuk",
+    "미국기업공격",
+    "국제범죄단속",
+    "금융AI보안"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "금융보안원, ‘2026 금융 AI 챌린지’ 개최 - bikorea.net",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40a19LU3dwQ0JxanNYZWlzN0YxeGtlUFNtd25KUEU2NWR1VGVEeGZNUVZQaFl1Q3dESWE5QW1jdXkwcU9BYmZ5TFhQOTdGTDFJbTdvSURkZXN0cFNhN3BVS0haX0E4NjA?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "Ryuk Ransomware Member Pleads Guilty Over Attacks on U.S. Organizations",
+      "url": "https://securityaffairs.com/195216/uncategorized/ryuk-ransomware-member-pleads-guilty-over-attacks-on-u-s-organizations.html"
+    }
+  ],
   "cards": [
     "card_01.png",
-    "card_02.png"
+    "card_02.png",
+    "card_03.png",
+    "card_04.png"
   ]
 }
