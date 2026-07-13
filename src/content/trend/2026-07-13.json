@@ -1,20 +1,9 @@
 {
   "date": "2026-07-13",
-  "issue_no": 7,
-  "briefing": "Comfast 무선공유기 V3에서 명령 인젝션 취약점(CVSS 9.8)이 발견되었다. 공개 익스플로잇 존재와 벤더 미응답으로 대규모 기기 침해가 우려된다.",
-  "keywords": [
-    "무선공유기RCE",
-    "명령인젝션",
-    "공개익스플로잇",
-    "벤더미응답"
-  ],
-  "links": [
-    {
-      "n": 1,
-      "title": "CVE-2026-15511 (CVSS 9.8)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15511"
-    }
-  ],
+  "issue_no": 8,
+  "briefing": null,
+  "keywords": [],
+  "links": [],
   "cards": [
     "card_01.png",
     "card_02.png"
