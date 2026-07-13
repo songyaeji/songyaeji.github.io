@@ -1,43 +1,49 @@
 {
   "date": "2026-07-13",
-  "issue_no": 10,
-  "briefing": "Progress ShareFile 관련 긴급 보안 위협이 확인되어 즉시 대응이 진행 중이고, Ryuk 랜섬웨어 공격 가담자가 최대 15년 징역형을 받게 되어 과거 사이버범죄에 대한 법적 책임이 강화되고 있다. 금융권에서는 AI 챌린지 개최와 정보보호 책임경영 표창을 통해 보안 능력 강화와 기술 발전을 동시에 추진하고 있다.",
+  "issue_no": 6,
+  "briefing": "개발도구에서 엔터프라이즈 소프트웨어까지 공급망을 표적으로 한 공격이 다각화되었다. AWS GovCloud 자격증명 유출과 Citrix 취약점 악용은 정부·인프라 계층을 직접 위협하며, Visual Studio 프로젝트 파일 감염과 Odyssey Stealer는 개발자와 최종 사용자 보안까지 위협하고 있다. 동시다발적인 랜섬웨어 활동과 웹메일 기반 공격이 지속되면서 조직 전체의 방어 강화가 필수적이다.",
   "keywords": [
-    "금융AI",
-    "Ryuk",
-    "ShareFile침해",
-    "정보보호책임경영"
+    "공급망공격",
+    "정보탈취악성코드",
+    "MFA우회공격",
+    "랜섬웨어RaaS",
+    "자격증명유출"
   ],
   "links": [
     {
       "n": 1,
-      "title": "Progress Told ShareFile Customers to Pull the Plug on Their Servers. Here’s What We Know.",
-      "url": "https://securityaffairs.com/195194/hacking/progress-told-sharefile-customers-to-pull-the-plug-on-their-servers-heres-what-we-know.html"
+      "title": "AWS GovCloud Credential Leak Leads CISA to Share Critical Cyber Incident Lessons",
+      "url": "https://gbhackers.com/aws-govcloud-credential-leak-leads-cisa/"
     },
     {
       "n": 2,
+      "title": "Hackers Infect C++ and C# Project Files to Spread Multi-Stage Windows Backdoor",
+      "url": "https://gbhackers.com/c-c-project-files-windows-backdoor/"
+    },
+    {
+      "n": 3,
+      "title": "Mac 노리는 ‘오디세이 스틸러’ 확산... 암호화폐 지갑 변조 주의보",
+      "url": "http://www.boannews.com/media/view.asp?idx=144654&kind=&sub_kind="
+    },
+    {
+      "n": 4,
       "title": "Ryuk Ransomware Member Pleads Guilty Over Attacks on U.S. Organizations",
       "url": "https://securityaffairs.com/195216/uncategorized/ryuk-ransomware-member-pleads-guilty-over-attacks-on-u-s-organizations.html"
     },
     {
-      "n": 3,
-      "title": "삼성화재, 금융보안 유공 금융위원장 표창 수상…개인정보 보호 공로 인정 - 비욘드포스트",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3WU1FZ0RYUGg3STVzY1NzZ3VQWWp1LUR5bmZ3bVZZNHVLeW9mRzI1ZWVyVEJoMzUwZGszRVZhR0ItRUU2eUxzRDVKTnR2Mm85RENhMktUTWY4NzViRmM3V2dVRUhUMXc2SEdyYk1ESlFKcV9oSFRZclpfN0k?oc=5"
-    },
-    {
-      "n": 4,
-      "title": "금융보안원, ‘2026 금융 AI 챌린지’ 개최 - bikorea.net",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40a19LU3dwQ0JxanNYZWlzN0YxeGtlUFNtd25KUEU2NWR1VGVEeGZNUVZQaFl1Q3dESWE5QW1jdXkwcU9BYmZ5TFhQOTdGTDFJbTdvSURkZXN0cFNhN3BVS0haX0E4NjA?oc=5"
-    },
-    {
       "n": 5,
-      "title": "삼성화재, 금융보안 금융위원장 표창…정보보호 책임경영 - fetv.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wanlNNzFwb1QzMmwwOWd6VXpGSG1FNEI0UHJacE1NOGhfVElCclhXOHpJQUhiWlNrYkYxWWhHdy1OcHAxVHZsRFV1ek1vSGtXdkdUWnFpZFdmUF8wdl9hcm5JX0tlOWV5?oc=5"
+      "title": "Hackers Exploit CitrixBleed 2 to Hijack MFA-Protected Sessions and Deploy DragonForce Ransomware",
+      "url": "https://gbhackers.com/citrixbleed-2-to-hijack-mfa/"
     },
     {
       "n": 6,
-      "title": "삼성화재, 정보보호 책임경영 성과 인정…금융위원장 표창 - 뉴시스",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBucDZZd09HdUxDb0c4Mng2aHNIX0I0NFZhNFVObzluYjMxWlNmOHVSTUJUZHJQeHRzbW1ud2dUdVBGem5ES0ZrcUF3a084c1BFQWQ1OG96TW1BbXRZNjB6OdIBeEFVX3lxTFBzNm5fcDlKZ3hYSDNoNjlfWTEtT2Nub1E5M3p0XzlfS1pWYTJDVlhSYzJhLXFIcW1LRVpPSk90WWs0TXU4dmJ0UndWSDFaTHBuMjdfcTN6RXRlT3dWcDR3U2x1MTh4bzczUEZHamc4Qzlwa0FWcmJDdw?oc=5"
+      "title": "Progress Told ShareFile Customers to Pull the Plug on Their Servers. Here’s What We Know.",
+      "url": "https://securityaffairs.com/195194/hacking/progress-told-sharefile-customers-to-pull-the-plug-on-their-servers-heres-what-we-know.html"
+    },
+    {
+      "n": 7,
+      "title": "Zimbra Releases Security Patch for Stored XSS Vulnerability in Classic Web Client",
+      "url": "https://gbhackers.com/zimbra-releases-security-patch-stored-xss/"
     }
   ],
   "cards": [
@@ -48,6 +54,7 @@
     "card_05.png",
     "card_06.png",
     "card_07.png",
-    "card_08.png"
+    "card_08.png",
+    "card_09.png"
   ]
 }
