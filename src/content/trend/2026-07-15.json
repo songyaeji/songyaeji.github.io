@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-15",
+  "issue_no": 8,
+  "briefing": "Microsoft의 역사상 최대 규모인 621개 CVE 패치와 다수 제로데이 공격이 7월 동시 진행 중이다. 개발 도구 및 기간인프라 제품의 패치 없는 CVSS 10.0 취약점들이 공급망 침해와 기반시설 공격 위험을 높이고 있다. 국내 정부의 긴급 패치 책임 면제 정책은 신속한 방어 대응을 강화하기 위한 조치이다.",
+  "keywords": [
+    "제로데이",
+    "권한상향",
+    "인증우회",
+    "공급망침해",
+    "기간인프라공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/"
+    },
+    {
+      "n": 2,
+      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+      "url": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/"
+    },
+    {
+      "n": 3,
+      "title": "Siemens Mendix Studio Pro",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04"
+    },
+    {
+      "n": 4,
+      "title": "Hitachi Energy e-mesh EMS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03"
+    },
+    {
+      "n": 5,
+      "title": "Delta Electronics DVP12SE PLC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07"
+    },
+    {
+      "n": 6,
+      "title": "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting",
+      "url": "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting"
+    },
+    {
+      "n": 7,
+      "title": "행안부, 고위험 취약점 긴급 패치 장애 발생해도 공무원 책임 면제",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207599"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-56451 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56451"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-62422 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62422"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-56155: Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability (Microsoft Active Directory Federation Services)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-56164: Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability (Microsoft SharePoint Server)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-44747 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44747"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-57092 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57092"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-15409: SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability (SonicWall SMA1000 Appliances)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-15410: SonicWall SMA1000 Appliances Code Injection Vulnerability (SonicWall SMA1000 Appliances)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-26216 (CVSS 10.0)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26216"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-23696 (CVSS 9.9)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23696"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
