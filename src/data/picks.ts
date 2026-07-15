@@ -70,6 +70,14 @@ export const picks: Pick[] = [
     reason:
       '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 선택할 수 있는 데스크톱 앱이다. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄인다.',
   },
+  {
+    name: 'PentestGPT',
+    category: 'tool',
+    link: 'https://github.com/GreyDGL/PentestGPT',
+    tagline: 'LLM 기반 자율 침투테스트 에이전트 — USENIX Security 2024',
+    reason:
+      'LLM으로 정찰·익스플로잇·검증 단계를 자동 진행하는 침투테스트 프레임워크로, USENIX Security 2024에 발표되었다. 웹·암호·리버싱·포너블 등 CTF 전 영역을 다루며 v1.0부터 Claude Code·Codex 백엔드를 지원한다. "AI for Security" 방향에서 LLM 에이전트가 공격 절차를 어디까지 자동화하는지 보여주는 대표 사례다.',
+  },
   // ---------- articles ----------
   {
     name: '금융분야 AI 보안 가이드라인 — 금융보안원',
