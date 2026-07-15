@@ -56,13 +56,13 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         latestTrend && (
           <a class="trend-line" href="/trend/">
             <span class="badge-new" aria-hidden="true">TREND</span>
-            NO.{latestTrend.data.issue_no} — {latestTrend.data.date} daily briefing →
+            {latestTrend.data.date} trend of security →
           </a>
         )
       }
       <a class="trend-line picks-line" href="/picks/">
         <span class="badge-new" aria-hidden="true">PICKS</span>
-        직접 써본 AI 보안·금융보안 skills · tools · articles →
+        예지픽 AI Tool & Articles →
       </a>
     </aside>
 
@@ -73,7 +73,7 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
           <span class="typed" data-cmd="whoami"></span><span class="cursor" aria-hidden="true"></span>
         </p>
         <p class="statement">
-          저는 <span class="mark">"한계를 뛰어넘기 위해 끊임없이 노력하는"</span> AI 보안 연구자입니다.
+          <span class="mark">"AI for Security, Security for AI"</span>를 연구하는 AI 보안 연구자입니다.
         </p>
         <p class="philosophy">{profile.philosophy}</p>
       </section>
