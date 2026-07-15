@@ -644,8 +644,6 @@ p a:hover {
 
 .project-card {
   border: 1px solid var(--hairline);
-  /* 카테고리별 왼쪽 액센트 — 전부 회색이라 칙칙하다는 피드백 반영 */
-  border-left: 4px solid var(--hairline);
   border-radius: 14px;
   background: var(--surface);
   overflow: hidden;
@@ -659,11 +657,18 @@ p a:hover {
   box-shadow: var(--shadow-1);
 }
 
-/* hover의 전체 border-color보다 뒤에 두어 왼쪽 액센트가 항상 이긴다 */
-.project-card[data-cat='research'] { border-left-color: var(--yellow); }
-.project-card[data-cat='oss'] { border-left-color: var(--ok); }
-.project-card[data-cat='tool'] { border-left-color: var(--ink); }
-.project-card[data-cat='team'] { border-left-color: var(--warn); }
+/* 통일된 노란 아이콘 칩 — 카드마다 하나만 쓰는 절제된 액센트 */
+.card-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--yellow-soft);
+  color: var(--yellow-deep);
+  flex-shrink: 0;
+}
 
 /* 항상 보이는 요약 영역 — 전체가 토글 버튼 */
 .project-summary-row {
@@ -857,12 +862,12 @@ p a:hover {
 .pub {
   background: var(--surface);
   border: 1px solid var(--hairline);
-  /* 노란 왼쪽 액센트 + venue 칩 — 회색 일색 완화 */
-  border-left: 4px solid var(--yellow);
   border-radius: 12px;
   padding: 1.35rem var(--sp-5);
   transition: background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
+
+.pub .card-chip { margin-bottom: 0.7rem; }
 
 .pub:hover {
   background: var(--bg);
@@ -877,10 +882,7 @@ p a:hover {
   font-family: var(--mono);
   font-size: var(--fs-2xs);
   font-weight: 600;
-  color: var(--yellow-deep);
-  background: var(--yellow-soft);
-  border-radius: 4px;
-  padding: 0.1rem 0.45rem;
+  color: var(--muted);
 }
 .pub .pub-year { font-family: var(--mono); font-size: var(--fs-2xs); color: var(--muted); }
 .pub .pub-top .badge { margin-left: auto; }
