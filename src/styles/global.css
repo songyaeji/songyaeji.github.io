@@ -537,15 +537,14 @@ p a:hover {
   box-shadow: none;
 }
 
-/* 배지는 연회색 아웃라인 — now-strip(노랑)과 구분하되 검정만큼 무겁지 않게 */
+/* 배지는 연노랑 — now-strip(진노랑 채움)보다 옅게, 검정·회색보다 살아있게 */
 .trend-line .badge-new {
   font-family: var(--mono);
   font-size: var(--fs-2xs);
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.06em;
-  background: var(--surface-2);
-  color: var(--ink);
-  border: 1px solid var(--hairline);
+  background: var(--yellow-soft);
+  color: var(--yellow-deep);
   border-radius: 4px;
   padding: 0.1rem 0.4rem;
 }
