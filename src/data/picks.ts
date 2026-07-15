@@ -17,7 +17,7 @@ export interface Pick {
 }
 
 /** Picks를 마지막으로 손본 날짜 — "이 날짜 기준으로 고른 목록"임을 밝힌다. */
-export const picksUpdated = '2026-07-12';
+export const picksUpdated = '2026-07-16';
 
 export const pickSections: { key: PickCategory; cmd: string }[] = [
   { key: 'skill', cmd: 'ls picks/skills/' },
@@ -71,6 +71,24 @@ export const picks: Pick[] = [
     tagline: '금융권 AI 서비스 개발주기별 보안 고려사항 + 챗봇 보안성 체크리스트',
     reason:
       '금융보안원이 발간한 국내 금융권 AI 보안의 기준 문서. 학습 데이터 수집·전처리, 모델 설계·학습, 검증·평가 단계별 보안 고려사항과 AI 챗봇 서비스 보안성 자체점검 항목을 제공한다. 금융 도메인에서 AI 보안 리뷰를 설계할 때 위협 범위와 통제 항목을 맞추는 출발점으로 삼는다.',
+  },
+  {
+    name: 'AI 보안 위협 대응 매뉴얼 — KISA',
+    category: 'article',
+    important: true,
+    link: 'https://www.kisa.or.kr/401/form?postSeq=3712&lang_type=KO&page=1',
+    tagline: 'AI 특화 보안 위협 분류·진단 + 산업별 시나리오와 위협별 대응 방안',
+    reason:
+      'KISA가 2026년 7월 발간한 AI 보안 위협 대응 실무 매뉴얼. AI 보안 위협을 분류·진단하는 기준과 산업별 위협 시나리오, 위협별 구체 대응 방안을 담고 있다. AI 시스템 위협 모델링을 할 때 국내 공공 기준선으로 참조하기 좋다.',
+  },
+  {
+    name: 'AI 보안 레드티밍 가이드 — KISA',
+    category: 'article',
+    important: true,
+    link: 'https://www.kisa.or.kr/401/form?postSeq=3713&lang_type=KO&page=1',
+    tagline: 'AI 레드팀 구성·준비·이행·결과 보고까지 운영 전 과정 지침',
+    reason:
+      'KISA가 2026년 7월 발간한 AI 레드티밍 운영 가이드. 레드팀 구성, 준비, 이행, 결과 보고까지 6개 섹션으로 실무 절차를 정리했다. AI 모델 대상 모의공격을 설계할 때 절차와 산출물 형식을 잡는 출발점으로 쓴다.',
   },
   {
     name: 'Effective Context Engineering for AI Agents — Anthropic',
