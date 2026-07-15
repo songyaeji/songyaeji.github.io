@@ -53,11 +53,11 @@ const linkify = (text: string) =>
             <Icon name="external" size={13} /> {extLink.label} ↗
           </a>
         )}
+        <span class="project-year">{year}</span>
       </div>
       <p class="project-brief">{summary}</p>
     </div>
     <div class="project-summary-right">
-      <span class="project-year">{year}</span>
       {tags.length > 0 && (
         <ul class="tags tag-row-preview">
           {tags.map((t) => <li class="tag tag-interest">{t}</li>)}
