@@ -520,9 +520,8 @@ p a:hover {
 
 .trend-line:hover { box-shadow: inset 0 -2px 0 var(--yellow); }
 
-/* home: picks one-liner — trend-line과 같은 형태, 배지 색만 구분 */
+/* home: picks one-liner — trend-line과 같은 형태·색(노란 배지 공유) */
 .picks-line { margin-top: 0.4rem; }
-.picks-line .badge-new { background: var(--ink); color: var(--bg); }
 
 /* ---------- subpages ---------- */
 .page {
