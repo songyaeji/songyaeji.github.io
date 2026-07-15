@@ -61,12 +61,14 @@ export const profile = {
   awards: [
     {
       title: '정보통신산업진흥원장상',
-      by: '2025 오픈소스 컨트리뷰션 아카데미(OSSCA) — Project Discovery 리드멘티',
+      by: '2025 오픈소스 컨트리뷰션 아카데미(OSSCA)',
+      detail: 'Project Discovery 리드멘티',
       date: '2025.12',
     },
     {
       title: 'BDA 연합 데이터 분석/활용 공모전 최우수상',
       by: '사단법인 한국빅데이터학회',
+      detail: '',
       date: '2023.06',
     },
   ],

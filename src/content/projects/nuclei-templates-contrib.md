@@ -1,6 +1,6 @@
 ---
 title: Nuclei Templates
-summary: projectdiscovery/nuclei-templates에 보안 점검 템플릿 merged PR 18건 기여.
+summary: projectdiscovery/nuclei-templates에 보안 점검 템플릿 merged PR 18건 기여
 year: 2025
 category: oss
 status: done
@@ -19,7 +19,7 @@ highlights:
 nuclei는 커뮤니티 템플릿 기반 오픈소스 취약점 스캐너로, 템플릿 저장소는 전 세계
 보안 엔지니어가 리뷰하는 공개 기여 공간이다. 2025 OSSCA Project Discovery
 리드멘티로 참여해 K8s API 서버 설정·메일/DNS 인프라 하드닝 템플릿을 작성했고,
-메인테이너 리뷰를 거쳐 병합됐다.
+**메인테이너 리뷰를 거쳐 merged PR 18건이 병합**됐다.
 
-KISA 클라우드 취약점 점검 가이드를 기반으로 Linux 취약점 자동 점검 템플릿 37개도
-제출했다. 이 활동으로 정보통신산업진흥원장상을 받았다.
+KISA 클라우드 취약점 점검 가이드를 기반으로 **Linux 취약점 자동 점검 템플릿 37개**도
+제출했으며, 이 활동으로 **정보통신산업진흥원장상**을 수상했다.

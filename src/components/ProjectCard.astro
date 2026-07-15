@@ -12,13 +12,15 @@ const { title, summary, tags, year, repo, extLink, role, collaborators, highligh
   project.data;
 const { Content } = await render(project);
 
-// highlights는 렌더되지 않는 frontmatter 문자열이라 [텍스트](url) 마크다운 링크가
-// 그대로 노출됐다 — 여기서만 앵커로 변환
+// highlights는 렌더되지 않는 frontmatter 문자열이라 [링크]·**강조** 마크다운이
+// 그대로 노출됐다 — 여기서만 앵커·strong으로 변환
 const linkify = (text: string) =>
-  text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  text
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 ---
 
-<li class="project-card">
+<li class="project-card" data-cat={project.data.category}>
   <div
     class="project-summary-row"
     role="button"
@@ -52,12 +54,10 @@ const linkify = (text: string) =>
           </a>
         )}
       </div>
-      <div class="project-meta">
-        <span class="project-year">{year}</span>
-      </div>
       <p class="project-brief">{summary}</p>
     </div>
     <div class="project-summary-right">
+      <span class="project-year">{year}</span>
       {tags.length > 0 && (
         <ul class="tags tag-row-preview">
           {tags.map((t) => <li class="tag tag-interest">{t}</li>)}
