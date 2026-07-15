@@ -18,7 +18,10 @@ const updatedLabel = `${uy}년 ${Number(um)}월 ${Number(ud)}일`;
     <div class="pick-columns">
       {
         pickSections.map((s) => {
-          const group = picks.filter((p) => p.category === s.key);
+          // 별(important) 항목을 위로 — 같은 등급끼리는 원래 순서 유지(stable sort)
+          const group = picks
+            .filter((p) => p.category === s.key)
+            .sort((a, b) => Number(b.important ?? false) - Number(a.important ?? false));
           return (
             <section class="pick-section" data-cat={s.key}>
               <p class="cli-label">{s.cmd}</p>

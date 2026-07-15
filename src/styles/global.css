@@ -393,8 +393,9 @@ p a:hover {
 .stat-bar a {
   flex: 1;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+  justify-content: center; /* 각 칸 안에서 아이콘+숫자+라벨 중앙 정렬 */
   align-items: center;
   column-gap: 0.55rem;
   row-gap: 0.1rem;
@@ -550,8 +551,9 @@ p a:hover {
 
 .trend-line:hover { box-shadow: inset 0 -2px 0 var(--yellow); }
 
-/* home: picks one-liner — trend-line과 같은 형태·색(노란 배지 공유) */
-.picks-line { margin-top: 0.4rem; }
+/* home: picks one-liner — trend-line과 같은 형태·색(노란 배지 공유).
+   profile 그리드 gap(1.5rem)을 당겨 TREND 줄과 0.4rem 간격으로 붙인다 */
+.picks-line { margin-top: calc(0.4rem - var(--sp-5)); }
 
 /* ---------- subpages ---------- */
 .page {
