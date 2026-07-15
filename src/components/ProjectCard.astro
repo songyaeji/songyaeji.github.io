@@ -20,7 +20,7 @@ const linkify = (text: string) =>
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 ---
 
-<li class="project-card" data-cat={project.data.category}>
+<li class="project-card" id={project.id} data-cat={project.data.category}>
   <div
     class="project-summary-row"
     role="button"

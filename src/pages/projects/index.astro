@@ -42,4 +42,12 @@ const projects = (await getCollection('projects')).sort(
       toggle();
     });
   });
+
+  // 홈 스탯 등에서 /projects/#slug 로 진입하면 해당 카드를 펼치고 스크롤
+  const target = location.hash && document.querySelector(`.project-card${location.hash}`);
+  if (target) {
+    target.classList.add('open');
+    target.querySelector('.project-summary-row')?.setAttribute('aria-expanded', 'true');
+    target.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
 </script>
