@@ -647,7 +647,8 @@ p a:hover {
   border-radius: 14px;
   background: var(--surface);
   overflow: hidden;
-  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease,
+    transform 180ms ease;
 }
 
 .project-card:hover,
@@ -655,19 +656,19 @@ p a:hover {
   border-color: var(--yellow);
   background: var(--bg);
   box-shadow: var(--shadow-1);
+  transform: translateY(-2px);
 }
 
-/* 통일된 노란 아이콘 칩 — 카드마다 하나만 쓰는 절제된 액센트 */
-.card-chip {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 10px;
-  background: var(--yellow-soft);
-  color: var(--yellow-deep);
-  flex-shrink: 0;
+/* 제목 앞 작은 노란 점 — 카드마다 하나만 쓰는 절제된 액센트 */
+.project-title::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--yellow);
+  margin-right: 0.55rem;
+  vertical-align: 2px;
 }
 
 /* 항상 보이는 요약 영역 — 전체가 토글 버튼 */
@@ -839,6 +840,9 @@ p a:hover {
 /* 한 줄 요약 — 이름 아래 상시 노출 */
 .pick .pick-tagline { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.3rem; }
 
+/* 공개·발간 시점 — 이름 옆 조용한 mono 라벨 */
+.pick .pick-date { font-family: var(--mono); font-size: var(--fs-2xs); color: var(--muted); margin-left: 0.45rem; }
+
 /* 추천 이유 — 접기. "직접 써본 근거"가 이 페이지의 차별점 */
 .pick details { margin-top: 0.35rem; }
 .pick summary {
@@ -864,25 +868,28 @@ p a:hover {
   border: 1px solid var(--hairline);
   border-radius: 12px;
   padding: 1.35rem var(--sp-5);
-  transition: background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+  transition: background 160ms ease, border-color 160ms ease, box-shadow 160ms ease,
+    transform 160ms ease;
 }
-
-.pub .card-chip { margin-bottom: 0.7rem; }
 
 .pub:hover {
   background: var(--bg);
   border-color: var(--yellow);
   box-shadow: var(--shadow-1);
+  transform: translateY(-2px);
 }
 
 .pub.placeholder { border-style: dashed; border-color: var(--warn); }
 
 .pub .pub-top { display: flex; align-items: center; gap: var(--sp-3); flex-wrap: wrap; }
+/* venue — 진노랑 mono 대문자 라벨, 칩·보더 없이 텍스트로만 액센트 */
 .pub .pub-venue {
   font-family: var(--mono);
   font-size: var(--fs-2xs);
-  font-weight: 600;
-  color: var(--muted);
+  font-weight: 700;
+  color: var(--yellow-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .pub .pub-year { font-family: var(--mono); font-size: var(--fs-2xs); color: var(--muted); }
 .pub .pub-top .badge { margin-left: auto; }

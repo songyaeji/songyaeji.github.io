@@ -17,9 +17,6 @@ const pubs = (await getCollection('research')).sort(
         {
           pubs.map((pub) => (
             <li class={`pub${pub.data.placeholder ? ' placeholder' : ''}`}>
-              <span class="card-chip" aria-hidden="true">
-                <Icon name="doc" size={16} />
-              </span>
               <div class="pub-top">
                 {/* in-preparation은 배지가 상태를 말하므로 venue 텍스트("In preparation") 중복 표기 생략 */}
                 {pub.data.status !== 'in-preparation' && (

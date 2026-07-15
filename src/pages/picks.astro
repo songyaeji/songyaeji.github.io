@@ -30,6 +30,7 @@ const updatedLabel = `${uy}년 ${Number(um)}월 ${Number(ud)}일`;
                   <li class="pick" class:list={{ important: p.important }}>
                     {p.important && <span class="pick-star" aria-label="중요" title="중요">⭐</span>}
                     {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
+                    {p.date && <span class="pick-date">{p.date}</span>}
                     <p class="pick-tagline">{p.tagline}</p>
                     <details>
                       <summary>why</summary>

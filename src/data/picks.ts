@@ -14,6 +14,8 @@ export interface Pick {
   reason: string;
   /** 특히 중요한 항목 — 제목 앞에 노란 별로 강조 */
   important?: boolean;
+  /** 공개·발간 시점 (YYYY.MM) — 저장소는 생성일, 문서는 발간일 기준 */
+  date?: string;
 }
 
 /** Picks를 마지막으로 손본 날짜 — "이 날짜 기준으로 고른 목록"임을 밝힌다. */
@@ -31,6 +33,8 @@ export const picks: Pick[] = [
   {
     name: 'caveman',
     category: 'skill',
+    important: true,
+    date: '2026.04',
     link: 'https://github.com/juliusbrussee/caveman',
     tagline: '출력 토큰 절약 — 군더더기 없는 응답 모드',
     reason:
@@ -39,6 +43,7 @@ export const picks: Pick[] = [
   {
     name: 'andrej-karpathy-skills',
     category: 'skill',
+    date: '2026.01',
     link: 'https://github.com/multica-ai/andrej-karpathy-skills',
     tagline: 'Karpathy의 LLM 코딩 비판을 4원칙 스킬로 — 가정 명시·단순성·수술적 수정·목표 주도',
     reason:
@@ -48,6 +53,7 @@ export const picks: Pick[] = [
   {
     name: 'Context7',
     category: 'mcp',
+    date: '2025.03',
     link: 'https://github.com/upstash/context7',
     tagline: '라이브러리 최신 공식 문서를 대화에 주입',
     reason:
@@ -57,6 +63,7 @@ export const picks: Pick[] = [
   {
     name: 'ECC (everything-claude-code)',
     category: 'tool',
+    date: '2026.01',
     link: 'https://github.com/affaan-m/everything-claude-code',
     tagline: '에이전트·스킬·훅·룰 올인원 팩',
     reason:
@@ -65,6 +72,7 @@ export const picks: Pick[] = [
   {
     name: 'Orca',
     category: 'tool',
+    date: '2026.03',
     link: 'https://github.com/stablyai/orca',
     tagline: '코딩 에이전트 병렬 실행 오케스트레이션 ADE',
     reason:
@@ -73,6 +81,7 @@ export const picks: Pick[] = [
   {
     name: 'PentestGPT',
     category: 'tool',
+    date: '2023.02',
     link: 'https://github.com/GreyDGL/PentestGPT',
     tagline: 'LLM 기반 자율 침투테스트 에이전트 — USENIX Security 2024',
     reason:
@@ -80,18 +89,20 @@ export const picks: Pick[] = [
   },
   // ---------- articles ----------
   {
-    name: '금융분야 AI 보안 가이드라인 — 금융보안원',
+    name: '공격자 관점의 망분리 우회 취약점 프로파일링 — 금융보안원 RED IRIS',
     category: 'article',
     important: true,
-    link: 'https://www.korea.kr/archive/expDocView.do?docId=40456',
-    tagline: '금융권 AI 서비스 개발주기별 보안 고려사항 + 챗봇 보안성 체크리스트',
+    date: '2026.03',
+    link: 'https://www.fsec.or.kr/bbs/detail?menuNo=1011&bbsNo=11888',
+    tagline: "'25~'26 레드아이리스 인사이트 리포트 — 망분리 우회의 구조적 원인 분석",
     reason:
-      '금융보안원이 발간한 국내 금융권 AI 보안의 기준 문서. 학습 데이터 수집·전처리, 모델 설계·학습, 검증·평가 단계별 보안 고려사항과 AI 챗봇 서비스 보안성 자체점검 항목을 제공한다. 금융 도메인의 AI 보안 리뷰 설계 시 위협 범위와 통제 항목을 정렬하는 기준이 된다.',
+      '금융보안원 레드팀(RED IRIS)이 발간한 망분리 우회 분석 리포트. 망분리 우회가 단일 취약점이 아니라 구조적 문제와 다수 취약점의 결합으로 발생함을 공격자 관점에서 프로파일링하고, 가상 캠페인으로 근본 원인과 대응 방안을 제시한다. 금융권 망분리 규제 완화 국면에서 위협 모델링의 기준 자료가 된다.',
   },
   {
     name: 'AI 보안 위협 대응 매뉴얼 — KISA',
     category: 'article',
     important: true,
+    date: '2026.07',
     link: 'https://www.kisa.or.kr/401/form?postSeq=3712&lang_type=KO&page=1',
     tagline: 'AI 특화 보안 위협 분류·진단 + 산업별 시나리오와 위협별 대응 방안',
     reason:
@@ -101,6 +112,7 @@ export const picks: Pick[] = [
     name: 'AI 보안 레드티밍 가이드 — KISA',
     category: 'article',
     important: true,
+    date: '2026.07',
     link: 'https://www.kisa.or.kr/401/form?postSeq=3713&lang_type=KO&page=1',
     tagline: 'AI 레드팀 구성·준비·이행·결과 보고까지 운영 전 과정 지침',
     reason:
@@ -109,6 +121,7 @@ export const picks: Pick[] = [
   {
     name: 'Effective Context Engineering for AI Agents — Anthropic',
     category: 'article',
+    date: '2025.09',
     link: 'https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents',
     tagline: '프롬프트가 아니라 컨텍스트를 설계하라',
     reason:
@@ -117,6 +130,7 @@ export const picks: Pick[] = [
   {
     name: 'Claude Code Best Practices — Anthropic',
     category: 'article',
+    date: '2025.04',
     link: 'https://www.anthropic.com/engineering/claude-code-best-practices',
     tagline: '에이전틱 코딩 공식 플레이북',
     reason:
@@ -125,8 +139,8 @@ export const picks: Pick[] = [
   {
     name: 'OWASP Top 10 for LLM Applications',
     category: 'article',
-    important: true,
-    link: 'https://genai.owasp.org/',
+    date: '2024.11',
+    link: 'https://genai.owasp.org/llm-top-10/',
     tagline: 'LLM 애플리케이션 보안 위협 표준 분류',
     reason:
       '프롬프트 인젝션부터 과도한 에이전시까지 LLM 시스템의 위협을 표준 용어로 정리한 레퍼런스. 보안 리뷰 보고서 작성 시 위협 분류·명명의 공통 언어가 된다.',
