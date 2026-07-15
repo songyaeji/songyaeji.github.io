@@ -45,22 +45,6 @@ export const picks: Pick[] = [
     reason:
       '모델 학습 데이터가 오래됐을 때 생기는 "존재하지 않는 API 호출" 문제를 줄여준다. 프레임워크 버전 전용 문서를 가져와 답하므로 설정·마이그레이션 질문에서 특히 정확도가 올라간다.',
   },
-  {
-    name: 'Chrome DevTools MCP',
-    category: 'mcp',
-    link: 'https://github.com/ChromeDevTools/chrome-devtools-mcp',
-    tagline: '브라우저를 직접 조작하는 프론트 디버깅·검증',
-    reason:
-      '스크린샷·콘솔 로그·네트워크 요청·Lighthouse 감사까지 에이전트가 실제 브라우저로 확인한다. "빌드는 되는데 화면이 깨지는" 유형의 문제를 에이전트 스스로 검증하게 만들 수 있다.',
-  },
-  {
-    name: 'GitHub MCP',
-    category: 'mcp',
-    link: 'https://github.com/github/github-mcp-server',
-    tagline: 'PR·이슈·CI를 대화 안에서 처리',
-    reason:
-      'PR 생성·리뷰 코멘트·이슈 트리아지를 에이전트에 위임할 때 표준 선택지. gh CLI보다 구조화된 응답을 받아 후속 자동화에 잇기 좋다.',
-  },
   // ---------- tools ----------
   {
     name: 'ECC (everything-claude-code)',
@@ -87,33 +71,6 @@ export const picks: Pick[] = [
     tagline: '금융권 AI 서비스 개발주기별 보안 고려사항 + 챗봇 보안성 체크리스트',
     reason:
       '금융보안원이 발간한 국내 금융권 AI 보안의 기준 문서. 학습 데이터 수집·전처리, 모델 설계·학습, 검증·평가 단계별 보안 고려사항과 AI 챗봇 서비스 보안성 자체점검 항목을 제공한다. 금융 도메인에서 AI 보안 리뷰를 설계할 때 위협 범위와 통제 항목을 맞추는 출발점으로 삼는다.',
-  },
-  {
-    name: '2025년 AI 레드팀 보고서 — 금융보안원',
-    category: 'article',
-    important: true,
-    link: 'https://www.dailysecu.com/news/articleView.html?idxno=203865',
-    tagline: '금융 AI 모델 제3자 레드티밍 결과 — 세대별 공격에 대한 실측 취약성',
-    reason:
-      '국내 금융권 최초의 체계적 AI 레드티밍 결과. 공격을 1~4세대(단순 우회 → 자동 프롬프트 생성 → 긴 문맥 인지 조작·RAG 지식베이스 오염)로 분류하고, 금융 AI가 1~2세대엔 잘 버티지만 3세대 이상 고도화 공격엔 안전장치가 무력화되는 경향을 실측으로 보여준다. AI 보안 위협을 "막연히 위험"이 아니라 세대별로 나눠 평가하게 해준다.',
-  },
-  {
-    name: '금융권 안전한 AI 활용 — 보안성 검증체계 — 금융보안원',
-    category: 'article',
-    important: true,
-    link: 'https://www.fsec.or.kr/bbs/detail?menuNo=69&bbsNo=11629',
-    tagline: '혁신금융서비스 보안대책 평가 + 모의공격 기반 AI 모델 보안성 검증',
-    reason:
-      '금융회사가 실제로 쓰는 AI 모델에 조작된 질의로 모의 공격을 수행해 취약점을 찾는 보안성 검증 실무를 정리한 자료. 망분리 예외 구간에서의 생성형 AI 활용, 연합학습 기반 사기탐지 공동모델 등 규제 환경에서 AI를 안전하게 태우는 제도적·기술적 통제를 함께 볼 수 있다.',
-  },
-  {
-    name: 'The Lethal Trifecta for AI Agents — Simon Willison',
-    category: 'article',
-    important: true,
-    link: 'https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/',
-    tagline: '에이전트 프롬프트 인젝션 위험의 3요소 프레임',
-    reason:
-      '비공개 데이터 접근·신뢰할 수 없는 입력·외부 전송 세 가지가 결합될 때 에이전트가 위험해진다는 프레임. AI 시스템의 공격면을 평가할 때 체크리스트처럼 쓸 수 있어 AI 보안 관점에서 가장 자주 되짚는 글.',
   },
   {
     name: 'Effective Context Engineering for AI Agents — Anthropic',
