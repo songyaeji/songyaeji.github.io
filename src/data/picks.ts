@@ -36,6 +36,14 @@ export const picks: Pick[] = [
     reason:
       'Claude Code 응답에서 관사·수식어·인사말 같은 군더더기를 걷어내고 기술적 실질만 남기는 플러그인. 세션마다 출력이 짧아져 토큰이 절약되고, 긴 작업에서 요점 파악 속도가 향상된다. 코드·커밋 메시지·보안 경고는 정상 문장으로 유지되어 실사용에 지장이 없다.',
   },
+  {
+    name: 'andrej-karpathy-skills',
+    category: 'skill',
+    link: 'https://github.com/multica-ai/andrej-karpathy-skills',
+    tagline: 'Karpathy의 LLM 코딩 비판을 4원칙 스킬로 — 가정 명시·단순성·수술적 수정·목표 주도',
+    reason:
+      'Andrej Karpathy가 지적한 LLM 코딩의 고질적 문제(잘못된 가정, 과도한 추상화, 불필요한 코드 변경)를 Think Before Coding·Simplicity First·Surgical Changes·Goal-Driven Execution 4원칙으로 정리한 Claude Code 스킬이다. 에이전트가 구현 전에 가정을 표면화하고 요청 범위만 수정하도록 강제해 결과물 품질이 안정된다.',
+  },
   // ---------- mcp ----------
   {
     name: 'Context7',
