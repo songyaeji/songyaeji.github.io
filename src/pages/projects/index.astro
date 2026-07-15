@@ -12,9 +12,21 @@ const projects = (await getCollection('projects')).sort(
   <div class="page wrap">
     <p class="cli-label">ls projects/ --all</p>
     <h1 class="page-title">Projects</h1>
-    <p class="lede">카드 제목을 누르면 상세 페이지로 이동합니다.</p>
-    <ul class="card-grid">
+    <p class="lede">카드를 누르면 상세 내용이 펼쳐집니다.</p>
+    <ul class="project-list">
       {projects.map((p) => <ProjectCard project={p} />)}
     </ul>
   </div>
 </Base>
+
+<script>
+  // 아코디언 토글 — 요약행 클릭으로 .open 전환, 상세는 max-height 트랜지션
+  document.querySelectorAll('.project-summary-row').forEach((row) => {
+    row.addEventListener('click', () => {
+      const card = row.closest('.project-card');
+      if (!card) return;
+      const isOpen = card.classList.toggle('open');
+      row.setAttribute('aria-expanded', String(isOpen));
+    });
+  });
+</script>

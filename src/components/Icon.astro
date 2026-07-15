@@ -2,7 +2,7 @@
 // 인라인 SVG 아이콘 셋 — 외부 아이콘 CDN 의존 없이 currentColor로 색을 상속받는다.
 // github만 fill 기반(브랜드 로고), 나머지는 stroke 기반 라인 아이콘.
 interface Props {
-  name: 'mail' | 'github' | 'linkedin' | 'pin' | 'external' | 'cap' | 'trophy' | 'doc' | 'code';
+  name: 'mail' | 'github' | 'linkedin' | 'pin' | 'external' | 'cap' | 'trophy' | 'doc' | 'code' | 'chevron';
   size?: number;
 }
 
@@ -37,6 +37,9 @@ const icons: Record<Props['name'], { body: string; fill?: boolean }> = {
   },
   code: {
     body: '<path d="m8.5 8-5 4 5 4"/><path d="m15.5 8 5 4-5 4"/>',
+  },
+  chevron: {
+    body: '<path d="m6 9 6 6 6-6"/>',
   },
 };
 
