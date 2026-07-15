@@ -12,12 +12,12 @@
   "links": [
     {
       "n": 1,
-      "title": "AWS GovCloud Credential Leak Leads CISA to Share Critical Cyber Incident Lessons",
+      "title": "AWS GovCloud 자격증명 유출 CISA 투명한 공개",
       "url": "https://gbhackers.com/aws-govcloud-credential-leak-leads-cisa/"
     },
     {
       "n": 2,
-      "title": "Hackers Infect C++ and C# Project Files to Spread Multi-Stage Windows Backdoor",
+      "title": "Visual Studio 프로젝트 파일 감염 다단계 백도어",
       "url": "https://gbhackers.com/c-c-project-files-windows-backdoor/"
     },
     {
@@ -27,22 +27,22 @@
     },
     {
       "n": 4,
-      "title": "Ryuk Ransomware Member Pleads Guilty Over Attacks on U.S. Organizations",
+      "title": "Ryuk 랜섬웨어 멤버 미국 법원 유죄 판결",
       "url": "https://securityaffairs.com/195216/uncategorized/ryuk-ransomware-member-pleads-guilty-over-attacks-on-u-s-organizations.html"
     },
     {
       "n": 5,
-      "title": "Hackers Exploit CitrixBleed 2 to Hijack MFA-Protected Sessions and Deploy DragonForce Ransomware",
+      "title": "CVE-2025-5777 MFA 우회 DragonForce 랜섬웨어 배포",
       "url": "https://gbhackers.com/citrixbleed-2-to-hijack-mfa/"
     },
     {
       "n": 6,
-      "title": "Progress Told ShareFile Customers to Pull the Plug on Their Servers. Here’s What We Know.",
+      "title": "Progress ShareFile 스토리지 존 보안 위협 긴급 공지",
       "url": "https://securityaffairs.com/195194/hacking/progress-told-sharefile-customers-to-pull-the-plug-on-their-servers-heres-what-we-know.html"
     },
     {
       "n": 7,
-      "title": "Zimbra Releases Security Patch for Stored XSS Vulnerability in Classic Web Client",
+      "title": "Zimbra 메일 클라이언트 저장 XSS 취약점 패치",
       "url": "https://gbhackers.com/zimbra-releases-security-patch-stored-xss/"
     }
   ],

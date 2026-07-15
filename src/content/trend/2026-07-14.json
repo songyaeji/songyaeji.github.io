@@ -11,12 +11,12 @@
   "links": [
     {
       "n": 1,
-      "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
+      "title": "ShinyHunters, Oracle PeopleSoft 제로데이 악용 교육기관 침해",
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/"
     },
     {
       "n": 2,
-      "title": "The Proliferation of DarkSword: iOS Exploit Chain Adopted by Multiple Threat Actors",
+      "title": "DarkSword — iOS 풀 체인 제로데이 익스플로잇 키트 확산",
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain/"
     },
     {
@@ -26,22 +26,22 @@
     },
     {
       "n": 4,
-      "title": "Russia's FSB blamed for Poland grid attack as UK and EU impose first joint cyber sanctions",
+      "title": "러시아 FSB 폴란드 전력망·수처리시설 공격... UK-EU 첫 공동 사이버 제재",
       "url": "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package"
     },
     {
       "n": 5,
-      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "title": "Ghostcommit — 이미지 속 프롬프트 주입으로 AI 에이전트 비밀 탈취",
       "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/"
     },
     {
       "n": 6,
-      "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
+      "title": "Cisco Catalyst SD-WAN Manager 제로데이 악용 — 권한 상승",
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/"
     },
     {
       "n": 7,
-      "title": "Exploitation of KnowledgeDeliver via ViewState Deserialization Vulnerability",
+      "title": "KnowledgeDeliver 학습관리시스템 제로데이 RCE",
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/knowledgedeliver-viewstate-deserialization-vulnerability/"
     },
     {

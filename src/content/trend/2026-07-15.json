@@ -12,32 +12,32 @@
   "links": [
     {
       "n": 1,
-      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+      "title": "Microsoft July 2026 Patch Tuesday 역사적 최대 규모 621개 CVE 패치",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/"
     },
     {
       "n": 2,
-      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+      "title": "Progress ShareFile 스토리지 존 제로데이 공식 확인",
       "url": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/"
     },
     {
       "n": 3,
-      "title": "Siemens Mendix Studio Pro",
+      "title": "Siemens Mendix Studio Pro 파일 파싱 RCE",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04"
     },
     {
       "n": 4,
-      "title": "Hitachi Energy e-mesh EMS",
+      "title": "Hitachi Energy e-mesh EMS NGINX 버퍼 오버플로우",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03"
     },
     {
       "n": 5,
-      "title": "Delta Electronics DVP12SE PLC",
+      "title": "Delta PLC 인증 부재 원격 제어 취약점",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07"
     },
     {
       "n": 6,
-      "title": "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting",
+      "title": "러시아 FSB 라우터 악용 기간인프라 공격 경고",
       "url": "https://www.ncsc.gov.uk/news/uk-and-allies-urge-critical-sectors-to-improve-defences-against-russian-intelligence-targeting"
     },
     {

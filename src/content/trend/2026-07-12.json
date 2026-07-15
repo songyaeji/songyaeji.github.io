@@ -12,12 +12,12 @@
   "links": [
     {
       "n": 1,
-      "title": "Fake VPN and 7-Zip Apps Turn Victims Into Residential Proxy Nodes",
+      "title": "가짜 VPN·7-Zip, 피해자 기기를 주거용 프록시로 변환",
       "url": "https://securityaffairs.com/194990/malware/fake-vpn-and-7-zip-apps-turn-victims-into-residential-proxy-nodes.html"
     },
     {
       "n": 2,
-      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+      "title": "Microsoft Defender 권한상향 취약점 RoguePlanet 패치",
       "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
     },
     {
