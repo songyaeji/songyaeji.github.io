@@ -30,12 +30,19 @@ export const profile = {
     lab: 'https://sites.google.com/view/siftlab/home',
   },
   // type: 'school'(경희대 소속 활동) vs 'external'(대외 교육·훈련 프로그램) — 홈에서 구분 표시
+  // 시작일 오름차순 — 홈 Education 타임라인이 이 순서 그대로 렌더된다
   education: [
     {
       school: 'Kyung Hee University',
       degree: 'B.S. Software Convergence',
       period: '2022 — present',
       type: 'school',
+    },
+    {
+      school: 'KITRI',
+      degree: 'Whitehat School 1st',
+      period: '2023.09 — 2024.03',
+      type: 'external',
     },
     {
       school: 'SIFT Lab, Kyung Hee University',
@@ -47,12 +54,6 @@ export const profile = {
       school: 'AI Enterprise Security Track — KISA',
       degree: 'BoB 15th',
       period: '2026 — present',
-      type: 'external',
-    },
-    {
-      school: 'KITRI',
-      degree: 'Whitehat School 1st',
-      period: '2023.09 — 2024.03',
       type: 'external',
     },
   ],
