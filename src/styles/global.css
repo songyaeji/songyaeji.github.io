@@ -312,17 +312,6 @@ p a:hover {
   color: var(--ink);
 }
 
-.profile .loc {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: var(--fs-xs);
-  color: var(--muted);
-  margin-top: 0.3rem;
-}
-
-.profile .loc svg { color: var(--yellow-deep); }
-
 .now-strip {
   display: flex;
   align-items: flex-start;
@@ -775,18 +764,19 @@ p a:hover {
 }
 
 /* ---------- picks ---------- */
-/* 3열 배치 — 1열 skills+mcp 세로 스택 · 2열 tools · 3열 articles */
+/* 2열 배치 — 1열 skills·mcp·tools 세로 스택, 2열 articles.
+   항목 수 기준 열 높이 균형 — 3열 시절 tools(2개) 열이 비어 보이던 문제 해결 */
 .pick-columns {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
   gap: var(--sp-6);
   align-items: start;
 }
 .pick-section[data-cat='skill'] { grid-column: 1; grid-row: 1; }
 .pick-section[data-cat='mcp'] { grid-column: 1; grid-row: 2; }
-.pick-section[data-cat='tool'] { grid-column: 2; grid-row: 1 / span 2; }
-.pick-section[data-cat='article'] { grid-column: 3; grid-row: 1 / span 2; }
+.pick-section[data-cat='tool'] { grid-column: 1; grid-row: 3; }
+.pick-section[data-cat='article'] { grid-column: 2; grid-row: 1 / span 3; }
 .pick-section .cli-label { margin-bottom: var(--sp-3); }
 
 .pick-list { list-style: none; padding: 0; display: grid; gap: var(--sp-2); }

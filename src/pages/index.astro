@@ -24,7 +24,6 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         <div>
           <h1 class="name">{profile.name}<span class="ko" lang="ko">{profile.nameKo}</span></h1>
           <p class="role">{profile.tagline}</p>
-          <p class="loc"><Icon name="pin" size={13} /> {profile.location}</p>
         </div>
         <ul class="interest-list">
           {profile.interests.map((i) => <li>{i}</li>)}

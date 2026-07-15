@@ -5,7 +5,6 @@ export const profile = {
   tagline: 'AI Security Researcher',
   affiliation: 'BoB 15th — AI Enterprise Security Track',
   school: 'Software Convergence, Kyung Hee University',
-  location: 'Seoul, KR',
   // "지금 뭐 하나" — 홈 Currently 패널에 굵은 라벨로 표시
   now: [
     { label: 'BoB 15th', detail: 'AI Enterprise Security Track' },
@@ -33,15 +32,15 @@ export const profile = {
   // type: 'school'(경희대 소속 활동) vs 'external'(대외 교육·훈련 프로그램) — 홈에서 구분 표시
   education: [
     {
-      school: 'SIFT Lab, Kyung Hee University',
-      degree: 'Undergraduate Researcher',
-      period: '2025.06 — present',
-      type: 'school',
-    },
-    {
       school: 'Kyung Hee University',
       degree: 'B.S. Software Convergence',
       period: '2022 — present',
+      type: 'school',
+    },
+    {
+      school: 'SIFT Lab, Kyung Hee University',
+      degree: 'Undergraduate Researcher',
+      period: '2025.06 — present',
       type: 'school',
     },
     {
