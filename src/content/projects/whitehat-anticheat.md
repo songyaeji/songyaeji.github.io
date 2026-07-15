@@ -6,7 +6,7 @@ category: team
 status: done
 private: true
 order: 9
-role: 팀 7인 (참여율 20%) — 리버싱 구조 분석 참여, 안티치트 구조 제안
+role: 팀 7인 — 리버싱 구조 분석 참여, 안티치트 구조 제안
 tags: [Reversing]
 highlights:
   - 메모리 디버깅으로 핵심 주소를 찾아 메모리 값·연산·포인터 조작 방식의 핵 6종 구현, DLL Injection으로 통합 (팀)

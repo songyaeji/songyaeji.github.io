@@ -779,15 +779,6 @@ p a:hover {
 
 .detail-prose { font-size: var(--fs-sm); }
 
-.detail-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-4);
-  flex-wrap: wrap;
-  margin-top: var(--sp-5);
-}
-
 @media (max-width: 640px) {
   .project-summary-right .tag-row-preview { display: none; }
   .project-summary-row { padding: var(--sp-4) 1.25rem; }

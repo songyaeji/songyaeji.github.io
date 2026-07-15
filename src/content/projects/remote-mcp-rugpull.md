@@ -7,6 +7,9 @@ status: research
 private: true
 featured: true
 order: 1
+extLink:
+  label: MCP Dashboard
+  url: https://songyaeji.github.io/mcp-dashboard/
 role: SIFT Lab(경희대) 학부연구생 연구 — 위협 모델링과 탐지 도구 구현
 tags: [MCP, LLM, Supply Chain]
 highlights:

@@ -31,6 +31,8 @@ const projects = defineCollection({
     title: z.string(),
     summary: z.string(),
     repo: z.string().optional(),
+    // repo 외 외부 링크(대시보드·데모 등) — 카드 제목 옆에 라벨 그대로 노출
+    extLink: z.object({ label: z.string(), url: z.string() }).optional(),
     year: z.number(),
     status: z.enum(['active', 'done', 'research']).default('done'),
     // Projects 페이지 그룹 배치 기준 — 기본값 없이 필수로 두어

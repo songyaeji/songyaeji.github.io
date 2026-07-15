@@ -6,7 +6,7 @@ category: team
 status: done
 repo: https://github.com/songyaeji/BlackWire
 order: 6
-role: 팀 프로젝트 (참여율 33%) — OSINT 기반 위협 데이터 수집 담당
+role: 팀 프로젝트 — OSINT 기반 위협 데이터 수집 담당
 tags: [OSINT]
 highlights:
   - 다크웹 유출 정보·주요 랜섬웨어 그룹 활동 크롤링으로 분석의 원천 데이터셋 구축

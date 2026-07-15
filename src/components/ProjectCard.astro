@@ -8,10 +8,8 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { title, summary, tags, year, status, repo, role, collaborators, highlights } =
+const { title, summary, tags, year, repo, extLink, role, collaborators, highlights } =
   project.data;
-const isPrivate = project.data.private;
-const statusLabel = { active: 'Active', research: 'Research', done: 'Done' }[status];
 const { Content } = await render(project);
 
 // highlights는 렌더되지 않는 frontmatter 문자열이라 [텍스트](url) 마크다운 링크가
@@ -42,16 +40,20 @@ const linkify = (text: string) =>
             <Icon name="github" size={14} /> GitHub ↗
           </a>
         )}
-        {isPrivate ? (
-          <span class="badge badge-private">Private research</span>
-        ) : (
-          <span class={`badge badge-${status}`}>{statusLabel}</span>
+        {extLink && (
+          <a
+            class="project-ext-link"
+            href={extLink.url}
+            data-no-toggle
+            aria-label={extLink.label}
+            title={extLink.label}
+          >
+            <Icon name="external" size={13} /> {extLink.label} ↗
+          </a>
         )}
       </div>
       <div class="project-meta">
         <span class="project-year">{year}</span>
-        <span class="project-cat">{project.data.category}/</span>
-        {role && <span class="project-role">{role}</span>}
       </div>
       <p class="project-brief">{summary}</p>
     </div>
@@ -92,13 +94,6 @@ const linkify = (text: string) =>
           <Content />
         </article>
       </div>
-      {tags.length > 0 && (
-        <div class="detail-foot">
-          <ul class="tags">
-            {tags.map((t) => <li class="tag">{t}</li>)}
-          </ul>
-        </div>
-      )}
     </div>
   </div>
 </li>
