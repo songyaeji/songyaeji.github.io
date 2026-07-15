@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-16",
+  "issue_no": 9,
+  "briefing": "제로데이와 미패치 취약점이 광범위하게 악용되고 있다. LLM 악용, 음성 피싱, AiTM 공격 같은 신기술 기반 침해 기법이 고급 위협 행위자의 작전을 고도화하고 있다. 브라우저부터 엔터프라이즈 애플리케이션까지 주요 소프트웨어의 심각한 보안 결함이 동시다발적으로 노출되고 있는 상황이다.",
+  "keywords": [
+    "제로데이",
+    "APT침해",
+    "브라우저샌드박스탈출",
+    "LLM악용",
+    "음성피싱"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "LLM 기반 개발 IoT 보트넷 TuxBot v3 분석 공개",
+      "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/"
+    },
+    {
+      "n": 2,
+      "title": "SonicWall SMA1000, 제로데이 실제 악용 중 확인",
+      "url": "https://securityaffairs.com/195364/hacking/sonicwall-warns-of-active-exploitation-of-two-sma-1000-zero-days.html"
+    },
+    {
+      "n": 3,
+      "title": "Windows 프로필 서비스 권한상향 제로데이 LegacyHive 공개",
+      "url": "https://securityaffairs.com/195418/hacking/chaotic-eclipse-unveils-legacyhive-exploit-affecting-fully-patched-windows-systems.html"
+    },
+    {
+      "n": 4,
+      "title": "네덜란드 경찰, 글로벌 암호화폐 투자 사기 조직 적발",
+      "url": "https://therecord.media/dutch-police-dismantle-global-crypto-investment-scam"
+    },
+    {
+      "n": 5,
+      "title": "마이크로소프트 7월 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72130"
+    },
+    {
+      "n": 6,
+      "title": "UNC6508의 북미 의료·학술·군사 기관 대규모 침해",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/"
+    },
+    {
+      "n": 7,
+      "title": "UNC6671의 음성 피싱 및 SSO 침해 갈취 작전 (BlackFile)",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-2760",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2760"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-53622",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53622"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-0881",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0881"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-2761",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2761"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-2768",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2768"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-2776",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2776"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-2778",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2778"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-46817",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-70974",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70974"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2023-4346",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
