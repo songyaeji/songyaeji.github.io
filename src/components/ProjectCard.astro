@@ -21,15 +21,27 @@ const linkify = (text: string) =>
 ---
 
 <li class="project-card">
-  <button
-    type="button"
+  <div
     class="project-summary-row"
+    role="button"
+    tabindex="0"
     aria-expanded="false"
     aria-controls={`proj-detail-${project.id}`}
   >
     <div class="project-summary-left">
       <div class="project-title-line">
         <span class="project-title">{title}</span>
+        {repo && (
+          <a
+            class="project-ext-link"
+            href={repo}
+            data-no-toggle
+            aria-label="GitHub 저장소"
+            title="GitHub"
+          >
+            <Icon name="github" size={14} /> GitHub ↗
+          </a>
+        )}
         {isPrivate ? (
           <span class="badge badge-private">Private research</span>
         ) : (
@@ -53,7 +65,7 @@ const linkify = (text: string) =>
         <Icon name="chevron" size={14} />
       </span>
     </div>
-  </button>
+  </div>
 
   <div class="project-detail" id={`proj-detail-${project.id}`}>
     <div class="project-detail-inner">
@@ -80,18 +92,11 @@ const linkify = (text: string) =>
           <Content />
         </article>
       </div>
-      {(tags.length > 0 || repo) && (
+      {tags.length > 0 && (
         <div class="detail-foot">
-          {tags.length > 0 && (
-            <ul class="tags">
-              {tags.map((t) => <li class="tag">{t}</li>)}
-            </ul>
-          )}
-          {repo && (
-            <a class="project-repo-link" href={repo}>
-              <Icon name="github" size={14} /> GitHub ↗
-            </a>
-          )}
+          <ul class="tags">
+            {tags.map((t) => <li class="tag">{t}</li>)}
+          </ul>
         </div>
       )}
     </div>

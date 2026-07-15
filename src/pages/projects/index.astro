@@ -20,13 +20,26 @@ const projects = (await getCollection('projects')).sort(
 </Base>
 
 <script>
-  // 아코디언 토글 — 요약행 클릭으로 .open 전환, 상세는 max-height 트랜지션
+  // 아코디언 토글 — 요약행 클릭/키보드로 .open 전환, 상세는 max-height 트랜지션.
+  // 제목 옆 GitHub 링크(data-no-toggle)는 토글하지 않고 링크만 동작
   document.querySelectorAll('.project-summary-row').forEach((row) => {
-    row.addEventListener('click', () => {
+    const toggle = () => {
       const card = row.closest('.project-card');
       if (!card) return;
       const isOpen = card.classList.toggle('open');
       row.setAttribute('aria-expanded', String(isOpen));
+    };
+    row.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('[data-no-toggle]')) return;
+      toggle();
+    });
+    // role="button"이라 Enter·Space로도 펼침
+    row.addEventListener('keydown', (e) => {
+      const ke = e as KeyboardEvent;
+      if (ke.key !== 'Enter' && ke.key !== ' ') return;
+      if ((ke.target as HTMLElement).closest('[data-no-toggle]')) return;
+      ke.preventDefault();
+      toggle();
     });
   });
 </script>

@@ -656,6 +656,18 @@ p a:hover {
 
 .project-title { font-size: 1.05rem; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; }
 
+/* 제목 옆 GitHub 링크 — 아코디언 토글과 별개로 동작(data-no-toggle) */
+.project-ext-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+  color: var(--muted);
+  box-shadow: none;
+}
+.project-ext-link:hover { color: var(--yellow-deep); }
+
 .project-meta {
   display: flex;
   align-items: center;
@@ -746,16 +758,6 @@ p a:hover {
   flex-wrap: wrap;
   margin-top: var(--sp-5);
 }
-
-.project-repo-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: var(--fs-xs);
-  font-weight: 600;
-  color: var(--yellow-deep);
-}
-.project-repo-link:hover { color: var(--ink); }
 
 @media (max-width: 640px) {
   .project-summary-right .tag-row-preview { display: none; }
