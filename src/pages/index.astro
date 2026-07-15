@@ -82,15 +82,27 @@ const latestTrend = trendIssues.sort((a, b) => b.data.date.localeCompare(a.data.
         <div class="home-col">
           <section aria-label="주요 성과 요약">
             <p class="cli-label">wc -l achievements/*</p>
-            <ul class="proof-strip">
+            <ul class="stat-bar">
               <li>
-                <a href="/publications/"><b class="n">3</b><span>Publications</span></a>
+                <a href="/publications/">
+                  <span class="stat-icon"><Icon name="doc" size={16} /></span>
+                  <b class="n">3</b>
+                  <span class="stat-label">Publications</span>
+                </a>
               </li>
               <li>
-                <a href="#awards"><b class="n">2</b><span>Awards</span></a>
+                <a href="#awards">
+                  <span class="stat-icon"><Icon name="trophy" size={16} /></span>
+                  <b class="n">2</b>
+                  <span class="stat-label">Awards</span>
+                </a>
               </li>
               <li>
-                <a href="/projects/"><b class="n">18</b><span>Open Source Contributions</span></a>
+                <a href="/projects/">
+                  <span class="stat-icon"><Icon name="code" size={16} /></span>
+                  <b class="n">18</b>
+                  <span class="stat-label">OSS Contrib.</span>
+                </a>
               </li>
             </ul>
           </section>

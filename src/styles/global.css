@@ -374,38 +374,68 @@ p a:hover {
 /* main column */
 .home-main { display: grid; gap: var(--sp-7); align-content: start; min-width: 0; }
 
-/* ---------- proof strip — 첫 화면에서 숫자로 읽히는 성과 요약 ---------- */
-.proof-strip { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--sp-3); }
-
-.proof-strip a {
+/* ---------- stat bar — 첫 화면 성과 요약. 큰 숫자 + 세로 구분선 한 줄 ---------- */
+.stat-bar {
+  list-style: none;
+  padding: 0;
   display: flex;
-  align-items: baseline;
-  gap: var(--sp-2);
+  align-items: stretch;
   background: var(--surface);
   border: 1px solid var(--hairline);
-  border-radius: 10px;
-  padding: 0.55rem var(--sp-4);
-  transition: background 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
-.proof-strip a:hover {
-  background: var(--bg);
-  border-color: var(--yellow);
-  box-shadow: var(--shadow-1);
+/* 항목 사이 세로 구분선 — 헤어라인으로 조용하게 */
+.stat-bar li { flex: 1; display: flex; }
+.stat-bar li + li { box-shadow: inset 1px 0 0 var(--hairline); }
+
+.stat-bar a {
+  flex: 1;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  column-gap: 0.55rem;
+  row-gap: 0.1rem;
+  padding: 0.85rem 1.05rem;
+  transition: background 140ms ease;
 }
 
-.proof-strip .n {
+.stat-bar a:hover { background: var(--bg); }
+.stat-bar a:hover .stat-icon { color: var(--yellow-deep); }
+.stat-bar a:hover .n { box-shadow: inset 0 -0.3em 0 var(--yellow-soft); }
+
+.stat-icon {
+  grid-row: 1 / span 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  transition: color 140ms ease;
+}
+
+.stat-bar .n {
   font-family: var(--mono);
-  font-size: var(--fs-md);
+  font-size: var(--fs-lg);
   font-weight: 700;
+  line-height: 1.1;
   color: var(--ink);
+  align-self: end;
 }
 
-.proof-strip span {
-  font-size: var(--fs-xs);
+.stat-label {
+  font-size: var(--fs-2xs);
   font-weight: 600;
   color: var(--muted);
   white-space: nowrap;
+  align-self: start;
+}
+
+/* 좁은 폭에서는 세로 스택으로 — 아이콘·숫자·라벨이 눌리지 않게 */
+@media (max-width: 420px) {
+  .stat-bar { flex-direction: column; }
+  .stat-bar li + li { box-shadow: inset 0 1px 0 var(--hairline); }
 }
 
 /* ---------- home section titles — CLI 라벨은 장식, 스캔용 제목은 사람 글자로 ---------- */
