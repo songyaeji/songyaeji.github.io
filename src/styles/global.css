@@ -760,7 +760,8 @@ p a:hover {
 
 .project-detail-inner {
   border-top: 1px solid var(--hairline);
-  padding: var(--sp-5) 1.75rem 1.75rem;
+  /* 왼쪽 여백은 요약행 패딩 + 노란 점 폭 — 제목·요약 텍스트와 세로 정렬 */
+  padding: var(--sp-5) 1.75rem 1.75rem calc(1.75rem + 8px + 0.55rem);
 }
 
 .detail-block { margin-bottom: var(--sp-4); }
