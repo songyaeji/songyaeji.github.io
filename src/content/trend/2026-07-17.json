@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-17",
+  "issue_no": 10,
+  "briefing": "중국 행위자가 Claude Code, DeepSeek 등 클라우드 AI 도구를 악용한 사이버 스파이 캠페인을 전개하고 있으며, 개발 환경의 새로운 위협 벡터가 드러났다. 동시에 AI 기반 취약점 발견으로 대규모 보안 업데이트가 가속화되고 있으며, npm 공급망 침해, 산업용 제어 시스템 RCE, 금융기관 표적 공격이 동시다발로 보고되고 있다. 커널 드라이버 권한 우회, 미인증 원격명령 실행 등 다층적인 공격 기법이 악용되고 있다.",
+  "keywords": [
+    "LLM악용",
+    "공급망침해",
+    "명령인젝션RCE",
+    "금융기관표적",
+    "드라이버권한우회"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Claude Code·DeepSeek으로 자동화된 중국 사이버 스파이 캠페인",
+      "url": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html"
+    },
+    {
+      "n": 2,
+      "title": "Microsoft 570개 보안 결함 패치 AI 기반 취약점 발견",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
+    },
+    {
+      "n": 3,
+      "title": "AsyncAPI npm 공급망 침해: CI/CD 악용 멀웨어 배포",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/"
+    },
+    {
+      "n": 4,
+      "title": "CISA, Oracle E-Business Suite 취약점 연방 기관에 토요일까지 패칭 명령",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/"
+    },
+    {
+      "n": 5,
+      "title": "Cisco Talos, 러시아 UAT-11795의 Starland RAT·WLDR C2 캠페인 분석 공개",
+      "url": "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/"
+    },
+    {
+      "n": 6,
+      "title": "Rockwell Automation Flex 5000 어댑터 이중 해제 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08"
+    },
+    {
+      "n": 7,
+      "title": "Rockwell Automation Arena 원격 코드 실행",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-15013",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15013"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-25089",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-39808",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-14960",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14960"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-46512",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46512"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-31309",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31309"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-30618",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30618"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2023-49899",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49899"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2023-49900",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49900"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-47767",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47767"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
