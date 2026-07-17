@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-18",
+  "issue_no": 11,
+  "briefing": "AI 기반 코딩 도구와 자동화 플랫폼의 중대 보안 결함이 동시다발적으로 공개되며, 개발자 생태계 전역의 공급망 침해 우려가 심화되고 있다. Langflow의 5개 중대 RCE 취약점, Claude 확장 프로그램의 권한 검증 결함, Cursor 에디터의 미승인 git.exe 자동실행 등이 개발 환경을 직접 위협한다. 동시에 WordPress 생태계의 광범위한 인증 우회 및 관리자 탈취 취약점, 제로데이 익스플로잇 공개, 러시아 APT의 기간 인프라 침해 활동이 보안 위협의 다층성을 더하고 있다.",
+  "keywords": [
+    "AI개발도구RCE",
+    "npm공급망침해",
+    "제로데이공개익스플로잇",
+    "WordPress플러그인관리자탈취",
+    "APT기간인프라침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "AsyncAPI npm 패키지 침해 멀티 스테이지 보트넷",
+      "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html"
+    },
+    {
+      "n": 2,
+      "title": "Claude 크롬 익스텐션 결함, 악성 익스텐션의 에이전트 작업 트리거 가능",
+      "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/"
+    },
+    {
+      "n": 3,
+      "title": "Siemens ROX II 산업제어 3개 연쇄 제로데이",
+      "url": "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/"
+    },
+    {
+      "n": 4,
+      "title": "Windows LegacyHive 제로데이 익스플로잇 공개",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/"
+    },
+    {
+      "n": 5,
+      "title": "러시아 UAT-11795 Starland RAT 캠페인",
+      "url": "https://securityaffairs.com/195532/malware/new-russian-campaign-uses-fake-webex-and-zoom-installers-to-deploy-starland-rat.html"
+    },
+    {
+      "n": 6,
+      "title": "Cursor 에디터, 악성 저장소의 git.exe 파일 자동 실행으로 RCE",
+      "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+    },
+    {
+      "n": 7,
+      "title": "미국·동맹국, 러시아 FSB의 라우터 악용 경고 발표",
+      "url": "https://securityaffairs.com/195448/apt/us-and-allied-governments-recommendations-securing-network-devices-against-russian-apt-groups.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-9135",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9135"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-54159",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54159"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-14956",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14956"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-45336",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45336"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-15982",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15982"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-9810",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9810"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-8476",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8476"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-8481",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8481"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-8635",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8635"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-8859",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8859"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
