@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-19",
+  "issue_no": 12,
+  "briefing": "WordPress 핵심부터 Linux 커널까지 전 계층에서 원격 코드 실행 취약점이 발생했고, 블록체인 기반 C2를 활용한 npm 공급망 공격이 고도화되었다. KT·Abbott·경찰청의 연쇄적 정보 유출 및 협박 사건이 정부 제재로 이어지면서 국내 보안 위협이 현실화되었다.",
+  "keywords": [
+    "RCE",
+    "NPM공급망공격",
+    "블록체인C2",
+    "통신고객정보유출",
+    "라우터버퍼오버플로우"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "WordPress 핵심 wp2shell 취약점, 플러그인 없어도 RCE 가능",
+      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
+    },
+    {
+      "n": 2,
+      "title": "KT 2만 명 개인정보 유출로 정부 제재 임박",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNSmc4SFUwejlBV1BJMG8ta2RvVHZZaUIyVTJfYWViMTNjV1F5dlloUWh0dkxnXzdnOFBZaFFhT0tQV0pVNFhuVzUxSmZFYkpNOEtzRTN2T1NFZ3Z6c3BEVlJRaDNWdGVSUWs40gFvQVVfeXFMUHNqQ2NhaWxMc0xjZTFMNF9tQVdRUGZnQ28wb1NjTUJNN3hEZDREbzRxVnBRTTVoNW5rWWMzejZGeDJwX1hxWDA2aU5SQUpGd2tkY2RFa0FyRzgwSm9BN3Q5aC1PX0V4SlIyMld5SjJV?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "7개 악성 Vite npm 패키지로 블록체인 기반 C2 배포",
+      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+    },
+    {
+      "n": 4,
+      "title": "Abbott Laboratories 2건 독립 사이버 침해 조사 중",
+      "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
+    },
+    {
+      "n": 5,
+      "title": "경찰관 경찰 내부정보 단가표 작성해 판매 기소",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207631"
+    },
+    {
+      "n": 6,
+      "title": "Nichirei 일본 냉동식품 제조사 사이버공격으로 물류 중단",
+      "url": "https://securityaffairs.com/195543/security/a-cyberattack-hit-nichirei-one-of-japans-largest-food-companies.html"
+    },
+    {
+      "n": 7,
+      "title": "Microsoft, ACR Stealer 고객 공격 증가 경고",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2024-58362",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58362"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-16117",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16117"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-47865",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47865"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-47871",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47871"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-16095",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16095"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-16096",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16096"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-16097",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16097"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2023-54366",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54366"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-11826",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11826"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-45945",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45945"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
