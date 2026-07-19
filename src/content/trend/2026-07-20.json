@@ -1,0 +1,120 @@
+{
+  "date": "2026-07-20",
+  "issue_no": 13,
+  "briefing": "국가 스폰서 행위자와 사이버범죄자들이 AI 악성코드를 실제 운영에 배포하는 단계로 진화했으며, 러시아 APT는 ClickFix와 공급망 악용으로 공격을 고도화하고 있다. 동시에 한국 정부는 개인정보 유출에 대한 징벌적 과징금 강화와 AI 연구소의 보안 요건 명시로 정책 대응을 강화했다. 리눅스 커널과 주요 오픈소스 소프트웨어의 취약점도 계속 발견되고 있어 광범위한 보안 위협에 대한 다층적 대응이 필요한 상황이다.",
+  "keywords": [
+    "AI악성코드",
+    "공급망공격",
+    "국가스폰서APT",
+    "커널취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Google GTIG, AI 악성코드 실제 배포 단계 진입 확인",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools/"
+    },
+    {
+      "n": 2,
+      "title": "한국 정부 AI 연구소 보안 요건 강화, 공공조달 지원 확대",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207675"
+    },
+    {
+      "n": 3,
+      "title": "러시아 APT UAC-0145, ClickFix로 우크라이나 표적 공격",
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
+    },
+    {
+      "n": 4,
+      "title": "ViPNet 업데이트 악용, 러시아 정부기관 표적 공급망 공격",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
+    },
+    {
+      "n": 5,
+      "title": "한국, 9월부터 개인정보 유출 기업에 최대 매출액 10% 징벌적 과징금 부과",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207656"
+    },
+    {
+      "n": 6,
+      "title": "일본 최대 저온물류기업 니치레이 사이버공격 — KFC·마트 식품 공급 차질",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207665"
+    },
+    {
+      "n": 7,
+      "title": "보이스피싱 차단 불이행한 온세텔링크 등록취소 처분",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207672"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-10130",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10130"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-12484",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12484"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-63834",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63834"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-63835",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63835"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-64074",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64074"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2025-49796",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49796"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-63836",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63836"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-63908",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63908"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-30796",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30796"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-49794",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49794"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
