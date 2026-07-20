@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-21",
+  "issue_no": 14,
+  "briefing": "허깅페이스 자율 AI 에이전트 침해와 LLM 기반 IoT 봇넷(Tuxbot V3) 등 생성AI 악용 공격이 심각해지고 있다. 공급망 공격도 GitHub Actions와 npm 패키지 오염으로 확대되었다. 제로데이 악용과 원격 코드 실행 취약점들도 지속적으로 보고되었다.",
+  "keywords": [
+    "LLM기반IoT봇넷",
+    "자율AI에이전트침해",
+    "GitHub Actions공급망공격",
+    "npm패키지오염",
+    "제로데이악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "허깅페이스, 자율 AI 에이전트 침해로 자격증명 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207696"
+    },
+    {
+      "n": 2,
+      "title": "Volexity, SonicWall 제로데이 악용 공격 상세 분석 발표",
+      "url": "https://securityaffairs.com/195626/hacking/volexity-uncovers-zero-day-campaign-targeting-sonicwall-vpn-appliances.html"
+    },
+    {
+      "n": 3,
+      "title": "BC카드, 금융결제원과 글로벌 QR망 연계…방한 외국인 간편결제 기반 확대 - 서울타임즈뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzUW5ObEZzR3FhZ243TlN5cGVJTEJjaFRKT2NYdDRPdDBSdjJWeGJVR0RMdzFpQlhXMHE5SmlkY21BeFJuc05LMEVlanRkNHdQTHBtbDlFNm5rdE1ZNEZfdWsxZVNrV3NFekRF?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "이제 외국인 관강객도 본인 앱서 생성한 QR로 결제 가능해진다 - 네이트",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yQVMyYnI2WFdnemlqM3BiV2hna01kcjlUSEJRNURKSEl6X1BfRkNvaFEtbU05U0I4bmw0cVQ2TTlRWWp2ckhENXREVXZvZHpvWHYtNmM0SmF2LXoxU0czR0d3WUI4U05xOGhLc1RTWlFaVG52cTRuTw?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "BC카드, 국가간 QR결제 서비스 확대 - 이뉴스투데이",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrcGJuNXZuV0hRY1VHUFlFenRaZnNVV3JZSUJVdTNFLWZDM1ptYkg2N1B1eHFwOC1yUEZpX29VTjE2bUZQTFRjZU14cGk1UmxFS2o5c2N6WkhndDJyWFpqNXZ3RjlKQnNXd0FYTHlIZmzSAXRBVV95cUxQVjA5Tm45T2NWcUFBdGNqZVJWUDE2eHZ0UDl2UVFpcG5fcXpZc3RyNzdjZmt5SVhTdG9ELXE5d3hXelo3bFJPeERKNS1ieE5kd0JuS2hPN2pCRWRvdEFhSXJGdHJTRjR2cU1uN05KLUJmODAzcg?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "BC카드, 금융결제원과 국가간 QR 결제 연계 추진 - 금융경제신문",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0ydG5fd2hjM0JRcEFGd0VIOTVrdUxVdzVoUWxISlBsUjdFT0NCdTdWSTRLbk9MNUd3LUxtNFZoZFZ5Rm9IblBCZklkTG9LZ3dBb3RPN0IwdXBENnlMZi13OF83dGk4M2dFMjJBMXRBb9IBb0FVX3lxTE0ydG5fd2hjM0JRcEFGd0VIOTVrdUxVdzVoUWxISlBsUjdFT0NCdTdWSTRLbk9MNUd3LUxtNFZoZFZ5Rm9IblBCZklkTG9LZ3dBb3RPN0IwdXBENnlMZi13OF83dGk4M2dFMjJBMXRBbw?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "팔로알토 유닛42, Tuxbot V3 LLM 기반 IoT 봇넷 분석 발표",
+      "url": "http://www.boannews.com/media/view.asp?idx=144747&kind=&sub_kind="
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-46412",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46412"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-44359",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44359"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-54051",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54051"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-64620",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64620"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-35048",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35048"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-16235",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16235"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-63857",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63857"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-51027",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51027"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2024-1015",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1015"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-30080",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-30080"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
