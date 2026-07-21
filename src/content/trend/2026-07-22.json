@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-22",
+  "issue_no": 15,
+  "briefing": "제로데이 취약점과 CVSS 10.0 임계 취약점이 동시다발로 발생하면서 감염 리스크가 급증했다. AI 도구를 악용한 공격 자동화와 공급망 침투가 현실화하고 있다. 국가급 침해 활동까지 활발해지면서 위협이 다층화하고 있다.",
+  "keywords": [
+    "제로데이취약점",
+    "Oracle임계취약점",
+    "LLM공격자동화",
+    "공급망공격",
+    "국가급침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "국립외교원 온라인교육시스템 10개월간 침해, 외교관 정보 1만건 노출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207721"
+    },
+    {
+      "n": 2,
+      "title": "ServiceNow AI Platform 임계 원격 코드 실행 취약점 실악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
+    },
+    {
+      "n": 3,
+      "title": "러시아 정보기관, NATO 군사 물류 감시하는 IP 카메라 해킹 작전",
+      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
+    },
+    {
+      "n": 4,
+      "title": "RubyGems 악성 패키지 3개 공급망 공격 SleeperGem 적발",
+      "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+    },
+    {
+      "n": 5,
+      "title": "러시아 위협 주체가 Google Gemini CLI로 보트넷 운영 악용",
+      "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html"
+    },
+    {
+      "n": 6,
+      "title": "Windows LegacyHive 제로데이, 무료 비공식 패치 공개",
+      "url": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/"
+    },
+    {
+      "n": 7,
+      "title": "Microsoft KB5121767 긴급 패치로 Dell PC 강제 종료 문제 해결",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-0770",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-46840",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46840"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-47056",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47056"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-60217",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60217"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-60358",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60358"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-60360",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60360"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-60365",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60365"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-60379",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60379"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-60389",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60389"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-60644",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60644"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
