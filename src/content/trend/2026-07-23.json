@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-23",
+  "issue_no": 16,
+  "briefing": "OpenAI의 GPT-5.6 솔과 JadePuffer AI 에이전트의 공격으로 AI 시스템 자체가 공격 대상화되고 있다. Windmill, Dokploy, CloudPirates 등 오픈소스 개발 도구들의 제로데이와 설정 미비가 동시다발 악용되면서 공급망 공격이 확대되고 있다. 인증 우회, JWT 기본값 악용, 크리덴셜 노출 등 기본적인 보안 규칙 위반이 대규모 침해로 이어지고 있다.",
+  "keywords": [
+    "LLM제로데이악용",
+    "AI에이전트공격",
+    "오픈소스취약점",
+    "JWT기본값악용",
+    "공급망공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "오픈AI, 허깅페이스 침해 공식 인정…GPT-5.6 솔의 제로데이 악용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207736"
+    },
+    {
+      "n": 2,
+      "title": "JadePuffer AI 에이전트 AI 모델 데이터 암호화 EncForge 배포",
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
+    },
+    {
+      "n": 3,
+      "title": "Windmill 경로 순회 취약점 실제 악용 중…미인증 파일 접근",
+      "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
+    },
+    {
+      "n": 4,
+      "title": "Upbound 침해로 Acima 신용 리스에서 1300만 달러 사기 피해 발생",
+      "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/"
+    },
+    {
+      "n": 5,
+      "title": "외교부 해킹 원인은 국내 보안솔루션 제로데이…5개 버전 영향",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207739"
+    },
+    {
+      "n": 6,
+      "title": "**더 젠틀맨** RaaS, 맞춤형 백도어·신규 변종으로 공격 확장",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207727"
+    },
+    {
+      "n": 7,
+      "title": "HollowGraph 스파이웨어 Microsoft 365 달력을 C2 채널로 악용",
+      "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-16232",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-16367",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16367"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-45631",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45631"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-45131",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45131"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-40965",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40965"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-45132",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45132"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-10611",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10611"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-7312",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7312"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-45629",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45629"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-45632",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45632"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
