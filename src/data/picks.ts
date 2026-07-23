@@ -61,15 +61,6 @@ export const picks: Pick[] = [
   },
   // ---------- tools ----------
   {
-    name: 'ECC (everything-claude-code)',
-    category: 'tool',
-    date: '2026.01',
-    link: 'https://github.com/affaan-m/everything-claude-code',
-    tagline: '에이전트·스킬·훅·룰 올인원 팩',
-    reason:
-      '코드리뷰·보안리뷰·빌드 에러 해결 등 역할별 서브에이전트와 언어별 룰셋, TDD·커밋 규약 같은 워크플로 스킬을 한 번에 설치하는 종합 팩이다. 프로젝트마다 규칙을 새로 쓰는 대신 검증된 기본값 위에서 시작할 수 있다.',
-  },
-  {
     name: 'Orca',
     category: 'tool',
     date: '2026.03',
