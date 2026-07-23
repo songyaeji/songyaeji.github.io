@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # picks 페이지가 파일별 git log로 갱신 날짜를 뽑으므로 전체 이력 필요
+          fetch-depth: 0
       - uses: withastro/action@v3
         with:
           node-version: 22

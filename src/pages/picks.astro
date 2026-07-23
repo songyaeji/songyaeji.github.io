@@ -1,6 +1,24 @@
 ---
+import { execSync } from 'node:child_process';
 import Base from '../layouts/Base.astro';
-import { picks, pickSections, picksUpdated } from '../data/picks';
+import { picks, pickSections } from '../data/picks';
+
+// picks.ts를 마지막으로 손본 날짜를 빌드 시점에 git에서 뽑는다.
+// 수정 후 아직 커밋 전(dirty)이거나 git 이력이 없으면 오늘 날짜로 대체.
+const PICKS_DATA = 'src/data/picks.ts';
+const run = (cmd: string): string => {
+  try {
+    return execSync(cmd, { encoding: 'utf8' }).trim();
+  } catch {
+    return '';
+  }
+};
+const isDirty = run(`git status --porcelain -- ${PICKS_DATA}`) !== '';
+const lastCommitDate = run(`git log -1 --format=%cs -- ${PICKS_DATA}`);
+const picksUpdated =
+  isDirty || !lastCommitDate
+    ? new Date().toLocaleDateString('sv') // 로컬 타임존 기준 YYYY-MM-DD (ISOString은 UTC라 자정 전후 하루 밀림)
+    : lastCommitDate;
 
 const [uy, um, ud] = picksUpdated.split('-');
 const updatedLabel = `${uy}년 ${Number(um)}월 ${Number(ud)}일`;

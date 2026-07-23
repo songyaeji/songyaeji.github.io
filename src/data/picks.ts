@@ -18,9 +18,6 @@ export interface Pick {
   date?: string;
 }
 
-/** Picks를 마지막으로 손본 날짜 — "이 날짜 기준으로 고른 목록"임을 밝힌다. */
-export const picksUpdated = '2026-07-16';
-
 export const pickSections: { key: PickCategory; cmd: string }[] = [
   { key: 'skill', cmd: 'ls picks/skills/' },
   { key: 'mcp', cmd: 'ls picks/mcp/' },
