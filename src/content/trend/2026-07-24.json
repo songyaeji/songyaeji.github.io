@@ -1,0 +1,120 @@
+{
+  "date": "2026-07-24",
+  "issue_no": 17,
+  "briefing": "정부의 AI 보안 정책 강화에도 불구하고 Azure 에이전트가 프롬프트 주입으로 탈취되는 현실적 위협이 드러났다. Microsoft 클라우드 생태계 전역에서 인증 우회 및 파일 검증 부족의 CVSS 10.0 취약점이 동시 다중 공개되었으며, 자격증명 탈취 공격도 지속 중이다.",
+  "keywords": [
+    "프롬프트주입",
+    "LLM에이전트탈취",
+    "자격증명탈취",
+    "Azure고위험취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "정부 보안 특화 한국형 AI 모델 개발 공모",
+      "url": "http://www.boannews.com/media/view.asp?idx=144803&kind=&sub_kind="
+    },
+    {
+      "n": 2,
+      "title": "개인정보위, 공공 AI 프라이버시 보호 방향",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4ZW5mUkVFcU42NkR5dm03aGFCa1F3T3F5ZE5FSXhiTDFYbWVmMWlDMDIxZXQ1bTN6OWsxVi1zaERhaW9QbnJWbHNQaFN0WWIwaGxzU2FaRmozQ2VtNlZtdkFqeml6clk?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "Azure DevOps MCP 프롬프트 주입 AI 에이전트 탈취",
+      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
+    },
+    {
+      "n": 4,
+      "title": "Kratos 피싱 플랫폼 폐지, 인도네시아 개발자 체포",
+      "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html"
+    },
+    {
+      "n": 5,
+      "title": "치킨필레이 자격증명 공격 개인정보 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/"
+    },
+    {
+      "n": 6,
+      "title": "‘정보보호도 양극화’…GA 보안 격차, 위탁 경쟁력 가른다",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZzV3STcwamxJMy1MLWNwc2Rvb194dEZESzVFZEtJYXVQWWQ0eVNuUkd1bnY4elpwR24tTVdGYlZpOU9PQW9VYmJJZXBscG5VYlFjU3doSE14bnB5RzFDVlJEZU5Ob085?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "셀렉트스타, 금융보안원 AI 아카데미서 레드팀 챌린지 플랫폼 제공",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ubDJEbnJPWE9vQ29zZ0llNnMxZElQNGUzMlBMMUFwMGJiMEZkOXdTLUtTLTBsTFZLOUZJdnRRbXAwWFRLeUQyeTlhb2h5dlZxYjF1LUQ3dzN6V3VwVGFZ?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-60366",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60366"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-48567",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48567"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-49777",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49777"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-48303",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48303"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-23652",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23652"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-42901",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42901"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-46695",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46695"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-40412",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40412"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-41104",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41104"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-47280",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47280"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
