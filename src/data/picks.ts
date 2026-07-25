@@ -16,6 +16,13 @@ export interface Pick {
   important?: boolean;
   /** 공개·발간 시점 (YYYY.MM) — 저장소는 생성일, 문서는 발간일 기준 */
   date?: string;
+  /** 은퇴 항목 — 목록에서 내려도 삭제하지 않고 이력을 남긴다 */
+  archived?: {
+    /** 내린 시점 (YYYY.MM) */
+    date: string;
+    /** 왜 내렸는지 — 아카이브의 핵심 기록 */
+    reason: string;
+  };
 }
 
 export const pickSections: { key: PickCategory; cmd: string }[] = [
@@ -141,5 +148,20 @@ export const picks: Pick[] = [
     tagline: 'LLM 애플리케이션 보안 위협 표준 분류',
     reason:
       '프롬프트 인젝션부터 과도한 에이전시까지 LLM 시스템의 위협을 표준 용어로 정리한 레퍼런스. 보안 리뷰 보고서 작성 시 위협 분류·명명의 공통 언어가 된다.',
+  },
+  // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
+  {
+    name: 'ECC (everything-claude-code)',
+    category: 'tool',
+    date: '2026.01',
+    link: 'https://github.com/affaan-m/everything-claude-code',
+    tagline: '에이전트·스킬·훅·룰 올인원 팩',
+    reason:
+      '코드리뷰·보안리뷰·빌드 에러 해결 등 역할별 서브에이전트와 언어별 룰셋, TDD·커밋 규약 같은 워크플로 스킬을 한 번에 설치하는 종합 팩이다. 프로젝트마다 규칙을 새로 쓰는 대신 검증된 기본값 위에서 시작할 수 있다.',
+    archived: {
+      date: '2026.07',
+      reason:
+        '올인원 설치가 넣는 룰·에이전트 양이 실사용 대비 과해 세션 컨텍스트 부담이 컸다. 하네스 정리 과정에서 제거하고, 필요한 스킬만 골라 쓰는 방식으로 전환.',
+    },
   },
 ];
