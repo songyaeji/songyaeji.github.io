@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-26",
+  "issue_no": 19,
+  "briefing": "AI 에이전트와 코드 자동 실행 도구에서 프롬프트 주입·정규식 우회·개행 문자 우회 등으로 명령 자동 승인을 우회하고 무단 실행이 가능한 취약점들이 광범위하게 발견되었다. 랜섬웨어 집단들은 브라우저 기반 C2 통신과 공급망 공격으로 탐지 회피 및 감염 확대를 시도하고 있으며 데이터 협박으로 수익화하고 있다. 애플리케이션·플러그인·개발도구·IoT 기기 등 다양한 계층의 미인증 및 검증 부족 취약점이 동시에 악용되고 있다.",
+  "keywords": [
+    "AI명령자동승인우회",
+    "프롬프트주입",
+    "공급망공격",
+    "브라우저기반C2",
+    "데이터협박"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Hermes AI 에이전트, 태국 재무부 침해 공격 자동화",
+      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"
+    },
+    {
+      "n": 2,
+      "title": "Chaos 랜섬웨어 — msaRAT 백도어 C2 트래픽 은폐",
+      "url": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/"
+    },
+    {
+      "n": 3,
+      "title": "GitHub Actions 악용한 공급망 공격 — cPanel/WHM 표적",
+      "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html"
+    },
+    {
+      "n": 4,
+      "title": "Claude Cowork — macOS 샌드박스 탈출 RCE",
+      "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
+    },
+    {
+      "n": 5,
+      "title": "Notepad++ 플러그인 위장 MATCHBOIL.V2 UAC-0099 캠페인",
+      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html"
+    },
+    {
+      "n": 6,
+      "title": "Clop 랜섬웨어 PTC Windchill·FlexPLM 데이터 협박",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
+    },
+    {
+      "n": 7,
+      "title": "Hermes AI 에이전트로 태국 재무부 침입",
+      "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-66012",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66012"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-30314",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30314"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-30310",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30310"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-3296",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3296"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-30311",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30311"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-30312",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30312"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-32917",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32917"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-25776",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25776"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-31040",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31040"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-52221",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52221"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
