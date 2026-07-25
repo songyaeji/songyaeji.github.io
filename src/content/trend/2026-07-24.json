@@ -1,48 +1,49 @@
 {
   "date": "2026-07-24",
   "issue_no": 17,
-  "briefing": "정부의 AI 보안 정책 강화에도 불구하고 Azure 에이전트가 프롬프트 주입으로 탈취되는 현실적 위협이 드러났다. Microsoft 클라우드 생태계 전역에서 인증 우회 및 파일 검증 부족의 CVSS 10.0 취약점이 동시 다중 공개되었으며, 자격증명 탈취 공격도 지속 중이다.",
+  "briefing": "러시아 정부 지원 APT가 Zimbra 제로데이를 1년간 악용했고, Check Point 관리자 도구·Kratos 피싱 플랫폼의 제로데이가 활발히 악용되면서 공급망 위협이 고조했다. Microsoft Azure·Oracle 제품에서 CVSS 10.0의 극위험 인증우회·원격코드실행 취약점이 연쇄 보도되었다. Azure DevOps의 프롬프트 주입으로 AI 에이전트 조종이 가능해지면서 LLM 기반 개발 도구의 새로운 공격 벡터가 드러났다.",
   "keywords": [
-    "프롬프트주입",
-    "LLM에이전트탈취",
-    "자격증명탈취",
-    "Azure고위험취약점"
+    "러시아APT",
+    "Zimbra제로데이",
+    "피싱RaaS",
+    "LLM프롬프트주입",
+    "Azure원격코드실행"
   ],
   "links": [
     {
       "n": 1,
-      "title": "정부 보안 특화 한국형 AI 모델 개발 공모",
-      "url": "http://www.boannews.com/media/view.asp?idx=144803&kind=&sub_kind="
+      "title": "러시아 APT, Zimbra 메일 서버 제로데이 1년 악용",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a"
     },
     {
       "n": 2,
-      "title": "개인정보위, 공공 AI 프라이버시 보호 방향",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4ZW5mUkVFcU42NkR5dm03aGFCa1F3T3F5ZE5FSXhiTDFYbWVmMWlDMDIxZXQ1bTN6OWsxVi1zaERhaW9QbnJWbHNQaFN0WWIwaGxzU2FaRmozQ2VtNlZtdkFqeml6clk?oc=5"
+      "title": "Check Point SmartConsole 관리자 제로데이 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
     },
     {
       "n": 3,
-      "title": "Azure DevOps MCP 프롬프트 주입 AI 에이전트 탈취",
-      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
+      "title": "Rockwell ThinManager — 경로이동 권한상향",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05"
     },
     {
       "n": 4,
-      "title": "Kratos 피싱 플랫폼 폐지, 인도네시아 개발자 체포",
-      "url": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html"
+      "title": "글로벌 Kratos 피싱 플랫폼 적발",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/"
     },
     {
       "n": 5,
-      "title": "치킨필레이 자격증명 공격 개인정보 유출",
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/"
+      "title": "Azure DevOps MCP 숨은 댓글로 AI 에이전트 조종",
+      "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html"
     },
     {
       "n": 6,
-      "title": "‘정보보호도 양극화’…GA 보안 격차, 위탁 경쟁력 가른다",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZzV3STcwamxJMy1MLWNwc2Rvb194dEZESzVFZEtJYXVQWWQ0eVNuUkd1bnY4elpwR24tTVdGYlZpOU9PQW9VYmJJZXBscG5VYlFjU3doSE14bnB5RzFDVlJEZU5Ob085?oc=5"
+      "title": "한국 정부 사이버보안 특화 AI 모델 개발 사업 공모",
+      "url": "http://www.boannews.com/media/view.asp?idx=144803&kind=&sub_kind="
     },
     {
       "n": 7,
-      "title": "셀렉트스타, 금융보안원 AI 아카데미서 레드팀 챌린지 플랫폼 제공",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ubDJEbnJPWE9vQ29zZ0llNnMxZElQNGUzMlBMMUFwMGJiMEZkOXdTLUtTLTBsTFZLOUZJdnRRbXAwWFRLeUQyeTlhb2h5dlZxYjF1LUQ3dzN6V3VwVGFZ?oc=5"
+      "title": "MZ Automation libIEC61850 RCE 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06"
     },
     {
       "n": 8,
@@ -66,18 +67,18 @@
     },
     {
       "n": 12,
-      "title": "CVE-2026-23652",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23652"
-    },
-    {
-      "n": 13,
       "title": "CVE-2026-42901",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42901"
     },
     {
+      "n": 13,
+      "title": "CVE-2026-47280",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47280"
+    },
+    {
       "n": 14,
-      "title": "CVE-2026-46695",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46695"
+      "title": "CVE-2026-23652",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23652"
     },
     {
       "n": 15,
@@ -86,13 +87,13 @@
     },
     {
       "n": 16,
-      "title": "CVE-2026-41104",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41104"
+      "title": "CVE-2026-46695",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46695"
     },
     {
       "n": 17,
-      "title": "CVE-2026-47280",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47280"
+      "title": "CVE-2026-41104",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41104"
     }
   ],
   "cards": [
