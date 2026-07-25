@@ -36,6 +36,14 @@ const isCurrent = (href: string) =>
     <meta property="og:url" content={new URL(path, Astro.site)} />
     <meta property="og:image" content={new URL(profile.avatar, Astro.site)} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Google tag (gtag.js) — is:inline 없으면 Astro가 번들링해 gtag 로드 순서 깨짐 -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-123ZKBCE0N"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-123ZKBCE0N');
+    </script>
     {/* IBM Plex Mono는 self-host(global.css @font-face) — 브랜드·CLI 라벨에 즉시 쓰여 preload */}
     <link rel="preload" href="/fonts/ibm-plex-mono-600.woff2" as="font" type="font/woff2" crossorigin />
     {/* Pretendard 한글 dynamic subset은 파일 수가 많아 self-host 비실용 — CDN 유지 */}
