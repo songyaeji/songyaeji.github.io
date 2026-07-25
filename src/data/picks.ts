@@ -67,6 +67,15 @@ export const picks: Pick[] = [
       '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 선택할 수 있는 데스크톱 앱이다. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄인다.',
   },
   {
+    name: 'garak',
+    category: 'tool',
+    date: '2023.05',
+    link: 'https://github.com/NVIDIA/garak',
+    tagline: 'NVIDIA의 LLM 취약점 스캐너 — 프롬프트 인젝션·탈옥·유해 출력 자동 프로빙',
+    reason:
+      'nmap이 네트워크를 스캔하듯 LLM을 스캔하는 오픈소스 취약점 스캐너다. 프롬프트 인젝션, 탈옥, 데이터 유출, 유해 콘텐츠 생성 등 다양한 공격 프로브를 자동으로 던지고 탐지기로 응답을 채점해 모델의 약점을 리포트로 정리한다. OpenAI·Hugging Face·Ollama 등 주요 백엔드를 지원해 AI 레드티밍 실습의 표준 시작점으로 쓰기 좋다.',
+  },
+  {
     name: 'PentestGPT',
     category: 'tool',
     date: '2023.02',
