@@ -1,0 +1,96 @@
+{
+  "date": "2026-07-27",
+  "issue_no": 20,
+  "briefing": "국가 행위자와 범죄 조직의 다층적 위협이 심화하고 있다. 이란의 산업제어시스템 침투, Cl0p 랜섬웨어의 제조업 공급망 공격, SourTrade의 금융 거래자 다중 피싱이 동시 진행되고 있다. AI 정책 협력과 개인정보 규제는 선제적으로 강화되고 있으나, 유출 데이터의 2차 악용은 계속 확산하고 있다.",
+  "keywords": [
+    "AI모델정책협력",
+    "산업제어시스템침투",
+    "공급망데이터협박",
+    "금융거래자말버티징",
+    "유출데이터2차악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "미국 물·에너지시스템 이란 침입 경고",
+      "url": "https://securityaffairs.com/195991/apt/iran-linked-actors-breach-are-targeting-us-water-and-energy-control-systems.html"
+    },
+    {
+      "n": 2,
+      "title": "SourTrade 말버티징 Bun으로 멀웨어 조립",
+      "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html"
+    },
+    {
+      "n": 3,
+      "title": "앤트로픽, 미국 당국과 AI 모델 정책 협의",
+      "url": "http://www.boannews.com/media/view.asp?idx=144840&kind=&sub_kind="
+    },
+    {
+      "n": 4,
+      "title": "개인정보위, TikTok·Apple 무단 정보수집 제재",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNN0tpUXlleXlWWkp0Qk80UnJmUkVhVTZaTzdNbjhoSmtJamdhejhkU3BFblpIT1lvT3F3Sk9oUG9XUTJEQ0ZuckFjN2JuNDUzZE4yX2ZuNWowZVE1TkFXeURybDk1c2lwUm0tWGhCSGJGb1N1WVVpcFpCaXdPVU8tQXBHME1GaXRocUxYbWRBRWp0MkZISVdybG92bXdaQmRYN0JnRzVsNDE5NWw2OFlVVjVUS2kxal9weXMzd1E3bWJTUTVyWjF5c3B4TzQ2dnFTa3JoNi1oQWs0anV3MG45UFN4UmtMY2RNa0xBNFpCN0J1amdCTWlBRl8tSEgtOUpfeWZBNnJSV2M4X3NMdFc0M3BTcW5YZklQenpGSnZDdi10U2ZJU0E2dmlmQ3lPTDA1aDFIbDZKbllSQnJSbjIySGJxS2tnb1dkRWJN?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "Cl0p 랜섬웨어, PTC Windchill·FlexPLM 협박 캠페인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207779"
+    },
+    {
+      "n": 6,
+      "title": "전기차 충전 플랫폼 채비 30만건 유출",
+      "url": "http://www.boannews.com/media/view.asp?idx=144842&kind=&sub_kind="
+    },
+    {
+      "n": 7,
+      "title": "ShinyHunters 유출 데이터 섹스토션 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-17497",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17497"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-15962",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15962"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-17496",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17496"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2024-14040",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-14040"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-64530",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64530"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
