@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-28",
+  "issue_no": 21,
+  "briefing": "공급망과 오픈소스 생태계가 표적이 되고 있으며, App Store 위조 지갑으로 180만달러 규모 암호자산이 탈취되고 WordPress/Joomla의 미인증 RCE 취약점들이 다수 발견됐다. 블록체인 기반 C2, BYOVD, 샌드박스 탈출 같은 신규 회피 기법도 적극 악용되고 있다. Fortinet, VeloCloud, SaaS 플랫폼 등 엔터프라이즈 인프라를 표적으로 한 CVSS 9.8~10.0 고위험 취약점들이 야생에서 적극 악용 중이다.",
+  "keywords": [
+    "공급망공격",
+    "미인증RCE",
+    "오픈소스취약점",
+    "블록체인C2",
+    "암호자산탈취"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "TELESHIM 중동 정부 표적 캠페인",
+      "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html"
+    },
+    {
+      "n": 2,
+      "title": "n8n 샌드박스 탈출 원격명령실행",
+      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
+    },
+    {
+      "n": 3,
+      "title": "Coca-Cola Fairlife 랜섬웨어 데이터 탈취 공식 확인",
+      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/"
+    },
+    {
+      "n": 4,
+      "title": "Apple App Store 위조 Sparrow 지갑, 180만달러 비트코인 탈취",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/"
+    },
+    {
+      "n": 5,
+      "title": "Dysphoria IoT 봇넷 블록체인 C2 도입, 20만 기기 감염",
+      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
+    },
+    {
+      "n": 6,
+      "title": "KT 펨토셀 해킹 개인정보위 제재 심의",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGeWhoTlJtdU5qZ1lEOWZZSHFkSXRTUGtwb29tNmZqR3o4bG4yUUE1Nkw5MGtBeVM1VkMtbXZTRkZXZG1MakxvQUlScVdoRmc2VENUNGNpYVN4TjRNVTFrTHpsRzdPRTgzcEZaRTROY0tFdXZDSXlPSQ?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "Cruciferra 암호화 BYOVD·프로세스 고스팅",
+      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-16812",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-15630",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15630"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-16280",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16280"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-12394",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12394"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2025-68686",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-48030",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48030"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-64874",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64874"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-16766",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16766"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-1782",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1782"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2015-10138",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-10138"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
