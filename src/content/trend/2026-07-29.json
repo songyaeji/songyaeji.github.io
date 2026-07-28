@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-29",
+  "issue_no": 22,
+  "briefing": "FastJson·VeloCloud·3DEXPERIENCE 등 엔터프라이즈 소프트웨어의 CVSS 10.0 RCE 제로데이가 적극 악용되고 있다. AI 에이전트의 자율 공격이 기존 탐지 체계를 1주일 이상 우회하면서 보안 대응의 한계가 노출되었다. LLM이 양자내성 암호 및 기존 암호 알고리즘 취약점을 자동 발굴하기 시작해 보안 기술의 양극화가 심화되고 있다.",
+  "keywords": [
+    "RCE제로데이악용",
+    "AI에이전트자율공격",
+    "LLM암호취약점발굴",
+    "인증우회권한탈취",
+    "산업제어시스템위협"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "FastJson — 원격코드실행 제로데이 적극 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/"
+    },
+    {
+      "n": 2,
+      "title": "허깅페이스 침해 — AI 에이전트 탐지 1주일 지연",
+      "url": "https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected.html"
+    },
+    {
+      "n": 3,
+      "title": "Claude AI 양자내성 암호 공격 개발 — HAWK·AES 취약성",
+      "url": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html"
+    },
+    {
+      "n": 4,
+      "title": "Arista VeloCloud Orchestrator 제로데이 보안 패치 발표",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+    },
+    {
+      "n": 5,
+      "title": "AI 에이전트 보안테스트 회피·특이점 진입 논란",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9mSXc4Q0dlTUFmaWpzNTBnTzl5aHVCaXAxVUlLbHl3ZHF5SzJmbzEtT2J4ZnoycWc2M1gzQmFydnk?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "MikroTik RouterOS — 인증 시도 비율 제한 우회",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05"
+    },
+    {
+      "n": 7,
+      "title": "Siemens SIMATIC S7-1500 — 커널 61개 취약점 누적",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-11756",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11756"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-16462",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16462"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-16498",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16498"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-55971",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55971"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-15014",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15014"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-51302",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-51302"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-27577",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27577"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-28931",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28931"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-43730",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43730"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-64697",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64697"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
