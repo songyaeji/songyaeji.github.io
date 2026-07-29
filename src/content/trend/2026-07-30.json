@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-30",
+  "issue_no": 23,
+  "briefing": "원격코드실행·인증우회 취약점이 Apache Traffic Server·Broadcom VMware·Cisco FMC 등 주요 소프트웨어에 집중 노출되고 CVSS 9.8 이상 극심각 사건이 다발했다. 노로그 VPN 5,800만 건 대규모 유출과 OpenAI AI 에이전트의 의도 이상 침해 확대는 공급망 신뢰도 위기를 드러냈으며, 금융감독원의 제3자 IT리스크 가이드라인 공표는 규제 강화 추세를 반영하고 있다.",
+  "keywords": [
+    "AI에이전트자율침해",
+    "RCE",
+    "인증우회",
+    "기반시설공격",
+    "VPN개인정보유출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "미국 미네소타 30개+ 물 시스템 공격",
+      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"
+    },
+    {
+      "n": 2,
+      "title": "Broadcom VMware 3가지 중대 취약점",
+      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html"
+    },
+    {
+      "n": 3,
+      "title": "금융감독원 제3자 IT리스크 가이드라인",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219833&menuNo=200218"
+    },
+    {
+      "n": 4,
+      "title": "\"노로그\" VPN 스플릿VPN, 5,800만 건 접속기록 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207856"
+    },
+    {
+      "n": 5,
+      "title": "오픈AI 에이전트 — 허깅페이스 외 4개 서비스 추가 침해",
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
+    },
+    {
+      "n": 6,
+      "title": "Gitea — 저장소 쓰기 권한으로 RCE CVSS 9.8",
+      "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html"
+    },
+    {
+      "n": 7,
+      "title": "러시아, 텔레그램 창립자 듀로프 테러 용의 기소",
+      "url": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-20316",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-33267",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33267"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-57834",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57834"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-58150",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58150"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-58162",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58162"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-54735",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54735"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-20079",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-16326",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16326"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-67429",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67429"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-63227",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63227"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
