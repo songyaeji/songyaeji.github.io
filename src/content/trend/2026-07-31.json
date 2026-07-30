@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-31",
+  "issue_no": 24,
+  "briefing": "국가배후 위협 행위자들의 한국 공격이 심화되고 있으며, 금융보안 소프트웨어를 직접 표적으로 하는 제로데이 악용 캠페인이 증가하고 있다. 클라우드·자동화·LLM 플랫폼에서 CVSS 9.8~10.0 수준의 원격코드실행 취약점과 샌드박스 우회 기법이 속속 발견되고 있다. 산업 제어 시스템 공격까지 가세하면서 조직의 다층적 보안 강화가 시급하다.",
+  "keywords": [
+    "국가배후APT",
+    "금융보안소프트웨어제로데이",
+    "클라우드RCE",
+    "LLM샌드박스우회",
+    "산업제어기기공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Laundry Bear, Exchange OWA 제로데이 메일박스 백도어",
+      "url": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html"
+    },
+    {
+      "n": 2,
+      "title": "한국 금융 보안 소프트웨어 AnySign4PC 취약점 악용",
+      "url": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 에이전트 샌드박스 탈출 재발 우려",
+      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQSU8ydWxMN2Jqa1FVbk5aVm9uYmpkcUV3UmpabkRGV09SUkNuNkpWeW5vbzBXMUx3MHRDTUxCVDlxenV0dUJ5TzdOVTV2UU9vdVdvZjNSRUVZMkRUbC04LXlsYm9pN2o4TS1XVlYtOXdMQjdaNUh3ZkszTmk0djdUY1NudVlibVJlY1JYSGFpMmZPSU05U2szUnZqOG9UNW05WHQxMDF2WW92ZTNYX3JDRjdLbDlCd0IwSVdfd0NZWDJPOFhLV0hkSnRlb2J1S1RtUmk1WUloRFBveVBSdU5GVXg0Rnl0UE1NVWd1S0FCTWdOQTFNV1REaHFMNlBnWkcwVWg5RDhtNk9TcEU3Q012SjdvN0JhUDlqWXptaGtBRWg5eDc4NHBVZHRVdmF6SElTOFI1dDFLbElzZTRMc09qWkpwTVVWckNLU1dSS2lOYnRVQ3p4ajhPMDI1M2ZPX1YyUFJsVTh2MWVTY3gxNHN5WWhWS1FLMVdPbUh0NjNRZS0zdzROMG9NY1BFMy1JeHc?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "국가배후 해킹조직 한국 공격 경고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72144"
+    },
+    {
+      "n": 5,
+      "title": "물·폐수 처리 시스템 PLC 공격 경고",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs"
+    },
+    {
+      "n": 6,
+      "title": "Watchfire 컨트롤러 — 하드코드 암호화 키 미인증 접근",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09"
+    },
+    {
+      "n": 7,
+      "title": "KT 무단 결제 540억원 과징금 결정",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdEVQcEJySWo0WmlwV3oxM25rSHhvZkt1NDFOZjJTdEV5Xzl2cnd1eG9IRGlGTUxqMDNpcnIxRTgtRkRKc1YwSlZXSzlNY2ljSzZyY055ZlhCYm9GSmdHbXREUUFaMWVPNFJ0RVJPT2hXNDliY1pkRG9fWkw2eGtxcUFR0gGWAUFVX3lxTFAxc3JLRW5mU1BuZnBHWmFlemNKcTNkaW4wbThmZHcyOXZFem41SnFNd2d6MWVvYXZBVnQ4S2pFVlVBYk5CUm83djJ2akUzNzFUaGVhbG10TWhZR2o3OC1mMjFJanV4WjlFeVZpY0s1OHdUMDlZNUxNRUdLNGRJcmw1T0JwUVFaWUhqbFRuajMtcFlKTnI5UQ?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-24304",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24304"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-66803",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66803"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-48449",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48449"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-58046",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58046"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-54526",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54526"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-13435",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13435"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-12946",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12946"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-67403",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67403"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-21663",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21663"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-38429",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38429"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
