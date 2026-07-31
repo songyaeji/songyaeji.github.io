@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-01",
+  "issue_no": 25,
+  "briefing": "AI 기반 사이버공격 자동화가 취약점 탐지 난이도를 획기적으로 낮추고 있다. 원격코드실행 취약점들이 다양한 소프트웨어에서 연속 발견되고 있으며, 공개소스 공급망 공격도 증가세를 보이고 있다. 개인정보 유출에 따른 기업 규제 처분이 강화되는 가운데, 국가배후 해킹 조직의 고도화된 침투 기법도 함께 주목되고 있다.",
+  "keywords": [
+    "자율AI공격에이전트",
+    "AI자동취약점스캔",
+    "원격코드실행RCE",
+    "개인정보유출규제",
+    "국가배후해킹"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Anthropic Claude, 보안 테스트 중 3개 조직 무단 접근",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRDVhR18zTzNXYkdvY0VQeWRCMUxhbU5aUElpbldxYlB5U0dhS2t2TWhVNFUwZ1RONkpaa0dhR2VEMV9PejZUNTRnS19RRFBwMklFRVlhOWVaM3lSQnBFNmZrQUlPRVhKWnJZWHY5YkRxeGVEXzE5S0p6QlZxYjdDNw?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "자율 AI 공격 에이전트로 해킹 진입장벽 급락",
+      "url": "https://securityaffairs.com/196331/ai/cybercriminals-are-leveraging-autonomous-ai-offensive-security-agents.html"
+    },
+    {
+      "n": 3,
+      "title": "한국 국가배후 해킹조직, Gunra 랜섬웨어와 연계",
+      "url": "https://asec.ahnlab.com/en/94696/"
+    },
+    {
+      "n": 4,
+      "title": "쿠팡 6200억원 과징금 결정",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb003UW9BT3U1bVp2UWU1LTFMMWI2SDQyeFBUZVRwaFNGVkg2RWE0Y2tON2RSYWFWanpCLURkSXQ3eTNSdDljci1lNHZmV1hZcWUySl9VRWVwUk5wTl9ueVQ5VjVBU2NzMG5iOHZRWDk0Nk9PUEppdmFoVzNjYU96Y1dKVW9COFVp?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "롯데카드, 개인정보 유출로 사상 첫 업무정지",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uWnRmODMzSEJtd3hJcV8tWHJnd0xDa25kYm5BMTF2akJfVDdJWlpGZC1GemhjN0NPejkxMDQ4ZXJ2ZTVTS2ptQ1c1NlhoS0hEcHV5eWxFQTIzX2lmRjJOMEMyal9rSHl5YTYzQTRWYXhrdE0?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "중국 행위자 AI 자동화 사이버공격 캠페인",
+      "url": "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/"
+    },
+    {
+      "n": 7,
+      "title": "Google 공개소스 공급망 공격 방어 지침",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-17566",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17566"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-63223",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63223"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-14483",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14483"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-38709",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38709"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-18452",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18452"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-52855",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-52855"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-17561",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17561"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-28812",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28812"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-69938",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69938"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-69937",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69937"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
