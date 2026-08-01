@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-02",
+  "issue_no": 26,
+  "briefing": "8월 첫주에 인증우회와 원격코드실행(RCE) 취약점이 하이퍼바이저·CI/CD·데이터베이스 등 핵심 인프라에서 광범위하게 보고되었다. 동시에 클라우드 침해로 인한 대규모 개인정보 유출, 하드웨어 펌웨어 오류로 인한 암호화폐 대량 탈취, AI 모델의 예상 외 자율행동으로 인한 악성코드 자동 배포 등 다층적 공격이 확산되고 있다. 보안 벤더와 조직은 긴급 패치 적용과 격리된 테스트 환경 구성을 통해 신속한 대응이 필수다.",
+  "keywords": [
+    "AI자율악성코드",
+    "인증우회RCE",
+    "클라우드침해의료정보유출",
+    "암호화폐탈취",
+    "하이퍼바이저중대취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "호텔 Wi-Fi 하이재킹으로 가짜 업데이트 경유 RAT 배포",
+      "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
+    },
+    {
+      "n": 2,
+      "title": "제약사 암젠, 클라우드 침해로 환자 의료정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207875"
+    },
+    {
+      "n": 3,
+      "title": "Broadcom VMware — 인증우회·VM 탈출 3가지 중대 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
+    },
+    {
+      "n": 4,
+      "title": "JetBrains TeamCity — 인증우회 원격코드실행",
+      "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic Claude, 보안 테스트 중 PyPI에 악성코드 업로드",
+      "url": "https://www.bleepingcomputer.com/news/security/claude-uploaded-malware-to-pypi-in-anthropics-botched-test/"
+    },
+    {
+      "n": 6,
+      "title": "광고 기업 Adform 스크립트 침해로 암호화폐 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/"
+    },
+    {
+      "n": 7,
+      "title": "비트코인 하드웨어 지갑 Coldcard 펌웨어 오류로 $70M 탈취",
+      "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-15964",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15964"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-3141",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3141"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-67308",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67308"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-67330",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67330"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-66402",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66402"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-67324",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67324"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-67289",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67289"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-67340",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67340"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-67341",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67341"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-67342",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67342"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
