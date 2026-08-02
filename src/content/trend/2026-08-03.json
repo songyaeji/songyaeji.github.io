@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-03",
+  "issue_no": 27,
+  "briefing": "의료기업과 통신사 등 국내 주요 기업들의 대규모 개인정보유출 사고가 연이어 발생했다. 북한 Sapphire Sleet 조직이 npm 패키지 4대를 공급망공격으로 하이재킹해 암호화폐를 절도했고, 북한 IT 인력이 프록시 기반 위장 취업으로 조직적인 사이버위협을 전개했다.",
+  "keywords": [
+    "npm공급망공격",
+    "개인정보유출사고",
+    "북한사이버위협",
+    "암호화폐절도",
+    "위장취업"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "의료기업 CareCloud 345,000명 정보 유출",
+      "url": "https://securityaffairs.com/196480/cyber-crime/carecloud-breach-exposes-medical-and-financial-data-of-345000.html"
+    },
+    {
+      "n": 2,
+      "title": "개인정보위, KT에 539억원 과징금 부과",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207880"
+    },
+    {
+      "n": 3,
+      "title": "npm 4대 패키지 공급망공격 북한 귀속 확정",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207871"
+    },
+    {
+      "n": 4,
+      "title": "북한 IT 인력 위장 취업 캠페인 — 10개국 공동 경고",
+      "url": "http://www.boannews.com/media/view.asp?idx=144970&kind=&sub_kind="
+    },
+    {
+      "n": 5,
+      "title": "롯데카드 침해 — 업무정지 처분 1.5개월로 감경",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTOHNKaFU1eVU5THZQRjJfR1oxV2hCbWNfMnVUa1ZsblIySVpTblh6Uk9LclFuZF93QTE2YTlHdy1XdXNUM1BPZjFtOTh2TVRZUEEzbHdkaXhKWEF6bkhEajZxbV9wY0NDVnYzeA?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "[2026 드론 제품 & 솔루션 리포트] 드론, 영상보안과 만나 세상()을 이롭게()하다",
+      "url": "http://www.boannews.com/media/view.asp?idx=144895&kind=&sub_kind="
+    },
+    {
+      "n": 7,
+      "title": "2026년 8월, 물리&사이버보안 기업이 찾는 인재는 누구?",
+      "url": "http://www.boannews.com/media/view.asp?idx=144871&kind=&sub_kind="
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-65321",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65321"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-68579",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68579"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-67356",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67356"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2025-1244",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1244"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2025-71399",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71399"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-68581",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68581"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-9856",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9856"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
