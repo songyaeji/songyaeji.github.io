@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-04",
+  "issue_no": 28,
+  "briefing": "오늘의 보안뉴스는 AI 공급망·금융·IoT 기기에서 높은 심각도의 RCE·인증우회·SQL 주입 취약점이 집중 발견되었다. 동시에 금융권 침투테스트 표준화와 양자내성암호 연구가 추진되고 있으나, 미완성 패치와 반복된 취약점 공개는 공급자의 신속한 대응 강화를 촉구한다.",
+  "keywords": [
+    "AI공급망RCE",
+    "금융침투테스트표준화",
+    "양자내성암호PQC",
+    "인증우회취약점",
+    "SQL주입고위험"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Hugging Face Diffusers AI 공급망 원격코드실행",
+      "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html"
+    },
+    {
+      "n": 2,
+      "title": "금융보안원 금융권 침투테스트 수행 기준 표준화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207897"
+    },
+    {
+      "n": 3,
+      "title": "KB국민은행·키페어 양자내성암호 연구",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207893"
+    },
+    {
+      "n": 4,
+      "title": "N-central 인증 우회 원격 관리 침투 CVE-2026-18577",
+      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+    },
+    {
+      "n": 5,
+      "title": "Thermo Fisher DNA 파일 위변조 취약점 CVE-2026-17583",
+      "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
+    },
+    {
+      "n": 6,
+      "title": "영국 경찰 법무 DB 침해 민감정보 유출",
+      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html"
+    },
+    {
+      "n": 7,
+      "title": "삼성생명 안면인증, 금융권 확대",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wM1UxMTFWcWJXSFFrZkQzRk9FUEhaSHYtQmU0Wk5GQkFTTEVKNE5vSVVKbUE5UWNTQVhBSE41SmI5SXlOTmpXa3FYZ2c2cWcxeXkzbWgyemp3U0x3cUtGcU02Slg?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-18577",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-69083",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69083"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-69084",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69084"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-69085",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69085"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-18588",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18588"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-18589",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18589"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-18601",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18601"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-2346",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2346"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-69931",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69931"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-49261",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49261"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
