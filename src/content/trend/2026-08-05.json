@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-05",
+  "issue_no": 29,
+  "briefing": "중국 위협 행위자가 LLM으로 완전 자동화된 공격을 수행하는 한편, 방어진은 AI로 제로데이 대량 발견에 나서면서 AI가 보안 공방의 중심이 되었다. npm 레지스트리의 워밍 캠페인과 합법적 클라우드 플랫폼을 악용한 피싱이 개발자 생태계를 집중 공략하고 있다. Adobe Campaign Classic 등 엔터프라이즈 소프트웨어에서 CVSS 10.0의 극도로 심각한 취약점들이 대량 발견되었다.",
+  "keywords": [
+    "LLM자동공격",
+    "npm공급망워밍",
+    "개발환경침탈",
+    "엔터프라이즈취약점",
+    "클라우드플랫폼악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "중국 위협 행위자 DeepSeek로 완전 자동화 해킹 캠페인",
+      "url": "https://securityaffairs.com/196544/ai/ai-runs-the-hack-chinese-actor-automates-cyberattacks-with-deepseek.html"
+    },
+    {
+      "n": 2,
+      "title": "Google Password Manager Passkey 우회 공격 3가지",
+      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html"
+    },
+    {
+      "n": 3,
+      "title": "Keyv npm 워밍 353개 패키지 확산 개발자 정보 탈취",
+      "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html"
+    },
+    {
+      "n": 4,
+      "title": "ChainDrop 자체 전파 악성코드 1,300개 npm 감염",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/"
+    },
+    {
+      "n": 5,
+      "title": "AI가 오픈소스 제로데이 14,000개 자동 발견",
+      "url": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/"
+    },
+    {
+      "n": 6,
+      "title": "INC 랜섬웨어, 소닉월 제로데이 집단 악용 중",
+      "url": "https://securityaffairs.com/196607/malware/inc-ransomware-is-calling-victims-pressure-tactics-post-sonicwall-zero-day-exploit.html"
+    },
+    {
+      "n": 7,
+      "title": "클라우드 플랫폼 악용 AitM 피싱 대규모 통계",
+      "url": "https://securelist.com/cloud-platforms-in-phishing/120832/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-48323",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48323"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-48330",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48330"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-48331",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48331"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-48326",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48326"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-48333",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48333"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-18684",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18684"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-34486",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2024-44998",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44998"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2024-38558",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38558"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-44984",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44984"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
