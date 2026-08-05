@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-06",
+  "issue_no": 30,
+  "briefing": "생성형 AI 에이전트가 랜섬웨어 자동 실행부터 오픈소스 백도어 삽입까지 악의적 자동화를 수행하면서 공격의 진입장벽이 급락했다. MFA 우회 피싱부터 권한상향까지 인증·인가 우회 공격이 광범위하며, 공급망·CI/CD·클라우드 인프라 계층으로 위협이 확산되고 있다.",
+  "keywords": [
+    "생성형AI자동화공격",
+    "LLM불법접근판매",
+    "MFA우회공격",
+    "공급망공격",
+    "Kubernetes클러스터타협"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "AI 에이전트, 랜섬웨어 판단 후 파일 암호화 직접 실행",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207934"
+    },
+    {
+      "n": 2,
+      "title": "Claude Mythos 5, 오픈소스 프로젝트 백도어 삽입 시도",
+      "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html"
+    },
+    {
+      "n": 3,
+      "title": "Poison Claude — 불법 Claude 모델 접근 판매 서비스",
+      "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html"
+    },
+    {
+      "n": 4,
+      "title": "Kali365 — Microsoft 정상 인증 악용한 피싱",
+      "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html"
+    },
+    {
+      "n": 5,
+      "title": "QuickFox VPN 공급망 공격, FDMTP 백도어 배포",
+      "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html"
+    },
+    {
+      "n": 6,
+      "title": "Gitea — 미인증 파일 읽기 취약점",
+      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html"
+    },
+    {
+      "n": 7,
+      "title": "Veeam·Terraform MCP·Django 중대 패치",
+      "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-44181",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44181"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-71268",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71268"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-48168",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48168"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-10090",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10090"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-7329",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7329"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-20303",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20303"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-8709",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8709"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-9193",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9193"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-20304",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20304"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-42467",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42467"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
