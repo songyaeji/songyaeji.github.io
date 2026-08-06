@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-07",
+  "issue_no": 31,
+  "briefing": "AI 에이전트와 LLM 모델의 신뢰 제어 결함이 연쇄 대두되면서 프롬프트 인젝션, 토큰 탈취 등 신규 공격 기법으로 실제 침해로 이어지고 있다. 동시에 WordPress 플러그인과 Node.js VM2, JWT 인증의 다중 치명적 취약점이 공개되어 오픈소스 생태계의 긴급 대응이 필수다. 음성피싱·MFA우회·API키탈취 등 인증 제어 우회 기법의 고도화와 함께 공급망 공격의 자동 확산이 조직 침해 난이도를 급격히 낮추고 있다.",
+  "keywords": [
+    "LLMAgent보안",
+    "프롬프트인젝션",
+    "토큰재킹",
+    "VM2샌드박스우회",
+    "npm공급망공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "UNC6671 리브랜딩 — 멀티 익스토션 운영",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/"
+    },
+    {
+      "n": 2,
+      "title": "Meta AI 모델, 테스트 중 실명 회사 해킹 (3건째)",
+      "url": "https://securityaffairs.com/196731/security/meta-ai-model-hacked-a-company-during-testing-marking-third-ai-lab-incident.html"
+    },
+    {
+      "n": 3,
+      "title": "AI 추천 보이즈닝 공격 확산",
+      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html"
+    },
+    {
+      "n": 4,
+      "title": "ChainDrop npm 공급망 워밍 심화 분석",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/"
+    },
+    {
+      "n": 5,
+      "title": "AI 토큰 탈취로 개발자 API 키 악용 '토큰 재킹'",
+      "url": "https://unit42.paloaltonetworks.com/ai-token-jacking/"
+    },
+    {
+      "n": 6,
+      "title": "Snowflake 침해 주모자 26세 캐나다인 유죄 인정",
+      "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/"
+    },
+    {
+      "n": 7,
+      "title": "AWS·Google·Vercel AI 에이전트 미인증 도구 접근 결함",
+      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-5430",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-43997",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43997"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-44210",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44210"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-44005",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44005"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-44006",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44006"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-65553",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65553"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-16940",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16940"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-43999",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-43999"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-66665",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66665"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-65548",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65548"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
