@@ -53,6 +53,25 @@ export const picks: Pick[] = [
     reason:
       'Andrej Karpathy가 지적한 LLM 코딩의 고질적 문제(잘못된 가정, 과도한 추상화, 불필요한 코드 변경)를 Think Before Coding·Simplicity First·Surgical Changes·Goal-Driven Execution 4원칙으로 정리한 Claude Code 스킬이다. 에이전트가 구현 전에 가정을 표면화하고 요청 범위만 수정하도록 강제해 결과물 품질이 안정된다.',
   },
+  {
+    name: 'security-guidance — Anthropic 공식 플러그인',
+    category: 'skill',
+    date: '2026.05',
+    link: 'https://code.claude.com/docs/en/security-guidance',
+    tagline: 'Claude Code가 자기 코드 변경을 3단계로 자체 보안 리뷰 — 편집 시·턴 종료 시·커밋 시',
+    reason:
+      'Claude Code가 세션 안에서 자신이 작성한 코드를 스스로 검토하는 Anthropic 공식 무료 플러그인. 파일 편집 시 즉시 패턴 매칭(eval·pickle·innerHTML 등), 턴 종료 시 백그라운드 모델 리뷰(SSRF·인젝션·권한 우회), 커밋/푸시 시 심층 에이전틱 리뷰의 3단계로 동작한다. Anthropic 내부 테스트에서 PR 보안 코멘트가 30~40% 감소했다고 보고됐다. "AI가 짠 코드를 AI가 즉시 검증"하는 워크플로의 공식 기준선.',
+  },
+  {
+    name: 'security-guidance (Claude Code 공식 플러그인)',
+    category: 'skill',
+    important: true,
+    date: '2026.05',
+    link: 'https://code.claude.com/docs/en/security-guidance',
+    tagline: 'Claude Code가 자기 코드 변경을 3단계로 자체 보안 검토',
+    reason:
+      'Anthropic이 공식 배포한 무료 플러그인. 파일 편집 시 즉시 패턴 매칭(eval·pickle·innerHTML 등), 턴 종료 시 백그라운드 모델 리뷰(권한 우회·SSRF·인젝션), 커밋·푸시 시 심층 에이전틱 리뷰의 3단 구조로 동작한다. AI가 짠 코드를 AI가 곧바로 감사하는 워크플로로, 에이전틱 코딩이 늘수록 커지는 "생성 코드 취약점" 문제에 직접 대응한다. /plugin install security-guidance@claude-plugins-official.',
+  },
   // ---------- mcp ----------
   {
     name: 'Context7',
@@ -74,22 +93,13 @@ export const picks: Pick[] = [
       '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 선택할 수 있는 데스크톱 앱이다. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄인다.',
   },
   {
-    name: 'garak',
+    name: 'PyRIT (Python Risk Identification Toolkit) — Microsoft',
     category: 'tool',
-    date: '2023.05',
-    link: 'https://github.com/NVIDIA/garak',
-    tagline: 'NVIDIA의 LLM 취약점 스캐너 — 프롬프트 인젝션·탈옥·유해 출력 자동 프로빙',
+    date: '2023.12',
+    link: 'https://github.com/microsoft/PyRIT',
+    tagline: 'Microsoft 공식 생성형 AI 레드팀 자동화 프레임워크',
     reason:
-      'nmap이 네트워크를 스캔하듯 LLM을 스캔하는 오픈소스 취약점 스캐너다. 프롬프트 인젝션, 탈옥, 데이터 유출, 유해 콘텐츠 생성 등 다양한 공격 프로브를 자동으로 던지고 탐지기로 응답을 채점해 모델의 약점을 리포트로 정리한다. OpenAI·Hugging Face·Ollama 등 주요 백엔드를 지원해 AI 레드티밍 실습의 표준 시작점으로 쓰기 좋다.',
-  },
-  {
-    name: 'PentestGPT',
-    category: 'tool',
-    date: '2023.02',
-    link: 'https://github.com/GreyDGL/PentestGPT',
-    tagline: 'LLM 기반 자율 침투테스트 에이전트 — USENIX Security 2024',
-    reason:
-      'LLM으로 정찰·익스플로잇·검증 단계를 자동 진행하는 침투테스트 프레임워크로, USENIX Security 2024에 발표되었다. 웹·암호·리버싱·포너블 등 CTF 전 영역을 다루며 v1.0부터 Claude Code·Codex 백엔드를 지원한다. "AI for Security" 방향에서 LLM 에이전트가 공격 절차를 어디까지 자동화하는지 보여주는 대표 사례다.',
+      'Microsoft AI Red Team이 실무에서 쓰던 도구를 오픈소스로 공개한 생성형 AI 레드팀 프레임워크다. Azure ML·OpenAI·로컬 HuggingFace·커스텀 HTTP API 등 다양한 타깃에 다회차 공격을 자동 오케스트레이션하고 스코어러로 오작동을 판정한다. 벤더가 프로덕션 규모 레드티밍에서 검증한 도구라는 점, 멀티턴·에이전트 공격면까지 다룬다는 점에서 정적 프로브 스캐너보다 실무 커버리지가 넓다.',
   },
   // ---------- articles ----------
   {
@@ -123,13 +133,23 @@ export const picks: Pick[] = [
       'KISA가 2026년 7월 발간한 AI 레드티밍 운영 가이드. 레드팀 구성, 준비, 이행, 결과 보고까지 6개 섹션으로 실무 절차를 정리했다. AI 모델 대상 모의공격 설계 시 절차와 산출물 형식의 출발점으로 활용할 수 있다.',
   },
   {
-    name: 'Effective Context Engineering for AI Agents — Anthropic',
+    name: 'Mapping AI-enabled cyber threats: LLM ATT&CK Navigator — Anthropic',
     category: 'article',
-    date: '2025.09',
-    link: 'https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents',
-    tagline: '프롬프트가 아니라 컨텍스트를 설계하라',
+    important: true,
+    date: '2026.06',
+    link: 'https://www.anthropic.com/research/attack-navigator',
+    tagline: '악성 계정 832건을 MITRE ATT&CK 14전술·482기법에 매핑한 위협 정량화',
     reason:
-      '컨텍스트 윈도우를 유한 자원으로 보고 무엇을 넣고 뺄지 설계하는 관점 전환. 에이전트가 길게 일할수록 성능이 무너지는 이유와 대응(압축·검색·서브에이전트 격리)을 체계적으로 정리했다.',
+      'Anthropic Frontier Red Team이 2025.03~2026.03 1년간 악의적 계정 832건을 분석해 MITRE ATT&CK 전 전술·기법 범위에서 AI 오남용을 실측한 리포트. 중위험 이상 행위자 비중이 33%에서 56%로 늘었고, 고위험을 가르는 요인이 개인 기술력이 아니라 "자동화된 공격 조율 능력"임을 데이터로 보인다. AI 위협을 표준 프레임워크로 정량화하는 실무 기준선이라 이전 OWASP LLM Top 10을 대체할 위협 분류 근거가 된다.',
+  },
+  {
+    name: 'The Frontier AI Vulnerability Burst — Palo Alto Unit 42',
+    category: 'article',
+    date: '2026.08',
+    link: 'https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/',
+    tagline: '자율 시스템이 2개월간 오픈소스 제로데이 14,090개 자동 발견',
+    reason:
+      'Unit 42가 자율 취약점 탐색 시스템(NOVA)으로 오픈소스 3,915개를 2개월간 분석해 확인된 취약점 14,090개(99.4%가 미보고)를 찾아낸 리서치. CVSS High/Critical이 약 40%, 의존성 결함 1,280개가 다운스트림 4,141개로 번지는 공급망 노출까지 실측했다. 공격자가 AI로 제로데이 발견을 산업화하는 국면을 보여줘, 방어 측 취약점 관리·패치 우선순위 전략을 재검토할 근거가 된다.',
   },
   {
     name: 'Disrupting the first reported AI-orchestrated cyber espionage campaign — Anthropic',
@@ -160,6 +180,48 @@ export const picks: Pick[] = [
       'OpenAI가 2024년 2월 이후 차단한 40개 이상의 정책 위반 네트워크를 정리한 공식 위협 리포트 최신판. 러시아어권 멀웨어 툴링 개발, 한국어권 공격 그룹, 캄보디아 거점 조직적 사기망, 중국 연계 영향력 공작 등 케이스 스터디를 담았다. 위협 행위자가 AI를 기존 공격 워크플로에 어떻게 편입시키는지, 벤더가 이를 어떻게 탐지·차단하는지 방어자 관점의 기준 자료다.',
   },
   // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
+  {
+    name: 'PentestGPT',
+    category: 'tool',
+    date: '2023.02',
+    link: 'https://github.com/GreyDGL/PentestGPT',
+    tagline: 'LLM 기반 자율 침투테스트 에이전트 — USENIX Security 2024',
+    reason:
+      'LLM으로 정찰·익스플로잇·검증 단계를 자동 진행하는 침투테스트 프레임워크로, USENIX Security 2024에 발표되었다. 웹·암호·리버싱·포너블 등 CTF 전 영역을 다루며 v1.0부터 Claude Code·Codex 백엔드를 지원한다. "AI for Security" 방향에서 LLM 에이전트가 공격 절차를 어디까지 자동화하는지 보여주는 대표 사례다.',
+    archived: {
+      date: '2026.08',
+      reason:
+        '2023년 설계라 최신 에이전트 하네스(Claude Code·Codex 네이티브 자율 공격) 대비 자동화 수준이 뒤처진다. LLM 침투테스트 개념 증명으로서의 역사적 의의는 유지.',
+    },
+  },
+  {
+    name: 'garak',
+    category: 'tool',
+    date: '2023.05',
+    link: 'https://github.com/NVIDIA/garak',
+    tagline: 'NVIDIA의 LLM 취약점 스캐너 — 프롬프트 인젝션·탈옥·유해 출력 자동 프로빙',
+    reason:
+      'nmap이 네트워크를 스캔하듯 LLM을 스캔하는 오픈소스 취약점 스캐너다. 프롬프트 인젝션, 탈옥, 데이터 유출, 유해 콘텐츠 생성 등 다양한 공격 프로브를 자동으로 던지고 탐지기로 응답을 채점해 모델의 약점을 리포트로 정리한다. OpenAI·Hugging Face·Ollama 등 주요 백엔드를 지원해 AI 레드티밍 실습의 표준 시작점으로 쓰기 좋다.',
+    archived: {
+      date: '2026.08',
+      reason:
+        '단일 모델 프로빙 중심이라 에이전트·도구 호출·멀티턴 공격면 커버가 약하다. 정적 프로브 스캐너로는 여전히 유효하나 최신 AI 레드티밍 도구로 목록 세대교체.',
+    },
+  },
+  {
+    name: 'Effective Context Engineering for AI Agents — Anthropic',
+    category: 'article',
+    date: '2025.09',
+    link: 'https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents',
+    tagline: '프롬프트가 아니라 컨텍스트를 설계하라',
+    reason:
+      '컨텍스트 윈도우를 유한 자원으로 보고 무엇을 넣고 뺄지 설계하는 관점 전환. 에이전트가 길게 일할수록 성능이 무너지는 이유와 대응(압축·검색·서브에이전트 격리)을 체계적으로 정리했다.',
+    archived: {
+      date: '2026.08',
+      reason:
+        '2025년 9월 발간 후 컨텍스트 관리가 하네스 기본 기능(자동 압축·서브에이전트 격리)으로 흡수되어 수동 설계 지침의 실무 비중이 줄었다. 관점 자체는 여전히 유효.',
+    },
+  },
   {
     name: 'Claude Code Best Practices — Anthropic',
     category: 'article',
