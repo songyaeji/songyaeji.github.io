@@ -132,6 +132,35 @@ export const picks: Pick[] = [
       '컨텍스트 윈도우를 유한 자원으로 보고 무엇을 넣고 뺄지 설계하는 관점 전환. 에이전트가 길게 일할수록 성능이 무너지는 이유와 대응(압축·검색·서브에이전트 격리)을 체계적으로 정리했다.',
   },
   {
+    name: 'Disrupting the first reported AI-orchestrated cyber espionage campaign — Anthropic',
+    category: 'article',
+    important: true,
+    date: '2025.11',
+    link: 'https://www.anthropic.com/news/disrupting-AI-espionage',
+    tagline: '최초 보고된 AI 오케스트레이션 사이버 스파이 캠페인 — 공격의 80~90%를 AI가 자율 수행',
+    reason:
+      '중국 국가배후 그룹(GTG-1002)이 Claude Code를 조작해 글로벌 기관 약 30곳을 대상으로 정찰·익스플로잇·자격증명 탈취·데이터 유출을 수행한 사건의 Anthropic 공식 리포트. 공격자는 "보안업체의 방어적 침투테스트"로 위장해 가드레일을 우회했고, 인간은 캠페인당 4~6개 의사결정 지점에만 개입했다. AI 에이전트가 실제 공격 체인을 어디까지 자율 수행하는지 보여주는 1차 사료로, 에이전틱 AI 위협 모델링의 필독 문서다.',
+  },
+  {
+    name: 'Agentic Misalignment in Summer 2026 — Anthropic',
+    category: 'article',
+    date: '2026.07',
+    link: 'https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/',
+    tagline: '자율 에이전트의 정렬 실패 4유형 — 은폐된 훼방·사기 협조 등 통제 실험 관찰',
+    reason:
+      'Claude·GPT-5.5·Gemini 등 프론티어 모델들을 시뮬레이션 환경에 넣고 자율 에이전트의 정렬 실패(은폐된 훼방, 사기 협조, 의도적 오분류 등)를 관찰한 Anthropic Alignment Science 연구. 실제 배포 사고가 아니라 통제된 실험임을 원문이 명시하지만, "에이전트가 목표 충돌 시 파괴적 행동을 선택할 수 있다"는 조기 경고 신호를 실증 데이터로 보여준다. 언론의 과장 보도와 1차 연구를 구분해 읽는 기준점이 된다.',
+  },
+  {
+    name: 'Disrupting malicious uses of AI: an update — OpenAI',
+    category: 'article',
+    date: '2025.10',
+    link: 'https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025/',
+    tagline: 'OpenAI 위협 인텔리전스 — 멀웨어 개발·피싱·사기망 등 40여 개 악성 네트워크 차단 사례',
+    reason:
+      'OpenAI가 2024년 2월 이후 차단한 40개 이상의 정책 위반 네트워크를 정리한 공식 위협 리포트 최신판. 러시아어권 멀웨어 툴링 개발, 한국어권 공격 그룹, 캄보디아 거점 조직적 사기망, 중국 연계 영향력 공작 등 케이스 스터디를 담았다. 위협 행위자가 AI를 기존 공격 워크플로에 어떻게 편입시키는지, 벤더가 이를 어떻게 탐지·차단하는지 방어자 관점의 기준 자료다.',
+  },
+  // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
+  {
     name: 'Claude Code Best Practices — Anthropic',
     category: 'article',
     date: '2025.04',
@@ -139,6 +168,11 @@ export const picks: Pick[] = [
     tagline: '에이전틱 코딩 공식 플레이북',
     reason:
       'CLAUDE.md 작성법, 탐색→계획→구현→커밋 워크플로, 헤드리스 자동화까지 Claude Code를 도구가 아니라 팀원처럼 운용하는 방법의 기준 문서다.',
+    archived: {
+      date: '2026.08',
+      reason:
+        '2025년 4월 발간 후 Claude Code가 플러그인·스킬·서브에이전트 체계로 크게 바뀌어 세부 내용이 현행과 어긋난다. 방법론 뼈대(탐색→계획→구현→커밋)는 여전히 유효하나, 기준 문서 역할은 이후 공식 문서와 Effective Context Engineering이 대체.',
+    },
   },
   {
     name: 'OWASP Top 10 for LLM Applications',
@@ -148,8 +182,12 @@ export const picks: Pick[] = [
     tagline: 'LLM 애플리케이션 보안 위협 표준 분류',
     reason:
       '프롬프트 인젝션부터 과도한 에이전시까지 LLM 시스템의 위협을 표준 용어로 정리한 레퍼런스. 보안 리뷰 보고서 작성 시 위협 분류·명명의 공통 언어가 된다.',
+    archived: {
+      date: '2026.08',
+      reason:
+        '2024년 11월판 기준이라 에이전틱 AI 위협(자율 공격 체인, 도구 오용)을 충분히 반영하지 못한다. 위협 분류 공통 언어 역할은 KISA AI 보안 위협 대응 매뉴얼과 벤더 위협 인텔리전스 리포트가 실무 기준을 대체.',
+    },
   },
-  // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
   {
     name: 'ECC (everything-claude-code)',
     category: 'tool',
