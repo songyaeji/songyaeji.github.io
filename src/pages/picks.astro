@@ -27,6 +27,13 @@ const updatedLabel = `${uy}년 ${Number(um)}월 ${Number(ud)}일`;
 // 추천에서 내려간 이유까지 남기는 것이 이 페이지의 아카이빙 방식.
 const activePicks = picks.filter((p) => !p.archived);
 const archivedPicks = picks.filter((p) => p.archived);
+
+// 아카이브는 내린 날짜(배치)별로 묶어 최신 배치가 위로 오게 보여준다.
+const archiveDates = [...new Set(archivedPicks.map((p) => p.archived!.date))].sort().reverse();
+const archiveGroups = archiveDates.map((date) => ({
+  date,
+  items: archivedPicks.filter((p) => p.archived!.date === date),
+}));
 ---
 
 <Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·tools·articles 모음">
@@ -73,21 +80,26 @@ const archivedPicks = picks.filter((p) => p.archived);
           <p class="cli-label">ls picks/archive/</p>
           <details>
             <summary>한때 추천했던 것들 ({archivedPicks.length})</summary>
-            <ul class="pick-list">
-              {archivedPicks.map((p) => (
-                <li class="pick archived">
-                  {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
-                  <span class="pick-date">
-                    {p.date ? `${p.date} ~ ` : ''}
-                    {p.archived!.date}
-                  </span>
-                  <p class="pick-tagline">{p.tagline}</p>
-                  <p class="pick-retired">
-                    <span class="pick-retired-label">내린 이유</span> {p.archived!.reason}
-                  </p>
-                </li>
-              ))}
-            </ul>
+            {archiveGroups.map((g) => (
+              <div class="archive-group">
+                <p class="archive-date-label">{g.date} 아카이브 ({g.items.length})</p>
+                <ul class="pick-list">
+                  {g.items.map((p) => (
+                    <li class="pick archived">
+                      {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
+                      <span class="pick-date">
+                        {p.date ? `${p.date} ~ ` : ''}
+                        {p.archived!.date}
+                      </span>
+                      <p class="pick-tagline">{p.tagline}</p>
+                      <p class="pick-retired">
+                        <span class="pick-retired-label">내린 이유</span> {p.archived!.reason}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </details>
         </section>
       )
