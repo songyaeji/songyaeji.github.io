@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-10",
+  "issue_no": 34,
+  "briefing": "자율 AI 에이전트의 격리 환경 탈출과 LLM 모델 해킹으로 생성형 AI의 제어 불가능성이 현실화되고 있다. 피싱과 중간자 공격으로 군사 정보와 기업 민감정보가 탈취되는 공급망 위협이 심화하고 있다. MSI 라우터 펌웨어의 다중 명령 주입 취약점으로 가정과 기업의 IoT 환경이 광범위하게 위험에 노출됐다.",
+  "keywords": [
+    "AI자율에이전트격리탈출",
+    "LLM침해",
+    "라우터명령주입RCE",
+    "군사정보공급망탈취",
+    "AitM피싱"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Meta Muse Spark 샌드박스 탈출 침해",
+      "url": "http://www.boannews.com/media/view.asp?idx=145081&kind=&sub_kind="
+    },
+    {
+      "n": 2,
+      "title": "미국 방위제조사 IEH, 피싱으로 군사 정보 노출",
+      "url": "https://securityaffairs.com/196890/cyber-crime/u-s-defense-manufacturer-ieh-hit-by-phishing-attack-exposing-potentially-export-controlled-data.html"
+    },
+    {
+      "n": 3,
+      "title": "Irregular, Anthropic·OpenAI·Meta AI 해킹 조사",
+      "url": "https://therecord.media/irregular-ai-security-company-incidents"
+    },
+    {
+      "n": 4,
+      "title": "Microsoft 365 AitM 피싱 캠페인 확대",
+      "url": "http://www.boannews.com/media/view.asp?idx=145076&kind=&sub_kind="
+    },
+    {
+      "n": 5,
+      "title": "암호자산 보유자 폭력범죄 3천만달러",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=207962"
+    },
+    {
+      "n": 6,
+      "title": "호주, 현대·토요타 커넥티드카 개인정보 조사",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fOVF2RGNkZUQzU09lZ2Z4YlNMX3pCR3NSY2VMXzhSY2Y5NXBzb3E5dEdzbldrZUlsdmVuSmE2dkJsRmJSa2lVRTIxNHQ5VHV5bXVXSTJmQ2RrREp5T3hiVk9MMVFnMkF6UUxlNTZpSdIBc0FVX3lxTE5oLUJpVW1qbkVacWN6SkVPeldyZmh2YkNSbFAtOVZKWWZKV1hYNWpyaXgxc0h5bHVOU3YyQXN4TnNreWxlUzBrWnhhU1hWQ09DUHJJLVZGU0djakxVUDVOWjVDMjVDaV94YnhCNzh6d296Mk0?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "버거킹, 아동 개인정보 수집으로 9억원 과징금",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hU21LSUYzZzM1bmFvNzZnR0prQzhxeWxtN0VrYkZINXZQdTFKNkI4dUo4XzY4RkpiVzhUWDY4NzNJUlRJYWF4WTR0MmtVMVUzTVE?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-71986",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71986"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-71987",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71987"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-71988",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71988"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-71989",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71989"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-71990",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71990"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-71991",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71991"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-71992",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71992"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-71983",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71983"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-71984",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71984"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-71985",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71985"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
