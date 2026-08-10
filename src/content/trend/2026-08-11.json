@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-11",
+  "issue_no": 35,
+  "briefing": "북한 Kimsuky 등 국가배경 해킹조직이 로컬 LLM 기반 피싱·악성코드 자동화를 전개하면서 AI 기술이 공격 도구로 체계화되었다. 동시에 Metabase, Dokploy, Progress LoadMaster 등 클라우드 인프라 소프트웨어에서 연쇄적 원격코드 취약점이 활발히 악용 중이며, 에너지 부문 OT 침입까지 확인되면서 공급망과 중요 인프라 위협이 심화했다.",
+  "keywords": [
+    "APT-LLM",
+    "스피어피싱자동화",
+    "에너지OT침입",
+    "클라우드인프라RCE",
+    "공급망침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "북한 김수키, AI로 피싱·악성코드 자동화 진화",
+      "url": "http://www.boannews.com/media/view.asp?idx=145089&kind=&sub_kind="
+    },
+    {
+      "n": 2,
+      "title": "폴란드 열병합발전소, Fortinet 악용해 OT 침입",
+      "url": "https://securityaffairs.com/196955/security/hackers-cross-from-it-to-ot-through-a-private-apn-in-poland.html"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI Astra AI 사이버 능력 급진으로 개발 활동 중단",
+      "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
+    },
+    {
+      "n": 4,
+      "title": "Progress LoadMaster — 명령 주입 취약점 실제 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
+    },
+    {
+      "n": 5,
+      "title": "Kimsuky의 자체 오프라인 AI 스택 구축",
+      "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html"
+    },
+    {
+      "n": 6,
+      "title": "SonicWall SMA1000 — 랜섬웨어 집단 실제 악용 확인",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/"
+    },
+    {
+      "n": 7,
+      "title": "BdThemes WordPress — 관리자 계정 불법 생성",
+      "url": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-72898",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-72899",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72899"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-72733",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72733"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-72735",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72735"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-72736",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72736"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-72738",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72738"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-72740",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72740"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2021-34458",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34458"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2021-26424",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26424"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-48772",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48772"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
