@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-12",
+  "issue_no": 36,
+  "briefing": "8월 위협은 국내 금융·공공기관부터 폴란드 발전소·미국 물시스템까지 국가 기간시설을 겨냥한 원격코드 실행 취약점이 동시다발로 폭증했다. 북한 연계 APT가 로컬 LLM·RAG·AI 에이전트까지 구축하며 자동화된 공격 역량을 확장 중이다. 마이크로소프트 418건 패치를 포함한 대규모 긴급 업데이트가 뒤따르고 있다.",
+  "keywords": [
+    "기간시설RCE",
+    "AI에이전트공격",
+    "클라우드RCE",
+    "국내금융제로데이",
+    "권한상향취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "국내 공공·금융기관 PC 보안모듈 0-Day",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208004"
+    },
+    {
+      "n": 2,
+      "title": "김수키 로컬 LLM·RAG·AI 에이전트까지 구축",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208003"
+    },
+    {
+      "n": 3,
+      "title": "폴란드 발전소 제어 시스템 침해",
+      "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
+    },
+    {
+      "n": 4,
+      "title": "Windows Plug and Play USB 에뮬레이션 SYSTEM 권한 상향",
+      "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
+    },
+    {
+      "n": 5,
+      "title": "이란 해킹단 미국 물 인프라 12개주 확산",
+      "url": "https://securityaffairs.com/197012/hacking/iran-linked-hackers-target-more-us-water-infrastructure-in-new-jersey-and-alabama.html"
+    },
+    {
+      "n": 6,
+      "title": "마이크로소프트 8월 Patch Tuesday 418개 수정",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/"
+    },
+    {
+      "n": 7,
+      "title": "Gunra 랜섬웨어 Fortinet·Schneider 취약점 악용",
+      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-58115",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58115"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-58231",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58231"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-48362",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48362"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-27302",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27302"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-71398",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71398"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-17061",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17061"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-72603",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72603"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-48056",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48056"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2018-0101",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-0101"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-45618",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45618"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
