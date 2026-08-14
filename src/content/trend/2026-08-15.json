@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-15",
+  "issue_no": 39,
+  "briefing": "오늘 공개된 Citrix·SAP·Tenable·MindsDB 등 엔터프라이즈 소프트웨어의 RCE 취약점들은 이미 실제 공격에 악용되고 있다. ShinyHunters·Clop의 대규모 정보 유출 사건과 폴란드 발전소 침해는 데이터 협박 그룹과 기반시설 공격의 위협 수준이 심화되었음을 보여준다. LLM 기반 AI 에이전트, 오픈소스 관리 도구, 커널 루트킷 등 신종 공격 경로와 기술의 확대도 주목된다.",
+  "keywords": [
+    "LLMAgentRCE",
+    "엔터프라이즈RCE",
+    "데이터협박정보유출",
+    "기반시설침해은닉형",
+    "커널루트킷드라이버"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Citrix NetScaler 사전인증 원격코드실행 CVE-2026-8452",
+      "url": "https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/"
+    },
+    {
+      "n": 2,
+      "title": "SAP Commerce Cloud RCE — 실제 공격에서 악용 확인",
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/"
+    },
+    {
+      "n": 3,
+      "title": "폴란드 발전소 은닉형 침해 뒤늦게 파악",
+      "url": "http://www.boannews.com/media/view.asp?idx=145120&kind=&sub_kind="
+    },
+    {
+      "n": 4,
+      "title": "APT 그룹 HoneyMyte의 CoolClient, 커널 루트킷으로 진화",
+      "url": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/"
+    },
+    {
+      "n": 5,
+      "title": "트럼프 정부, 민간 보안업체의 범죄 조직 해킹 권한 공식화",
+      "url": "https://securityaffairs.com/197161/laws-and-regulations/us-authorizes-private-cyber-firms-to-hack-transnational-criminal-networks.html"
+    },
+    {
+      "n": 6,
+      "title": "RingCentral 160만 계정 정보 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
+    },
+    {
+      "n": 7,
+      "title": "Shell 데이터 유출 의심 — Clop 랜섬웨어 주장",
+      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-73678",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73678"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-72851",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72851"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-72811",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72811"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-72841",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72841"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-72842",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72842"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-19682",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19682"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-19626",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19626"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-19681",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19681"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-17186",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17186"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2021-30120",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-30120"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
