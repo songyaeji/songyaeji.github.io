@@ -1,0 +1,121 @@
+{
+  "date": "2026-08-17",
+  "issue_no": 41,
+  "briefing": "중국계 APT36과 Mustang Panda 그룹이 정부기관을 표적으로 커널 루트킷 등 고도화된 악성코드를 활용한 공격을 전개하고 있다. 프랑스 정부 세무기관에서 60~68만명의 개인정보 유출 사건이 확인되어 정부 인프라 침해 위협이 심화되고 있다. WordPress 플러그인의 권한검증 우회, 파일경로 검증 우회 등 원격코드 실행 취약점이 다수 발견되어 CMS 보안 강화가 시급하다.",
+  "keywords": [
+    "APT36",
+    "무스탕판다",
+    "커널루트킷",
+    "WordPress플러그인RCE",
+    "정부인프라침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "영국 전력망 운영사 40GB 데이터 유출",
+      "url": "http://www.boannews.com/media/view.asp?idx=145174&kind=&sub_kind="
+    },
+    {
+      "n": 2,
+      "title": "NIST, NVD를 AI로 현대화 — 증폭되는 취약점 데이터 위기",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208068"
+    },
+    {
+      "n": 3,
+      "title": "APT36, 구글 시트 C2 활용 PATCHCORD 백도어로 중앙아시아 표적",
+      "url": "https://securityaffairs.com/197266/intelligence/apt36-suspected-in-patchcord-espionage-campaign-using-google-sheets-c2.html"
+    },
+    {
+      "n": 4,
+      "title": "프랑스 세무청 6.78만명 개인정보 유출 — 정교한 사이버 공격",
+      "url": "https://securityaffairs.com/197287/cyber-crime/sophisticated-cyberattack-exposes-data-of-678000-french-taxpayers.html"
+    },
+    {
+      "n": 5,
+      "title": "Mustang Panda, CoolClient에 서명된 커널 루트킷 추가",
+      "url": "https://securityaffairs.com/197274/apt/mustang-panda-upgrades-coolclient-with-a-kernel-rootkit.html"
+    },
+    {
+      "n": 6,
+      "title": "프랑스 국세청 60만명 개인정보 유출, 정부 확인",
+      "url": "https://therecord.media/french-tax-authority-dgfip-confirms-data-breach"
+    },
+    {
+      "n": 7,
+      "title": "무스탕 판다 커널 루트킷으로 정부기관 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208065"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-16098",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16098"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-18432",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18432"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-73056",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73056"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-14524",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14524"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-14498",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14498"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-19924",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19924"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-73061",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73061"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-18316",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18316"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-74790",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74790"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-13784",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13784"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
