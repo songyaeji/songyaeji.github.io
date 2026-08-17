@@ -1,0 +1,120 @@
+{
+  "date": "2026-08-18",
+  "issue_no": 42,
+  "briefing": "클라우드 침해로 대규모 직원 정보가 탈취되고 제로데이 공개 익스플로잇이 대량 악용 중이다. PyPI LiteLLM 공급망 공격과 Akira 랜섬웨어의 EDR 우회 기법이 보안 위협의 다층화를 가속했다.",
+  "keywords": [
+    "제로데이악용",
+    "LLM공급망공격",
+    "클라우드침해",
+    "EDR우회"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Unisoc 모뎀 VoLTE 2단계 커널 익스플로잇",
+      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html"
+    },
+    {
+      "n": 2,
+      "title": "Microsoft Azure — 포춘 500 기업 360만 건 대규모 도용",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/"
+    },
+    {
+      "n": 3,
+      "title": "PyPI LiteLLM 악성 릴리스 — SANDCLOCK 백도어 2,038개 리포지터리 침해",
+      "url": "https://securityaffairs.com/197377/hacking/litellm-supply-chain-attack-technology-banking-and-healthcare-the-most-affected.html"
+    },
+    {
+      "n": 4,
+      "title": "Anthropic Claude 생성 텍스트 — 보이지 않는 워터마크 적용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208074"
+    },
+    {
+      "n": 5,
+      "title": "GeoServer 미인증 SQL injection 제로데이 — 활발한 악용 탐사 진행",
+      "url": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html"
+    },
+    {
+      "n": 6,
+      "title": "Akira 랜섬웨어 Safe Mode로 EDR 우회 활동",
+      "url": "https://securityaffairs.com/197339/malware/akira-ransomware-uses-safe-mode-to-bypass-edr.html"
+    },
+    {
+      "n": 7,
+      "title": "맥도날드 직원 170만 명 정보 유출 위협",
+      "url": "https://securityaffairs.com/197322/cyber-crime/mcdonalds-employee-data-appears-in-leak-seller-claims-1-7m-records-stolen.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-19977",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19977"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2025-62593",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-74843",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74843"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-19959",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19959"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-19961",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19961"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-66792",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66792"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-47686",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47686"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-72407",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72407"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-72408",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72408"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-72421",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72421"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
