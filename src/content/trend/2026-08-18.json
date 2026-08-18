@@ -1,94 +1,29 @@
 {
   "date": "2026-08-18",
   "issue_no": 42,
-  "briefing": "AI 플랫폼과 기업 인프라를 노린 권한 검증 실패 사건들이 집중되었으며, 개인정보 유출과 정보탈취 악성코드 유포가 병행되고 있다. 서강대의 늦은 탐지, 다크웹의 한국인 계정 판매, PhantomStealer 피싱으로 이어지는 정보탈취 생태계가 확인된다. OpenAI가 자사 AI의 사이버 공격 능력을 과소평가했음을 인정하면서 AI 보안 위협 평가의 재정의가 시급한 상황이다.",
+  "briefing": "배달 플랫폼 FLY의 4,790만 건 고객정보 유출 사건이 국내 데이터 보안 위협을 드러냈다. 국내에서는 보안검색장비 국산화를 통해 기술 독립을 추진하고 있다. 해외에서는 민간 기업의 공격적 사이버 역량을 해외 범죄조직 대응에 활용하는 정책을 펴고 있다.",
   "keywords": [
-    "AI플랫폼권한상승",
-    "개인정보유출사고",
-    "기업표적탈취피싱",
-    "협업플랫폼권한우회",
-    "라우터명령주입"
+    "배달앱개인정보유출",
+    "GPS위치정보탈취",
+    "보안검색장비국산화",
+    "기술주권",
+    "민간역해킹"
   ],
   "links": [
     {
       "n": 1,
-      "title": "OpenAI, AI 사이버 공격 능력 과소평가 시인",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXRE54QnhHZFVBNFVOaTRvRFdNUkJaZ2FwbWk1Z0lVT3R3OW8yVVJlWGdJUF9VM2t3VlZvd0VRb19pNG5TcDFfZE12UTlVRlNmUDMzeDhFN0dRSTlQSGRfSnZZdzRMdjhBVkVyRU40YVRlZ9IBckFVX3lxTFBXRE54QnhHZFVBNFVOaTRvRFdNUkJaZ2FwbWk1Z0lVT3R3OW8yVVJlWGdJUF9VM2t3VlZvd0VRb19pNG5TcDFfZE12UTlVRlNmUDMzeDhFN0dRSTlQSGRfSnZZdzRMdjhBVkVyRU40YVRlZw?oc=5"
+      "title": "배달 앱 FLY — 4,790만 건 고객정보 유출 판매 주장",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208097"
     },
     {
       "n": 2,
-      "title": "AI 정치 설득 유권자 선호도 변화",
-      "url": "http://www.boannews.com/media/view.asp?idx=145180&kind=&sub_kind="
+      "title": "에스에스티랩, 1m급 대형 위탁수하물용 3D CT 보안검색장비 국산화 개발 착수",
+      "url": "http://www.boannews.com/media/view.asp?idx=145189&kind=&sub_kind="
     },
     {
       "n": 3,
-      "title": "국내 웹 서버, SoftEther VPN 설치 공격 대상",
-      "url": "https://asec.ahnlab.com/en/94995/"
-    },
-    {
-      "n": 4,
-      "title": "비용 견적 사칭 피싱, PhantomStealer 배포 — ASEC",
-      "url": "https://asec.ahnlab.com/en/95000/"
-    },
-    {
-      "n": 5,
-      "title": "서강대, 18만 건 개인정보 유출 사흘 뒤 탐지 — 과징금",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZcXVpNEVyY1FkVko1OVU2X3Bfak91QmphWmFhVHdmWVppU3hzdlhlYUI2alEwTWhuTzd0Q3ZiODlDdTZfSU5mX2t6aFN3SGw3aE5QTDRJNTlEZXdvclkxRnBKX0k1NXVlOXE1a2Zn?oc=5"
-    },
-    {
-      "n": 6,
-      "title": "한국인 넷플릭스·오피스365 계정 다크웹 판매",
-      "url": "http://www.boannews.com/media/view.asp?idx=145188&kind=&sub_kind="
-    },
-    {
-      "n": 7,
-      "title": "듀오 개인정보 유출 손배소 첫 조정 불발",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFVvN1dYSUdEZjUwMlN4eElUdXEzS2hOb1oxQWoxeEJJMC02Z1hnUVZfWlFDeXFaZHdReWlRTEtMNkdLTVFqNFlaWXFLQUU3bndMcVFDbG04UWFqS21DeVBJaW1oXzR3X0hkX1Vpb1dXNDhTYTdmVU9HeUpneGlPWHc3UdIBlwFBVV95cUxQYmkzZ3V3d29ZdElFVWxUYUdfVmszNk13ckFpamxYX3BYeUd0aERuX051RXpuNDJOSTdoNlk1R2xkRkhCQVFUbmUzTDUzdTRNY3BlY0dYdTZZangtTFRyU0lSZ2xFYzhyR1FQZHFkZ2FWd2RGUlRzNXJsUzBhNzlfeGdfemMyNUZaM3Rzc2RKMmU0c05NQm9v?oc=5"
-    },
-    {
-      "n": 8,
-      "title": "CVE-2026-64849",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849"
-    },
-    {
-      "n": 9,
-      "title": "CVE-2026-71424",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71424"
-    },
-    {
-      "n": 10,
-      "title": "CVE-2026-75094",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75094"
-    },
-    {
-      "n": 11,
-      "title": "CVE-2026-69148",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69148"
-    },
-    {
-      "n": 12,
-      "title": "CVE-2026-69146",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69146"
-    },
-    {
-      "n": 13,
-      "title": "CVE-2026-73053",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73053"
-    },
-    {
-      "n": 14,
-      "title": "CVE-2026-56677",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56677"
-    },
-    {
-      "n": 15,
-      "title": "CVE-2026-45790",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45790"
-    },
-    {
-      "n": 16,
-      "title": "CVE-2026-9816",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9816"
+      "title": "미 정부, 민간 기업에 해외 사이버 범죄조직 ‘역해킹’ 허용 추진",
+      "url": "http://www.boannews.com/media/view.asp?idx=145190&kind=&sub_kind="
     }
   ],
   "cards": [
@@ -96,21 +31,13 @@
     "card_02.png",
     "card_03.png",
     "card_04.png",
-    "card_05.png",
-    "card_06.png",
-    "card_07.png",
-    "card_08.png",
-    "card_09.png"
+    "card_05.png"
   ],
   "cards_jpg": [
     "card_01.jpg",
     "card_02.jpg",
     "card_03.jpg",
     "card_04.jpg",
-    "card_05.jpg",
-    "card_06.jpg",
-    "card_07.jpg",
-    "card_08.jpg",
-    "card_09.jpg"
+    "card_05.jpg"
   ]
 }
