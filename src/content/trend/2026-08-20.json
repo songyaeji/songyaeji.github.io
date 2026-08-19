@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-20",
+  "issue_no": 44,
+  "briefing": "의료·보건 정보의 대규모 침해가 연이어 드러나는 가운데, AI 생성 악용 도구를 활용한 중요 기반시설 공격이 신종 위협으로 부상하고 있다. 자격증명 공격과 MFA 미적용 취약점을 악용한 인증 우회 공격이 급증하며, 원격코드 실행 취약점도 야생에서 광범위하게 악용되고 있다. 국가 기관과 민간 기업 모두 신속한 인증 보안 강화와 취약점 대응이 필수적인 시점이다.",
+  "keywords": [
+    "AI악용스크립트",
+    "의료정보침해",
+    "자격증명공격",
+    "원격코드실행취약점",
+    "MFA미적용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "CareCloud 의료정보 370만 명 규모 확대",
+      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/"
+    },
+    {
+      "n": 2,
+      "title": "건강보험공단, 4,800만 건 개인정보 판매 위협",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208119"
+    },
+    {
+      "n": 3,
+      "title": "Siemens S7 PLC — AI 악용 스크립트 활성 위협",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a"
+    },
+    {
+      "n": 4,
+      "title": "Windows IKE 확장 — 중대 RCE 취약점 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/"
+    },
+    {
+      "n": 5,
+      "title": "SilkParasite 중앙아시아 정부 표적 5개 신규 RAT",
+      "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html"
+    },
+    {
+      "n": 6,
+      "title": "Operation CameraSwarm Dahua 카메라 1만4500대 침해",
+      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html"
+    },
+    {
+      "n": 7,
+      "title": "패스워드 스프레이 공격 155배 급증 MFA 격차",
+      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
