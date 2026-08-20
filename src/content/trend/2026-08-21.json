@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-21",
+  "issue_no": 45,
+  "briefing": "의료·교육·인프라 등 핵심 부문을 표적으로 한 RCE 악용과 랜섬웨어 공격이 급증하고 있으며, 메일·협업·제어시스템의 중대 취약점이 야생에서 적극 악용 중이다. AI 기술의 악용(악용 스크립트 자동 생성, 에이전트 간 악성 전파)이 새로운 위협으로 부상하면서 기업과 정부기관 모두 고위험 상태에 있다.",
+  "keywords": [
+    "RCE",
+    "AI생성악용스크립트",
+    "마인드바이러스",
+    "의료기관침해",
+    "기반시설공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "메두사 랜섬웨어 24시간 내 취약점 악용 500곳 침해",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208138"
+    },
+    {
+      "n": 2,
+      "title": "Zimbra 협업 플랫폼 RCE 활발한 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/"
+    },
+    {
+      "n": 3,
+      "title": "NASA AIT-GUI 우주선 제어 명령 RCE",
+      "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html"
+    },
+    {
+      "n": 4,
+      "title": "Siemens S7 Series PLC — AI 생성 악용 스크립트 활성 위협",
+      "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+    },
+    {
+      "n": 5,
+      "title": "AI 에이전트 마인드 바이러스 시스템 프롬프트로 전파",
+      "url": "http://www.boannews.com/media/view.asp?idx=145221&kind=&sub_kind="
+    },
+    {
+      "n": 6,
+      "title": "Manic 안드로이드 악성코드 오프라인 상태에서 데이터 탈취",
+      "url": "https://securityaffairs.com/197570/malware/manic-the-android-malware-that-exfiltrates-data-even-when-the-phone-is-offline.html"
+    },
+    {
+      "n": 7,
+      "title": "OpenAI 최신 AI 모델 강화학습 2주간 중단 보안강화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208123"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-72530",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-72529",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
