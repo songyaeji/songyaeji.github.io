@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-23",
+  "issue_no": 47,
+  "briefing": "중대 취약점들이 연쇄 적발되면서 우주항공·금융·클라우드 시스템이 광범위하게 노출됐다. 다크웹에서 AI 기반 공격 도구와 자격증명이 활발히 거래되며 초보 공격자의 공격 진입장벽이 급락했다. 규제 당국은 기업의 부실 행위에 제재를 강화하는 동시에 AI 발전을 위해 개인정보 활용 규제를 완화하는 이중 기조를 취했다.",
+  "keywords": [
+    "미인증RCE",
+    "금융악성코드",
+    "AI기반공격도구",
+    "인증우회취약점",
+    "증거훼손"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "NASA AIT-GUI — 우주선 명령 원격실행 취약점",
+      "url": "https://securityaffairs.com/197689/hacking/critical-flaw-in-nasa-jpl-open-source-spacecraft-command-software.html"
+    },
+    {
+      "n": 2,
+      "title": "ToxicPanda 2.0 — 금융 앱 349개 표적",
+      "url": "https://securityaffairs.com/197681/breaking-news/toxicpanda-2-0-gets-a-major-upgrade.html"
+    },
+    {
+      "n": 3,
+      "title": "TikTok 미국 아동 개인정보 침해 4억 달러 합의",
+      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
+    },
+    {
+      "n": 4,
+      "title": "다크웹의 AI 기반 해킹 도구 거래 확산",
+      "url": "http://www.boannews.com/media/view.asp?idx=145219&kind=&sub_kind="
+    },
+    {
+      "n": 5,
+      "title": "KT·LGU+ 침해 증거 훼손 적발, 추가 제재 논의",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81eUlsa3hJVWhXczdLV1poOGtPRzBFSWVISFlNSWxXN21CdWhJQndabEktNE1SQ1VWRFVMQkdSRkNFUzdpSVdfcktld1YyYi02eUt4WWpYUlRvakZ4U3FSTTNPeTM?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "Citrix NetScaler — 인증우회 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208135"
+    },
+    {
+      "n": 7,
+      "title": "AI 개인정보 활용 특례 신설, 개인정보보호법 개정안 국회 통과",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtWWhOOVlDNnBsaHg5bGVlS08tNjdSMGZ1WmtNOFNIQ29Hbzd3V3pubFVZbnJSOHVpQjZoTFAyZ21LQWFXZTBVdVMtOWNMS28?oc=5"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
