@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-24",
+  "issue_no": 48,
+  "briefing": "국가 차원의 기반시설 사이버 공격과 AI 시스템 제로클릭 탈취가 실제 피해를 초래하는 단계로 진입했다. 개인정보 수집·관리 부실과 증거 훼손 적발로 기업과 공공기관의 책임성 문제가 심화하고 있으며 AI 학습용 개인정보 활용 정책이 산업과 시민 사이 대립을 심화시키고 있다. 보이스피싱 통합 대응과 공급망 침투 위협 적발로 방어 효과를 거두고 있으나 신종 공격 경로에 대한 선제적 대비가 시급한 상황이다.",
+  "keywords": [
+    "AI학습개인정보특례",
+    "LLM제로클릭탈취",
+    "기반시설국가사이버공격",
+    "개인정보증거훼손",
+    "공급망침투공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "이란 해커 영국 발전소 4일 셧다운·미국 수도 동시 공격",
+      "url": "https://securityaffairs.com/197734/cyber-warfare-2/uk-power-plant-disabled-for-four-days-by-iran-linked-hackers-concurrent-with-us-water-attacks.html"
+    },
+    {
+      "n": 2,
+      "title": "Grok 채팅 이력 제로클릭 탈취 공격",
+      "url": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html"
+    },
+    {
+      "n": 3,
+      "title": "KT 개인정보위 고발, 증거 훼손 의혹",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWWpMTE5lWGdtU1cwWkhKbmhGSmdBZk50azJ1XzBLMXdfVEFYUjN6UHZLZm5PMXNsYW0xUXp6UGxiMVNiUjB0dXhDV0RIT1VKQTNr?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "AI 개인정보 특례, 산업계 기대·시민사회 반발",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YWTBDd1FJRS1tRmQ0c1N6NjlBSnZxNEktbWZqN0dwZ2VFbFozNnFlMDJZc0lYWERKMEdmR3pLendrNElZeUtEUC05Z3lyaEo2UTZfalpyVzVxUk5GaW5wdUM0T0ktWTg1ZHZF0gFvQVVfeXFMUFpYdk95TmNUTHJXeThCTWhHZGhfRDg5M3NXcFF2RlA0NXNtUFU3czdSSlpjSGUtS2YzZnVFVHM1djR1a3prbzloc0RmemhQZGRzTmdUT1JUdDQyZTJFV3NreGhkUkFaQ1ZXeXZMWXow?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "보이스피싱 대응 9개월, 7천개 계좌 지급정지·664억 피해 차단",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBaZXBSSWdQSlVZYkZkQ1N6NDQtOWh3NHlqdjg5ZGd2dGhTamhlT1NCMUhVaTJwTUJITm1LNGgxd0ZwcVBVYzZibm9kYzVQdlJjdG9RMXBvNjhxc0Z6MVdHQmFWNWtpNU5U?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "LG유플 자회사, 알뜰폰 납부자 주민번호 위법 수집",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50aFBJMnVRQ0lxSHJyYk5VYW9DTUJTY1Zjb1hhQUptZVhieTRaM3hLY0VnT3RUWmxfZFJMRFpKYV9BWnhQZUc1VkFsZGZoSUNHV3dCczZycGo2eVhR?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "러시아 네트워크 모니터링 회사 Microolap 사이버 공격 확인",
+      "url": "https://therecord.media/russian-network-monitoring-firm-confirms-cyberattack-claimed-by-pro-ukraine-group"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
