@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-25",
+  "issue_no": 49,
+  "briefing": "인증 시스템과 접근제어 계층을 겨냥한 취약점들이 속속 공개되면서 정부기관 긴급 지시까지 촉발했다. 중국 사이버 범죄조직은 AI 자동화로 17만 웹서버를 표적으로 삼았고, 고급 피싱 툴킷과 신규 악성코드는 인증 우회와 정보탈취를 동시에 시도하고 있다. 한국 정부 플랫폼의 암호화 키 관리 실패까지 가세하면서 인증 기반 보안의 다층적 위기가 확산되고 있다.",
+  "keywords": [
+    "AI자동화공격",
+    "인증우회취약점",
+    "RCE",
+    "정보탈취악성코드",
+    "암호화키노출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Zimbra 중대 원격코드 실행 — CISA 긴급 3일 패치 지시",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/"
+    },
+    {
+      "n": 2,
+      "title": "Keycloak — 미인증 임의 계정 탈취 CVE-2026-18963",
+      "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
+    },
+    {
+      "n": 3,
+      "title": "중국 해킹그룹 UAT-10147 AI 활용해 17만 웹서버 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208173"
+    },
+    {
+      "n": 4,
+      "title": "iAuthFlow v2 피싱 툴킷 — Passkey 등록 인증 우회",
+      "url": "https://securityaffairs.com/197748/cyber-crime/iauthflow-v2-the-10000-phishing-toolkit-that-survives-your-password-reset.html"
+    },
+    {
+      "n": 5,
+      "title": "신규 악성코드 WordlistLoader·SynkLoader 발견",
+      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
+    },
+    {
+      "n": 6,
+      "title": "한국 정부 스타트업 플랫폼 암호화키 API 노출",
+      "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
+    },
+    {
+      "n": 7,
+      "title": "miniOrange WordPress SAML 인증우회 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-21962",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
