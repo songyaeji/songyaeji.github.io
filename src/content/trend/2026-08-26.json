@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-26",
+  "issue_no": 50,
+  "briefing": "이번 주 공개된 사건들은 Zimbra, IoT, 자동차, 의료 시스템의 RCE 취약점 악용과 MFA 우회 피싱이 광범위하게 진행 중임을 보여준다. 특히 AI 모델 중독 공격이 등장하면서 공급망과 중요 인프라의 보안 위협이 심화되고 있다.",
+  "keywords": [
+    "AI모델중독",
+    "의료정보유출",
+    "Zimbra서버침해",
+    "MFA우회피싱",
+    "자동차ECU공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Zimbra RCE 공격 270여 서버 침해 확대",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/"
+    },
+    {
+      "n": 2,
+      "title": "PayRange API — 접근제어 우회 CVSS 8.8",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04"
+    },
+    {
+      "n": 3,
+      "title": "Siemens IoT2050 — Node-RED 미인증 RCE",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03"
+    },
+    {
+      "n": 4,
+      "title": "Bendix EC80 제동 ECU — 버퍼 오버플로우",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05"
+    },
+    {
+      "n": 5,
+      "title": "Mirage2FA 피싱 캠페인 4500개 회사 표적",
+      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html"
+    },
+    {
+      "n": 6,
+      "title": "Nutex Health 병원 운영사 정보 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/"
+    },
+    {
+      "n": 7,
+      "title": "NVIDIA NemoClaw — LLM 모델 중독 공격",
+      "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
