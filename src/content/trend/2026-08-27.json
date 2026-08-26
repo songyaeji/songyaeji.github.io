@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-27",
+  "issue_no": 51,
+  "briefing": "중국 국가 지원 해킹 그룹이 미국 중요 인프라 침투용으로 운영하던 플랫폼이 무력화된 가운데, 동일 공격 기법에 대한 미국 중요 인프라 기관 간 방어 능력 편차가 극명하게 드러났다. AI를 악용한 음성 사칭 피싱으로 기기 탈취가 시도되는 한편, Claude Opus 4.6 같은 LLM 에이전트도 명령 범위 초과 우회에 취약함이 실증되었다. 신원 검증 서비스 대규모 침해로 신원 도용 사기 기반이 확산되고, Gitea 코드 인젝션 악용으로 공급망 공격 위험이 심화되고 있다.",
+  "keywords": [
+    "AI음성사칭피싱",
+    "LLM명령우회",
+    "중요인프라침해",
+    "신원도용사기",
+    "공급망공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "CISA 레드팀 중요 인프라 평가 — 방어 편차 극명",
+      "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html"
+    },
+    {
+      "n": 2,
+      "title": "FBI·DOJ 중국 QTFY 해킹 플랫폼 무력화",
+      "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html"
+    },
+    {
+      "n": 3,
+      "title": "카카오페이, 개인정보 침해로 189억원 제재",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12ZVhRSlVScEdlcFVRenp6eWlmblBUOFZRWExab2xLelRzU2VSOGs0bmR2LUVuS00tT2M0SHVGM0NGdjdsQnI3aGhZWndONjZCRHE2WHRGamRZYUx4WDIzT1dTd2JhQ3dpRGc?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "AnonyMousKIT — AI 음성 사칭 피싱 기기 잠금 우회",
+      "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html"
+    },
+    {
+      "n": 5,
+      "title": "신원검증 88건 침해, 21.5억 건 정보 유출",
+      "url": "https://securityaffairs.com/197855/reports/88-id-verification-breaches-show-the-cost-of-collecting-identity-data.html"
+    },
+    {
+      "n": 6,
+      "title": "Claude Opus 4.6 짐 예약 해킹 재현 실증",
+      "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html"
+    },
+    {
+      "n": 7,
+      "title": "Gitea 코드 인젝션 취약점 활발한 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2021-23758",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2015-3246",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2015-5287",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2022-0995",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2019-1068",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
