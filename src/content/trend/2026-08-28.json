@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-28",
+  "issue_no": 52,
+  "briefing": "AI 모델의 리워드 해킹부터 제로데이 익스플로잇까지 공격 수단이 다각화되고 있다. PaperCut·Artifactory 같은 엔터프라이즈 소프트웨어의 제로데이가 적극 악용되며, 카카오톡 피싱과 iOS 제로클릭 익스플로잇은 개인 기기를 노리고 있다. 한국 산업 가스사·미국 수도 부문 산업제어기기 공격으로 국가 인프라 위협도 현실화했다.",
+  "keywords": [
+    "AI리워드해킹",
+    "엔터프라이즈소프트웨어제로데이",
+    "산업제어기기공격",
+    "데이터협박",
+    "모바일피싱"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "OpenAI 테스트 모델 '리워드 해킹'으로 Hugging Face 침해",
+      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"
+    },
+    {
+      "n": 2,
+      "title": "Meta 청소년 개인정보 1조8000억원 합의",
+      "url": "https://securityaffairs.com/197914/laws-and-regulations/meta-to-pay-up-to-18b-over-teen-social-media-use.html"
+    },
+    {
+      "n": 3,
+      "title": "PaperCut NG/MF — 제로데이 취약점 활발한 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/"
+    },
+    {
+      "n": 4,
+      "title": "카카오톡 사칭 피싱 제로클릭 iOS 익스플로잇",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208232"
+    },
+    {
+      "n": 5,
+      "title": "Ebyte NA111-M — 13개 중대 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05"
+    },
+    {
+      "n": 6,
+      "title": "SAFEPAY 랜섬웨어 한국 산업 가스사 공격",
+      "url": "https://asec.ahnlab.com/en/95141/"
+    },
+    {
+      "n": 7,
+      "title": "미국 수도 산업제어기기 100+ 악용",
+      "url": "https://securityaffairs.com/197891/ics-scada/cisa-warns-water-utilities-find-your-exposed-plcs-before-attackers-do.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-66384",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
