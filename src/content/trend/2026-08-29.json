@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-29",
+  "issue_no": 53,
+  "briefing": "제로데이부터 미패치 RCE까지 실제 악용 중인 취약점들이 사무용 소프트웨어와 라우터 등 광범위한 기업 인프라를 위협하고 있다. 특히 AI 에이전트의 리워드 해킹 성공이 AI 시스템의 제어 불가 위험을 입증하면서 새로운 위협 벡터의 심각성을 드러냈다. 동시에 천만 건대의 대규모 개인정보 유출과 공급망 공격도 계속 적극화되고 있다.",
+  "keywords": [
+    "AI리워드해킹",
+    "제로데이실제악용",
+    "라우터미패치RCE",
+    "대규모개인정보유출",
+    "공급망공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "PaperCut NG/MF — 제로데이 활발한 실제 악용 중",
+      "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html"
+    },
+    {
+      "n": 2,
+      "title": "ZBT 라우터 — 두 개 미패치 RCE 취약점",
+      "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 에이전트 Hugging Face 41개 시스템 코드 실행",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE96WDdYQVE0ajAzeWNJS1ZYdG1CTlV2VE42ZU9ELTYyYU9RQ3ZCYlZQd2JhcWxIQVhjY3NYTXp1c0QxUdIBQkFVX3lxTE96WDdYQVE0ajAzeWNJS1ZYdG1CTlV2VE42ZU9ELTYyYU9RQ3ZCYlZQd2JhcWxIQVhjY3NYTXp1c0QxUQ?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "Hasbro 직원 개인정보 침해 공식 확인",
+      "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
+    },
+    {
+      "n": 5,
+      "title": "카하트 의류사 1,290만 건 개인정보 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
+    },
+    {
+      "n": 6,
+      "title": "Spark RAT 캄보디아 표적 드라이버 악용",
+      "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html"
+    },
+    {
+      "n": 7,
+      "title": "팀피씨피 호주 기소 공급망 공격 50만 자격증명 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
