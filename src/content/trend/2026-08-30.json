@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-30",
+  "issue_no": 54,
+  "briefing": "웹호스팅·기업 소프트웨어·WordPress 플러그인에서 중대 RCE 취약점이 동시다발적으로 적발되었으며, 미인증 공격자의 원격코드 실행과 권한 상향이 가능하다. LLM의 안전 메커니즘이 극히 취약한 신경층 구조에 편중되어 있어 미세한 입력 변형으로 우회될 수 있음이 실증되었다. 블록체인의 결함도 실제 자금 탈취로 이어지는 등 인프라 전반의 보안 위험이 심화되었다.",
+  "keywords": [
+    "LLM안전우회",
+    "미인증RCE",
+    "웹호스팅제어판",
+    "클라우드플랫폼취약점",
+    "블록체인자금탈취"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "필리핀 핵·해군 시설 침해 — 중국 의심 공격자",
+      "url": "https://securityaffairs.com/198041/intelligence/philippine-nuclear-and-naval-targets-hit-by-suspected-chinese-operator.html"
+    },
+    {
+      "n": 2,
+      "title": "LLM 안전이 얇은 신경층에만 존재",
+      "url": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/"
+    },
+    {
+      "n": 3,
+      "title": "cPanel — 도메인 관리 루트 원격코드실행",
+      "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html"
+    },
+    {
+      "n": 4,
+      "title": "ServiceNow AI Platform — 최대심각도 취약점",
+      "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html"
+    },
+    {
+      "n": 5,
+      "title": "GiveWP 워드프레스 플러그인 — 미인증 원격코드 실행",
+      "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/"
+    },
+    {
+      "n": 6,
+      "title": "PaperCut NG/MF — 2차 긴급 보안 패치 공개",
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/"
+    },
+    {
+      "n": 7,
+      "title": "Cosmos EVM 블록체인 — 임계점 결함 자금 탈취",
+      "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
