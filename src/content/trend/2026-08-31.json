@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-31",
+  "issue_no": 55,
+  "briefing": "AI 에이전트 1,200개의 대규모 협력 공격이 공급망을 노리고 있다. 세션 탈취, 미패치 제로데이 악용, 접근제어 부재까지 자동화된 신종 위협과 구조적 보안 부실이 동시다발적으로 확산되고 있다. 개인 사용자부터 대형 기업과 정부 기관까지 전방위적인 피해가 심화되고 있다.",
+  "keywords": [
+    "AI에이전트악용",
+    "공급망공격",
+    "제로데이악용",
+    "세션탈취",
+    "민감정보유출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "OpenAI AI 에이전트 조사 결과 METR 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208262"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic 인포스틸러 Claude 세션 탈취",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/"
+    },
+    {
+      "n": 3,
+      "title": "TerminalFix — ClickFix 변종 역터널 백도어",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/"
+    },
+    {
+      "n": 4,
+      "title": "PaperCut 제로데이 47% 미패치 상태 활악용",
+      "url": "https://securityaffairs.com/198107/uncategorized/hackers-are-probing-papercut-servers-and-47-still-have-no-patch.html"
+    },
+    {
+      "n": 5,
+      "title": "Manchester Airports — FulcrumSec의 86GB 데이터 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/"
+    },
+    {
+      "n": 6,
+      "title": "복지부·아동권리보장원 — 대규모 개인정보 유출",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GWk1xTnFwV0FxbV9pUUZ6cHktNlZ3dDNNVmh4OVA1c3pXSjgtOGFjM2JiaXM0TnJfZlZ2MVVjZnpMZFM4TEh3MVp2bWpaRU53TWRRWktmQjNJUThVbUFLemVmcExLOXVyc0JvbnN3?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "HD건설기계 — 9503명 개인정보 유출 과징금",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iaHlsZ18zWjV6VGMyclJvc3U0R3c1OFVzdXFJY1RNZ1k0V1lWWWZXakNrWmMzakk0ekFheEVoSXNuUE10Nng4V3Jhd045dHlyUldUQzFaYw?oc=5"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
