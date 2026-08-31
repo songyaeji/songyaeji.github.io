@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-01",
+  "issue_no": 56,
+  "briefing": "중국 APT부터 러시아 랜섬웨어까지 고급 위협 세력들이 공개 AI 도구와 엔터프라이즈 시스템 취약점을 동시에 악용해 조직 인프라에 침투하고 있다. Claude 사용자 세션 탈취나 악의적 LLM 엔드포인트 공격처럼 AI 생태계 자체가 새로운 공격 표적으로 급부상하고 있다. 네트워크 장비, 협업 도구, 인쇄 시스템 등 다층 인프라의 취약점들이 연쇄 공략되며 조직 전체의 원격 장악을 가능하게 하고 있다.",
+  "keywords": [
+    "APT",
+    "Cursor악용",
+    "LLM",
+    "엔터프라이즈침해",
+    "세션탈취"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "중국 APT 파이어 앤트 Cisco 라우터 침해 적발",
+      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html"
+    },
+    {
+      "n": 2,
+      "title": "Aurora 랜섬웨어 AI 코딩 도구로 네트워크 침투",
+      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html"
+    },
+    {
+      "n": 3,
+      "title": "Spring Ring Microsoft Teams 음성 피싱 캠페인",
+      "url": "https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/"
+    },
+    {
+      "n": 4,
+      "title": "Nigerian 섹스토션 범죄자 미국 인도 및 기소",
+      "url": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/"
+    },
+    {
+      "n": 5,
+      "title": "Claude 인포스틸러 2FA 우회해 구독료 무단 소비",
+      "url": "https://securityaffairs.com/198166/ai/infostealers-are-hijacking-claude-sessions-and-draining-subscriptions.html"
+    },
+    {
+      "n": 6,
+      "title": "베를린 정부 Rhysida 침해 데이터 탈취 공식 확인",
+      "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/"
+    },
+    {
+      "n": 7,
+      "title": "악의적 LLM 엔드포인트 AI 에이전트 정보탈취",
+      "url": "https://isc.sans.edu/diary/rss/33298"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-82078",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-81578",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
