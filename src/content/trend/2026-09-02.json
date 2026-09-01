@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-02",
+  "issue_no": 57,
+  "briefing": "북한·러시아·이란 등 국가 연계 위협행위자들이 생성형AI를 악용한 초기 침투부터 신규 악성코드·제로데이까지 활동 범위를 확대하고 있다. 금융·결제 시스템을 주 표적으로 삼으며 LLM 안전 메커니즘 우회 같은 기술적 정교화도 진행 중이다. 금융안정위원회가 경고한 Frontier AI의 사이버 위험이 현실화되면서 AI 보안 리스크가 새로운 위협 차원으로 부상했다.",
+  "keywords": [
+    "생성형AI악용",
+    "LLM안전우회",
+    "위장취업공격",
+    "금융결제공격",
+    "제로데이악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "북한 위장취업, IT 넘어 의료·영업까지 확산",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208290"
+    },
+    {
+      "n": 2,
+      "title": "UAC-0099 LLM 안전 우회 기법 공개",
+      "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html"
+    },
+    {
+      "n": 3,
+      "title": "BREEZE COMET 브라질 금융 결제 시스템 공격",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/"
+    },
+    {
+      "n": 4,
+      "title": "Mirage Kitten 신규 악성코드 NodeRabbit·PollCat",
+      "url": "https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/"
+    },
+    {
+      "n": 5,
+      "title": "PaperCut 제로데이 데이터 탈취 공격에 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/"
+    },
+    {
+      "n": 6,
+      "title": "Kaspersky 권한상향 제로데이 HardBreacher",
+      "url": "https://securityaffairs.com/198214/hacking/chaotic-eclipse-releases-kaspersky-zero-day-hardbreacher.html"
+    },
+    {
+      "n": 7,
+      "title": "FSB, 최신 AI 리스크 금융 최대 우려사항 경고",
+      "url": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
