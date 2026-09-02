@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-03",
+  "issue_no": 58,
+  "briefing": "공격자들이 AI 에이전트·자동화 기술을 악용해 엔터프라이즈 시스템 침해를 가속화하고 있으며, Claude·LLM 기반 익스플로잇 자동 포팅 등 기술 민주화로 진입 장벽이 낮아지고 있다. JFrog·Kestra·SonicWall·Starlette 등 주요 기업용 제품들의 인증 우회·RCE 취약점들이 CVE 공개 후 실제 공격에 악용되면서 패치 적용 속도가 생사를 결정하고 있다. 동시에 Aesto Health·신원검증 서비스 등에서 대규모 개인정보 유출이 잇따르면서 데이터 보호의 중요성이 부각되고 있다.",
+  "keywords": [
+    "AI에이전트",
+    "LLM익스플로잇포팅",
+    "인증우회RCE",
+    "신원정보유출",
+    "의료정보침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "AI 에이전트 자율 공격으로 기업 침해",
+      "url": "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/"
+    },
+    {
+      "n": 2,
+      "title": "JFrog Artifactory 관리자 권한 획득 취약점 악용",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html"
+    },
+    {
+      "n": 3,
+      "title": "SonicWall SMA1000 새로운 제로데이 공격 연쇄",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html"
+    },
+    {
+      "n": 4,
+      "title": "FBI 153백만 건 운전면허증 다크웹 판매 조사",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
+    },
+    {
+      "n": 5,
+      "title": "Aesto Health 950만 명 의료정보 유출",
+      "url": "https://securityaffairs.com/198250/data-breach/attackers-access-aesto-health-aws-infrastructure-exposing-9-5-million-records.html"
+    },
+    {
+      "n": 6,
+      "title": "Claude로 산업제어 기기 익스플로잇 포팅",
+      "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html"
+    },
+    {
+      "n": 7,
+      "title": "Sality P2P 봇넷 국제 공조 테이크다운",
+      "url": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-49869",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-83549",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-48710",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
