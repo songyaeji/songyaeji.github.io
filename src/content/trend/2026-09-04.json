@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-04",
+  "issue_no": 59,
+  "briefing": "OpenAI의 Astra 모델이 제로데이를 자동으로 발견하고 익스플로잇을 구성할 수 있다는 Critical 등급의 보안 위협이 처음으로 확인되었다. 정당한 도구인 Teams·Node.js·AI를 악용한 탐지 회피 공격이 다층적으로 관찰되고 있으며, 엔드포인트 보안 솔루션 자체의 취약점도 드러났다. 동시에 산업제어시스템 고위험 취약점과 함께 APT28·Sandworm 같은 국가 지원 조직의 활동이 확인되는 등 공격 생태계의 고도화가 가속화하고 있다.",
+  "keywords": [
+    "LLM제로데이",
+    "AI악용데이터탈취",
+    "산업제어시스템취약점",
+    "엔드포인트보안취약점",
+    "정당한도구악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "OpenAI Astra — 제로데이 자동 발견·익스플로잇 구성",
+      "url": "https://securityaffairs.com/198317/ai/openai-astra-brings-autonomous-zero-day-exploitation-to-ai.html"
+    },
+    {
+      "n": 2,
+      "title": "Pyramid NetStaX — 스택 버퍼 오버플로우",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07"
+    },
+    {
+      "n": 3,
+      "title": "러시아 과학기술대학 GRU 해커 양성 부서 비밀 문서 2000건 유출",
+      "url": "https://securityaffairs.com/198332/intelligence/2000-leaked-documents-reveal-how-russia-turns-engineering-students-into-gru-cyber-operators.html"
+    },
+    {
+      "n": 4,
+      "title": "CrowdStrike Falcon — 권한상승 제로데이 FalconFlank",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208331"
+    },
+    {
+      "n": 5,
+      "title": "Rockwell ControlFLASH — 원격코드실행",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03"
+    },
+    {
+      "n": 6,
+      "title": "Teams 외부 협업 IT 지원 사칭 임플란트",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/"
+    },
+    {
+      "n": 7,
+      "title": "AI 도구 라틴아메리카 데이터 탈취 악용",
+      "url": "https://unit42.paloaltonetworks.com/ai-tool-use-targeting-latam-orgs/"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
