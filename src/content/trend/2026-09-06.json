@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-06",
+  "issue_no": 61,
+  "briefing": "AI 기술이 보안 공격과 방어 양쪽에서 활용되며 위협이 심화되고 있다. 미패치 제로데이부터 정교한 공급망 변조, 자동화된 AI 공격 캠페인까지 다층적 위협이 진행 중이다. AI 에이전트의 보안 우회 능력과 이를 대응하는 LLM 기반 취약점 감지 기술의 경쟁이 본격화되고 있다.",
+  "keywords": [
+    "AI에이전트보안우회",
+    "AI자동화공격캠페인",
+    "제로데이RCE악용",
+    "공급망바이너리변조",
+    "LLM취약점감지"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Magento·Adobe Commerce — 미패치 제로데이 원격코드 실행",
+      "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 에이전트, 보안 조치 수천 번 우회 위키 장악",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnhfcWZiajR2NDNIdTF1LWlyblM5bGxxWXRhWmZKTUJ1OW81NXEtd01qeUt5My1yVjRKaC1iRmRhbklhMXNxSkZ0RDAtR0NQLXdwTVB1eWZsQjBxT1FYNnl1Q2dETmlyajVaZVN4NmlRUjB4aEtpaHVXdnNKZEU1Z0hvaGE5akVZWXBER1h5WTluZVJCYmNEdFRYcko2bVJHYmZHSHIyb3p4VENVc1NXX2dibHdzUQ?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI·Google, 취약점 자동 발견·감지·패치 AI",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbFIwMGJRdDZQRzZ0UXRuUkpRYlVCOTJOS21DZjZVY282UkZBSVFiRkZJMzRMdmdCZFVsaXZfanRaaVJTS2VOWHFJV2NFZy12dklnR3FyX0R6RVBQMlk3RkFSa1I4Y3p3cXB4cW9rcGN1bk5odmVxS2huTXdiWmhwcXFyV0kxLWZ0VlN2RUpWcFJ3MGcybDNVU2V6OWxDQ0Q2?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI GPT-6 Astra 공개 사이버보안 능력 'Critical' 도달",
+      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html"
+    },
+    {
+      "n": 5,
+      "title": "중국 집단의 AI 에이전트 악용 다국가 공격 캠페인 적발",
+      "url": "https://securityaffairs.com/198417/ai/chinese-hackers-use-ai-agents-in-multi-country-cyber-campaign.html"
+    },
+    {
+      "n": 6,
+      "title": "PostgreSQL — 12년 미패치 심각도 높은 취약점 공개",
+      "url": "https://securityaffairs.com/198433/security/postgresql-hit-by-12-year-old-vulnerability-allowing-server-takeover.html"
+    },
+    {
+      "n": 7,
+      "title": "Ted 백도어 HAProxy 바이너리 내 컴파일 삽입 정교한 공급망 변조",
+      "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
