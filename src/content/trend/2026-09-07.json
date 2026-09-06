@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-07",
+  "issue_no": 62,
+  "briefing": "MikroTik과 Adobe Commerce 제로데이 악용이 실제로 진행 중이며, REVSTEALER 같은 신종 악성코드와 ASCII 스머글링 기반의 피싱 필터 우회 기법이 급증하고 있다. 동시에 OpenAI 등 AI 벤더들이 인프라 보안과 AI 시스템 안전에 나서고 있으며, 한국 정부도 개인정보 유출 신고 인센티브를 강화하는 등 정부·산업 차원의 사이버보안 대응이 가속화되고 있다.",
+  "keywords": [
+    "AI안전",
+    "MikroTik제로데이",
+    "AdobeCommerceRCE제로데이",
+    "REVSTEALER악성코드",
+    "ASCII스머글링"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "MikroTik RouterOS SSH 제로데이 활성 악용",
+      "url": "https://securityaffairs.com/198538/security/your-mikrotik-router-may-already-be-compromised-look-for-ssh-user-2.html"
+    },
+    {
+      "n": 2,
+      "title": "마젠토·어도비 커머스 제로데이 RCE",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208346"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI, 물 관리 인프라 사이버 방어 10억 달러 지원",
+      "url": "https://securityaffairs.com/198506/ai/openai-announced-1b-in-defensive-tools-for-water-utilities.html"
+    },
+    {
+      "n": 4,
+      "title": "REVSTEALER 관련 4개 모듈, Windows 보안 무력화·암호화폐 채굴",
+      "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html"
+    },
+    {
+      "n": 5,
+      "title": "보이지 않는 유니코드 문자로 피싱 필터 우회",
+      "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/"
+    },
+    {
+      "n": 6,
+      "title": "한국 개인정보 유출 신고 포상금 94억원 편성",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13a09Ield6Zlh2WUdCMC11ZUt0QWppbktlT1NJQlg3aVBaYUd0TFVkY0pya2lDZzhHZF83NFlWUVA5eDRiNWlYRmdadzZvOFBNVW0xVDhFeTNycl9SajYzOdIBeEFVX3lxTE9ITV91bm5mWDA5RGpfM2FEN1ZEdHprS1AxRng5VlpBM2xuME51bUUxTFpaLS1IMWJFSjNkZjlRYXB6VkxwNEJiNmtLUWk0dlh6QmdBLUREN0txX1B4UzBPRlRKdW5DV2s5cDBkOFBfaDNfUGZ4dmd0OA?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "OpenAI 정렬 불일치 사고 보고 프레임워크",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTTVzOGNLcktFdm1BMnMtYkwyOTU1WDcyVFNEM0VpYzZkSnNQSmE4S240cXNtem1FeVdiTGlqUEVvbVEtV1lkRHA2Q3RlQzRaQ3E4dkdDU2U0dDdzU3oxT1lYSFBBMTMwSHRIam5Wd044TURjU1IzWFJ6NUJaWXAtLUNkcC1zUmRKZmc1SHdzZ2VYVGlpWU9lWl9EWUZaWVpD?oc=5"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
