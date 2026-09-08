@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-09",
+  "issue_no": 64,
+  "briefing": "중국의 AI 모델 지식 증류 산업 스파이와 OpenAI GPT-6의 제로데이 자동 발견 능력 출현으로 인공지능 보안 위협이 급속히 고도화되고 있다. Microsoft 9월 보안 패치에서 역대 최대인 966개의 취약점을 공개하면서 Windows 환경의 보안 위험이 극도로 심화되었다. 국가 지원 공격자들이 원격 접속 도구와 랜섬웨어를 악용한 공급망 침해를 동시다발적으로 확대하고 있다.",
+  "keywords": [
+    "LLM지식증류",
+    "제로데이자동발견",
+    "Windows대규모취약점",
+    "원격접속도구RCE",
+    "데이터협박"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "중국 AI 업체 미국 모델 대규모 지식 증류",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI GPT-6 Astra — 제로데이 자동 발견 능력",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/"
+    },
+    {
+      "n": 3,
+      "title": "Microsoft 9월 패치 — 역대 최대 966개 취약점",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/"
+    },
+    {
+      "n": 4,
+      "title": "국내 PG 업체 해킹 카드정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208370"
+    },
+    {
+      "n": 5,
+      "title": "베를린 정부 Rhysida 침해 — 6TB 데이터 다크웹 게시",
+      "url": "https://securityaffairs.com/198545/cyber-crime/berlin-ransomware-leak-exposes-state-secrets.html"
+    },
+    {
+      "n": 6,
+      "title": "ConnectWise ScreenConnect — 원격접속 취약점 미패치",
+      "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/"
+    },
+    {
+      "n": 7,
+      "title": "North Korea-linked Hackers Hide a Backdoor Inside HAProxy",
+      "url": "https://securityaffairs.com/198656/apt/north-korea-linked-hackers-hide-a-backdoor-inside-haproxy.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-86218",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-81963",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-85880",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
