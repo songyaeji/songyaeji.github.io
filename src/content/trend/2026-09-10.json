@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-10",
+  "issue_no": 65,
+  "briefing": "마이크로소프트 플랫폼의 제로데이 악용과 대규모 패치, Chrome V8 야생 악용, Fortinet·SAP 원격코드실행 등 주요 엔터프라이즈 소프트웨어가 집중 공략받고 있다. 에이전틱 AI를 활용한 자동화 공격이 확산되면서 위협 행위자들이 취약점 발견부터 클라우드 자격증명 탈취까지 공격 사이클을 고도화하고 있다. Passkey 피싱 MFA 우회, 119,000개 도메인 DoppelCart 신용카드 탈취 등 사용자 인증과 전자상거래 계층까지 위협이 확산되는 중이다.",
+  "keywords": [
+    "에이전틱AI공격",
+    "제로데이악용",
+    "RCE",
+    "Passkey피싱MFA우회",
+    "신용카드탈취"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Microsoft 역대 최대 패치 공개",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html"
+    },
+    {
+      "n": 2,
+      "title": "Microsoft Defender 제로데이 PoC 공개",
+      "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/"
+    },
+    {
+      "n": 3,
+      "title": "SAP Extended Passport 메모리 손상 원격코드실행",
+      "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html"
+    },
+    {
+      "n": 4,
+      "title": "에이전틱 AI 활용 사이버 공격 급증",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208399"
+    },
+    {
+      "n": 5,
+      "title": "Chrome V8 경계초과쓰기 제로데이 야생 악용",
+      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
+    },
+    {
+      "n": 6,
+      "title": "Passkey 사칭 피싱 MFA 우회",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/"
+    },
+    {
+      "n": 7,
+      "title": "119,000개 도메인 가짜샵 신용카드 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2025-25249",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
