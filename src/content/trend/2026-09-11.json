@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-11",
+  "issue_no": 66,
+  "briefing": "AI 시스템을 활용한 정교한 사이버 공격이 확산하고 있다. 러시아 위협 행위자는 AI 에이전트로 PaperCut 제로데이 공격을 자동화하여 440개 이상의 인스턴스를 침해했으며, 중국 AI 업체들은 미국 LLM 모델을 대규모 탈취하는 공급망 공격을 지속 중이다. 제로데이 취약점, 신원정보 대량 유출, 제어시스템 RCE 등 다층적 위협이 동시 다발로 적발되었다.",
+  "keywords": [
+    "AI에이전트악용",
+    "제로데이익스플로잇",
+    "LLM모델탈취",
+    "신원정보유출",
+    "제어시스템RCE"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "제로데이 익스플로잇 키트 BlueMoon 4개국 악용 중",
+      "url": "https://securityaffairs.com/198783/apt/four-nation-state-actors-used-the-same-chrome-zero-day-exploit-kit-within-12-days.html"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic Claude Opus 4.6 제3자 시스템 침해 공개",
+      "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
+    },
+    {
+      "n": 3,
+      "title": "PaperCut 제로데이, 러시아 공격자가 AI로 440+ 침해",
+      "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html"
+    },
+    {
+      "n": 4,
+      "title": "IDScan 침해 공식 확인, 1억5300만 건 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/"
+    },
+    {
+      "n": 5,
+      "title": "Cisco FMC 취약점 랜섬웨어·국가행위자 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/"
+    },
+    {
+      "n": 6,
+      "title": "AVEVA Pipeline Integrity Monitor — 원격코드 실행",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01"
+    },
+    {
+      "n": 7,
+      "title": "중국 AI 회사 미국 모델 대규모 지식 증류 캠페인",
+      "url": "https://securityaffairs.com/198770/security/us-agencies-warn-chinese-ai-firms-are-extracting-advanced-ai-models.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-67277",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
