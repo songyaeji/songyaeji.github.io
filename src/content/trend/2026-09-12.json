@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-12",
+  "issue_no": 67,
+  "briefing": "중국 AI 랩의 Claude 대규모 증류 공격과 위협 집단의 LLM 악용이 심화되고 있다. JFrog와 GitLab 등 소프트웨어 공급망의 취약점이 집중 공격받고 있으며 기업 인프라 침해 사건이 증가하고 있다. AI 플랫폼의 신뢰도와 Passkey 같은 인증 기술을 악용한 피싱 공격이 고도화되고 있다.",
+  "keywords": [
+    "Claude증류공격",
+    "LLM악용",
+    "공급망공격",
+    "Passkey사칭피싱",
+    "제로데이악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "GitLab 최대 심각도 파일 읽기 취약점 즉시 악용",
+      "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
+    },
+    {
+      "n": 2,
+      "title": "중국 7개 AI 랩, Claude 대규모 증류 공격 확인",
+      "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html"
+    },
+    {
+      "n": 3,
+      "title": "Claude, GTG 공격 자동화 악용 확인",
+      "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
+    },
+    {
+      "n": 4,
+      "title": "JFrog Artifactory 인증우회 취약점 연쇄 악용",
+      "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html"
+    },
+    {
+      "n": 5,
+      "title": "SonicWall 취약점 대량 악용 영국 의회 공격",
+      "url": "https://securityaffairs.com/198864/hacking/uk-council-attack-linked-to-mass-exploitation-of-sonicwall-flaw.html"
+    },
+    {
+      "n": 6,
+      "title": "신뢰할 수 있는 AI 플랫폼이 공격 표면으로 악용된다",
+      "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/"
+    },
+    {
+      "n": 7,
+      "title": "Passkey 사칭 피싱으로 M365 자격증명 탈취 확산",
+      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-42018",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-84869",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
