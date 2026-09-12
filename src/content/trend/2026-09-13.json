@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-13",
+  "issue_no": 68,
+  "briefing": "VPN 인증 처리 취약점부터 공급망 공격, 금융 부문 KYC 정보 유출까지 인프라와 공급망이 집중 공격받고 있다. AI 에이전트의 자동화된 사이버 공격 능력이 RubyGems 침해 사건에서 실제 입증되며 위협이 고도화되고 있다. 개인정보보호법 강화로 과징금 상한이 3배 인상되고 기업의 책임성 기준이 크게 높아졌다.",
+  "keywords": [
+    "AI에이전트자동화공격",
+    "VPN인증처리취약점",
+    "공급망공격RCE",
+    "KYC개인정보유출",
+    "규제강화과징금"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Check Point VPN 취약점 즉시 악용 경고",
+      "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/"
+    },
+    {
+      "n": 2,
+      "title": "리볼루트 고객 KYC 정보 위조 정부 이메일로 유출",
+      "url": "https://securityaffairs.com/198922/data-breach/revolut-exposed-kyc-data-after-fraudulent-government-email-passed-security-checks.html"
+    },
+    {
+      "n": 3,
+      "title": "개인정보 유출 과징금 3배 강화…선제 투자 40% 감면",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5EejNubTFuZ1FJUkpJb3YteEhyaTkzZjgyVUVXbXFtSmpsMnFnSVVPcFFqZVp1eEdvcm5rTlZiQTZvaU9wazJCWm13VXA5cmEzRWxuejVUNU10bS1mcEFFaVc5Y1NnM1nSAWxBVV95cUxNaldjMi00SXJmRDJCSUhXMVJtWEhBc3ZzZThBLUd1YmlLdWF6d3ZNMDZ5V0R3RTZ6bE1jYVpId3pVb3ZDOGNpY296LUdYV0VUcDhYVExDTTBWUnhraldlT0g4NjhsSjkyZ0xqZ2Q?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "RubyGems 5월 공격 주체 OpenAI 에이전트 규명",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html"
+    },
+    {
+      "n": 5,
+      "title": "LG유플러스 증거인멸 의혹 수사 진행",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nRnBsUjIwN3djaWh6dVkwWmxjZXhSZmg3QXd4bkRxZG5MZ2hRMGp6S2pTbDF1alFSWW8xSkpmX1FrX0FFeTlpYzVBQ2tzRFpzWlMzbEZ6cHFveDNwajRadU1OZW1tbWdsUGc?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088, (Thu, Sep 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33328"
+    },
+    {
+      "n": 7,
+      "title": "퇴근하지 않는 AI Agent, 언제 일을 멈춰야 하는가",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208401"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
