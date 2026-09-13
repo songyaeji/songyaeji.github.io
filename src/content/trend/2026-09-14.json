@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-14",
+  "issue_no": 69,
+  "briefing": "해킹그룹들의 Passkey 피싱과 중국 연계 백도어 배포 캠페인이 확산되었다. 국내에서는 개인정보보호 규제가 강화되고 있으나 정부기관의 보안 대응은 여전히 미흡하다. 국내 기업들은 AI 기반 보안 자동화와 제로 트러스트 솔루션으로 차세대 보안 위협에 대응하고 있다.",
+  "keywords": [
+    "Passkey피싱",
+    "GRAYRABBIT백도어",
+    "개인정보과징금",
+    "AI보안자동화",
+    "공급망보안"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Microsoft, Passkey 피싱 캠페인 공식 공개",
+      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
+    },
+    {
+      "n": 2,
+      "title": "Sogou 입력기 — GRAYRABBIT 백도어 배포 CVE 확인",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/"
+    },
+    {
+      "n": 3,
+      "title": "개인정보 과징금 상반기 6800억원",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KbDk2bXZLT0RzaDFnREtQYXFEaHE1Nm5sb0w0aWhDY3lLandQbno4WG5KelZQYUZObVFrVEsyNWF6VG9Gb0ZmX214dWhxc0IzN2poUkRwY25tTEU0MmhfMlYtVVRNZ9IBakFVX3lxTE94eXJKZElVR2VGVDg2X0ZhLVFYNUlVbFBvdUM0eng4UGNmcFlMc0wySVluN18yaF8xcmx5WV9oTWVaRFhuNHZPNjB3Zm9TVzF1LS1TVmlGUWx0THdsNzZSNDJlaXhjam1OQVE?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "법원 1만8천명 개인정보 유출 감사 결과 경고만",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KanJ1OVMxUDlRSUlhOTB0bUs5WGp2NkdwRW9GM1c1czNnUzBOWWRNRE5ldUxSN0NtZFFzQS16Z1FramtCdGdUQkhfNmowRXR3djNZM1JzUE03dEHSAWBBVV95cUxNak1hTTFHbjdZaXphakRucmdTZ0JCbVV0emdvSTdDWGNKTXBNbFlXM1dXbjh0U0ZjVlFmM2dkbmtrZ256elJxajZFYWU0N1d4djY0eU5weEtMX0g2U1VmSkE?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "피앤피시큐어, ‘2026 대한민국 일자리 으뜸기업’ 선정",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208404"
+    },
+    {
+      "n": 6,
+      "title": "시선AI, 공군 국방망에 AI 코딩·보안 자동화 플랫폼 구축",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208408"
+    },
+    {
+      "n": 7,
+      "title": "옵스왓·인섹시큐리티, NSF 대응 소프트웨어 공급망 통합 보안 세미나 개최",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208407"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
