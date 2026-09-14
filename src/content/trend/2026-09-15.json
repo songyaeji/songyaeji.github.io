@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-15",
+  "issue_no": 70,
+  "briefing": "하드웨어 기밀 컴퓨팅부터 클라우드 자격증명까지 다층 공격이 진행 중이다. RCE 취약점이 공개되자마자 악용되어 정부·통신사·기업이 침해당했다. 악성 브라우저 확장과 ClickFix 악성광고가 새로운 공급망 공격 벡터로 부상했다.",
+  "keywords": [
+    "기밀컴퓨팅공격",
+    "클라우드자격증명탈취",
+    "RCE취약점악용",
+    "ClickFix악성광고",
+    "APT"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "DDRop 공격으로 Intel TDX·AMD SEV-SNP 무력화",
+      "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html"
+    },
+    {
+      "n": 2,
+      "title": "Twitch OAuth 토큰 3만명 유출 악성 확장",
+      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
+    },
+    {
+      "n": 3,
+      "title": "Vite 개발 서버 노출로 클라우드 자격증명 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/"
+    },
+    {
+      "n": 4,
+      "title": "Red Heron의 Gitea RCE 악용, 6개국 13개 조직 침해",
+      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html"
+    },
+    {
+      "n": 5,
+      "title": "HBO Max 레딧 계정 침해, ClickFix 악용해 악성광고 배포",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/"
+    },
+    {
+      "n": 6,
+      "title": "3BB 태국 통신사, MeshCentral 악용한 침해",
+      "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html"
+    },
+    {
+      "n": 7,
+      "title": "일본 디지털청 VPN 결함 — 24만6000명 개인정보 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-76461",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
