@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-16",
+  "issue_no": 71,
+  "briefing": "제로데이를 통한 핵심 인프라 침해(Cisco·Chrome·Windows·VMware)가 동시다발적으로 진행되고 있다. 대규모 정부정보 유출, 클라우드 자격증명 탈취, 랜섬웨어 공격, 국가 스파이웨어 활동까지 다층적 위협이 확산되면서 정부·기업·개발 조직의 보안 위기가 심화되었다.",
+  "keywords": [
+    "제로데이RCE",
+    "대규모개인정보유출",
+    "클라우드자격증명탈취",
+    "국가스파이웨어",
+    "랜섬웨어"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Cisco Secure Email Gateway — SQL 인젝션 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
+    },
+    {
+      "n": 2,
+      "title": "일본 정부 VPN 침해, 24만6천명 기록 유출",
+      "url": "https://securityaffairs.com/199090/security/non-zero-day-vpn-flaw-left-japan-government-shared-network-platform-exposed-246000-records-at-risk.html"
+    },
+    {
+      "n": 3,
+      "title": "Chrome·Windows 제로데이, 중국 2개 그룹이 동시 악용",
+      "url": "https://securityaffairs.com/199104/apt/one-exploit-chain-two-espionage-campaigns-chrome-and-windows-under-fire.html"
+    },
+    {
+      "n": 4,
+      "title": "Vite 개발 서버 — AWS·Azure 자격증명 탈취",
+      "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html"
+    },
+    {
+      "n": 5,
+      "title": "VMware vCenter — RCE 랜섬웨어 갱단 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/"
+    },
+    {
+      "n": 6,
+      "title": "LiteSpeed Enterprise — 공유호스팅 루트 권한 획득",
+      "url": "https://securityaffairs.com/199127/security/shared-hosting-at-risk-litespeed-enterprise-bug-can-grant-root-from-a-single-tenant.html"
+    },
+    {
+      "n": 7,
+      "title": "이란 정보부 — Telegram 제어 스파이웨어 감시",
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
