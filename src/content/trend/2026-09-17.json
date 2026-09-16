@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-17",
+  "issue_no": 72,
+  "briefing": "AI 도구의 세션 탈취와 자동화된 AI 에이전트 공격이 새로운 위협으로 부상했다. 구글 픽셀의 제로데이를 포함해 고위험 RCE 취약점들이 활발히 악용되고 있다. 인증 우회와 권한상향 취약점을 활용한 다층적 침해 사건이 증가하고 있다.",
+  "keywords": [
+    "AI어시스턴트침해",
+    "LLM기반자동공격",
+    "제로데이악용",
+    "인증우회피싱",
+    "특권API우회"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "AI 코딩 도구 세션 탈취로 코드저장소 침해",
+      "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html"
+    },
+    {
+      "n": 2,
+      "title": "스페인, AI 에이전트 데이터 탈취 첫 신고",
+      "url": "https://www.bleepingcomputer.com/news/security/spain-reports-first-alleged-ai-powered-data-theft-attack/"
+    },
+    {
+      "n": 3,
+      "title": "Google Pixel — 110개 취약점 제로데이 포함",
+      "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/"
+    },
+    {
+      "n": 4,
+      "title": "N0va 피싱 키트 정상 인증 악용 확산",
+      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
+    },
+    {
+      "n": 5,
+      "title": "Revolut 고객 본인확인정보 유출 원인 규명",
+      "url": "https://securityaffairs.com/199180/data-breach/revolut-data-leak-may-trace-back-to-compromised-italian-government-accounts.html"
+    },
+    {
+      "n": 6,
+      "title": "Parallels Desktop 로컬 권한상향 취약점",
+      "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html"
+    },
+    {
+      "n": 7,
+      "title": "Issabel Framework — 원격코드실행 CVE-2026-89026",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-76460",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
