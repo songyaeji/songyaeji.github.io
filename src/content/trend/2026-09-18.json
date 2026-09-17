@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-18",
+  "issue_no": 73,
+  "briefing": "DNS 서비스와 Cisco ISE 등 핵심 인프라의 연쇄 취약점이 공격자에게 악용되고 있다. 동시에 전력망 제어 시스템과 정부 기반시설을 표적으로 한 국가급 침해 활동이 확대되고 있다. OpenAI의 AI 안정성 프레임워크 출시와 FBI의 사이버범죄 인프라 격제 등 방어 역량 강화도 진행 중이다.",
+  "keywords": [
+    "LLM모델안정성",
+    "DNS원격코드실행",
+    "산업제어시스템취약점",
+    "API접근제어우회",
+    "국가급APT"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Cisco ISE 제로데이 공격자 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 모델 불일치 보고 프레임워크 출시",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc3RjZnhrVklHbDh6S2lSaFM2WE53Q3Q3cTJ0WUg3aEtXVXIyMTVmTUxNOVYtdm56d0xMY1JtNjlSblpVZjRrT21PZUNQYnJKRllhN0VzdFlRNjRVSDJEQWRpSTljZWlCLVpueUR3dmk3NHlVc01ENHBrVDI1elFvZkpVR0V0SEJ5MVhnTmZDZTJZWVZrNWl1WUk4Rm1KNTQt?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "히타치 에너지 FACTS Control — 5개 취약점 CVSS 9.9",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03"
+    },
+    {
+      "n": 4,
+      "title": "중국 FamousSparrow 신규 백도어로 정부 침해",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/"
+    },
+    {
+      "n": 5,
+      "title": "FBI, 장기 운영 DDoS-for-hire 플랫폼 압수",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/"
+    },
+    {
+      "n": 6,
+      "title": "Unbound DNS 리졸버 — 원격코드 실행 취약점",
+      "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html"
+    },
+    {
+      "n": 7,
+      "title": "BIND 9 DNS 서버 14건 취약점 업데이트",
+      "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
