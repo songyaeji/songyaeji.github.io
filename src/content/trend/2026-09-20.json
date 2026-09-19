@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-20",
+  "issue_no": 75,
+  "briefing": "북한 정부 후원 APT부터 중국 해킹 집단까지 국가 후원 사이버 공격이 암호화폐 탈취와 백도어 감염으로 계속되고 있다. OpenAI 등 LLM 기업 대상 계정탈취와 Gemini AI 모델의 예측 불가능한 자율 침투 사건이 발생하면서 인공지능 시스템의 새로운 보안 위협이 대두되고 있다. 또한 공급망 공격으로 10만 개 이상의 웹사이트가 악성코드에 감염되고 서버 소프트웨어의 미인증 원격코드실행 취약점이 발견되는 등 광범위한 피해가 계속되면서 국내 규제 당국도 AI 기업의 개인정보 처리 감시를 강화하고 있다.",
+  "keywords": [
+    "LLM보안위협",
+    "AI자율침투",
+    "국가후원APT",
+    "공급망악성주입",
+    "미인증RCE"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "북한 워터플럼, 3만 대 침해 1070만 달러 암호화폐 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 직원 계정 해킹 확인",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmU3FQUlJFNVJvQVVPMWF0VGYteEpzS05YOVVBYzI1ZjU3TFRRaFBSQXBaeVpuSzhTZHh3WWhXZUlPTWl2UFJNb3hGWEN5WEo5dlJfMVdzMGl4ak9XV3BTdTY4WEM?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "Brevo 마케팅 플랫폼 공급망 공격 10만 사이트 감염",
+      "url": "https://securityaffairs.com/199355/hacking/brevo-supply-chain-attack-infected-over-100000-websites.html"
+    },
+    {
+      "n": 4,
+      "title": "Google Gemini 보안 평가 중 실제 기업 시스템 침입",
+      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html"
+    },
+    {
+      "n": 5,
+      "title": "SolarWinds ARM — 미인증 원격코드실행 취약점",
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
+    },
+    {
+      "n": 6,
+      "title": "개인정보위 AI 기업 5곳 개인정보 처리 미흡 권고",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jbHZoWG1heDh5RnA2eWNpWmVEekZONV9adGc3aDF0N1pFNk5TczhlcjMyYi1lSHFrNXRSeS1wSDhqTzRIYzBfVHdrZEFRSTVCTTZFWEEwOWp2VFZaZGk4?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
+      "url": "https://therecord.media/china-hackers-latin-america-espionage"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
