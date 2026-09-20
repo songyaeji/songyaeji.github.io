@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-21",
+  "issue_no": 76,
+  "briefing": "AI 환각과 자동화 공격, 공급망 침투 등 다층화된 새 위협들이 동시다발로 나타났다. 국가 행위자들은 블록체인과 런타임 은폐로 탐지를 회피하는 기법을 고도화했다. 한국의 AI 자동방어 시스템 투입으로 자동화된 사이버 방어 경쟁이 본격화했다.",
+  "keywords": [
+    "AI환각군사오판",
+    "LLM오케스트레이터공격",
+    "npmpackage공급망공격",
+    "블록체인데드드롭",
+    "국방AI자동방어"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "AI 환각이 미-중 군사분쟁 거의 발생",
+      "url": "https://securityaffairs.com/199415/ai/ai-hallucination-nearly-triggered-a-us-china-military-confrontation.html"
+    },
+    {
+      "n": 2,
+      "title": "Claude 악용 AI 오케스트레이터 공격 자동화",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208560"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI Codex 샌드박스 탈출 취약점 2가지",
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
+    },
+    {
+      "n": 4,
+      "title": "npm 패키지 'indexed-btree' 악성코드 캠페인",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/"
+    },
+    {
+      "n": 5,
+      "title": "해킹 피해 배상, 피해자 배제·정부만 수익",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHWWpNMTdWRDlxTHZEdEdOa01EbUFUdlJVazViVTA4Yms1Q19aeGNia0kxbWFPdlA3MlB1Z2RGNkJrNFVIbHNPOWdnbGMxaHZmczRlMHdRR0pmOWtwWlVVek44SXoteEI3VkNMUVlEMGPSAXRBVV95cUxPUXEyMkZDam5TOGU4bk9CQ01zclJBQWRDS1Y5d29hMnhKZU50Y2tma08wUWxhWGJxVTNyaGx6UkRDd1otaERIYmY3b3lWWTROYmpTcXl0TDU1NlItUF9kLS01OWxQQUE3UDdJOWFtZFNNUGxzaQ?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "북한·이란 블록체인 악용 공격 확산",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208538"
+    },
+    {
+      "n": 7,
+      "title": "국정원 AI 방어팀 국제훈련 투입",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208546"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
