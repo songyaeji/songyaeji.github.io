@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-22",
+  "issue_no": 77,
+  "briefing": "공격자들이 무파일 멀웨어, APT 공급망 침해, 커널 드라이버 악용 등 탐지 회피 기법을 고도화하고 있는 반면, Google 위치정보 GDPR 위반, LMU 학생정보 유출 등 대규모 개인정보 침해 사건이 계속되고 있다. 규제 당국의 GDPR 과징금 부과와 소송을 통한 데이터 수집 금지 명령이 강화되면서, 동시에 금융권의 취약점 통합 관리 체계도 본격 가동 중이다.",
+  "keywords": [
+    "무파일멀웨어",
+    "APT공급망침해",
+    "커널드라이버악용",
+    "대규모개인정보유출",
+    "GDPR규제강화"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "PAYLOAD 랜섬웨어 — Active Directory GPO 악용",
+      "url": "https://securelist.com/tr/payload-ransomware-via-group-policy/121335/"
+    },
+    {
+      "n": 2,
+      "title": "북한 Jade Sleet APT — 인도 IT 서비스사 침해",
+      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+    },
+    {
+      "n": 3,
+      "title": "Google — 위치정보 GDPR 위반 403M 유로 과징금",
+      "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/"
+    },
+    {
+      "n": 4,
+      "title": "가짜 LastPass 설치 — 커널 드라이버로 AV 무력화",
+      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html"
+    },
+    {
+      "n": 5,
+      "title": "뮌헨대학교 시스템 침해, 재학생 등록정보 노출",
+      "url": "https://therecord.media/cyberattack-hits-university-of-munich-potentially-exposing-data"
+    },
+    {
+      "n": 6,
+      "title": "금융권, 취약점 '발견-패치-조치' 통합 플랫폼 가동",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IWEhCLU40VHlCRkcwMVBCdTBmaU1QZFRUVzlBcjR2Z3RJTXFVTDBCOUFrUkxhTVdJVmxxdkhHNjl6VDZkcTFWWFVVV2V4WXNjaFlhRVVoMGRLTHJhRFZFbkxLb0ZDUFk?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "LinkedIn 사용자 데이터 스크래핑 차단 소송 승소",
+      "url": "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-7273",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
