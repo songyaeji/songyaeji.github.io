@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-23",
+  "issue_no": 78,
+  "briefing": "PeopleSoft 제로데이부터 VeloCloud Orchestrator CVSS 10.0 미인증 RCE에 이르기까지 고심각도 원격코드실행 취약점들이 집중 발견되고 있으며 현재 실제 악용이 진행 중이다. Siemens Desigo CC·Siveillance Control 등 산업제어시스템 주요 제품들과 F5 BIG-IP, Zyxel 스위치 등 광범위한 인프라 제품이 연속 표적으로 지목되면서 CISA가 긴급 패치를 명령했다. 최초의 자율형 AI 명령제어 능력을 갖춘 CLOSEDQUORUM 멀웨어 등장으로 위협 행위자의 자동화·효율화 위협이 한층 심화되고 있다.",
+  "keywords": [
+    "제로데이",
+    "자율형AI명령제어",
+    "산업제어시스템RCE",
+    "미인증원격실행",
+    "LLM게이트웨이공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "ShinyHunters FBI 침해 PeopleSoft 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/"
+    },
+    {
+      "n": 2,
+      "title": "Siemens Desigo CC — 클라이언트 코드실행 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05"
+    },
+    {
+      "n": 3,
+      "title": "Siemens Siveillance Control — 파일 업로드 원격코드실행",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03"
+    },
+    {
+      "n": 4,
+      "title": "Zyxel GS1900 스위치 — 활발한 악용·CISA 긴급 패치 명령",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/"
+    },
+    {
+      "n": 5,
+      "title": "첫 자율형 AI 명령제어 멀웨어",
+      "url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/"
+    },
+    {
+      "n": 6,
+      "title": "VeloCloud Orchestrator CVSS 10.0 취약점",
+      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html"
+    },
+    {
+      "n": 7,
+      "title": "Bifrost AI 게이트웨이 — 원격코드실행",
+      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-94127",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
