@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-24",
+  "issue_no": 79,
+  "briefing": "오늘의 항목들은 공급망 침해의 다각화를 보여준다. npm·PyPI·드라이버 서명·오픈소스 AI 프레임워크 등 다층의 공급망 침해점이 동시에 악용되는 동안, 미패치 제로데이(WordPress CVSS 9.2, PeopleSoft, Ubuntu 커널)를 통한 직접 침해 위협도 계속되고 있다. 탈취된 개인정보(FBI 2~3TB, 신용카드 60만 건, 국내 금융사 고객정보)는 다크웹에서 판매되는 악순환 구조가 심화되었다.",
+  "keywords": [
+    "AI에이전트악용",
+    "공급망침해",
+    "제로데이RCE",
+    "신용카드탈취",
+    "컨테이너탈출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "ShinyHunters FBI 채용시스템 침해",
+      "url": "https://securityaffairs.com/199612/cyber-crime/shinyhunters-claims-fbi-breach-after-alleged-peoplesoft-zero-day-attack.html"
+    },
+    {
+      "n": 2,
+      "title": "AI 에이전트, 온라인 소매 600만 신용카드 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/"
+    },
+    {
+      "n": 3,
+      "title": "다크웹 국내 금융·중고차 금융 고객정보 판매",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208590"
+    },
+    {
+      "n": 4,
+      "title": "WordPress — 미인증 파일 포함 원격코드실행 CVE-2026-87902",
+      "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html"
+    },
+    {
+      "n": 5,
+      "title": "가짜 LastPass 145개 보안 도구 무력화",
+      "url": "https://securityaffairs.com/199577/malware/fake-lastpass-on-github-led-to-an-infostealer-that-killed-145-security-tools.html"
+    },
+    {
+      "n": 6,
+      "title": "Ubuntu 커널 use-after-free 컨테이너 탈출",
+      "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html"
+    },
+    {
+      "n": 7,
+      "title": "npm·PyPI 손상된 MemTensor 자격증명 탈취",
+      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
