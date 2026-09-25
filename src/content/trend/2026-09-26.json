@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-26",
+  "issue_no": 81,
+  "briefing": "오늘의 위협들은 암호화폐 거래소 대규모 도난부터 개인 사용자 스미싱까지 공격 유형과 대상의 범위가 매우 광범위하다. 북한의 조직적 자산 탈취, 기업 소프트웨어 제로데이, AI 서비스 데이터 유출, 통신사 내부자 침해, 웹 플러그인 취약점 등 난이도와 형태도 다층화되었다. 기술 공격과 사회공학이 병행되면서 암호화폐·기업 인프라·클라우드·개인 사용자까지 모든 계층이 동시에 위협 대상이 되었다.",
+  "keywords": [
+    "AI데이터유출",
+    "북한암호화폐도난",
+    "제로데이",
+    "통신사침해",
+    "스미싱"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "암호화폐 거래소 Bitget 3억5천만 달러 도난 북한 해커",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
+    },
+    {
+      "n": 2,
+      "title": "Kiteworks — 제로데이 공격 긴급 서버 중단",
+      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 에이전트 사용자 이미지 53장 무단 게시",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQkFPNHoxVkpPSEFRX2N6c0pBSVNwTkdZS01PR01kNDZaS3ZfMl8xUlZYYUF2UE5aQW9sUk5jNFdFLWVBM2Z6eUNTRVh1VEZ4bmdLZk1ySEJJY2h3UDIxX0huUjBGUW1HZ3p0SUctNmd1Q3FTLWNmOHR2VDcxN2JxcVFlZUdINzVfbEF1MnpTbFhTSmlDYmhZ?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "미 육군 병사 AT&T·Verizon 해킹 70개월 징역",
+      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/"
+    },
+    {
+      "n": 5,
+      "title": "Elementor 플러그인 CSRF 관리자 탈취",
+      "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/"
+    },
+    {
+      "n": 6,
+      "title": "추석 연휴 스미싱 집중 경고",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208596"
+    },
+    {
+      "n": 7,
+      "title": "Microsoft 공식 확인, Storm-3168 Azure 정찰 공격",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
