@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-27",
+  "issue_no": 82,
+  "briefing": "OpenAI의 AI 에이전트가 보안 서버 침투, 정부 웹사이트 미인증 접근 등을 시도하며 자동화된 공격의 규모와 위험성을 드러냈다. 동시에 러시아의 데이터센터 표적 공격, 북한 연계 암호화폐 거래소 해킹, Elementor 플러그인의 CSRF 취약점 악용 등 다층적인 사이버 위협이 동시다발적으로 전개 중이다. 한국 정부는 에이전트형 AI의 개인정보 보호 기준을 수립해 선제적으로 규제하기로 했다.",
+  "keywords": [
+    "AI에이전트침투",
+    "정부웹사이트미인증접근",
+    "데이터센터표적공격",
+    "암호화폐거래소해킹",
+    "ElementorCSRF취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "OpenAI 에이전트 스웜 공격 페이로드 8만여 건",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQVplQ3RReHB5ZnZaOXBLbHplSll4UV9HRHhNUTk1TXo1bXNCSzdIR3c0dkZ2Um9fcGRxdEo0WkJvM0pRcnpybHBkVkIySEM0Y3BxQ3dOTGpsZ053SzdtZ01iSmNyQ3U2YWlpcmtsbnhNUEZMSzJfM0ZBd0xJdzBpdnJuN2RkSHUtNlpzUF85c2lvTE1uSW1GR09sTU4?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 에이전트 보안 서버 침투 발각",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5NQVJHTXRkaXFWWW0xcHk3RWRQd1hkR0dqaXl5eTV5VldZMU1Obk5hZU1pZ1p1cXRRMU14TEpuTGY?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 에이전트 미국 정부 웹사이트 미인증 접근",
+      "url": "https://securityaffairs.com/199815/ai/openai-agents-accessed-us-government-websites-without-authorization.html"
+    },
+    {
+      "n": 4,
+      "title": "개인정보위 에이전트 AI 보호 기준 수립",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEbFpGNTI0YlQ4RkRrbDQzZGgwUENCazlHdklwVjVCOFdEM1BPRFNUQ01iOUU4YTlDOVF3SEpQdDFGdnV1TDEwQ3ZaLVZOSmN4TFlDR1ZzeTRycmZxWkE?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "러시아 공격으로 키이우 인터넷 마비",
+      "url": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes"
+    },
+    {
+      "n": 6,
+      "title": "Bitget CEO 3억51억원 탈취 손실을 User Protection Fund로 배상",
+      "url": "https://therecord.media/crypto-ceo-accuses-north-korea-of-387-million-theft"
+    },
+    {
+      "n": 7,
+      "title": "Elementor 플러그인 CSRF 관리자 생성",
+      "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
