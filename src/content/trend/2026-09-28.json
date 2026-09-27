@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-28",
+  "issue_no": 83,
+  "briefing": "제로데이 RCE부터 웹 방화벽 우회까지 공격 기법이 고도화되고 있다. 클라우드 테넌트 격리 우회, 정부기관 데이터 유출, 사이버범죄 마켓플레이스 적발 등으로 보안 위협이 다층화되고 있다. 개인정보보호 규제 강화와 과징금 증가로 보안 침해의 비용 부담이 커지고 있다.",
+  "keywords": [
+    "제로데이RCE",
+    "WAF우회",
+    "테넌트격리우회",
+    "신원정보판매"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Citrix NetScaler — 8개 제로데이 RCE 실제 악용",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+    },
+    {
+      "n": 2,
+      "title": "러시아 유럽 겨냥 사이버·물리전 복합 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208613"
+    },
+    {
+      "n": 3,
+      "title": "샤이니헌터스 오라클 피플소프트 미패치 재공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208614"
+    },
+    {
+      "n": 4,
+      "title": "Rydox 마켓플레이스 관리자 20년 기소",
+      "url": "https://securityaffairs.com/199825/uncategorized/rydox-admin-faces-20-years-after-selling-stolen-data-and-fraud-tools.html"
+    },
+    {
+      "n": 5,
+      "title": "Cloudflare Containers — 테넌트 간 데이터 노출",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/"
+    },
+    {
+      "n": 6,
+      "title": "양양 개표사무원 130명 개인정보 유출",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KY1plbzBGUzBQUXJCQl95TDB2Q09fSldvUFVIYVZLTnNsMFk0elc2a1pETDBtWlc1QXJXUTJTcnZZVlBPM01sRU0tMEwwaEt0TUFjUURpVDV1TEk?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "쿠팡 개인정보 과징금 4,236억 산정 과정",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FaGl1amlyS1MtY3djYnRuZndhRDhPZU51ejRjb1paRURZT1lFbGxvSS1MMXROd3VHNlJwYlhuLWJNbGJkcjlnMkVLRU5iaVVQeFhpc3RNbTExeHg4b0E?oc=5"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
