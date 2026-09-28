@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-29",
+  "issue_no": 84,
+  "briefing": "생성형AI를 악용한 딥페이크 피싱, LLM 자격증명 탈취, AI 에이전트 공격이 기업과 금융권의 새로운 주요 위협으로 확산되고 있다. Citrix·Azure 주요 인프라의 제로데이 취약점이 지속 악용되고 있으며, ShinyHunters 체포 후 FBI 데이터 탈취 등 고급 위협 액터의 보복 공격이 활발해지고 있다.",
+  "keywords": [
+    "생성형AI",
+    "딥페이크피싱",
+    "AI자격증명탈취",
+    "제로데이악용",
+    "클라우드파괴공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Citrix NetScaler — 패치 전 제로데이 활발한 악용",
+      "url": "https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway"
+    },
+    {
+      "n": 2,
+      "title": "딥페이크 음성 전화 피싱, 보안책임자 41% 경험",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208620"
+    },
+    {
+      "n": 3,
+      "title": "정보탈취 로그 80,000개 기업 AI 자격증명 노출",
+      "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/"
+    },
+    {
+      "n": 4,
+      "title": "금융사 AI 에이전트 공격, CEO·이사회 긴급 대응",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjU0dQdG5IQU9QN3hyVlQ0OHZNb0lYTTZfRGxDY0tOVVVnYUMtdXF2Q1RRX2p1SnQ0dHowdHc1dkdUSVVmamdUMXJJb0tTV3c?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "ShinyHunters 멤버 체포 — FBI 데이터 탈취로",
+      "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
+    },
+    {
+      "n": 6,
+      "title": "Bitget Bitcoin 인출 재개 도난 이후 복구",
+      "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
+    },
+    {
+      "n": 7,
+      "title": "JADEPUFFER Azure 파괴 공격 상세 분석",
+      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
