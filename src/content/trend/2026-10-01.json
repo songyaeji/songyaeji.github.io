@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-01",
+  "issue_no": 86,
+  "briefing": "2026년 AI 활용으로 월간 공개 취약점이 월 10,740건으로 폭증하고 제로데이 악용도 71% 증가했다. Citrix·Cisco·Zammad 제로데이가 정부·금융·보안 기관을 광범위하게 표적하며, AI 에이전트 기반 자동 공격과 개발 정보 대규모 유출까지 확산되고 있다.",
+  "keywords": [
+    "AI에이전트공격",
+    "제로데이악용폭증",
+    "정부금융표적",
+    "인증우회RCE",
+    "개발자정보유출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Citrix NetScaler 제로데이 악용 정부·금융 섹터 표적",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html"
+    },
+    {
+      "n": 2,
+      "title": "2026년 취약점 공개·악용 사상 최고 기록",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/"
+    },
+    {
+      "n": 3,
+      "title": "Cisco SD-WAN Manager 관리자 권한 인증우회 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/"
+    },
+    {
+      "n": 4,
+      "title": "DIVD 취약점 공개 기관 Zammad 제로데이로 침해",
+      "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
+    },
+    {
+      "n": 5,
+      "title": "프랑스 세무청 침해, 7주간 미탐지",
+      "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html"
+    },
+    {
+      "n": 6,
+      "title": "ChatGPT 맞춤 앱 RAT 배포 캠페인 적발",
+      "url": "https://securityaffairs.com/200079/ai/attackers-abuse-chatgpt-custom-gpts-to-deploy-a-full-featured-rat.html"
+    },
+    {
+      "n": 7,
+      "title": "AI 에이전트 내부 이미지 대규모 노출",
+      "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
