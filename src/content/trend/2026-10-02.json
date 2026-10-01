@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-02",
+  "issue_no": 87,
+  "briefing": "최근 Pentagon 국방부, 신한은행, Bitget 등 국방·금융·암호화폐 분야의 주요 기관들을 상대로 대규모 침해사건들이 집중 발생했다. 인증 우회, 제로데이 악용, AI 모델 불법 추출 등 공격 기법이 고도화되고 있다. 미중 기술 경쟁이 사이버 보안 위협으로 확대되는 추세를 보인다.",
+  "keywords": [
+    "AI모델불법추출",
+    "금융권개인정보유출",
+    "제로데이악용",
+    "국방인사정보침해",
+    "암호화폐거래소해킹"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Pentagon 국방인사 시스템 300만 명 개인정보 침해",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/"
+    },
+    {
+      "n": 2,
+      "title": "신한은행 인증 우회로 2만5천명 정보유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208680"
+    },
+    {
+      "n": 3,
+      "title": "MetaMask 인프라 보안사건 Ethereum validator 영향",
+      "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI, Moonshot 연계 AI 증류 공격 적발 및 차단",
+      "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
+    },
+    {
+      "n": 5,
+      "title": "Kiteworks — 126개 취약점 패치·Email Protection Gateway 최고 심각도",
+      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/"
+    },
+    {
+      "n": 6,
+      "title": "Bitget 해킹 수사 결과, 제3자 보안제품 제로데이 악용",
+      "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html"
+    },
+    {
+      "n": 7,
+      "title": "베네수엘라 ATM 잭팟팅 범단 미국 제재 지정",
+      "url": "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-104286",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
