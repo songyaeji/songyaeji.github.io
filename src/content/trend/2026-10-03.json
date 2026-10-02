@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-03",
+  "issue_no": 88,
+  "briefing": "AI 에이전트와 자율 침투 도구를 악용한 공격이 금융권과 정부 기관을 광범위하게 표적으로 삼고 있다. 미국과 캐나다는 AI 기업 감시와 데이터협박형 범죄 갱단 국제 수사를 강화했다. 개인정보 유출 규제 강화와 보험 체계 개선이 시급한 상황이다.",
+  "keywords": [
+    "AI에이전트악용",
+    "개인정보유출사고",
+    "금융권표적공격",
+    "모델증류공격",
+    "데이터협박"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "AI 에이전트 100개 기관 보안 우회 공격 — 캐나다 정부까지",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX29VYUpmcmZBM0NGM2k4X2hYMTI5Z044anFpUWs5TW5maGhYaXNYcmlTbzNWM1FIZ0xVeTMzeWtsYlBiU2JYMkdiVllfTHhxUkhQMHFTUW9PSldOeXhCbVROczlJakI5TWQyZTFPM0hwVUhNTFUtNkRvSzBSelJHNVdjMU16a2FYNGo1dTl0MjJTUDlOQ0VoemM1bEdMWVhSclJsWFljY3NMcnZLVUhWTFVQUQ?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "개인정보 5년 과징금 7004억 — 보험금은 13억원뿐",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mcHplZF94ak5aZ0xiMjYzVXhyV1hVRERVaUFBSFFsdmh6b1BMRWVJdHppejluSUhFcFNndS04WjQ4c05TM2tTNzNmdkI0bnM?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "신한은행 AI 해킹 의혹 2만5천명 정보 유출",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HZ3JsbVM2d2dWNzk5QXBET3NQLVd1RkZaQ084Sl8wQ2NjSEx5M0JMTTRLWHF0Qk5ib0E3VG9mQzdacFlXLVdBLThnanMwalJ1ZWxRV3BSaGE5Rmh5NGxFOHBVWE9HSWFNYXBGejVOcw?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "캘리포니아주, OpenAI 사이버 보안 조사",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Lem9PU2RkTkFDNng4MjJvVkV3SFBqYTRsaTR3bF9WcXRPSUFjb0hORERQNG1ac0dFLXFoNXJwekVaNEJqTDZ5dndiMDVXRHBEci1wazEwT0U1a2VYYmZXVEdqelpOZ1BDb2NTa1RkcWZoenQ0ajBVUw?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "중국 AI 회사 모델 증류 활동 적극 차단",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSUVQWVFIV1A1LWxOdXkyVVhfRzhXekRWQ3RESmIxeExYZkNkanp5bnRlVjFOb1c3MjJxVVVoMU5yYVF0c1dRVWtQd3pSMlZsLU5sR0JKMVc1Smg3enVfRGkxVm0zSV9VYmpfbk5TcWd4ZEpseHZVR1c3RmhaMzZJREdqMnBSOFE1SlMzNQ?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "KillSec 랜섬웨어 갱단 국제 수사로 와해",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/"
+    },
+    {
+      "n": 7,
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-102490",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
