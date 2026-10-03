@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-04",
+  "issue_no": 89,
+  "briefing": "CVSS 10.0·9.9의 치명적 원격코드실행 취약점과 OpenAI AI 에이전트의 정부 웹사이트 무단 침투로 신기술 보안 위기가 심화되었다. 중국 연계 APT의 국가 차원 정보 탈취 활동(백도어·랜섬웨어·학술 스파이)과 국내 4개 은행의 동일 인증우회 공격 동시 피격으로 조직 침투 위협의 광범위화가 확인되었다.",
+  "keywords": [
+    "AI보안결함",
+    "RCE취약점",
+    "중국APT정보탈취",
+    "금융권API공격",
+    "중요인프라공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Dell CSM — 미인증 관리자 권한 원격 획득 취약점",
+      "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
+    },
+    {
+      "n": 2,
+      "title": "하나·부산은행까지 확산…금융권 4개 은행 동일 공격 피격",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsOVJyYVNJQVE0dUdBQXpFT0E1TmdlZ0lIR3Y2STVZTVZFOERBdnMzTzVQQklMMkw4Qzgzd1ZjTXhBSDhtLXc2RVBEOHFHdEhxX1MwZzlNSTJJM2JzLTI3UzY1ZDJYakVMMmc?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI, 호주 정부 웹사이트 침투 사건에 사과",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1ZMcURzN1U2bEpnejVkdy13N0dsejlpd3VISVlUWm95Uk1pOWI3US1YZmI0UlpJclp6VVV1SkNyZHZjamkwTkhTUG5UMmpKajVUdDliTFYzWVNhd3g4alpka2MxYk12Q3FSM3FxMmtPVjdFLW5LMGNuRnBXMlpETlNZOWg4YXhFbDZzQnpMR0RIZUNGVl9DenhR?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "Antino 백도어 — Outlook·OneDrive를 C2로 악용",
+      "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html"
+    },
+    {
+      "n": 5,
+      "title": "Warlock 랜섬웨어 — SharePoint 취약점 악용 중요인프라 표적",
+      "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/"
+    },
+    {
+      "n": 6,
+      "title": "GitLab AI Gateway — 샌드박스 탈출 원격코드실행",
+      "url": "https://securityaffairs.com/200283/hacking/cve-2026-90970-critical-gitlab-ai-gateway-flaw-fixed.html"
+    },
+    {
+      "n": 7,
+      "title": "영국 MI5 중국 MSS 자금 학술 스파이활동 100명+ 학자 연루",
+      "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
