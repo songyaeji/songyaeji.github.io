@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-05",
+  "issue_no": 90,
+  "briefing": "Windows·네트워크·협업 플랫폼 등 주요 인프라의 권한상향·RCE 취약점들이 CISA KEV 등재로 실제 악용되는 중이다. AI 기술 기반 LLM 프록시와 AI 정책가 대상 피싱 캠페인은 신기술 영역의 공격 확대를 보여준다. 국내는 금융권 피해 신속 구제와 개인정보 유출 패스트트랙으로 보안 거버넌스의 질적 전환을 추진하고 있다.",
+  "keywords": [
+    "LLM프록시취약점",
+    "RCE",
+    "CISA-KEV",
+    "AI정책가피싱",
+    "권한상향취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "금융권 해킹 피해자 신속 구제·보상 정책 수립",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YVzRtQld1TEdRSjhBNmRyZDhkZEVZcjJIc3BpVTI0dzZOSDhFX1ZuN004QUJvbEZYNmdqSElCSXh6R3Exc1NVMlZTSXlTN0k?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "ShinyHunters 멤버 Rey 요르단서 체포",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html"
+    },
+    {
+      "n": 3,
+      "title": "중국 연계 TA419 AI 정책가 피싱 캠페인",
+      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html"
+    },
+    {
+      "n": 4,
+      "title": "개인정보 유출 패스트트랙 처리 도입",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90OHBlc29KN2ZJczdFUEItdGMyREJ2ZzdqT20tblRqcTQ0S0JUR2tBaGFvRkQ4QUZQeEpSX2phUS1xczhlRnV4R2ZCOGlqVFU?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "LG유플러스-옵트에이아이, 토큰 최적화 기술 공동 연구... AI 운영 효율 높인다",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208701"
+    },
+    {
+      "n": 6,
+      "title": "SK쉴더스, AWS 위협 탐지 및 대응 보안 컴피턴시 획득",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208702"
+    },
+    {
+      "n": 7,
+      "title": "Windows 11 Administrator Protection 우회 9개 취약점",
+      "url": "https://projectzero.google/2026/26/windows-administrator-protection.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2025-67038",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-42271",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42271"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-12569",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-48907",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-42208",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-20230",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-34910",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-34909",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-34908",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2015-2387",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2387"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
