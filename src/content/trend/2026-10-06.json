@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-06",
+  "issue_no": 91,
+  "briefing": "금융권까지 확대된 AI 자동화 공격이 화이트해커도 방어하지 못할 정도로 고도화되는 한편, 백악관의 정책 수준 안전 규제가 가속되고 있다. Langflow, Adobe ColdFusion 등 실제 악용 중인 원격코드실행 취약점들이 CISA KEV에 빠르게 등록되면서 현재형 위협의 심각성을 드러냈다. Rust 도입으로 메모리 안전 취약점이 1000배 낮아지고 국제 법집행 협력으로 악성코드 개발자를 체포하는 등 방어 진영의 대응이 강화되고 있다.",
+  "keywords": [
+    "금융권AI자동화공격",
+    "Azure클라우드침해",
+    "원격코드실행취약점",
+    "메모리안전Rust",
+    "국제법집행협력"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Ploutus ATM 악성코드 개발자 미국 법정 출석",
+      "url": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/"
+    },
+    {
+      "n": 2,
+      "title": "금융권 AI 해킹 심화, 화이트해커도 방어 실패",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQWQteDd1LTYzcGVEbE5JTjM4dWxzdXJwMDVnTUxQQnNFOTRQUnpiYzZ3TmxVTUI0aDBBbUEtWFYtZWpjdTh1d1oyOEYxMHEwQk1qWHJ6UkFFUlQxbUc3aUl1LUlEdzA?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 최고보안책임자 '문화 무너진다' 사임",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWdyMzk1WkM1UENqT0JxdzVLMXc2VnA4VkgzeEtRR0xDTlg5b0RYWU5JQ2U3ZF85OWZVSU9FM2U3ekk5MTBPaTJSejFpZGFlUTRmc2ZZdW9YeGdpM3ZodVVvRXJtNFUzV083Q2ZQX294cjlVRkZ2b1dFV2M2S0xwZXVjUmxNOFl1VVVFTm5zQzR5ODFibW03dHFyNWlCOVNN?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "백악관, AI 회사 자발적 안전 약속 공개",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZkxWbXI1TnZtZ2hubUJZajctQkFxZmlLYUtIeFNndnpvMnVlREtBbTZvbWJHNXp4U3JWUUtYa2RhdmxMbTA0TERQMW9wZ0Y4VnNKeHZFTFBURmZhMzQ2TmJDdXV1ZGpGVEkxTVA1YVNocHpnYkN4TldQaHhrX05tdGpHT1Y0MlF1WUpDaThmZzZsWHlrNnpHVg?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "Storm-3168 손상된 서비스주체로 Azure 에이전트 공격",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/"
+    },
+    {
+      "n": 6,
+      "title": "Android Rust 채택 메모리 안전 취약점 20% 미만",
+      "url": "http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html"
+    },
+    {
+      "n": 7,
+      "title": "Android’s pKVM Becomes First Globally Certified Software to Achieve Prestigious SESIP Level 5 Security Certification",
+      "url": "http://security.googleblog.com/2025/08/Android-pKVM-Certified-SESIP-Level-5.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-48282",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-55255",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
