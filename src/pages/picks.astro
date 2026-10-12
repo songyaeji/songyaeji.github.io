@@ -1,7 +1,9 @@
 ---
 import { execSync } from 'node:child_process';
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import { picks, pickSections } from '../data/picks';
+import { picks, pickGroups, pickThemes } from '../data/picks';
+import { countThemesByWindow } from '../lib/trendThemes';
 
 // picks.ts를 마지막으로 손본 날짜를 빌드 시점에 git에서 뽑는다.
 // 수정 후 아직 커밋 전(dirty)이거나 git 이력이 없으면 오늘 날짜로 대체.
@@ -34,46 +36,132 @@ const archiveGroups = archiveDates.map((date) => ({
   date,
   items: archivedPicks.filter((p) => p.archived!.date === date),
 }));
+
+// Trend 회차 — 역링크 번호 조회와 상단 위젯 집계에 쓴다.
+const trendIssues = (await getCollection('trend')).map((it) => it.data);
+const issueNoByDate = new Map(trendIssues.map((it) => [it.date, it.issue_no]));
+
+// 오타난 trendRef가 깨진 링크로 배포되지 않게 빌드를 멈춘다 (category 필수 가드와 같은 취지)
+const brokenRefs = picks.filter((p) => p.trendRef && !issueNoByDate.has(p.trendRef));
+if (brokenRefs.length > 0) {
+  const list = brokenRefs.map((p) => `${p.name} → ${p.trendRef}`).join(', ');
+  throw new Error(`picks.ts trendRef가 가리키는 Trend 회차가 없음: ${list}`);
+}
+
+// 위젯: 최근 30일 Trend 헤드라인의 테마별 건수 (workflow처럼 match 없는 테마는 제외)
+const WIDGET_DAYS = 30;
+const widgetRules = pickThemes.flatMap((t) => (t.match ? [{ key: t.key, match: t.match }] : []));
+const widget = countThemesByWindow(trendIssues, widgetRules, WIDGET_DAYS);
+const widgetMax = Math.max(1, ...widget.counts.map((c) => c.count));
+const themeLabel = new Map<string, string>(pickThemes.map((t) => [t.key, t.label]));
+
+// 필터 칩: 활성 항목이 하나라도 있는 테마만, 칩 숫자는 해당 테마 pick 수
+const chips = pickThemes
+  .map((t) => ({ ...t, count: activePicks.filter((p) => p.themes?.includes(t.key)).length }))
+  .filter((t) => t.count > 0);
+
+// 별(important) 항목을 위로 — 같은 등급끼리는 원래 순서 유지(stable sort)
+const picksIn = (category: string) =>
+  activePicks
+    .filter((p) => p.category === category)
+    .sort((a, b) => Number(b.important ?? false) - Number(a.important ?? false));
 ---
 
-<Base title="Picks" description="직접 써보고 추천하는 AI skills·MCP·tools·articles 모음">
+<Base title="Picks" description="직접 쓰는 AI 도구와, 매일 보안 뉴스레터를 만들며 걸러낸 1차 자료 모음">
   <div class="page wrap">
     <p class="cli-label">cat picks.md</p>
     <h1 class="page-title">Picks</h1>
-    <p class="lede">직접 써보고 좋았던 AI skills · MCP · tools · articles 모음입니다.</p>
+    <p class="lede">직접 쓰는 도구와, 매일 Trend of Security를 만들며 걸러낸 1차 자료입니다.</p>
     <p class="picks-updated">
       <span class="cli-label">git log -1 --format=%cd</span>
       <time datetime={picksUpdated}>{updatedLabel}</time> 기준으로 고른 목록입니다.
     </p>
-    <div class="pick-columns">
+
+    {
+      widget.last && (
+        <section class="trend-pulse" aria-label={`최근 ${WIDGET_DAYS}일 Trend 주제별 헤드라인 건수`}>
+          <p class="cli-label">trend --since {WIDGET_DAYS}d --by theme</p>
+          <ul class="pulse-list">
+            {widget.counts.map((c) => (
+              <li class="pulse-row">
+                <span class="pulse-key">{c.key}</span>
+                <span class="pulse-bar" aria-hidden="true">
+                  <span style={`width: ${(c.count / widgetMax) * 100}%`} />
+                </span>
+                <span class="pulse-count">{c.count}</span>
+                <span class="pulse-label">{themeLabel.get(c.key)}</span>
+              </li>
+            ))}
+          </ul>
+          <p class="pulse-caption">
+            <a href="/trend/">
+              Trend NO.{widget.first!.issue_no}–NO.{widget.last.issue_no}
+            </a>{' '}
+            링크 제목 {widget.headlineCount}건 기준 키워드 매칭 · 한 제목이 여러 주제에 걸리면 각각 셈
+          </p>
+        </section>
+      )
+    }
+
+    <div class="pick-filter" role="group" aria-label="주제별 필터">
+      <button type="button" class="pick-chip" data-theme="all" aria-pressed="true">
+        all <span class="pick-chip-count">{activePicks.length}</span>
+      </button>
       {
-        pickSections.map((s) => {
-          // 별(important) 항목을 위로 — 같은 등급끼리는 원래 순서 유지(stable sort)
-          const group = activePicks
-            .filter((p) => p.category === s.key)
-            .sort((a, b) => Number(b.important ?? false) - Number(a.important ?? false));
-          return (
-            <section class="pick-section" data-cat={s.key}>
-              <p class="cli-label">{s.cmd}</p>
-              <ul class="pick-list">
-                {group.map((p) => (
-                  <li class="pick" class:list={{ important: p.important }}>
-                    {p.important && <span class="pick-star" aria-label="중요" title="중요">⭐</span>}
-                    {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
-                    {p.date && <span class="pick-date">{p.date}</span>}
-                    <p class="pick-tagline">{p.tagline}</p>
-                    <details>
-                      <summary>why</summary>
-                      <p class="pick-reason">{p.reason}</p>
-                    </details>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          );
-        })
+        chips.map((t) => (
+          <button type="button" class="pick-chip" data-theme={t.key} aria-pressed="false" title={t.label}>
+            {t.key} <span class="pick-chip-count">{t.count}</span>
+          </button>
+        ))
       }
     </div>
+
+    <div class="pick-columns">
+      {
+        pickGroups.map((g) => (
+          <div class="pick-group">
+            <p class="cli-label">{g.cmd}</p>
+            {g.sections.map((s) => (
+              <section class="pick-section" data-cat={s.key}>
+                {g.sections.length > 1 && <p class="pick-section-label">{s.label}/</p>}
+                <ul class="pick-list">
+                  {picksIn(s.key).map((p) => (
+                    <li class="pick" class:list={{ important: p.important }} data-themes={(p.themes ?? []).join(' ')}>
+                      {p.important && (
+                        <span class="pick-star" aria-label="중요" title="중요">
+                          ⭐
+                        </span>
+                      )}
+                      {p.link ? <a href={p.link} rel="noopener">{p.name}</a> : <span class="pick-name">{p.name}</span>}
+                      {p.date && <span class="pick-date">{p.date}</span>}
+                      <p class="pick-tagline">{p.tagline}</p>
+                      {(p.themes?.length || p.trendRef) && (
+                        <p class="pick-meta">
+                          {p.themes?.map((t) => (
+                            <span class="tag">{t}</span>
+                          ))}
+                          {p.trendRef && (
+                            <a class="pick-trendref" href={`/trend/${p.trendRef}/`}>
+                              ↳ Trend NO.{issueNoByDate.get(p.trendRef)}
+                            </a>
+                          )}
+                        </p>
+                      )}
+                      <details>
+                        <summary>why</summary>
+                        <p class="pick-reason">{p.reason}</p>
+                      </details>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+        ))
+      }
+    </div>
+    <p class="pick-empty" hidden>이 주제로 고른 항목이 아직 없습니다.</p>
+    <p class="sr-only" role="status" data-pick-status></p>
     {
       archivedPicks.length > 0 && (
         <section class="pick-archive">
@@ -82,7 +170,9 @@ const archiveGroups = archiveDates.map((date) => ({
             <summary>한때 추천했던 것들 ({archivedPicks.length})</summary>
             {archiveGroups.map((g) => (
               <div class="archive-group">
-                <p class="archive-date-label">{g.date} 아카이브 ({g.items.length})</p>
+                <p class="archive-date-label">
+                  {g.date} 아카이브 ({g.items.length})
+                </p>
                 <ul class="pick-list">
                   {g.items.map((p) => (
                     <li class="pick archived">
@@ -106,3 +196,35 @@ const archiveGroups = archiveDates.map((date) => ({
     }
   </div>
 </Base>
+
+<script is:inline>
+  // 주제 필터 — JS가 없으면 칩만 무반응이고 전체 목록은 그대로 보인다.
+  // 아카이브는 이력 기록이라 필터 대상에서 뺀다.
+  (() => {
+    const chips = [...document.querySelectorAll('.pick-chip')];
+    const items = [...document.querySelectorAll('.pick-columns .pick[data-themes]')];
+    const sections = [...document.querySelectorAll('.pick-columns .pick-section')];
+    const groups = [...document.querySelectorAll('.pick-columns .pick-group')];
+    const empty = document.querySelector('.pick-empty');
+    // hidden 토글은 스크린리더에 전달되지 않아 결과 개수를 live region으로 알린다
+    const status = document.querySelector('[data-pick-status]');
+
+    const apply = (theme) => {
+      chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.theme === theme)));
+      items.forEach((li) => {
+        li.hidden = theme !== 'all' && !li.dataset.themes.split(' ').includes(theme);
+      });
+      sections.forEach((s) => {
+        s.hidden = !s.querySelector('.pick:not([hidden])');
+      });
+      groups.forEach((g) => {
+        g.hidden = !g.querySelector('.pick-section:not([hidden])');
+      });
+      const shown = items.filter((li) => !li.hidden).length;
+      if (empty) empty.hidden = shown > 0;
+      if (status) status.textContent = `${theme} — ${shown}개 표시`;
+    };
+
+    chips.forEach((c) => c.addEventListener('click', () => apply(c.dataset.theme)));
+  })();
+</script>

@@ -4,9 +4,16 @@
 
 export type PickCategory = 'skill' | 'mcp' | 'harness' | 'tool' | 'article';
 
+/** Trend 뉴스레터 상위 주제와 같은 축 — 필터 칩과 상단 위젯이 공유한다 */
+export type PickTheme = 'agent-sec' | 'supply-chain' | 'llm-redteam' | 'fin' | 'workflow';
+
 export interface Pick {
   name: string;
   category: PickCategory;
+  /** 필터 칩 분류 — 비우면 'all'에서만 보인다 */
+  themes?: PickTheme[];
+  /** 이 항목을 처음 다룬 Trend 회차 날짜(YYYY-MM-DD) — 없는 회차면 빌드 실패 */
+  trendRef?: string;
   link?: string;
   /** 한 줄 요약 — 이름 아래 상시 노출 */
   tagline: string;
@@ -25,11 +32,44 @@ export interface Pick {
   };
 }
 
-export const pickSections: { key: PickCategory; cmd: string }[] = [
-  { key: 'skill', cmd: 'ls picks/skills/' },
-  { key: 'mcp', cmd: 'ls picks/mcp/' },
-  { key: 'tool', cmd: 'ls picks/tools/' },
-  { key: 'article', cmd: 'ls picks/articles/' },
+// match는 상단 위젯이 Trend 링크 제목을 셀 때 쓰는 키워드 규칙(g 플래그 금지).
+// workflow는 뉴스레터 주제가 아니라 match 없이 필터 칩에만 나온다.
+export const pickThemes: { key: PickTheme; label: string; match?: RegExp }[] = [
+  {
+    key: 'agent-sec',
+    label: 'AI 에이전트·MCP',
+    match: /에이전트|agentic|\bagents?\b|MCP|프롬프트\s*(주입|인젝션)|prompt injection|샌드박스/i,
+  },
+  {
+    key: 'supply-chain',
+    label: '공급망',
+    match: /공급망|supply[- ]chain|npm|PyPI|RubyGems|GitHub Actions|CI\/CD|의존성/i,
+  },
+  {
+    key: 'llm-redteam',
+    label: 'LLM 보안·레드팀',
+    match: /LLM|탈옥|jailbreak|레드\s?팀|red[- ]?team|증류|distillation|모델 중독|리워드 해킹|reward hacking|안전 우회/i,
+  },
+  {
+    key: 'fin',
+    label: '금융',
+    match: /금융|은행|증권|보험|핀테크|결제|신용카드|bank|ATM|financ|fintech|payment/i,
+  },
+  { key: 'workflow', label: 'AI 작업 환경' },
+];
+
+// 왼쪽 = 직접 쓰는 것(which), 오른쪽 = 다시 읽을 1차 자료(cat)
+export const pickGroups: { key: 'use' | 'read'; cmd: string; sections: { key: PickCategory; label: string }[] }[] = [
+  {
+    key: 'use',
+    cmd: 'which picks/*',
+    sections: [
+      { key: 'skill', label: 'skills' },
+      { key: 'mcp', label: 'mcp' },
+      { key: 'tool', label: 'tools' },
+    ],
+  },
+  { key: 'read', cmd: 'cat picks/articles/*', sections: [{ key: 'article', label: 'articles' }] },
 ];
 
 export const picks: Pick[] = [
@@ -37,6 +77,7 @@ export const picks: Pick[] = [
   {
     name: 'caveman',
     category: 'skill',
+    themes: ['workflow'],
     important: true,
     date: '2026.04',
     link: 'https://github.com/juliusbrussee/caveman',
@@ -47,6 +88,7 @@ export const picks: Pick[] = [
   {
     name: 'andrej-karpathy-skills',
     category: 'skill',
+    themes: ['workflow'],
     date: '2026.01',
     link: 'https://github.com/multica-ai/andrej-karpathy-skills',
     tagline: 'Karpathy의 LLM 코딩 비판을 4원칙 스킬로 — 가정 명시·단순성·수술적 수정·목표 주도',
@@ -56,6 +98,7 @@ export const picks: Pick[] = [
   {
     name: 'security-guidance (Claude Code 공식 플러그인)',
     category: 'skill',
+    themes: ['agent-sec', 'workflow'],
     important: true,
     date: '2026.05',
     link: 'https://code.claude.com/docs/en/security-guidance',
@@ -67,6 +110,7 @@ export const picks: Pick[] = [
   {
     name: 'Context7',
     category: 'mcp',
+    themes: ['workflow'],
     date: '2025.03',
     link: 'https://github.com/upstash/context7',
     tagline: '라이브러리 최신 공식 문서를 대화에 주입',
@@ -75,27 +119,20 @@ export const picks: Pick[] = [
   },
   // ---------- tools ----------
   {
-    name: 'Orca',
-    category: 'tool',
-    date: '2026.03',
-    link: 'https://github.com/stablyai/orca',
-    tagline: '코딩 에이전트 병렬 실행 오케스트레이션 ADE',
-    reason:
-      '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 선택할 수 있는 데스크톱 앱이다. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄인다.',
-  },
-  {
     name: 'PyRIT (Python Risk Identification Toolkit) — Microsoft',
     category: 'tool',
+    themes: ['llm-redteam'],
     date: '2023.12',
     link: 'https://github.com/microsoft/PyRIT',
     tagline: 'Microsoft 공식 생성형 AI 레드팀 자동화 프레임워크',
     reason:
-      'Microsoft AI Red Team이 실무에서 쓰던 도구를 오픈소스로 공개한 생성형 AI 레드팀 프레임워크다. Azure ML·OpenAI·로컬 HuggingFace·커스텀 HTTP API 등 다양한 타깃에 다회차 공격을 자동 오케스트레이션하고 스코어러로 오작동을 판정한다. 벤더가 프로덕션 규모 레드티밍에서 검증한 도구라는 점, 멀티턴·에이전트 공격면까지 다룬다는 점에서 정적 프로브 스캐너보다 실무 커버리지가 넓다.',
+      'Microsoft AI Red Team이 실무에서 쓰던 도구를 오픈소스로 공개한 생성형 AI 레드팀 프레임워크다. Azure ML·OpenAI·로컬 HuggingFace·커스텀 HTTP API 등 다양한 타깃에 다회차 공격을 자동 오케스트레이션하고 스코어러로 오작동을 판정한다. 벤더가 프로덕션 규모 레드티밍에서 검증한 도구라는 점, 멀티턴·멀티모달 공격까지 다룬다는 점에서 정적 프로브 스캐너보다 실무 커버리지가 넓다.',
   },
   // ---------- articles ----------
   {
     name: '공격자 관점의 망분리 우회 취약점 프로파일링 — 금융보안원 RED IRIS',
     category: 'article',
+    themes: ['fin'],
     important: true,
     date: '2026.03',
     link: 'https://www.fsec.or.kr/bbs/detail?menuNo=1011&bbsNo=11888',
@@ -104,17 +141,64 @@ export const picks: Pick[] = [
       '금융보안원 레드팀(RED IRIS)이 발간한 망분리 우회 분석 리포트. 망분리 우회가 단일 취약점이 아니라 구조적 문제와 다수 취약점의 결합으로 발생함을 공격자 관점에서 프로파일링하고, 가상 캠페인으로 근본 원인과 대응 방안을 제시한다. 금융권 망분리 규제 완화 국면에서 위협 모델링의 기준 자료가 된다.',
   },
   {
+    name: 'An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation — Palo Alto Unit 42',
+    category: 'article',
+    themes: ['agent-sec'],
+    trendRef: '2026-09-03',
+    date: '2026.09',
+    link: 'https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/',
+    tagline: '인간 공격자가 frontier AI로 ATT&CK 기법 50개 이상을 10시간 미만에 수행한 침해 대응 사례',
+    reason:
+      'Unit 42가 직접 대응한 실제 침해 사고 보고서다. 인간 공격자가 목표와 주요 결정을 맡고 frontier AI 모델과 공격용 agent framework가 실행을 맡아, 보통 약 2주 걸리는 작업을 10시간 미만으로 압축했다. 공개 웹 서비스 침투 후 저장소의 하드코딩 토큰과 secrets manager를 거쳐 root 수준 권한을 얻었고, 탈취한 클라우드 키로 피해 조직의 AI endpoint까지 호출했다. zero-day는 쓰이지 않았고 branch protection이 Terraform backdoor 시도를 막았다. 에이전트 활동 흔적, containment playbook, AI endpoint·MCP gateway 인벤토리 같은 방어 항목을 함께 정리했으며, 피해 조직·공격자·사용 모델은 비공개다.',
+  },
+  {
+    name: 'Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety — Palo Alto Unit 42',
+    category: 'article',
+    themes: ['llm-redteam'],
+    trendRef: '2026-08-30',
+    date: '2026.08',
+    link: 'https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/',
+    tagline: 'Qwen3-4B의 FFN neuron 350,208개 중 50개가 refusal template을 좌우',
+    reason:
+      'prompt당 forward pass 2회로 특정 행동을 인과적으로 좌우하는 FFN neuron을 찾는 진단법을 소개한 Unit 42 글로, arXiv:2604.27401 논문의 요약이다. Qwen3-4B에서 neuron 50개를 제거하자 harmful-prompt 벤치마크 520개 항목 중 80%에서 응답 형식이 바뀌었고, 13개 모델에서 FFN/Skip ratio가 취약도 분산의 81%를 설명했다. 오픈웨이트 소형 모델에 대한 white-box 개입 실험이라 실제 공격 사례는 아니며, 80%는 탈옥 성공률이 아니라 응답 형식이 바뀐 비율이다. 안전 정렬이 소수 neuron에 얹힌 얇은 층일 수 있다는 관점을 수치로 보여준다.',
+  },
+  {
+    name: 'ChainDrop: Inside a Self-Propagating npm Worm — Palo Alto Unit 42',
+    category: 'article',
+    themes: ['supply-chain', 'agent-sec'],
+    trendRef: '2026-08-08',
+    date: '2026.08',
+    link: 'https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/',
+    tagline: 'npm 패키지 400개 이상을 감염시킨 자가 전파 worm의 payload 해독과 IOC',
+    reason:
+      'Unit 42가 npm 패키지 400개 이상을 감염시킨 ChainDrop worm의 payload를 3단계 난독화·암호화까지 풀어 분석한 글이다. preinstall hook으로 Bun 기반 payload를 실행해 npm·GitHub·클라우드 자격증명을 탈취하고, 탈취한 npm 토큰으로 접근 가능한 패키지의 patch 버전을 올려 스스로 퍼진다. .claude/settings.json과 .vscode/tasks.json을 persistence 경로로 써서, AI 코딩 에이전트 설정 파일이 공급망 공격면이 됐음을 보여준다. C2 도메인은 Ethereum smart contract에서 읽어 오며, IOC·XQL 탐지 쿼리·조치 가이드를 함께 싣고 관측되지 않은 기능과 미확정 귀속을 구분해 적었다.',
+  },
+  {
     name: 'The Frontier AI Vulnerability Burst — Palo Alto Unit 42',
     category: 'article',
+    themes: ['supply-chain'],
+    trendRef: '2026-08-05',
     date: '2026.08',
     link: 'https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/',
     tagline: '자율 시스템이 2개월간 오픈소스 제로데이 14,090개 자동 발견',
     reason:
-      'Unit 42가 자율 취약점 탐색 시스템(NOVA)으로 오픈소스 3,915개를 2개월간 분석해 확인된 취약점 14,090개(99.4%가 미보고)를 찾아낸 리서치. CVSS High/Critical이 약 40%, 의존성 결함 1,280개가 다운스트림 4,141개로 번지는 공급망 노출까지 실측했다. 공격자가 AI로 제로데이 발견을 산업화하는 국면을 보여줘, 방어 측 취약점 관리·패치 우선순위 전략을 재검토할 근거가 된다.',
+      'Unit 42가 자율 취약점 탐색 시스템(NOVA)으로 오픈소스 3,915개를 2개월간 분석해 확인된 취약점 14,090개(99.4%가 미보고)를 찾아낸 리서치. CVSS 4.0 기준 High/Critical이 약 40%, 의존성 결함 1,280개가 다운스트림 4,141개로 번지는 공급망 노출까지 실측했다. 공격자가 AI로 제로데이 발견을 산업화하는 국면을 보여줘, 방어 측 취약점 관리·패치 우선순위 전략을 재검토할 근거가 된다.',
+  },
+  {
+    name: 'Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise — Google Threat Intelligence Group',
+    category: 'article',
+    themes: ['supply-chain'],
+    trendRef: '2026-08-01',
+    date: '2026.07',
+    link: 'https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/',
+    tagline: '오픈소스 공급망 침해 급증 분석과 계층별 완화 권고 — 악성 패키지 1,444% 증가(OpenSSF 인용)',
+    reason:
+      'Google Threat Intelligence Group이 2025년~2026년 초 worm과 반복 침해를 포함한 대규모 오픈소스 공급망 침해가 크게 늘었다고 평가하고 완화 방안을 정리한 글이다. OpenSSF 통계를 인용해 악성 오픈소스 패키지가 2024년 대비 2025년 1,444% 늘었다고 밝히고, 2026년 3월 axios 침해(주간 다운로드 1억 건 이상, 악성 버전 3시간 내 제거)와 UNC6780(TeamPCP) 캠페인을 사례로 든다. 권고는 신규 패키지 24시간 이상 cooldown, ignore-scripts, ephemeral CI/CD runner, 단기 OIDC 토큰, pull_request_target 제한, SBOM으로 구성돼 바로 점검 목록으로 쓸 수 있다.',
   },
   {
     name: 'Agentic Misalignment in Summer 2026 — Anthropic',
     category: 'article',
+    themes: ['agent-sec'],
     date: '2026.07',
     link: 'https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/',
     tagline: '자율 에이전트의 정렬 실패 4유형 — 은폐된 훼방·사기 협조 등 통제 실험 관찰',
@@ -122,6 +206,20 @@ export const picks: Pick[] = [
       'Claude·GPT-5.5·Gemini 등 프론티어 모델들을 시뮬레이션 환경에 넣고 자율 에이전트의 정렬 실패(은폐된 훼방, 사기 협조, 의도적 오분류 등)를 관찰한 Anthropic Alignment Science 연구. 실제 배포 사고가 아니라 통제된 실험임을 원문이 명시하지만, "에이전트가 목표 충돌 시 파괴적 행동을 선택할 수 있다"는 조기 경고 신호를 실증 데이터로 보여준다. 언론의 과장 보도와 1차 연구를 구분해 읽는 기준점이 된다.',
   },
   // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
+  {
+    name: 'Orca',
+    category: 'tool',
+    date: '2026.03',
+    link: 'https://github.com/stablyai/orca',
+    tagline: '코딩 에이전트 병렬 실행 오케스트레이션 ADE',
+    reason:
+      '프롬프트 하나를 여러 에이전트(Claude Code, Codex, Cursor 등 30개 이상 CLI 지원)에 흩뿌려 각각 독립된 git 워크트리에서 돌리고 결과를 비교해 선택할 수 있는 데스크톱 앱이다. 원격 SSH 워크트리·모바일 동반 앱까지 지원해 여러 방향 실험이 잦은 작업에서 브랜치 관리 부담을 줄인다.',
+    archived: {
+      date: '2026.10.12',
+      reason:
+        '에이전트 병렬 실행·결과 비교 워크플로 자체는 유효하나 실사용 빈도가 낮아 활성 목록에서 내림.',
+    },
+  },
   {
     name: 'AI 보안 위협 대응 매뉴얼 — KISA',
     category: 'article',

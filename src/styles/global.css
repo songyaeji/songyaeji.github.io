@@ -804,20 +804,71 @@ p a:hover {
 }
 
 /* ---------- picks ---------- */
-/* 2열 배치 — 1열 skills·mcp·tools 세로 스택, 2열 articles.
-   항목 수 기준 열 높이 균형 — 3열 시절 tools(2개) 열이 비어 보이던 문제 해결 */
+/* 2열 배치 — 좌: 직접 쓰는 것(which, skills·mcp·tools 세로 스택), 우: 1차 자료(cat, articles) */
 .pick-columns {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--sp-6);
   align-items: start;
 }
-.pick-section[data-cat='skill'] { grid-column: 1; grid-row: 1; }
-.pick-section[data-cat='mcp'] { grid-column: 1; grid-row: 2; }
-.pick-section[data-cat='tool'] { grid-column: 1; grid-row: 3; }
-.pick-section[data-cat='article'] { grid-column: 2; grid-row: 1 / span 3; }
-.pick-section .cli-label { margin-bottom: var(--sp-3); }
+.pick-group { display: grid; gap: var(--sp-4); align-content: start; }
+/* display: grid가 hidden 속성의 UA display:none을 덮어쓰므로 필터로 숨길 때 명시 */
+.pick-group[hidden] { display: none; }
+.pick-group > .cli-label { margin-bottom: 0; }
+.pick-section-label {
+  font-family: var(--mono);
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: var(--sp-2);
+}
+
+/* 상단 위젯 — 최근 30일 Trend 헤드라인의 주제별 건수. 뉴스레터와 이 목록을 잇는 근거 */
+.trend-pulse {
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  background: var(--surface);
+  padding: var(--sp-4) 1.1rem;
+  margin: var(--sp-5) 0 var(--sp-4);
+  max-width: 720px;
+}
+.trend-pulse .cli-label { margin-bottom: var(--sp-3); }
+.pulse-list { list-style: none; padding: 0; display: grid; gap: 0.4rem; }
+.pulse-row {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr) 2.2rem 8rem;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--mono);
+  font-size: var(--fs-2xs);
+}
+.pulse-key { font-weight: 600; color: var(--ink); }
+.pulse-bar { height: 0.55rem; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.pulse-bar > span { display: block; height: 100%; background: var(--yellow); border-radius: inherit; }
+.pulse-count { text-align: right; font-weight: 600; color: var(--ink); }
+.pulse-label { color: var(--muted); font-family: inherit; }
+.pulse-caption { margin-top: var(--sp-3); font-size: var(--fs-2xs); color: var(--muted); }
+.pulse-caption a { font-family: var(--mono); color: var(--ink); box-shadow: inset 0 -2px 0 var(--yellow); }
+
+/* 주제 필터 칩 — 선택 상태는 aria-pressed로만 표현(스크린리더와 스타일이 같은 상태를 본다) */
+.pick-filter { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: var(--sp-6); }
+.pick-chip {
+  font-family: var(--mono);
+  font-size: var(--fs-2xs);
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+.pick-chip:hover { border-color: var(--yellow); }
+.pick-chip[aria-pressed='true'] { background: var(--yellow-soft); border-color: var(--yellow); color: var(--ink); }
+.pick-chip:focus-visible { outline: 2px solid var(--yellow-deep); outline-offset: 2px; }
+.pick-chip-count { color: var(--muted); font-weight: 400; margin-left: 0.15rem; }
+.pick-empty { font-size: var(--fs-xs); color: var(--muted); }
 
 .pick-list { list-style: none; padding: 0; display: grid; gap: var(--sp-2); }
 
@@ -842,6 +893,17 @@ p a:hover {
 
 /* 한 줄 요약 — 이름 아래 상시 노출 */
 .pick .pick-tagline { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.3rem; }
+
+/* 주제 태그 + Trend 역링크 — 이 항목이 뉴스레터 몇 회에서 처음 걸러졌는지 */
+.pick .pick-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; margin-top: 0.45rem; }
+.pick .pick-trendref {
+  font-family: var(--mono);
+  font-size: var(--fs-2xs);
+  font-weight: 400;
+  color: var(--muted);
+  box-shadow: none;
+}
+.pick .pick-trendref:hover { color: var(--ink); background: var(--yellow-soft); }
 
 /* 공개·발간 시점 — 이름 옆 조용한 mono 라벨 */
 .pick .pick-date { font-family: var(--mono); font-size: var(--fs-2xs); color: var(--muted); margin-left: 0.45rem; }
@@ -1163,11 +1225,6 @@ p a:hover {
 @media (max-width: 1100px) {
   .home-grid { grid-template-columns: 260px minmax(0, 1fr); gap: var(--sp-7); justify-content: stretch; }
   .avatar { width: 180px; height: 180px; }
-  .pick-columns { grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; }
-  .pick-section[data-cat='skill'],
-  .pick-section[data-cat='mcp'],
-  .pick-section[data-cat='tool'],
-  .pick-section[data-cat='article'] { grid-column: auto; grid-row: auto; }
 }
 
 @media (max-width: 860px) {
@@ -1177,9 +1234,7 @@ p a:hover {
   .site-header nav { flex-wrap: wrap; justify-content: center; }
   .wrap { padding: 0 1.25rem; }
   .whoami .statement { font-size: 1.15rem; }
-  .pick-columns { grid-template-columns: 1fr; grid-template-rows: auto; }
-  .pick-section[data-cat='skill'],
-  .pick-section[data-cat='mcp'],
-  .pick-section[data-cat='tool'],
-  .pick-section[data-cat='article'] { grid-column: auto; grid-row: auto; }
+  .pick-columns { grid-template-columns: 1fr; }
+  .pulse-row { grid-template-columns: 6.8rem minmax(0, 1fr) 2rem; }
+  .pulse-label { display: none; }
 }
