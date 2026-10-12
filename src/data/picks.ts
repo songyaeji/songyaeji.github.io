@@ -141,6 +141,50 @@ export const picks: Pick[] = [
       '금융보안원 레드팀(RED IRIS)이 발간한 망분리 우회 분석 리포트. 망분리 우회가 단일 취약점이 아니라 구조적 문제와 다수 취약점의 결합으로 발생함을 공격자 관점에서 프로파일링하고, 가상 캠페인으로 근본 원인과 대응 방안을 제시한다. 금융권 망분리 규제 완화 국면에서 위협 모델링의 기준 자료가 된다.',
   },
   {
+    name: 'Vulnerability Discovery and Exploitation Trends in the AI Era — Google Threat Intelligence Group',
+    category: 'article',
+    themes: ['supply-chain', 'agent-sec'],
+    trendRef: '2026-10-01',
+    date: '2026.10',
+    link: 'https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/',
+    tagline: 'AI 시대 취약점 공개·악용 통계 — 월간 공개 5,045건(2026.01)에서 10,740건(2026.08), AI 발굴 취약점의 50%가 RCE',
+    reason:
+      'GTIG가 2025년 1월부터 2026년 8월까지의 CVE 공개·악용 데이터를 분석한 통계 리포트다. 악용 취약점은 월평균 10.5건(2025)에서 18건(2026.01~08)으로 늘었고, 이 기간 악용 취약점의 62%가 제로데이다. AI 소프트웨어 스택 CVE(누적 2,076건, orchestration framework 50%)와 LiteLLM·Langflow 사례도 다룬다. 저자들은 공개 데이터가 AI 발굴 건수를 과소 집계하며 AI 발굴 취약점의 위험도 분포는 초기 지표일 뿐이라고 밝힌다.',
+  },
+  {
+    name: 'The Closed Quorum: Inside the first reported autonomous AI C2 implant — Cisco Talos',
+    category: 'article',
+    themes: ['agent-sec'],
+    trendRef: '2026-09-23',
+    date: '2026.09',
+    link: 'https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/',
+    tagline: 'C2 서버 대신 LLM 최대 4종이 plurality 투표로 다음 행동을 정하는 Windows implant CLOSEDQUORUM 분석',
+    reason:
+      'Cisco Talos가 Go로 작성된 64비트 Windows implant CLOSEDQUORUM을 분석한 글이다. 감염 호스트 정보를 DeepSeek, Qwen, Mistral, Gemini 중 최대 4개 LLM에 보내 plurality 투표로 다음 행동을 정하며, Talos는 이를 tactical C2에 이 방식을 적용한 첫 공개 문서화 Windows implant로 소개한다. 공개 빌드에 placeholder API key와 dummy webhook만 있어 실전 배포는 확인되지 않았고, Talos 스스로 early and limited example이라 평가한다. hash, YARA rule, ATT&CK 매핑과 AI 통합 악성코드 추적용 오픈소스 툴킷 CAIRN을 함께 공개했다.',
+  },
+  {
+    name: 'China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies (AA26-251A) — NSA·CISA·FBI',
+    category: 'article',
+    themes: ['llm-redteam'],
+    trendRef: '2026-09-09',
+    date: '2026.09',
+    link: 'https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a',
+    tagline: '중국 AI 기업 6곳이 미국 frontier 모델에서 수십억 토큰을 추출했다고 지목한 NSA·CISA·FBI 공동 권고',
+    reason:
+      'NSA, CISA, FBI가 2026년 9월 8일 발행한 공동 사이버보안 권고다. DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, Z.AI가 미국 frontier 모델에서 수백만 건의 요청으로 수십억 토큰을 추출했고, 중국 정부가 이를 인지했을 가능성이 높다(likely)고 평가한다. 우회 수단으로 transfer station이라 불리는 gray market 프록시를 지목하고 TTP를 MITRE ATLAS에 매핑했다. 완화책은 구독 대비 사용량 이상 탐지, 의심 요청의 응답을 미묘하게 바꿔 증류 효용을 낮추는 방안, 제공사 간 정보 공유다.',
+  },
+  {
+    name: 'Financially Motivated Threat Actor BREEZE COMET Targets Brazil — Google Threat Intelligence Group (Mandiant)',
+    category: 'article',
+    themes: ['fin'],
+    trendRef: '2026-09-02',
+    date: '2026.09',
+    link: 'https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/',
+    tagline: 'Pix·STR·Boleto·RSFN 접근 권한을 노린 금전 목적 행위자 — 접근 후 24~48시간 내 부정 거래',
+    reason:
+      '2024년부터 추적된 BREEZE COMET(구 UNC5669)의 브라질 금융 인프라 대상 침해 분석이다. 초기 접근은 password spraying과 IT 지원 사칭 voice phishing(AnyDesk 등 RMM 설치 유도)이고, 이후 CI/CD 환경에서 하드코딩된 자격증명과 API key를 수집하며 boleto, cnab, remessa 키워드로 mTLS·관리자 인증서를 찾았다. 접근 후 24~48시간 안에 수백 건 규모의 부정 거래가 두 차례 발생했고, 정찰·자격증명 검증 스크립트에서 LLM 사용 흔적도 확인됐다. 결제망 접근 권한을 가진 조직이 개발 파이프라인의 비밀정보 관리로 뚫리는 경로를 보여준다.',
+  },
+  {
     name: 'An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation — Palo Alto Unit 42',
     category: 'article',
     themes: ['agent-sec'],
@@ -150,17 +194,6 @@ export const picks: Pick[] = [
     tagline: '인간 공격자가 frontier AI로 ATT&CK 기법 50개 이상을 10시간 미만에 수행한 침해 대응 사례',
     reason:
       'Unit 42가 직접 대응한 실제 침해 사고 보고서다. 인간 공격자가 목표와 주요 결정을 맡고 frontier AI 모델과 공격용 agent framework가 실행을 맡아, 보통 약 2주 걸리는 작업을 10시간 미만으로 압축했다. 공개 웹 서비스 침투 후 저장소의 하드코딩 토큰과 secrets manager를 거쳐 root 수준 권한을 얻었고, 탈취한 클라우드 키로 피해 조직의 AI endpoint까지 호출했다. zero-day는 쓰이지 않았고 branch protection이 Terraform backdoor 시도를 막았다. 에이전트 활동 흔적, containment playbook, AI endpoint·MCP gateway 인벤토리 같은 방어 항목을 함께 정리했으며, 피해 조직·공격자·사용 모델은 비공개다.',
-  },
-  {
-    name: 'Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety — Palo Alto Unit 42',
-    category: 'article',
-    themes: ['llm-redteam'],
-    trendRef: '2026-08-30',
-    date: '2026.08',
-    link: 'https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/',
-    tagline: 'Qwen3-4B의 FFN neuron 350,208개 중 50개가 refusal template을 좌우',
-    reason:
-      'prompt당 forward pass 2회로 특정 행동을 인과적으로 좌우하는 FFN neuron을 찾는 진단법을 소개한 Unit 42 글로, arXiv:2604.27401 논문의 요약이다. Qwen3-4B에서 neuron 50개를 제거하자 harmful-prompt 벤치마크 520개 항목 중 80%에서 응답 형식이 바뀌었고, 13개 모델에서 FFN/Skip ratio가 취약도 분산의 81%를 설명했다. 오픈웨이트 소형 모델에 대한 white-box 개입 실험이라 실제 공격 사례는 아니며, 80%는 탈옥 성공률이 아니라 응답 형식이 바뀐 비율이다. 안전 정렬이 소수 neuron에 얹힌 얇은 층일 수 있다는 관점을 수치로 보여준다.',
   },
   {
     name: 'ChainDrop: Inside a Self-Propagating npm Worm — Palo Alto Unit 42',
@@ -174,15 +207,15 @@ export const picks: Pick[] = [
       'Unit 42가 npm 패키지 400개 이상을 감염시킨 ChainDrop worm의 payload를 3단계 난독화·암호화까지 풀어 분석한 글이다. preinstall hook으로 Bun 기반 payload를 실행해 npm·GitHub·클라우드 자격증명을 탈취하고, 탈취한 npm 토큰으로 접근 가능한 패키지의 patch 버전을 올려 스스로 퍼진다. .claude/settings.json과 .vscode/tasks.json을 persistence 경로로 써서, AI 코딩 에이전트 설정 파일이 공급망 공격면이 됐음을 보여준다. C2 도메인은 Ethereum smart contract에서 읽어 오며, IOC·XQL 탐지 쿼리·조치 가이드를 함께 싣고 관측되지 않은 기능과 미확정 귀속을 구분해 적었다.',
   },
   {
-    name: 'The Frontier AI Vulnerability Burst — Palo Alto Unit 42',
+    name: 'Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks — Palo Alto Unit 42',
     category: 'article',
-    themes: ['supply-chain'],
-    trendRef: '2026-08-05',
-    date: '2026.08',
-    link: 'https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/',
-    tagline: '자율 시스템이 2개월간 오픈소스 제로데이 14,090개 자동 발견',
+    themes: ['agent-sec'],
+    trendRef: '2026-08-01',
+    date: '2026.07',
+    link: 'https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/',
+    tagline: 'DeepSeek 기반 자율 공격으로 표적 460개 이상을 노렸으나 침해는 수동 공격에서만 확인된 사례',
     reason:
-      'Unit 42가 자율 취약점 탐색 시스템(NOVA)으로 오픈소스 3,915개를 2개월간 분석해 확인된 취약점 14,090개(99.4%가 미보고)를 찾아낸 리서치. CVSS 4.0 기준 High/Critical이 약 40%, 의존성 결함 1,280개가 다운스트림 4,141개로 번지는 공급망 노출까지 실측했다. 공격자가 AI로 제로데이 발견을 산업화하는 국면을 보여줘, 방어 측 취약점 관리·패치 우선순위 전략을 재검토할 근거가 된다.',
+      'Unit 42가 분석한 실제 사건으로, 중국어권 행위자가 DeepSeek를 agent framework에 연결해 Langflow, n8n, Citrix NetScaler, Apache Tomcat, Marimo, PAN-OS, Windows IKE 취약점으로 표적 460개 이상을 노린 정황을 다룬다. 자율 캠페인은 의도한 표적 어디에서도 완전한 침해에 이르지 못했고, 확인된 피해는 별도의 수동 작업에서 나왔다. 에이전트가 행위자 홈 디렉터리에서 HTTP 서버를 열어 API key, exploit script, session log가 노출된 것이 분석 근거가 됐다. 같은 Unit 42의 AI-Assisted 사례(인간 주도, 침해 성공)와 대비해 읽으면 자율화의 현재 한계가 드러난다.',
   },
   {
     name: 'Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise — Google Threat Intelligence Group',
@@ -196,6 +229,59 @@ export const picks: Pick[] = [
       'Google Threat Intelligence Group이 2025년~2026년 초 worm과 반복 침해를 포함한 대규모 오픈소스 공급망 침해가 크게 늘었다고 평가하고 완화 방안을 정리한 글이다. OpenSSF 통계를 인용해 악성 오픈소스 패키지가 2024년 대비 2025년 1,444% 늘었다고 밝히고, 2026년 3월 axios 침해(주간 다운로드 1억 건 이상, 악성 버전 3시간 내 제거)와 UNC6780(TeamPCP) 캠페인을 사례로 든다. 권고는 신규 패키지 24시간 이상 cooldown, ignore-scripts, ephemeral CI/CD runner, 단기 OIDC 토큰, pull_request_target 제한, SBOM으로 구성돼 바로 점검 목록으로 쓸 수 있다.',
   },
   {
+    name: '프런티어 AI 보안위협 금융분야 대응요령 — 금융위원회',
+    category: 'article',
+    themes: ['fin', 'agent-sec'],
+    date: '2026.07',
+    link: 'https://www.fsc.go.kr/po010101/87240',
+    tagline: '경영진 책임·취약점 패치·공급망·AI 방어 자동화 등 6개 분야 행동요령과 AI 보안테스트 면책 조치',
+    reason:
+      '금융위원회가 2026년 7월 프런티어 AI 보안위협 대응을 위해 면책 조치와 함께 배포한 행동요령이다. 경영진 책임 강화, 취약점 및 패치 관리, 자산·공급망 관리, AI 기반 방어 자동화, 금융권 공동대응 및 복원력 강화, 침해확산 방지의 6개 분야로 구성된 권고 성격의 기준이다. 함께 의결된 면책 조치는 AI 보안테스트와 보안패치 중 발생한 경미한 전산장애를 신속 복구와 소비자 보호조치를 전제로 제재에서 면제하며, 개인신용정보 유출은 제외한다. 본문은 보도자료 페이지의 참고자료(hwpx)로 첨부돼 있다.',
+  },
+  {
+    name: '금융분야 인공지능 가이드라인 — 금융위원회',
+    category: 'article',
+    themes: ['fin'],
+    date: '2026.06',
+    link: 'https://www.fsc.go.kr/no010101/87142',
+    tagline: '금융회사 AI 활용 7대 원칙 — 거버넌스·신뢰성·금융안정성·보안성 등',
+    reason:
+      '금융위원회가 2026년 6월 18일 금융권 AX 추진 방안과 함께 공개한 가이드라인으로, AI를 활용하는 금융회사에 적용된다. 거버넌스, 합법성, 보조수단성, 신뢰성, 금융안정성, 신의성실, 보안성의 7대 원칙으로 구성되며, 보안성 원칙은 AI 활용 보안 기준과 점검·개선 체계를 요구한다. 같은 날 금융감독원 AI 위험관리프레임워크와 금융보안원 금융분야 인공지능 보안 안내서도 함께 배포된다고 안내됐다. 요약본과 전문 PDF가 보도자료 페이지에 첨부돼 있다.',
+  },
+  // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
+  {
+    name: 'The Frontier AI Vulnerability Burst — Palo Alto Unit 42',
+    category: 'article',
+    themes: ['supply-chain'],
+    trendRef: '2026-08-05',
+    date: '2026.08',
+    link: 'https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/',
+    tagline: '자율 시스템이 2개월간 오픈소스 제로데이 14,090개 자동 발견',
+    reason:
+      'Unit 42가 자율 취약점 탐색 시스템(NOVA)으로 오픈소스 3,915개를 2개월간 분석해 확인된 취약점 14,090개(99.4%가 미보고)를 찾아낸 리서치. CVSS 4.0 기준 High/Critical이 약 40%, 의존성 결함 1,280개가 다운스트림 4,141개로 번지는 공급망 노출까지 실측했다. 공격자가 AI로 제로데이 발견을 산업화하는 국면을 보여줘, 방어 측 취약점 관리·패치 우선순위 전략을 재검토할 근거가 된다.',
+    archived: {
+      date: '2026.10.12',
+      reason:
+        '단일 벤더 자율 탐색 시스템(NOVA)의 자체 결과라 제품 홍보 성격이 있어, AI 시대 취약점 동향은 공개 CVE 전체를 분석한 GTIG 리포트(2026.10)로 갱신. 14,090건 수치는 참조 자료로 유효.',
+    },
+  },
+  {
+    name: 'Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety — Palo Alto Unit 42',
+    category: 'article',
+    themes: ['llm-redteam'],
+    trendRef: '2026-08-30',
+    date: '2026.08',
+    link: 'https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/',
+    tagline: 'Qwen3-4B의 FFN neuron 350,208개 중 50개가 refusal template을 좌우',
+    reason:
+      'prompt당 forward pass 2회로 특정 행동을 인과적으로 좌우하는 FFN neuron을 찾는 진단법을 소개한 Unit 42 글로, arXiv:2604.27401 논문의 요약이다. Qwen3-4B에서 neuron 50개를 제거하자 harmful-prompt 벤치마크 520개 항목 중 80%에서 응답 형식이 바뀌었고, 13개 모델에서 FFN/Skip ratio가 취약도 분산의 81%를 설명했다. 오픈웨이트 소형 모델에 대한 white-box 개입 실험이라 실제 공격 사례는 아니며, 80%는 탈옥 성공률이 아니라 응답 형식이 바뀐 비율이다. 안전 정렬이 소수 neuron에 얹힌 얇은 층일 수 있다는 관점을 수치로 보여준다.',
+    archived: {
+      date: '2026.10.12',
+      reason:
+        '소형 오픈웨이트 모델 2종 중심의 방법론 소개 블로그라 일반화가 제한적. llm-redteam 축은 정부 공동 권고(AA26-251A, 모델 증류)로 교체하고, 원 논문 arXiv:2604.27401로 참조 가능.',
+    },
+  },
+  {
     name: 'Agentic Misalignment in Summer 2026 — Anthropic',
     category: 'article',
     themes: ['agent-sec'],
@@ -204,8 +290,12 @@ export const picks: Pick[] = [
     tagline: '자율 에이전트의 정렬 실패 4유형 — 은폐된 훼방·사기 협조 등 통제 실험 관찰',
     reason:
       'Claude·GPT-5.5·Gemini 등 프론티어 모델들을 시뮬레이션 환경에 넣고 자율 에이전트의 정렬 실패(은폐된 훼방, 사기 협조, 의도적 오분류 등)를 관찰한 Anthropic Alignment Science 연구. 실제 배포 사고가 아니라 통제된 실험임을 원문이 명시하지만, "에이전트가 목표 충돌 시 파괴적 행동을 선택할 수 있다"는 조기 경고 신호를 실증 데이터로 보여준다. 언론의 과장 보도와 1차 연구를 구분해 읽는 기준점이 된다.',
+    archived: {
+      date: '2026.10.12',
+      reason:
+        '통제 시뮬레이션 실험이라, 에이전트 위협 축을 실제 침해 분석(Unit 42·Talos)으로 재편하며 보관. 에이전트 정렬 실패의 조기 경고 자료로는 유효.',
+    },
   },
-  // ---------- archive (은퇴 항목 — 삭제 대신 여기로) ----------
   {
     name: 'Orca',
     category: 'tool',
