@@ -823,32 +823,50 @@ p a:hover {
   margin-bottom: var(--sp-2);
 }
 
-/* 상단 위젯 — 최근 30일 Trend 헤드라인의 주제별 건수. 뉴스레터와 이 목록을 잇는 근거 */
+/* 헤더 행 — 좌: 제목·소개, 우: Trend 위젯(보조 패널). 첫 화면에 목록이 바로 보이게 세로 공간을 아낀다 */
+.picks-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+  gap: var(--sp-6);
+  align-items: end;
+  margin-bottom: var(--sp-5);
+}
+.picks-intro .picks-updated { margin-bottom: 0; }
+
+/* Trend 위젯 — 최근 30일 헤드라인의 주제별 건수. 뉴스레터와 이 목록을 잇는 근거 */
 .trend-pulse {
   border: 1px solid var(--hairline);
   border-radius: 10px;
   background: var(--surface);
-  padding: var(--sp-4) 1.1rem;
-  margin: var(--sp-5) 0 var(--sp-4);
-  max-width: 720px;
+  padding: var(--sp-3) 0.95rem;
 }
-.trend-pulse .cli-label { margin-bottom: var(--sp-3); }
-.pulse-list { list-style: none; padding: 0; display: grid; gap: 0.4rem; }
+.pulse-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-2);
+  font-family: var(--mono);
+  font-size: var(--fs-2xs);
+  margin-bottom: var(--sp-2);
+}
+.pulse-cmd { font-weight: 600; color: var(--ink); }
+.pulse-cmd::before { content: '$ '; color: var(--yellow-deep); }
+.pulse-title a { color: var(--muted); box-shadow: none; }
+.pulse-title a:hover { color: var(--ink); background: var(--yellow-soft); }
+.pulse-list { list-style: none; padding: 0; display: grid; gap: 0.3rem; }
 .pulse-row {
   display: grid;
-  grid-template-columns: 7.5rem minmax(0, 1fr) 2.2rem 8rem;
+  grid-template-columns: 6.6rem minmax(0, 1fr) 1.6rem;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
   font-family: var(--mono);
   font-size: var(--fs-2xs);
 }
-.pulse-key { font-weight: 600; color: var(--ink); }
-.pulse-bar { height: 0.55rem; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+.pulse-key { color: var(--ink); }
+.pulse-bar { height: 0.45rem; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
 .pulse-bar > span { display: block; height: 100%; background: var(--yellow); border-radius: inherit; }
 .pulse-count { text-align: right; font-weight: 600; color: var(--ink); }
-.pulse-label { color: var(--muted); font-family: inherit; }
-.pulse-caption { margin-top: var(--sp-3); font-size: var(--fs-2xs); color: var(--muted); }
-.pulse-caption a { font-family: var(--mono); color: var(--ink); box-shadow: inset 0 -2px 0 var(--yellow); }
+.pulse-caption { margin-top: var(--sp-2); font-size: var(--fs-2xs); color: var(--muted); }
 
 /* 주제 필터 칩 — 선택 상태는 aria-pressed로만 표현(스크린리더와 스타일이 같은 상태를 본다) */
 .pick-filter { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: var(--sp-6); }
@@ -1235,6 +1253,5 @@ p a:hover {
   .wrap { padding: 0 1.25rem; }
   .whoami .statement { font-size: 1.15rem; }
   .pick-columns { grid-template-columns: 1fr; }
-  .pulse-row { grid-template-columns: 6.8rem minmax(0, 1fr) 2rem; }
-  .pulse-label { display: none; }
+  .picks-head { grid-template-columns: 1fr; gap: var(--sp-4); }
 }

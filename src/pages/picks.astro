@@ -69,39 +69,42 @@ const picksIn = (category: string) =>
 
 <Base title="Picks" description="직접 쓰는 AI 도구와, 매일 보안 뉴스레터를 만들며 걸러낸 1차 자료 모음">
   <div class="page wrap">
-    <p class="cli-label">cat picks.md</p>
-    <h1 class="page-title">Picks</h1>
-    <p class="lede">직접 쓰는 도구와, 매일 Trend of Security를 만들며 걸러낸 1차 자료입니다.</p>
-    <p class="picks-updated">
-      <span class="cli-label">git log -1 --format=%cd</span>
-      <time datetime={picksUpdated}>{updatedLabel}</time> 기준으로 고른 목록입니다.
-    </p>
-
-    {
-      widget.last && (
-        <section class="trend-pulse" aria-label={`최근 ${WIDGET_DAYS}일 Trend 주제별 헤드라인 건수`}>
-          <p class="cli-label">trend --since {WIDGET_DAYS}d --by theme</p>
-          <ul class="pulse-list">
-            {widget.counts.map((c) => (
-              <li class="pulse-row">
-                <span class="pulse-key">{c.key}</span>
-                <span class="pulse-bar" aria-hidden="true">
-                  <span style={`width: ${(c.count / widgetMax) * 100}%`} />
-                </span>
-                <span class="pulse-count">{c.count}</span>
-                <span class="pulse-label">{themeLabel.get(c.key)}</span>
-              </li>
-            ))}
-          </ul>
-          <p class="pulse-caption">
-            <a href="/trend/">
-              Trend NO.{widget.first!.issue_no}–NO.{widget.last.issue_no}
-            </a>{' '}
-            링크 제목 {widget.headlineCount}건 기준 키워드 매칭 · 한 제목이 여러 주제에 걸리면 각각 셈
-          </p>
-        </section>
-      )
-    }
+    {/* 첫 화면에 목록이 보이도록 위젯은 제목 오른쪽 보조 패널로 둔다 */}
+    <div class="picks-head">
+      <div class="picks-intro">
+        <p class="cli-label">cat picks.md</p>
+        <h1 class="page-title">Picks</h1>
+        <p class="lede">직접 쓰는 도구와, 매일 Trend of Security를 만들며 걸러낸 1차 자료입니다.</p>
+        <p class="picks-updated">
+          <span class="cli-label">git log -1 --format=%cd</span>
+          <time datetime={picksUpdated}>{updatedLabel}</time> 기준으로 고른 목록입니다.
+        </p>
+      </div>
+      {
+        widget.last && (
+          <section class="trend-pulse" aria-label={`최근 ${WIDGET_DAYS}일 Trend 주제별 헤드라인 건수`}>
+            <p class="pulse-title">
+              <span class="pulse-cmd">trend --since {WIDGET_DAYS}d</span>
+              <a href="/trend/">
+                NO.{widget.first!.issue_no}–{widget.last.issue_no}
+              </a>
+            </p>
+            <ul class="pulse-list">
+              {widget.counts.map((c) => (
+                <li class="pulse-row" title={themeLabel.get(c.key)}>
+                  <span class="pulse-key">{c.key}</span>
+                  <span class="pulse-bar" aria-hidden="true">
+                    <span style={`width: ${(c.count / widgetMax) * 100}%`} />
+                  </span>
+                  <span class="pulse-count">{c.count}</span>
+                </li>
+              ))}
+            </ul>
+            <p class="pulse-caption">헤드라인 {widget.headlineCount}건 중 주제 키워드 매칭 수</p>
+          </section>
+        )
+      }
+    </div>
 
     <div class="pick-filter" role="group" aria-label="주제별 필터">
       <button type="button" class="pick-chip" data-theme="all" aria-pressed="true">
