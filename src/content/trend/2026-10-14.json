@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-14",
+  "issue_no": 99,
+  "briefing": "제로데이와 공개취약점, 공급망 공격이 동시다발적으로 활성화되었다. 마이크로소프트 1,411개 결함 패치, Ivanti 제로데이 체인화, Ledger 스파이칩 침해, 엔드포인트·클라우드 인프라의 광범위한 원격코드실행과 한국 공격집단의 랜섬웨어 배포까지 기록적 규모의 다층적 공격이 확인된다.",
+  "keywords": [
+    "제로데이체인공격",
+    "공급망스파이칩침해",
+    "기록적규모패치",
+    "Kimsuky활동",
+    "광범위RCE악용"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Ivanti Connect Secure — 세 제로데이 체인화로 루트 실행",
+      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html"
+    },
+    {
+      "n": 2,
+      "title": "Ledger 지갑 공급망 침해, 하드웨어 스파이칩 발견",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
+    },
+    {
+      "n": 3,
+      "title": "GitLab CI/CD 정규식 컴파일러 최고심각도 원격코드실행",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/"
+    },
+    {
+      "n": 4,
+      "title": "마이크로소프트 10월 패치 — 1,411개 결함 3개 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/"
+    },
+    {
+      "n": 5,
+      "title": "Funhouse 랜섬웨어 — Kimsuky 한글 문서 배포",
+      "url": "https://asec.ahnlab.com/en/95775/"
+    },
+    {
+      "n": 6,
+      "title": "CISA KEV 5개 취약점 실제 악용 중",
+      "url": "https://securityaffairs.com/200734/security/u-s-cisa-adds-proftpd-onlyoffice-docs-strapi-apache-struts-and-isc-bind-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    {
+      "n": 7,
+      "title": "Nippon Columbia 말웨어 870만명 정보 유출",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-104935",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-96951",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-97229",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-65162",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65162"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-46817",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-42696",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42696"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-109109",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109109"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-109110",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109110"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2023-4346",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-108576",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108576"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
