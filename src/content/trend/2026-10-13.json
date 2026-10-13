@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-13",
+  "issue_no": 98,
+  "briefing": "기업 소프트웨어와 오픈소스에서 CVSS 10.0의 치명적 원격코드실행 취약점이 집중 발생하고 있으며 실제 악용이 진행 중이다. 금융권에서는 AI 기반 공격 경고가 무시되고 규제 완화에도 보안계획이 미이행되는 등 대응 체계의 허점이 노출되었다. 금융보안원의 AI 탐지 기술 발전과 K-방산의 CMMC 준비 필요성이 대두되면서 예방적 투자와 적시 대응의 중요성이 강조되었다.",
+  "keywords": [
+    "RCE취약점",
+    "금융기관침해",
+    "AI기반탐지",
+    "어플라이언스취약점",
+    "공급망보안"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Bricksforge WordPress 플러그인 — 원격코드실행 취약점",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"
+    },
+    {
+      "n": 2,
+      "title": "금융권 해킹 2주 전 사전 경고 무시 논란",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfNjhaUTBNdnNMVnN4QWc3MXVxSGdKaFF3WjRlNWJ3OVlqbGE0M2plbUZtdW1oZm5DLVN0bTE5T2ZHSmhzSjZhMVBNUWlRS29seWxhaEI5U1F2TEYxdFoyQWhrLVZEeTVGZW9faDlB?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "금융보안원 AI로 50개 앱 취약점 17개 탐지",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMy0tNDJtTlR0T0hhYjRZZGc5OTRsb3lvRDkyekhpZU9JWVRTRW1NVkNaeHVMaU1lZ2ZGSkFEXzV5U0dXeTZaSFNSTTZfeXJwd1NPTXF3?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "망분리 규제 완화 금융사 보안계획 미이행 적발",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IT2RzRnhNZmloc0luUTFHMi1iTnpuZWdra0NXdlFOdFBReEpLUFJtdkdOMV9reGJnaDZmTmJNVEdrbjZvbjczVndMZWhfajR5N201NF80bVZsUdIBX0FVX3lxTE1OclA5Q2EwWDN3b3paSUYwck9BRE5HM0doUE9ZWFladzduUlNuQVRNSExWWVgwR3dxbjVsR2tfZ1pKTEdUcEs5T1RTUTBKNHJ6X1gtTk54dTkzalI1SkZF?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "Ivanti Sentry — 미인증 명령 주입",
+      "url": "https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/"
+    },
+    {
+      "n": 6,
+      "title": "CMMC 준비, 네트워크 가시성에서 시작해야 하는 이유",
+      "url": "https://www.genians.co.kr/blog/cmmc"
+    },
+    {
+      "n": 7,
+      "title": "cPanel & WHM — 인증 우회",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-61539",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61539"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-56164",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-15409",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-15410",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-53362",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-56155",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-39964",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-50522",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-58644",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-55040",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
