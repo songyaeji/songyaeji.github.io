@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-15",
+  "issue_no": 100,
+  "briefing": "금융기관 AI 자동화 공격이 확인되고 Ivanti·Cisco 제로데이, Fortinet·Azure 미인증 명령 인젝션 등이 실제 공격에 악용 중이다. Linux 커널 메모리 손상부터 안드로이드 뱅킹 트로잔과 XWorm RAT 확산까지 공격 표면이 확대되면서 금융·클라우드·인프라 전 영역에서 위협이 심화했다. 암호화폐 거래소 제재에도 불구하고 금융범죄 도구·감시 악성코드의 진화가 가속화 중이다.",
+  "keywords": [
+    "AI금융자동화공격",
+    "미인증RCE제로데이",
+    "뱅킹악성코드",
+    "클라우드권한우회",
+    "커널메모리손상"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "금융권 AI 자동화 공격 확인, 16곳 피격",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MWUZ1dWZydHgwTll5T3hWTUFPVEx2TWNfQWVEYUwtdURaYWM3MlNqNHk0WEpnRV90bmdkd2JlOXFBUWJ5aXZkYlVVN2otWGd0QVhlM255NU96cUlONFMycHB3?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "Ivanti VPN 제로데이 CISA 긴급 패치 경고",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/"
+    },
+    {
+      "n": 3,
+      "title": "영국, 암호화폐 거래소 Cryptomus 경제 제재",
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+    },
+    {
+      "n": 4,
+      "title": "Cisco Secure Email Gateway 미인증 RCE 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/"
+    },
+    {
+      "n": 5,
+      "title": "Hirudo 안드로이드 뱅킹 트로잔 앱 위장 기법",
+      "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+    },
+    {
+      "n": 6,
+      "title": "XWorm RAT 진화 4개 버전 46개 플러그인 확장",
+      "url": "https://securityaffairs.com/200910/malware/how-a-leaked-builder-of-xworm-turned-a-remote-access-trojan-into-a-surveillance-kit.html"
+    },
+    {
+      "n": 7,
+      "title": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
+      "url": "https://asec.ahnlab.com/en/95808/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-0322",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-89309",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89309"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-105134",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-25089",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-39808",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-70352",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70352"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-83711",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83711"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-74612",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74612"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-74705",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74705"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-15399",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15399"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
