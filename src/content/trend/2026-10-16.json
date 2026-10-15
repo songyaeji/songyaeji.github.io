@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-16",
+  "issue_no": 101,
+  "briefing": "제로데이 악용과 AI 기반 멀티 취약점 공격이 동시 다발로 고도화되면서 엔터프라이즈, IoT, 의료, 클라우드 전 계층이 표적화되고 있다. 중국 연계 APT의 미패치 제로데이 악용부터 보안연구자의 AI 기반 공격 체인 개발까지 위협 행위자의 공격 역량이 급속도로 진화하고 있다. 국내는 금융권 규제 강화와 개인정보 유출 사건 조사로 보안 재점검에 착수했다.",
+  "keywords": [
+    "제로데이악용",
+    "중국APT",
+    "AI기반공격",
+    "RCE",
+    "IoT장비침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "BeyondTrust — 제로데이 원격코드실행, 중국 APT 악용",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-beyondtrust/"
+    },
+    {
+      "n": 2,
+      "title": "Chrome 3개 취약점 연결한 공격 체인 개발, 25만 달러 포상",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208890"
+    },
+    {
+      "n": 3,
+      "title": "dcm4chee-arc-light — 의료이미징 6개 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02"
+    },
+    {
+      "n": 4,
+      "title": "정부 Linux 표적 AI 기반 스파이 캠페인",
+      "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/"
+    },
+    {
+      "n": 5,
+      "title": "프랑스 슈퍼마켓 냉장고 원격 제어 피격, 식품 폐기",
+      "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html"
+    },
+    {
+      "n": 6,
+      "title": "금융당국 보험GA도 보안 강화 규제 추진",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xYzRwZXFTWEVZQzZRa21USzNRZ1NSVzRMVVlaYW42TURBZ0dBUzZpN0NJTzRNblVfLXZyb0pJdmpsUlc3WE1GZDR5b1Yya0M3bk5EN0JOeE9yY2E2aUQxU1BORTVLWmNPMWNMUWpqUQ?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "개인정보위 금융 유출 사건 조사 착수",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wZUZQQ041X2tsemtLejhnODZKYUVhQ05Mdkh1VGNndS10RGxxZU9JajE3N0x1MFVqNzNJTHhnenp1UVdqY2ZMTW85RXpKZy1zZ3RYeHpmdFlVZ1kwczI5dVRsVTNBVFJJ?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-57155",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57155"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-110957",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110957"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-110958",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110958"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-105857",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105857"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-96207",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96207"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2024-56719",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56719"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2018-14721",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14721"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-22021",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22021"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-69502",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69502"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2021-27137",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
