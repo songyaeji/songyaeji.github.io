@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-19",
+  "issue_no": 104,
+  "briefing": "클라우드와 엔터프라이즈 시스템을 겨냥한 CVSS 10.0 수준의 치명적 RCE 취약점 발견이 집중되고 있다. TAG-217 같은 APT는 AI를 활용해 대상 시스템의 취약점을 사전에 탐색하는 고도화된 공격을 준비 중이다. 보호 계층(방화벽·클라우드 백업·관리도구)의 침해는 다수 고객 환경에 직접 연쇄 피해를 초래한다.",
+  "keywords": [
+    "AI활용공격",
+    "RCE취약점",
+    "클라우드권한상승",
+    "엔터프라이즈시스템침해"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "국방부·방첍사 1TB 데이터 판매 주장",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208904"
+    },
+    {
+      "n": 2,
+      "title": "금융권 해킹, 공격자 TAG-217 8월부터 준비",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208917"
+    },
+    {
+      "n": 3,
+      "title": "SiteGuard WAF 명령 인젝션 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+    },
+    {
+      "n": 4,
+      "title": "ConnectWise Cloud Backup 침해",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+    },
+    {
+      "n": 5,
+      "title": "Rust 악성코드 CikaBika, 디스코드로 원격 제어",
+      "url": "https://securityaffairs.com/201210/security/rust-based-cikabika-bot-turns-discord-into-a-command-center.html"
+    },
+    {
+      "n": 6,
+      "title": "배민 라이더 정보 유출 책임 논쟁",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVamNnOW1LcFNpMkhqeUI4WU5mZTV1bkJSSDBiVEhQdU1hM0hvMmJWalNnQ1lTSE5OZ2tPeEpydVpaLTRMLXN4T1hiaV85VlhMVFRKeTh2akxWa0otVFdlVlhFcjcxTWxYWTZZcWZxMUzSAXRBVV95cUxNOVFlRUFXTU56NmlnaFFUSFFfZlBWb1hMNU1DVll1eGx2U0Fhc0ZEaTFCUG1PcGRsQ0dmdmNVaDBqTzdyV0hEOFR0Wkp5ZDc5NmdRUTVRNkhBX2ZaTGRpNjlodGdmdG5ZTFEwNU1Ta2ZCTmxjTw?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "DataSuckers 해킹 그룹원 모스크바서 체포",
+      "url": "https://therecord.media/russia-datasuckers-hackers-arrested"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2025-49752",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49752"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2025-58083",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58083"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2025-41115",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41115"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2025-36250",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36250"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-65770",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65770"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2025-64126",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64126"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-64127",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64127"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-64128",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64128"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-13390",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13390"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-65108",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65108"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
