@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-20",
+  "issue_no": 105,
+  "briefing": "국내 은행 고객정보 불법 판매와 해외 AI·클라우드 서비스 API 키 유출이 동시다발로 발생하며, 정상 업데이트 채널까지 악성코드 배포에 악용되는 공급망 공격이 진화하고 있다. 원격 코드 실행(RCE) 취약점이 커널부터 AI 에이전트·웹 애플리케이션까지 전 스택에서 광범위하게 드러났으며, 국내 공공기관의 기초 보안 관리 부족(MFA 미적용)이 함께 노출되고 있다.",
+  "keywords": [
+    "LLMapi키유출",
+    "공급망악성코드배포",
+    "RCE취약점광범위",
+    "금융고객정보불법판매",
+    "컨테이너탈출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "SiteGuard WAF 서버 — RCE 제로데이 실악용",
+      "url": "https://securityaffairs.com/201258/security/japans-siteguard-waf-flaw-cve-2026-106931-is-already-being-exploited.html"
+    },
+    {
+      "n": 2,
+      "title": "은행 고객정보 건당 8,000원 불법 판매",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208933"
+    },
+    {
+      "n": 3,
+      "title": "Broadcom Wi-Fi SDK — 16년 전 버그로 라우터 원격제어",
+      "url": "https://securityaffairs.com/201268/iot/16-year-old-broadcom-wi-fi-bug-lets-attackers-take-over-routers-without-a-password.html"
+    },
+    {
+      "n": 4,
+      "title": "OpenCode Console — API 키 대량 유출",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+    },
+    {
+      "n": 5,
+      "title": "Rank Math 플러그인 — 백도어 배포",
+      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html"
+    },
+    {
+      "n": 6,
+      "title": "GhostAction — 폰트 파일 위장 스틸러 진화",
+      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
+    },
+    {
+      "n": 7,
+      "title": "한국가스기술공사, 관리자 다중인증 미적용에도 긴급 보안점검 ‘취약점 0건’",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208932"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-111057",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111057"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-0770",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2025-62596",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62596"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-110887",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110887"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-111406",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111406"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2025-62161",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62161"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-14931",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14931"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-62168",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62168"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-63795",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63795"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-59832",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59832"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
