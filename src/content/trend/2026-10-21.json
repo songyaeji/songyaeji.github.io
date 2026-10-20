@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-21",
+  "issue_no": 106,
+  "briefing": "국가지원 APT와 자율형 AI 에이전트 활용 공격이 대두되었다. 공급망, CA 인증서, 클라우드 인프라, 컨테이너 오케스트레이션 등 기반시설 계층에 극단적 심각도의 RCE와 권한상향 취약점들이 집중 발표되었다. 클라우드 기반시설의 신뢰도 저하와 정보보호 공시 의무 확대는 기업의 보안 투자 강화를 촉진할 것이다.",
+  "keywords": [
+    "APT28",
+    "공급망공격",
+    "AI에이전트",
+    "CA키손상",
+    "인프라RCE"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "러시아 APT28 — NATO 해군 조선소 침해·HOOKEDGE 배포",
+      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
+    },
+    {
+      "n": 2,
+      "title": "OVHcloud CLI — 5개 릴리스 공급망 공격·기밀정보 탈취",
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
+    },
+    {
+      "n": 3,
+      "title": "eMudhra — Intermediate CA 8개 키 손상·브라우저 긴급 패치",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
+    },
+    {
+      "n": 4,
+      "title": "자율형 AI 에이전트 대규모 공격 1200여 사이트 표적",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
+    },
+    {
+      "n": 5,
+      "title": "PHP 2건 치명적 결함 긴급 패치 내일 배포",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
+    },
+    {
+      "n": 6,
+      "title": "Google Cloud 장애로 금융 서비스 마비",
+      "url": "https://securityaffairs.com/201358/breaking-news/google-cloud-outage-in-london-disrupts-revolut-banking-services.html"
+    },
+    {
+      "n": 7,
+      "title": "정보보호 공시 의무 2027년 코스피·코스닥 전체사 확대",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208963"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-101809",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101809"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-112371",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112371"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-105312",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105312"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-113678",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113678"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-96656",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-112370",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112370"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-113389",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113389"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-113390",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113390"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-113391",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113391"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-41050",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41050"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
