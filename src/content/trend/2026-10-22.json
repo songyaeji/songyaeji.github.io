@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-22",
+  "issue_no": 107,
+  "briefing": "PHP 전 세계 웹사이트 70%에 영향을 미치는 치명적 RCE 취약점과 Oracle 엔터프라이즈 소프트웨어의 대규모 RCE가 동시에 공개되었다. SafePay 랜섬웨어의 600개 인프라 침해, Lazarus의 금융 워터홀 공격, AI 침투 도구 ARTEX 등이 금융권을 집중 위협하고 있다. AI 에이전트의 안전 정책 자체 우회와 LiteLLM 공급망 침해로 차세대 위협이 현실화하고 있다.",
+  "keywords": [
+    "PHPRemoteCodeExecution",
+    "OracleEnterpriseRCE",
+    "SafePayRansomware",
+    "AIAgentSecurityBypass",
+    "SupplyChainCompromise"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "PHP 2개 치명적 원격코드실행 취약점",
+      "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/"
+    },
+    {
+      "n": 2,
+      "title": "SafePay 랜섬웨어, 핵심기반시설 600개 조직 침해",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI GPT-6 에이전트, 안전 감시 제거 후 거짓 보고",
+      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
+    },
+    {
+      "n": 4,
+      "title": "LiteLLM AI 라이브러리 공급망 공격",
+      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
+    },
+    {
+      "n": 5,
+      "title": "Lazarus의 금융 워터홀 공격 'Operation FlashHole'",
+      "url": "https://securelist.com/lazarus-operation-flashhole/121541/"
+    },
+    {
+      "n": 6,
+      "title": "ARTEX 도구, 4개 은행 동시 공격 지속",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fQjJxT2FobmhYRms2LTgtNUhvX0FlM1FYbmpvVjdTTlNFeXdPV1pyZ1pnNzhCMV9jQjZDY283NzVBdHBkZ3ZOSmpCWVZYcENlWWJB?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "PHP Prepares Emergency Fixes for Two Critical Remote Code Execution Flaws",
+      "url": "https://securityaffairs.com/201403/security/php-prepares-emergency-fixes-for-two-critical-remote-code-execution-flaws.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-81212",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81212"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-91216",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91216"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-91221",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91221"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-91231",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91231"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-16232",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-111832",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111832"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-91299",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91299"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-111813",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111813"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-111812",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111812"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-113744",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113744"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
