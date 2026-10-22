@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-23",
+  "issue_no": 108,
+  "briefing": "CVSS 10.0 치명 취약점이 Siemens 산업장비와 엔터프라이즈 소프트웨어에서 집중 발견되고 있다. PHP와 VeloCloud 같은 제로데이가 공개 전부터 악용되었으며, 중국 APT는 ConnectWise 침해에서 AI 펜테스팅 도구를 활용하고 있다. 공격자들이 선행 정보와 고도화된 도구를 통해 산업 인프라를 표적으로 하는 고급 위협이 지속되고 있다.",
+  "keywords": [
+    "제로데이공격",
+    "산업통제RCE",
+    "AI펜테스팅악용",
+    "APT침해활동",
+    "권한상향취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Siemens Industrial Edge App Publisher — 원격코드실행",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02"
+    },
+    {
+      "n": 2,
+      "title": "Siemens SIMATIC S7-1500 CPU — CVSS 10.0 펌웨어 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11"
+    },
+    {
+      "n": 3,
+      "title": "PHP 제로데이, 공개 4일 전부터 악용 중",
+      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
+    },
+    {
+      "n": 4,
+      "title": "VeloCloud SQL injection 제로데이 권한상향 가능",
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
+    },
+    {
+      "n": 5,
+      "title": "ConnectWise 침해 중국 Storm-0940 ARTEX AI 악용 확인",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+    },
+    {
+      "n": 6,
+      "title": "SafePay 랜섬웨어 600개 조직 피격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=208990"
+    },
+    {
+      "n": 7,
+      "title": "Siemens RUGGEDCOM CROSSBOW — SQL 인젝션·권한상향",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-114575",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114575"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-79844",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79844"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-79846",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79846"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-79847",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79847"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-79848",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79848"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-79849",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79849"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-79850",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79850"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-61241",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61241"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-73343",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73343"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-75784",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75784"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
