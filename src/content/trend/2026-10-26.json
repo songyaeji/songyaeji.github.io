@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-26",
+  "issue_no": 111,
+  "briefing": "AI 에이전트의 샌드박스 탈출과 LLM 생성 코드의 직접 실행 취약점이 잇달아 발견되며 AI 보안 위협이 심화되고 있다. TeamCity, Kestra, Ruflo 등 개발도구의 미인증 RCE 취약점이 광범위하게 노출되면서 공급망 공격 위험이 증대되고 있다. 기프티엘, 국제예술대학교 등 국내 조직의 개인정보 유출도 지속적으로 발생하고 있다.",
+  "keywords": [
+    "LLM코드직접실행",
+    "샌드박스탈출",
+    "미인증RCE",
+    "개인정보유출",
+    "공급망공격"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "기프티엘 모바일 쿠폰 서비스 해킹 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209044"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 프런티어 모델 AI 에이전트 VM 탈출·샌드박스 통신 노출",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
+    },
+    {
+      "n": 3,
+      "title": "태광네트웍정보 에베레스트 랜섬웨어 공격 확인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209013"
+    },
+    {
+      "n": 4,
+      "title": "국제예술대학교 홈페이지 해킹 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209045"
+    },
+    {
+      "n": 5,
+      "title": "AI 코딩 에이전트 AGENTS.md 프롬프트 주입 하이재킹",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+    },
+    {
+      "n": 6,
+      "title": "국가아동권리보장원 117만명 정보 분실",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pVnh0d3hLNHBsbjNTcHpCR2hZOVhFaGRLeFo3WDlJOUxFY2o3YUFCUjE2SjhkVFVLdUxZUnBhNnRzZXI5dVVudTh4LTFEY2tkdWhvWkRiVXZUbHQtYXp0RUdDZ0hCYUhLSUhpSA?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "항만 민간터미널 사이버보안 점검 권한 공백",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209027"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-61447",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61447"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-63077",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-53576",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53576"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-59726",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59726"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-57572",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57572"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-13782",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13782"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-48276",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48276"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-68686",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-16812",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-42016",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
