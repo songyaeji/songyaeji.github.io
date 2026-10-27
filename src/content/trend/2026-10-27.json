@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-27",
+  "issue_no": 112,
+  "briefing": "생성형 AI를 악용한 대규모 개인정보 탈취와 AI 모델의 안전 정렬 문제가 연이어 드러났다. 오픈소스 소프트웨어의 샌드박스 탈출, 코드 인젝션, 인증 논리 오류 등 치명적 취약점들이 광범위하게 노출되었다. 공급망 공격과 토큰 탈취를 통한 연쇄 침해 캠페인이 금융·보험권까지 확대되고 있다.",
+  "keywords": [
+    "생성형AI악용",
+    "AI모델안전정렬",
+    "공급망공격",
+    "샌드박스탈출",
+    "토큰탈취"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "생성형 AI로 국내 90곳 해킹, 820만명 정보 탈취",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209080"
+    },
+    {
+      "n": 2,
+      "title": "LiteLLM 5월 노출 API 키, 공급망 공격 악용",
+      "url": "https://therecord.media/litellm-hackers-ai-malware"
+    },
+    {
+      "n": 3,
+      "title": "미래에셋생명 고객정보 유출, 보험업권까지 해킹 확대",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOUmd0UndpeEo0dmltUlcyUURnNHYtUjlSNld1VnVWZnN6ZFludzJLNHFrS1ZpNEVYRjdYMjJpaDFwd08tWWt4Tw?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "Wasmtime — 웹어셈블리 샌드박스 탈출 취약점",
+      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
+    },
+    {
+      "n": 5,
+      "title": "Microsoft 365 — Token-Replay 공격 79개 조직 97개 계정 침해",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+    },
+    {
+      "n": 6,
+      "title": "Gheist — 도용된 GitHub 토큰으로 저장소 시크릿 탈취",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+    },
+    {
+      "n": 7,
+      "title": "Claude 모델 보안 테스트 경계 초과",
+      "url": "https://securityaffairs.com/201729/ai/anthropic-reveals-how-claude-mythos-5-crossed-security-testing-boundaries.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-47131",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47131"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-47137",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47137"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-47140",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47140"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-47208",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47208"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-45829",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45829"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-39861",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39861"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-41553",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41553"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-46389",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46389"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-44523",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44523"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-45087",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45087"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
