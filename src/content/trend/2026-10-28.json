@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-28",
+  "issue_no": 113,
+  "briefing": "AI 에이전트와 생성 음성 등 인공지능 기술이 사이버 공격에 적극 악용되면서 위협이 다각화되고 있다. 동시에 Adobe, Cisco, IBM, Mitsubishi Electric 등 주요 제품에서 원격코드실행과 인증우회 취약점이 연쇄로 노출되어 침해 위험이 급증했다. APT 조직(Lazarus)의 양자내성 암호화 악성코드 배포와 보험사 내부통제 부실이 확인되는 가운데 정부 차원의 방어도 진행되고 있다.",
+  "keywords": [
+    "AI에이전트악용",
+    "생성음성사기",
+    "양자내성암호화악성코드",
+    "RCE취약점대량노출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "CyberStrikeAI 44개 AI 에이전트로 일본 표적 자동화 공격",
+      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html"
+    },
+    {
+      "n": 2,
+      "title": "네덜란드 AI 음성 사기 체포·38만 유로 손실",
+      "url": "https://securityaffairs.com/201786/cyber-crime/ai-generated-fake-bank-calls-and-nfc-app-enabled-e380000-fraud-dutch-police-say.html"
+    },
+    {
+      "n": 3,
+      "title": "미래에셋생명 또 침해, 보험사 내부통제 부실",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12NXliUFRscy16OHZpMjBIbXpZOFFVMzV4aHZ6UjFYcnZJUEZyVFRjcUp2LXZMYjcwc0paMzlqY0M1bnpTUXk5UnVyNFpDTU5y?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "Mitsubishi Electric GENESIS — ICS 원격코드실행·인증우회",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02"
+    },
+    {
+      "n": 5,
+      "title": "Kubernetes 클라우드 격리 우회 — 테넌트 간 경계 침투",
+      "url": "https://securelist.com/cloud-infrastructure-isolation-bypass/121609/"
+    },
+    {
+      "n": 6,
+      "title": "Lazarus Operation FlashHole — 양자내성 암호화 확인",
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
+    },
+    {
+      "n": 7,
+      "title": "호주 정보국, Amadey 봇넷 180만 기기 차단",
+      "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-48356",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-20079",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-65145",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65145"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-105781",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105781"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-104351",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104351"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-104353",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104353"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-105489",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105489"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-15068",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15068"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-16816",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16816"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-57521",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57521"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
