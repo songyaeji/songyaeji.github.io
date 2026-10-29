@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-29",
+  "issue_no": 114,
+  "briefing": "AI가 공격 자동화와 취약점 발견을 동시에 강화하는 가운데 Oracle·Google Cloud·AVideo 등 주요 제품에서 CVSS 10.0급 RCE 취약점이 대량 노출되었다. 금융권 AI 자동화 공격으로 68,000명의 개인정보가 유출되었고 Convertr·빗썸 등 공급망 침해를 통한 결제정보 탈취가 확산되었다. 제로데이 은폐 기술과 인증우회가 결합되면서 금융·클라우드·가상화 생태계의 광범위한 침해가 심화되고 있다.",
+  "keywords": [
+    "AI자동화공격",
+    "RCE취약점집중노출",
+    "결제공급망침해",
+    "제로데이은폐",
+    "금융기관개인정보유출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "n0n 랜섬웨어 조직 — AI로 14개국 23개 기관 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209146"
+    },
+    {
+      "n": 2,
+      "title": "Volt Typhoon — 제로데이 은폐 Silent Train 프레임워크",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+    },
+    {
+      "n": 3,
+      "title": "금융권 AI 공격 한 달 만에 14개 기관 확산",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZENmRVVMYkg0YmxMNUxDQjZpREZGVjBfREw4TjVsVEdZQ2hOcThYQ2lmY0NaQ19oZ1ktQWlXcXF4Z3RfeGtRWkZvN0daOG1aQ2dRcC1laUFVVW5sZlFGQlFvM2Z1cXJtcmFHZUVzQWZiLVhic1ZyU3JlWV9ZaWNUOHFFMEQ?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "Google Cloud MCP 툴박스 — 원격코드실행 취약점",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209099"
+    },
+    {
+      "n": 5,
+      "title": "EPICS 산업제어시스템 — AI가 4개 치명적 취약점 발견",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209138"
+    },
+    {
+      "n": 6,
+      "title": "빗썸 해킹으로 금융권 광범위 침해",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1TkxpaXlfTHFtNUo3anVKZEVYd1hiWGpUd1MzaGp3SzIxVEZ3UDlsaDVGTlQ5N2RVOVVZVEx6TGxDUzcweUNfaldiSlNPSEFkNk1NVEpn?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "브라질 결제 플랫폼 Convertr — 공급망 공격으로 신용카드 탈취",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209096"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-87337",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87337"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-61564",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61564"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-61567",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61567"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2025-39682",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-44179",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44179"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-110879",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110879"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-106013",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106013"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-20316",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-41709",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-59310",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
