@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-30",
+  "issue_no": 115,
+  "briefing": "AI 기술이 보안을 양극화시키고 있다. 구글의 Claude 활용 취약점 발견이 있는 반면, NIK C2 같은 AI 악용 공격이 증가하고 있다. Volt Typhoon의 제로데이 악용, 오픈소스 대량 취약점, 개인정보 유출로 위협이 심화되고 있다.",
+  "keywords": [
+    "AI기반보안분석",
+    "AI악용지능형공격",
+    "국가지원제로데이",
+    "오픈소스공급망공격",
+    "개인정보유출사고"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "구글 크롬 156 52개 취약점 긴급 수정",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209156"
+    },
+    {
+      "n": 2,
+      "title": "Fragnesia Linux 취약점, PHP2Shell과 연쇄 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/"
+    },
+    {
+      "n": 3,
+      "title": "Cisco ASA·FTD 방화벽 DoS 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+    },
+    {
+      "n": 4,
+      "title": "NIK C2, AI 기반 Command-and-Control 프레임워크",
+      "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/"
+    },
+    {
+      "n": 5,
+      "title": "Volt Typhoon 4건 제로데이로 미국 핵심 인프라 침투",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209153"
+    },
+    {
+      "n": 6,
+      "title": "카스퍼스키, 직장인 속이는 피싱 유형 분석",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209151"
+    },
+    {
+      "n": 7,
+      "title": "마이리얼트립 해킹으로 여권번호·비밀번호 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209150"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-61991",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61991"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-84295",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84295"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-115893",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115893"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-107327",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107327"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-113617",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113617"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-119145",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119145"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-107328",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107328"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-107329",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107329"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-90868",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90868"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-85165",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85165"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
