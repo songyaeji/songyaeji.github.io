@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-31",
+  "issue_no": 116,
+  "briefing": "클라우드 협업 플랫폼·보안 운영 플랫폼·전자상거래 도구들의 인증 우회·접근제어 우회 취약점들이 광범위하게 실제 악용되고 있으며, 최고 심각도 제로데이도 야생에서 공격에 활용되고 있다. Linux 커널의 드라이버·네트워크 스택 저수준에서 경쟁 조건, 메모리 이중 해제 등 다양한 메모리 안전 문제가 연쇄 확인되고 패치되고 있다. 미국 플로리다 금융지원 490만 명 규모 개인정보 유출 등 대규모 데이터 침해 사고가 계속 발생하고 있다.",
+  "keywords": [
+    "협업도구제로데이",
+    "인증우회공격",
+    "개인정보대규모유출",
+    "커널메모리취약점",
+    "저장XSS"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "GitLab 최고심각도 취약점 실제 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
+    },
+    {
+      "n": 2,
+      "title": "Drupal Commerce Core 접근제어 우회 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
+    },
+    {
+      "n": 3,
+      "title": "미국 플로리다 금융지원 490만 명 SSN 유출",
+      "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach"
+    },
+    {
+      "n": 4,
+      "title": "망분리 2차 완화 재개, 보안 우려",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pVzZ1UXlpTzlOZ0haYWdNcWVIczdQcW9nZ0lNeHZkdjhTdVhYUEs2a29PUzVlQU02WkZzNHhBYmlSRjlScVlIUlZVcWFWUHp1OG9mWG01NlJteTl4dzVTNTh4eTBWanhWWDJxYw?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "머니투데이 해킹 불똥, 언론사까지 확산",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209196"
+    },
+    {
+      "n": 6,
+      "title": "Hitachi Energy CoreTec Product",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03"
+    },
+    {
+      "n": 7,
+      "title": "Siemens Mendix SAML Module",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-118527",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-61728",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61728"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-116241",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116241"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-61738",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61738"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-61826",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61826"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-62853",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62853"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-38429",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38429"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-21673",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21673"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-21927",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21927"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-37750",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37750"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
