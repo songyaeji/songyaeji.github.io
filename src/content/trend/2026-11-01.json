@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-01",
+  "issue_no": 117,
+  "briefing": "오픈소스 소프트웨어(WordPress, GitLab, Apache MINA)에서 원격코드실행 취약점이 연쇄적으로 공개되고 있으며, WordPress RCE는 공개 24시간 만에 6만 건 이상 악용되며 심각성을 드러냈다. AI 모델 플랫폼 침해로 악성 채굴·백도어 모델이 유포되는 한편, LLM을 악용한 정보탈취 악성코드가 피해자 자산을 자동 분석·선별하는 등 공격의 자동화와 정교화가 동시에 진행되고 있다. 주민등록번호·계좌번호 등을 포함한 회계관리 서비스 대규모 침해까지 가세하며 공급망 위협의 규모가 확대되는 중이다.",
+  "keywords": [
+    "LLM악용정보탈취",
+    "오픈소스RCE연쇄공개",
+    "악성AI모델유포",
+    "공급망침해",
+    "자동공격정교화"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "VOLTA 정보탈취 악성코드 — LLM으로 피해자 자산 분석",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+    },
+    {
+      "n": 2,
+      "title": "WordPress 7.1.4 RCE 취약점 — 24시간 6만3천 건 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209203"
+    },
+    {
+      "n": 3,
+      "title": "Hugging Face 악성 AI 모델 배포 — 채굴·백도어 3만2천 회 다운로드",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209200"
+    },
+    {
+      "n": 4,
+      "title": "더존비즈온 백업서비스 침해 금융·공공기관 광범위 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209214"
+    },
+    {
+      "n": 5,
+      "title": "Hitachi Energy TRO600 — 원격코드 실행 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02"
+    },
+    {
+      "n": 6,
+      "title": "GitLab — 정수 오버플로우 취약점 악용 중",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "n": 7,
+      "title": "Telegram Android 음성통화 응답 시 원격코드실행 취약점",
+      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-89078",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89078"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-109220",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109220"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-119096",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-120201",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120201"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-120209",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-93577",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93577"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-78845",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78845"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-116512",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-118235",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118235"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-118636",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118636"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
