@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-02",
+  "issue_no": 118,
+  "briefing": "암호자산 거래소·국토안보부·해외송금 서비스의 공급망 침해로 대규모 개인정보와 암호자산이 유출되었다. 오픈소스 AI 펜테스팅 프레임워크의 악용과 악의적 AI 모델 배포로 자동화된 침투 공격이 기하급수적으로 확대되고 있다. IoT 라우터와 클라우드 개발 플랫폼의 기본 격리 결함으로 광범위한 원격 제어와 테넌트 침범이 동시에 노출되었다.",
+  "keywords": [
+    "암호자산거래소공급망침해",
+    "AI자동화침투공격",
+    "개인정보광범위유출",
+    "IoT기기명령인젝션",
+    "악의적AI모델배포"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Binance DevOps 침해로 63억 달러 암호화폐 도난",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
+    },
+    {
+      "n": 2,
+      "title": "Linux 커널 MPTCP 치명적 원격코드실행 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/"
+    },
+    {
+      "n": 3,
+      "title": "ARTEX·Hexstrike·CAIRN AI 펜테스팅 프레임워크 기계 속도 침입",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/artex-and-friends-enter-agentic-offensive-frameworks/"
+    },
+    {
+      "n": 4,
+      "title": "해외송금 핀테크 모인 해킹, 신분증·주민번호·계좌정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209225"
+    },
+    {
+      "n": 5,
+      "title": "Hugging Face 크립토마이닝 말웨어 28,000회 감염",
+      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/"
+    },
+    {
+      "n": 6,
+      "title": "미국 국토안보부 직원 4만명 개인정보 유출",
+      "url": "https://securityaffairs.com/202103/data-breach/hacker-leaks-data-on-more-than-40000-homeland-security-employees.html"
+    },
+    {
+      "n": 7,
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-120338",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120338"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-18577",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-120306",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120306"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-120307",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120307"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-120195",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-120198",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120198"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-120196",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120196"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-120197",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120197"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-120224",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120224"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-120227",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120227"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
