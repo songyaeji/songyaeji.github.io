@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-03",
+  "issue_no": 119,
+  "briefing": "AI와 LLM을 악용한 신종 공격들이 확산 중이다. LLMJacking의 비용 손실, VOLTA의 AI 기반 정보탈취 자동화, CyberStrikeAI의 침투 자동화가 보고되었으며, 라우터 미인증 RCE 취약점과 암호자산 도난이 동시다발하고 있다.",
+  "keywords": [
+    "LLMJacking",
+    "LLM악용정보탈취",
+    "침투자동화",
+    "라우터원격코드실행",
+    "암호자산도난"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "클라우드 AI API 키 탈취해 대규모 비용 손실 일으키는 LLMJacking",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/"
+    },
+    {
+      "n": 2,
+      "title": "VOLTA 정보탈취 악성코드 — AI로 피해자 가치 자동 평가",
+      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html"
+    },
+    {
+      "n": 3,
+      "title": "CyberStrikeAI 펜테스팅 프레임워크 — 자동화 공격 확산",
+      "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715/"
+    },
+    {
+      "n": 4,
+      "title": "Ivanti Connect Secure — 제로데이 패치 공개",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/"
+    },
+    {
+      "n": 5,
+      "title": "13백만 기기 감염 XCPE 봇넷 해체",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/"
+    },
+    {
+      "n": 6,
+      "title": "국내 대형 이커머스 G마켓 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209243"
+    },
+    {
+      "n": 7,
+      "title": "금융위, 바이낸스 대응 콜드월렛 확대·준비금 적립 추진",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1mSW51MUpMYlJuQzN5UExLVk1oaWF4YU1wT2ZXd2NFdFJEU2hzeTlQS1VkMmhaNHNBSDdndmVLQmpOak5mcm4xZzlzeGlxUllJRHBzZmN2SlNCaHB6NUdieWVvYw?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-120276",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120276"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-120283",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120283"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-120189",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-120277",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120277"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-120279",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120279"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-120280",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120280"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-120281",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120281"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-120344",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120344"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-120345",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120345"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-20702",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20702"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
