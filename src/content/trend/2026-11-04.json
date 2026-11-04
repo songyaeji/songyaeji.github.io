@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-04",
+  "issue_no": 120,
+  "briefing": "AI 기반 자동화 공격인 LLMjacking과 CyberStrikeAI가 피싱과 API 키 탈취를 통해 기업당 100만 달러 손실을 초래하고 있으며, 바이낸스 8조원 암도난, 우크라이나·러시아 긴급경보 해킹, 유럽 슈퍼마켓 냉장시스템 공격 등 국가부터 일상 인프라까지 대규모 침해가 잇따르고 있다. Safari 웹 콘텐츠 샌드박스 탈출(CVSS 10.0), Ruby SAML 인증 우회, 라우터 펌웨어 검증 우회 등 중대 제로데이들이 동시에 노출되며 보안 위협이 확산하고 있다.",
+  "keywords": [
+    "LLMjacking",
+    "기반시설공격",
+    "금융암도난",
+    "API키탈취",
+    "샌드박스탈출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "우크라이나·러시아 긴급경보 침해",
+      "url": "https://securityaffairs.com/202248/security/hackers-send-fake-nuclear-threat-alerts-to-ukrainian-and-russian-citizens.html"
+    },
+    {
+      "n": 2,
+      "title": "LLMjacking, 기업당 최대 100만 달러 손실 확인",
+      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html"
+    },
+    {
+      "n": 3,
+      "title": "공군 1호기 탑승자 168명 개인정보 온라인 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209298"
+    },
+    {
+      "n": 4,
+      "title": "CyberStrikeAI 악용 공격, 3~4일 내 도메인 관리자 탈취",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209280"
+    },
+    {
+      "n": 5,
+      "title": "바이낸스 8조원 해킹, 금융위 거래소 긴급 보안 강화",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBoSE1jc0s4b1B2WFg4OGNVY1NaRkpMTGRnOG5sX2dLNGlBYnA0WXJ4RUJqRDB3aE5wLThWdkdWbnlDMHM0SWptZzJ4cWQ3VkF2SW1ubHVEMA?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "Android TV 봇넷 1.3백만 기기 해체",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+    },
+    {
+      "n": 7,
+      "title": "유럽 슈퍼마켓 냉장시스템 공격",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-112690",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112690"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-113897",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113897"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-121606",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121606"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-28336",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28336"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-34486",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2024-20419",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-20419"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2024-43102",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43102"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2024-45409",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45409"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2024-39700",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39700"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-9264",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9264"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
