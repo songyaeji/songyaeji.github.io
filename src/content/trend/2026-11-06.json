@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-06",
+  "issue_no": 122,
+  "briefing": "AI 플랫폼부터 네트워크 기기, 공급망 대상 공격까지 다층적 위협이 심화되고 있다. 특히 한국의 금융·의료 부문이 집중적 공격 대상이 되면서 금융감독 당국이 망분리 규제 재설계와 AI 기반 방어 기술 도입을 추진하고 있다. 인증 검증 부재, JWT 교차 인증 우회, 명령 주입 등 기본 보안 원칙의 반복된 위반이 대량의 인프라 취약점으로 이어지고 있다.",
+  "keywords": [
+    "LLM보안취약점",
+    "공급망공격",
+    "IoT기기명령주입RCE",
+    "금융기관침해",
+    "의료기관랜섬웨어"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Zyxel GS1900 — 패치 우회 제로데이 RCE",
+      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+    },
+    {
+      "n": 2,
+      "title": "ChatGPT Lockdown Mode — 세션 XSS 취약점",
+      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
+    },
+    {
+      "n": 3,
+      "title": "Meta AI 개발환경 — 인증 토큰 노출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209330"
+    },
+    {
+      "n": 4,
+      "title": "Crafty Falcon 인도 BFSI 대상 ARTEX 공격",
+      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
+    },
+    {
+      "n": 5,
+      "title": "금융권 16곳 해킹, 망분리 규제 재설계·AI 방어 도입",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CeF9YT3ZIcVpXMml6VWx5THRnR2ZWWkRZRkRhLVdDWnFKS1VEc2RLcVI2SkVrUXVVM3FEdlZqM2ZOellMZVczaGtYd0s3U09Db2dabm9HZTNLUk5fNjYzZGwtYzYtX0x2WkhF?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "금융보안원, 클라우드 보안평가 체계 개편",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209319"
+    },
+    {
+      "n": 7,
+      "title": "국내 의료기관 5곳 겨냥한 랜섬웨어 협박 정황…약 90TB 탈취 주장, 실제 피해 확인 필요",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209331"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-84474",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84474"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-84502",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84502"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-84719",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84719"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-122051",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122051"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2025-63689",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63689"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2025-54339",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54339"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-63216",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63216"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-63224",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63224"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-61481",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61481"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-29270",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29270"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
