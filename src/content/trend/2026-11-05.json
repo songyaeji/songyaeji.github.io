@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-05",
+  "issue_no": 121,
+  "briefing": "국가 배경 해킹 그룹이 AI 에이전트를 악용해 암호도난과 외교기관 침해를 감행했다. xz 라이브러리 공급망 공격과 임베디드 기기·클라우드 플랫폼의 CVSS 10.0 극위험 취약점이 동시다발로 발견되면서 Linux 생태계와 핵심 기반시설이 체계적 위협에 노출되었다. 제로데이·제로클릭·명령 주입 기법이 모두 활성화되는 가운데 전국가급 보안 위기가 고조되었다.",
+  "keywords": [
+    "AI에이전트악용",
+    "국가배경APT",
+    "공급망공격",
+    "제로데이극위험",
+    "Linux생태계위협"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Binance 63억 달러 암호도난 위조 취업면접 공격",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
+    },
+    {
+      "n": 2,
+      "title": "Debian/Ubuntu APT 패키지 교환 취약점",
+      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
+    },
+    {
+      "n": 3,
+      "title": "Xen 하이퍼바이저 VM 간 메모리 접근 취약점",
+      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
+    },
+    {
+      "n": 4,
+      "title": "러시아 해커 iOS/Android 제로클릭 워터홀",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
+    },
+    {
+      "n": 5,
+      "title": "중국 VAPOR PANDA, AI 에이전트로 14개국 외교 표적",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209300"
+    },
+    {
+      "n": 6,
+      "title": "WordPress Core — 원격코드실행 CISA 적극 악용 경고",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
+    },
+    {
+      "n": 7,
+      "title": "Zyxel GS1900 — 제로데이 패치 공개, 1000개 기기 감염",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-5430",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-121607",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121607"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-121615",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121615"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2024-27834",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-121609",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121609"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2025-63531",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63531"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-61492",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61492"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2024-3094",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3094"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-67288",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67288"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-67109",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67109"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
