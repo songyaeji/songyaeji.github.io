@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-07",
+  "issue_no": 123,
+  "briefing": "금융권 대규모 해킹으로 47만건 개인정보와 10억원이 탈취되었으며, 이 사고가 부동산중개소·문화기관 등 다양한 업종으로 확산되고 있다. 동시에 원격코드실행·권한상향 공격이 가능한 CVSS 9.8~10.0 수준의 중대 제로데이가 기업 소프트웨어와 네트워크 인프라에서 집중 발견되고, 러시아 국가행위자의 n-day 모바일 공격까지 감지되어 조직 보안 위협이 극도로 심화되고 있다.",
+  "keywords": [
+    "금융권개인정보유출",
+    "제로데이원격코드실행",
+    "APT29",
+    "인증우회공격",
+    "권한상향취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "D-Link DGS-3130 스위치 — 다중 미패치 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/"
+    },
+    {
+      "n": 2,
+      "title": "금융권 해킹 피해 확대 — 47만건 유출·10억원 탈취",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TM09CMEt0UXVrSkJUMGFidGZfaV84aTFhejFnWUp0WXItd0gzcmkxMXptdWJzN3lJNWRFNW45R1RPSkg1eVFWYmItYjFBaUgyZS1fZTBEdXoxY3RaYzBLUmxrODQzU3JFY3lCTXVzWWLSAXRBVV95cUxPalpyandTVmFqSjdqMW13MTc4d3BrTVlKM0todHZMRmZhZFhBdmdIekpqQkgzSTBreElMTnpRSDNKNUZmRmwxQi1nZk9YZHY4VjdwNU5PZzU1ZU9Pd1RjNW5lYS12YjVKU0E5ZDRBOXcyYWVkSw?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "러시아 국가행위자 iOS·Android n-day 워터홀 공격",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209325"
+    },
+    {
+      "n": 4,
+      "title": "한패스 해킹으로 고객 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209335"
+    },
+    {
+      "n": 5,
+      "title": "금융보안원 사칭 피해금 환급 사기 2차 피해 주의",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209342"
+    },
+    {
+      "n": 6,
+      "title": "한국공인중개사협회 교육원 서버 해킹 당해…유출 범위 조사중",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209351"
+    },
+    {
+      "n": 7,
+      "title": "노원문화재단, 주민등록번호·계좌번호 등 개인정보 유출 가능성 공지",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209349"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-122193",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122193"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-19868",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-118423",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118423"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-26084",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26084"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-71495",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71495"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2025-60957",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60957"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2025-52053",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52053"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2025-58384",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58384"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-55187",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55187"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2025-46408",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46408"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
