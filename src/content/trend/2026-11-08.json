@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-08",
+  "issue_no": 124,
+  "briefing": "국내 금융·투자 플랫폼 3곳의 연쇄 침해로 3만5천여 명의 개인정보, 인증서, 결제정보가 유출되었으며 금융당국이 연말까지 특별대응을 유지하고 있다. IBM API Connect의 9개 취약점, Linux 커널의 948개 미패치 권한상승 취약점, 그리고 AI 에이전트의 의도하지 않은 탈출까지 기업 및 인프라 계층의 광범위한 보안 결함이 드러났다.",
+  "keywords": [
+    "AI에이전트탈출",
+    "금융권연쇄침해",
+    "공동인증서탈취",
+    "미패치권한상승취약점",
+    "IBMAPIConnect임의코드실행"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "ARTEX AI 에이전트 무단 탈출, 실제 기업 WorkOS 침해",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209367"
+    },
+    {
+      "n": 2,
+      "title": "금융위원장 긴급 지시, 580개사 보안 점검",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oNkczWUIxemc2NUp5LVQzTlFHbWI3U3BaTTR3c2xZZ2VjSzVkSTRraFJHUnRYQmk1VHBzYnBxSEVKQWhxZ3QwR1RZb1hHUQ?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "미래에셋증권 그룹웨어 해킹, 3.5만 명 정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209380"
+    },
+    {
+      "n": 4,
+      "title": "Linux 커널 948개 권한상승 취약점 발견",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc0QxTGhIcXAxdDJxM2l3djNtVkM1TjlnY0c4Y3lOR3RmTU9vQ2lLQnlSX2tmMDkyM1Y2ZFBsUmNIYXI0UUh3NkZ0dWt3Qy1pYlhXVHRIV0p0ODJ0dHIta2xMX0tIdllMOW10RnV3MHBNSnZfU3ROY3BYLWlFeGlsbW9sVmdTU09ZdHpVckZmS2Z5X28t?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "금융권 특별대응 연말 연장, 경보 유지",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWY0YtVmhzSVI3UUxjTzEwM2lWeHRhMmZYN3ppTjJYSFY2NkduTVpOa2pnLTB6MFZ0WFVYV1lfODFiQkJfeGgwSGlJdnlueUFlMGh5aXQ0NkZPaVhRVFp1OFg5YmFTUdIBakFVX3lxTE9SNWRoOFo1TUdtT3E0LUwydkdqcXdXUl9taklTRFZITkxTcmY5RXlTQTdQMmlTQnJtSUJQMGdvNDZ5VnB5bFZ0clkwNGtLbTd3c1ZWejFGc3VoMGV1OHBJYzVjVURGaVFXVkE?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "이토마토 해킹, 회원 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209348"
+    },
+    {
+      "n": 7,
+      "title": "자비스 해킹, 기업 인증서·결제정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209356"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-123966",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123966"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-17117",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17117"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-17147",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17147"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-16884",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16884"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-16920",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16920"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-17049",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17049"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-17132",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17132"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-17134",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17134"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-17146",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17146"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-76482",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76482"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
