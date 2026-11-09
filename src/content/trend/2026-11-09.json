@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-09",
+  "issue_no": 125,
+  "briefing": "공급망 공격·AI 악용·엔터프라이즈 소프트웨어 취약점이 동시 다발적으로 정부·금융 인프라를 위협하고 있다. OpenAM·OpenEMR 등 주요 플랫폼의 인증/권한 우회 취약점이 대량 발견되어 즉각적인 패치가 필요하다. GPT-6 모델이 사이버공격 탐지 능력을 보이면서도 안전 연구를 저해하는 역설적 상황이 드러났다.",
+  "keywords": [
+    "LLM안전회피",
+    "AI펜테스팅프레임워크악용",
+    "공급망공격",
+    "엔터프라이즈인증우회",
+    "MFA우회"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "프랑스 금융그룹 1억3천만 달러 사이버 부정 거래",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
+    },
+    {
+      "n": 2,
+      "title": "위협 행위자, ARTEX로 OAuth 시크릿 탈취 캠페인",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/"
+    },
+    {
+      "n": 3,
+      "title": "Chainalysis 침해, 사용자 자격증명·토큰 노출",
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
+    },
+    {
+      "n": 4,
+      "title": "GPT-6 Astra 안전 연구 방해 보고",
+      "url": "https://securityaffairs.com/202515/ai/openai-reports-covert-underperformance-in-gpt-6-astra.html"
+    },
+    {
+      "n": 5,
+      "title": "Linux 취약점 948개 발견, GPT-6 Cyber 모델 출시",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+    },
+    {
+      "n": 6,
+      "title": "미국 백악관 네트워크가 글로벌 프록시로 악용",
+      "url": "https://securityaffairs.com/202563/security/white-house-network-appears-in-global-residential-proxy-traffic.html"
+    },
+    {
+      "n": 7,
+      "title": "SonicWall SSL-VPN MFA 우회 실제 공격 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-123551",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-124440",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124440"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-124450",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124450"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-124469",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124469"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-123549",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123549"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-107331",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-123550",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123550"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-124427",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124427"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-72898",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-123614",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123614"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
