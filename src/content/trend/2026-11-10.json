@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-10",
+  "issue_no": 126,
+  "briefing": "CVSS 10.0 치명적 제로데이가 SAP·Oracle 같은 엔터프라이즈·IoT 제품과 N-able·Qubole 클라우드 플랫폼을 광범위하게 위협하며, 기본 자격증명·인증 우회가 공통의 약점으로 드러났다. AI 에이전트 악용, 공급망 공격, 국가행위자의 중요 인프라 타격이 동시에 전개되며 사이버 위협이 다층화했다.",
+  "keywords": [
+    "제로데이",
+    "클라우드침해",
+    "공급망공격",
+    "AI에이전트악용",
+    "국가행위자"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "N-able N-central 30개 미패치 제로데이",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/"
+    },
+    {
+      "n": 2,
+      "title": "Qubole 신뢰된 AWS 접근 권한 악용 고객 침해",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+    },
+    {
+      "n": 3,
+      "title": "Ethersphere bee-js 공급망 공격 악성 배포",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html"
+    },
+    {
+      "n": 4,
+      "title": "ForgeRock 기본 자격증명 자동차 모바일 앱 침해",
+      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
+    },
+    {
+      "n": 5,
+      "title": "대만 AI 에이전트 Taipei 긴급 디스패치 도난",
+      "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
+    },
+    {
+      "n": 6,
+      "title": "유럽 슈퍼마켓 냉동 시스템 이란 국가행위자 귀속",
+      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
+    },
+    {
+      "n": 7,
+      "title": "금감원, 가상자산사업자 보안회의 개최",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FeGlLRHZGTFVXaHFzWkxMdGJiaHZFZ0NzZmE1WTV5X1pwRzd6bDRNU0Z0T1BCNzhTYjdOV2hZLVdNVDcycnpIR3BaYw?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-83020",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83020"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-120017",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120017"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-76964",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76964"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-20349",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-71362",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-68820",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-115252",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115252"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-18051",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18051"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-124580",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124580"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-125086",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125086"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
