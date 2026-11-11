@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-12",
+  "issue_no": 128,
+  "briefing": "CVSS 9.8~10.0의 극고위험 제로데이가 N-able·Traefik·Entra·CodeRider-Kilo 등 주요 인프라 제품과 개발 도구에서 대거 공개되었으며, 이는 공급망 공격의 심화 추세를 보여준다. 동시에 Citrus 랜섬웨어 그룹의 LLM 활용 고급 공격 기법과 금융보안원의 대규모 개인정보 유출도 확인되어 조직화된 사이버 위협이 지능화되고 있음을 반영한다.",
+  "keywords": [
+    "제로데이",
+    "LLM활용공격",
+    "인증우회",
+    "RCE",
+    "개인정보유출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "N-able N-central — 공개된 제로데이 긴급패치",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/"
+    },
+    {
+      "n": 2,
+      "title": "Citrus 랜섬웨어 — LLM 활용 고급 공격기법",
+      "url": "https://securelist.com/citrus-ransomware/121879/"
+    },
+    {
+      "n": 3,
+      "title": "금융보안원 해킹 피해 규모 확정",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNQ2pSU3VjN3YwSmtreFE3NFRId1F1Ykg5UXBhOFRud1RDbTVsWlFFalZLWGNkWE1mRkRmU3Z2VG9xZnhud3VHc0FDWVRRc3RpMkllWmo1eWpnVDlJZVhkS0Q0SUZfcEdSYXQzM0pjaEQ0eUhEcDFwa3pGblBpSldDXzhwc25GNmp1MEk1eFlZLWJCZi1oaTlmT0tfd1FHcE8tRkRPSXlaSW52OWJkWjdJcDJNbV9MY2hJU0FscnQ5WnJjVTFua3M2SlVtVnVybVZlQmlEWVBsaUowY2VSb1h5cVdaUkphdXFKUjljaUZ4N2hkVnZJNXdXWnoydFl0UEVSSjJpRkFKcGd2ajNpV0tEWF9Wd3VjTTZHUmJ6bXhQTEhwbjQ?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "2027년 디지털 금융보안 인사이트 리포트 (e-ISSN 3092-1554)",
+      "url": "https://www.fsec.or.kr/bbs/detail?menuNo=241&bbsNo=12142"
+    },
+    {
+      "n": 5,
+      "title": "NCSC scheme will help critical organisations test their cyber defences",
+      "url": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences"
+    },
+    {
+      "n": 6,
+      "title": "IT threat evolution in Q3 2026. Non-mobile statistics",
+      "url": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/"
+    },
+    {
+      "n": 7,
+      "title": "Analysis of Wpcdoor Attack Cases Spread via Korea-Based DVR Management Software",
+      "url": "https://asec.ahnlab.com/en/96477/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-109469",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109469"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-39858",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39858"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-110697",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110697"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-44774",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44774"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-36233",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36233"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-36234",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36234"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-78287",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78287"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-35051",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35051"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-36232",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36232"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-30302",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30302"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
