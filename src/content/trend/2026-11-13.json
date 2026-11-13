@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-13",
+  "issue_no": 129,
+  "briefing": "금융보안원 침해로 규제기관이 추가 사기 피해 대상이 될 위험이 증가했다. Windows·N-able 등 핵심 인프라의 제로데이 PoC 공개로 실제 악용 사건이 초래되고 있으며, Zimbra·Spinnaker 같은 주요 협업·배포 플랫폼의 원격코드 실행 취약점도 잇따라 드러나면서 금융과 기술 부문의 시스템 보안 위협이 동시에 심화되고 있다.",
+  "keywords": [
+    "규제기관침해",
+    "제로데이악용",
+    "원격코드실행",
+    "암호화폐채굴"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "금융보안원 해킹, 경찰 수사·공격자 금감원 사칭 정황",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LYWxxd3MzS003T21ubTRSNy1ZaXl6WlpLS1RwVjdxNzNrV2lMTzl0bDljMHdqdXV1SmQ5Y0dGd0dsbTVQZ1NwanV6a3h1alNWWi1BakZVX2YySzdKT3hqWGNWdzlwSXd1aVpFN1I0THk?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "Windows CLFS 권한상향 제로데이 SignDrop",
+      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
+    },
+    {
+      "n": 3,
+      "title": "N-able 4EverAble2Shell 제로데이 암호화폐 악용",
+      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
+    },
+    {
+      "n": 4,
+      "title": "국내 저축은행, 스마트폰 화면 촬영 유출 막는다...본사 업무 환경에 안면인증 보안 적용",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209457"
+    },
+    {
+      "n": 5,
+      "title": "[정보보안 연재소설-로그아웃되지 않는 밤] 최종회-제67화 '엄마의 그날'",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209451"
+    },
+    {
+      "n": 6,
+      "title": "금융보안원 상시평가 시스템 해킹…공격자, 금감원 수준의 접근 권한 확보",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209448"
+    },
+    {
+      "n": 7,
+      "title": "데브코어, 사파리 26.5 해킹 시연…웹킷 취약점 연구 공개",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209480"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-65400",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-73570",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-124815",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124815"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-32613",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32613"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-127275",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127275"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-40281",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40281"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-32604",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32604"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-41196",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41196"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-33587",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33587"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-30269",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-30269"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
