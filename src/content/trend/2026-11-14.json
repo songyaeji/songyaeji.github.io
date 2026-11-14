@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-14",
+  "issue_no": 130,
+  "briefing": "국가 지원 해킹 조직이 딥페이크 영상 통화로 4억 달러를 탈취했으며, 제로데이 악용과 AI 공급기업 침해로 금융기관과 정부 지원사업이 광범위하게 위협받았다. 금감원 권한 탈취, 공급망 공격, 워드프레스 플러그인 취약점 등 전계층에서 신종 위협과 미흡한 보안 태세가 동시다발적으로 드러났다.",
+  "keywords": [
+    "AI공급망침해",
+    "AI프롬프트주입",
+    "딥페이크영상통화",
+    "제로데이악용",
+    "금감원권한탈취"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "FBI 북한 해커, 지난 18개월간 4억 달러 암호화폐 도난 — 딥페이크 영상 통화 악용",
+      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+    },
+    {
+      "n": 2,
+      "title": "금융보안원 침해, 경찰 수사 착수",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SZ3FzekNDNkdJZDIwUllpRUNxU1gtcXVHa19HMUxLUlFqRDE1cnBRaGs4NXJ4Ql91UWdSYUZzLVZ1U1c5QkJZb091SnIyeVdCamJz?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "Check Point 제로데이 — 루트 권한 획득 취약점 실제 악용 중",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+    },
+    {
+      "n": 4,
+      "title": "모두의 창업 지원사업 또 뚫렸다 — AI 공급기업 해킹으로 2만명 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209514"
+    },
+    {
+      "n": 5,
+      "title": "Policy and Disclosure: 2026 Edition",
+      "url": "https://projectzero.google/2026/11/disclosure-policy.html"
+    },
+    {
+      "n": 6,
+      "title": "삼성SDS 자회사 멀티캠퍼스 해킹, 임직원 개인정보 약 7만명 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209491"
+    },
+    {
+      "n": 7,
+      "title": "KB캐피탈 해킹으로 개인정보 1,811명 유출, 고객 차량번호·임직원 계정정보 노출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209492"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-123965",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123965"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-123039",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-127073",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127073"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-127080",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127080"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-127277",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-127277"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-68982",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68982"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-118063",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118063"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-118064",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118064"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-124833",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124833"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-124822",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124822"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
