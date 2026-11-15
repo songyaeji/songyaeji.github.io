@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-16",
+  "issue_no": 132,
+  "briefing": "11월 국내 금융권에서 37곳 40건의 침해가 발생하여 47만 명의 개인정보가 유출되었다. Ray-Project 코드 인젝션, GitHub 계정 해킹, D-Link·DrayTek 라우터 원격 코드 실행 취약점 등 개발·클라우드·네트워크 전역의 공격이 동시 진행되고 있다. 금융 시스템부터 기반 인프라까지 다층 연쇄 침해 위협이 심화되고 있다.",
+  "keywords": [
+    "금융권개인정보유출",
+    "가상자산거래소해킹",
+    "공급망공격",
+    "클라우드자격증명탈취",
+    "라우터RCE"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "국내 금융권 37곳 40건 침해, 47만 명 정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209496"
+    },
+    {
+      "n": 2,
+      "title": "가상자산 거래소 해킹 시 입출금 차단 허용",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EazdZUE96a3lUeG5zU1VZZEYzYy1JWTJ4LWg1Z3ljRU04RC1mY1hIOUNhdV9vRUM4WVA5U3JDVGt6M3d6d2ltSHNaQklXN1EySXQ2RDc1X295QWhhM0VZVWtWUEc?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "한국조폐공사 상품권앱 해킹, 금융정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209533"
+    },
+    {
+      "n": 4,
+      "title": "SCKit 웜형 악성코드, ScreenConnect 악용·MSP 표적",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/"
+    },
+    {
+      "n": 5,
+      "title": "GitHub 4,837개 계정 해킹, wfx-loot 캠페인",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
+    },
+    {
+      "n": 6,
+      "title": "노란우산 홈페이지 해킹, 고객정보 유출 의심",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209521"
+    },
+    {
+      "n": 7,
+      "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2025-62593",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-129353",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129353"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-129354",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129354"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-129449",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129449"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-129450",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129450"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-129451",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129451"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-129453",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129453"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-129444",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129444"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-122662",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122662"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-125769",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125769"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
