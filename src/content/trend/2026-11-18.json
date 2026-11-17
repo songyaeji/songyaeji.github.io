@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-18",
+  "issue_no": 134,
+  "briefing": "Oracle Fusion Middleware의 미인증 원격코드실행 취약점이 대량 발견되었고 국내 주요 대학 3곳의 개인정보가 유출되는 등 엔터프라이즈 시스템 침해가 집중되었다. 생성형 AI를 활용한 자율형 에이전트 공격이 정교한 취약점 악용으로 고도화되면서 미인증 접근을 통한 광범위 침해 위험이 커지고 있다.",
+  "keywords": [
+    "생성형AI공격자동화",
+    "OracleFusionRCE",
+    "국내대학정보유출",
+    "냉동고제어기제로데이",
+    "미들웨어미인증취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Danfoss·Copeland 냉동고 제어기 6개 제로데이 발견",
+      "url": "https://securityaffairs.com/203324/security/fridge-controller-attacks-researchers-find-six-zero-days-in-an-hour.html"
+    },
+    {
+      "n": 2,
+      "title": "금융위, 금융보안원 침해 조직·업무·IT 전면 쇄신 지시",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uQkJkcVJPVjFlQ1Zlb0ZLVC1YbTdZZVBCOGpIMHhUbnZKcVQ0bW9EUFVGQU0yelpISlNPTUpSeDlxU0FyN2o2NTFTQkhnRk1HYmdpd2JHRXUzV0tYeUQ2NnNsejE3M0E?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "Google AI 위협 추적 보고서 발표",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209576"
+    },
+    {
+      "n": 4,
+      "title": "한성대 웹메일 2만5천 건 해킹, 암호화 비밀번호 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209558"
+    },
+    {
+      "n": 5,
+      "title": "레고랜드, 티켓팅 시스템 해킹으로 고객정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209568"
+    },
+    {
+      "n": 6,
+      "title": "서울시립대 홈페이지 해킹, 15명 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209554"
+    },
+    {
+      "n": 7,
+      "title": "국립한국해양대 연구시스템 해킹, 1,359건 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209559"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-114978",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114978"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-114784",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-114824",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-114835",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114835"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-91500",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-91510",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-91569",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91569"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-115731",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-100397",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100397"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-130587",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130587"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
