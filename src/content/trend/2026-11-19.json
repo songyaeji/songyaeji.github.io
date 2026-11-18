@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-19",
+  "issue_no": 135,
+  "briefing": "11월 보안 위협은 Synology·Lantronix·Incus 등 기기·플랫폼 RCE 취약점 집중과 함께, 금융권·교육기관 개인정보 유출 사건이 동시 다발했다. 북한 연계 APT와 AI 딥페이크 금융 사기, 금융보안원 침해 등 국가 금융권 위협이 심화되었다. 금융당국의 보안체계 혁신과 긴급 패치 지시 등으로 선제적 대응이 강화되고 있다.",
+  "keywords": [
+    "AI딥페이크사기",
+    "RCE취약점",
+    "개인정보유출사고",
+    "북한연계APT",
+    "금융보안정책강화"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Cisco Talos, 북한 연계 위협 그룹 UAT-12643 발견",
+      "url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/"
+    },
+    {
+      "n": 2,
+      "title": "금융권 보안체계 근본적 혁신 방안",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LQVFlVDM0bGZuV1V0YWFqUkE5WjRvSHprRzFxMHM4Y3FlOGFEX3FtU3kyU2l0bWZlUW42YmtqZ2NGNWF1TTZDQl9NaUxZNUxrcmRUN0x1RW9TbnRIT09pOGZmSjVzNHc?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "전주대 개인정보 18만 건 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209608"
+    },
+    {
+      "n": 4,
+      "title": "코인베이스, 머스크 딥페이크 사기 470만 달러 차단",
+      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/"
+    },
+    {
+      "n": 5,
+      "title": "금융보안원 침해 원인 조사 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LVjJ0bVNKb1U1ckhBMFFkRGVuUWdUbVphOXRrYVdvLVVqQ3ZyNHNHeFczZlh1QUxDdEFNNFd6Zm5SZUsyZ3hETC1FMnByM3NSaEh6UzNn0gFbQVVfeXFMT0xhcEh4YkZUUUV4dTRYTGZwZ1AxQm1IQlMzbmF2VG9CRGRxYUI3RV92c09nOVBFN1RWRGZuUEJjcUw4YkVVUWFTeFBrS0JSblJQZW1scFBRSWJqRQ?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "전북교육청 통학차량 시스템 해킹",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209579"
+    },
+    {
+      "n": 7,
+      "title": "자바 치명적 취약점 금융권 긴급 패치",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5uNGdRX0trNkZISmFmckVGQzVWZU9YUTZPdWNPOG1hUVpSYjg5enhsZ1RFRy1Kc29OTTdnc2FJbmF4ckF0UGd6VHo2OS1LS1F0Vms5dHJBdXBLVld5UHh1atIBeEFVX3lxTE8xYl9iQWdOcFVJbDNLY3ZVQzBGdV9JbmF2bDZhUk1TR1FSNkJocEtnejBJVF9rbG1TME5SRlVuYnlqdGZVNllRdmx5WkplbFo0bzFvV1pQVzRLY1d5SE9FUzk4LTY3ekZvZVFrcEFvRDA0X1lmeGZVLQ?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-90817",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-80155",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80155"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-95787",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95787"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-130778",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-71499",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71499"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2022-43931",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43931"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2024-10442",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10442"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-129351",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129351"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2024-10441",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2024-29241",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29241"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
