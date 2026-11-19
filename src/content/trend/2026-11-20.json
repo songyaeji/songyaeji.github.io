@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-20",
+  "issue_no": 136,
+  "briefing": "명령 인젝션·인증 우회 취약점이 Dokploy·Mitel·TrueConf 등 엔터프라이즈 플랫폼에서 집중 발견되어 실제 악용 중이다. Optimizely·다우오피스 공급망 공격으로 178개 웹사이트와 기업 PC가 피해를 받았으며, 노란우산·포항공대 대규모 개인정보 유출로 국내 보안 위기가 가중되었다.",
+  "keywords": [
+    "명령인젝션",
+    "공급망공격",
+    "개인정보유출",
+    "LLM재킹",
+    "미인증RCE"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "Optimizely — 178개 사이트 악성 스크립트 주입",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/"
+    },
+    {
+      "n": 2,
+      "title": "CISA, 실제 악용 중 4개 취약점 긴급 경고",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
+    },
+    {
+      "n": 3,
+      "title": "다우오피스 메신저, 업데이트 경로 해킹",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209628"
+    },
+    {
+      "n": 4,
+      "title": "노란우산 개인정보 36만건 유출 공식 확인",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209624"
+    },
+    {
+      "n": 5,
+      "title": "포항공대 해킹으로 개인정보 1만9천978건 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209629"
+    },
+    {
+      "n": 6,
+      "title": "Siemens SIMATIC — 인증서 위조 인증 우회",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
+    },
+    {
+      "n": 7,
+      "title": "Elecbrakes EB2, VM1, ELBC2000 — 제동 시스템 취약점",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-133323",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-132802",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132802"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-132803",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132803"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-129316",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129316"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-129986",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129986"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-129989",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129989"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-129991",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129991"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-72530",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-72529",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-18948",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18948"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
