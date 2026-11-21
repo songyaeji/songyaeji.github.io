@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-22",
+  "issue_no": 138,
+  "briefing": "생성형 AI 도입 확대에 따라 개인정보 보호와 보안 윤리가 정부·기관 차원의 중점 과제가 되고 있다. 개인정보 유출 사고가 반복되면서 한일 협력 체계 구축과 기관장 징계 강화 등 책임 추궁이 강화되고 있다. 한편 웹 프레임워크·임베디드 기기·OS 등 전 계층의 경로 우회 및 권한 검증 오류 취약점이 광범위하게 노출되고 있다.",
+  "keywords": [
+    "AI보안윤리",
+    "개인정보유출사고",
+    "미들웨어경로우회",
+    "원격코드실행",
+    "권한검증오류"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "서민금융진흥원 AI 보안 윤리 강령 발표",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtTHFhSkUzWDdqaVlWamk4cXhiOE9tMHZzUTRMSUtDZlJOQXJ1R0R3OWJZWFZxdFo2ZjI5emVxWU9sWnFLMWdrWXFGSjhtMnIzbXItVFVaazEzTk9rdWFQQV9BUVFhMW92ak1R?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "경기도교육청 교원 158명 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209649"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 엔지니어 도청 사건 신속 재판 일정 확정",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0szZTQtdDRZQTBDdHIycmtvY0VqU2I0anNVY2VOamRLNE9DdnZKN3dQcmJHckQwWHhoSkwzWkpnSHUxbXdUQlF3UDctR29STWpUdE9FRzBIV1kzWnBmQlBpZW1LLThxVzVZZjVIQ2RWX0VZVlM5VEVUT1lkazRIVmxUQjdZTW5aX3gtUDdUaFdXcWhNdi15bUtn?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "AI 개발 개인정보 무단활용 사전검증 촉구",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsT0FDcTZyNVo4RzloOVprS29fS2Zwcm5CUUxSX3ZxWVdTYkRKZ0dRaDVYWDRxeGg5aG8xb2Nra0g1R2NFV1phQVNGaDd3RTJxM0N1Sg?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "일본 APPI 개정으로 AI 데이터 활용 완화",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wRmlZZEcycHN5eFlTN0wtVG9aT25TU0pkaGNCNDhjejdtLXRIejNyN0pTV0J5ekI0VEhXWU51dk1BVUg4WFRQRkhha2JfR3c?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "한일 개인정보보호기구 AI 데이터 이전 협력",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GVVp2VDA5U09ZMExtU2VKX0JPYzZ0aGFydGx5bGJSTVNfOEEyb3ZmRy13MTdvb2VTcldHWmcwUWpFcG1kcU14TUdfX29oMUV1eUxIM2RWcnZfSFM0ZC1hclk2RllCa09PZzJF?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "공공기관 개인정보 유출 시 기관장 징계 강화",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvV0wxR1FaNURQRUtGYW1kRzV2RU9mYXBWbXhnOEtCVm5EVTB4aDZaU0RRdWdqazZUc2FGNnhuUXV3NFdKc0FxeGtoaTg3QQ?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "Narrator 잠금화면 우회",
+      "url": "https://securityaffairs.com/203537/hacking/chaotic-eclipse-releases-fastunlock-a-new-windows-zero-day-vulnerability.html"
+    },
+    {
+      "n": 9,
+      "title": "Java 역직렬화 원격코드실행",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zQWstTkw2eXFPQlJtZ1VHUHJDZWU0SktuOFBpT25wV2xRc1lQbllSUTdvZm0yT3NQVkU4RWpIZ0VQdWpvSkNPVnBWSGVwRzd1ZGVaTkhGNG9DR3JZaFNfd3VIaTBUMmppYTZNeWRvQ002QQ?oc=5"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2026-133993",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-120539",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-134292",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-125294",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-124626",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124626"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-129504",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129504"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-133120",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133120"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-133250",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133250"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
