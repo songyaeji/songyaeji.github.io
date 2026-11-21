@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-21",
+  "issue_no": 137,
+  "briefing": "중국 연계 해커의 의료 AI 제로데이 악용과 LLM 금융악성코드의 등장으로 AI 위협이 고도화되고 있다. 국내 금융권은 망분리 규제를 완화하며 보안체계를 혁신하는 한편, 2027년 AI·데이터보안 의무화로 개인정보 보호를 강화한다.",
+  "keywords": [
+    "LLM금융악성코드",
+    "의료AI제로데이",
+    "AI기본법",
+    "개인정보유출사고",
+    "중국연계해커"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "EU 집행위, AI 공격받아 앱 일부 중단",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209641"
+    },
+    {
+      "n": 2,
+      "title": "중국 해커, Cairn으로 대학서 제로데이 발견",
+      "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
+    },
+    {
+      "n": 3,
+      "title": "금융위, 망분리 규제 전면 완화 추진",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RN0dGamlDU2s3dU5qSHhta181eGJ3U3ZsYTBzVUtscWFLcHlFdHVvbGRpa3ZrV2dVSElRbHJXeEZLLXN6NUdzT2pGclo3WThKanhsQk5aMmROaUpMajdobXZjd1p5cGNKNUhOYThn0gFyQVVfeXFMTmRVeTA3QXkyVmYzelM5WE1BMkJycFk1RWkxN3lVc3pxZG81Q0tkYjBTTUszVjUzblkwVlBnODFUS1YzOU5mcDBiVjhyUUhwQTF3S1pNc29Sd0NURTRCWFNTekMtdGRYMmtPVHNkeGNvZlhB?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "AI 기본법 2027년 시행 확정",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SaE1ERkp5WjBfUWNmX0gxZWNOUW5yZmpMeDFHWExkZWU5czFqMUk4V2RTVE4zUjVNbWFBeURwMDBFQXBySXRrR0tfWllEbm9aVjZzcjl6VWlpdGJCNm9PQm0wV2o4bW5XYnAtay1ob0HSAXRBVV95cUxNcGkzeXVoSnNnMUQtaE42SWNvTUlaMUxVZjcweHZBMHY1VEJFeFdybERCSEExRTA0Q0g4V1c5eUo1VDZuRXpnR1J1UXhib0ttNUZ5bG9hU1FlUi1jMkN0VWgxZkl2UnpJMmp2MHVSVmoxeURCVQ?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "데이터 보안법 국회 통과, 2027년 시행",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM0psUU9iMEM3Z05nOHZQeUhIWEd5ajNtYm5PdTdrSXJadlpTNXlSRExJWFVId2dtSW1kYVQtV05oLWRqUzBvT25RamxNZi10eDNxcUpHYTV2ZnVuaFNZRWh2MmlnU3VQMU9mY1JCdlI1UEFPZ1pNc3I5TmxFRktqUTcxN3NmZ2t0OUVXVEU5dW5aTnVLQUZQU0p3?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "Bazuka 안드로이드 악성코드, LLM 결합 등장",
+      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+    },
+    {
+      "n": 7,
+      "title": "에이엠씨손해보험중개 앱 개인정보 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209643"
+    },
+    {
+      "n": 8,
+      "title": "VMware vCenter 인증 우회 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+    },
+    {
+      "n": 9,
+      "title": "의료영상 AI 애플리케이션 경로 조작 취약점",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+    },
+    {
+      "n": 10,
+      "title": "Windows 잠금화면 우회 취약점",
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2025-42884",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-68791",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68791"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-133493",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-81096",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81096"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-14914",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14914"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2025-34267",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34267"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-67330",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67330"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
