@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-23",
+  "issue_no": 139,
+  "briefing": "삼성증권, 한국전력, GS건설 등 주요 기업에서 개인정보 유출 사고가 연이어 발생하고 있으며, 금융당국은 한 달에만 2,300회의 정보 탈취 공격을 받는 중이다. 정부는 생성형 AI 개인정보 처리 기준 마련과 간편결제 본인 인증 강화, AI 기업의 법적 책임 강화 등으로 다각적인 보안 대응에 나서고 있다.",
+  "keywords": [
+    "생성형AI개인정보기준",
+    "금융권정보탈취공격",
+    "개인정보대량유출",
+    "본인인증고도화",
+    "AI기업보안책임"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "개인정보보호법 AI 특례 세부 기준 마련",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mZ1FLQTZBemV5aTJmaW9lY0xZOG9BbE92c2g4d05lQkNkUjBZUmgxM1lfWG1YelIyV2g1OUxsZDJJblFCa3VoYTZMWTBDcEFaVW9fMmVPcE9MdHV4YlVuNjh1ei1vNU5CM0E?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "금융당국 대상 정보탈취 시도 한 달 2300회",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdzlYVWEyT0RoY0FHcFlEX1VaY2ljb0RXYzh1SlhnN091cUNXNzA2eDlVZ0pFZF9KMkFwRkVON0ZJN0V3WE1yTlhsa0xweW44X2VYdW1lX2RlMDB0YnhJTVFyYW0xRjExZGRCd0ltY2hUV2IwaEhWOXhTWmJGZkxIX9IBlAFBVV95cUxPb0RaYlY0dkRfV1JiVzE3bF9fNWdoLXcyakxuZkdneDVsenVVdkJFTGdQTlpSSF84ZXpndU1sbGFXaFVxSWFmOUZCU1F6c0dOMG1RYzQ3M2pIVXdHd25JU25FbmZWcGNHY1ZCV09rQkJNekZZREt6dzV4ZEQxUXhoZkFUY0Q0Vi1GeFUtWDI3Zk1ITmVB?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "삼성증권 해킹으로 8천여명 정보 유출",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpNEtwbkV5eFY3WDgyTF9UWHEwaFVQY2pCdkpsbEpIamtrN2cwSC1kS21lT1ZoZ3lYZXV0T3RxODZfREsxX1RJSVlMOWVVMk00MHdqejVIcG00dEnSAWBBVV95cUxPYmNlakRkdG53UU9OSmtNcnlFdDlTM0NxXzhfZkM2Y3EzaEpScERidHRpU1c4WUllUV9wYlIyLWtKbU1qOGlpa3pqZXlnOGlYQzZTUC1XYUhUNTNXejB0RnI?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "오픈AI 캘리포니아주에 사이버보안 위반 피소",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNam0yRHoyNlMyU1Q1SVVlcFRJZGxYZlZhTGpObkxNakZOQmpldGNQelQ5N2gwXzl3VDlFMkFZakNVSVFEMlBmUHotelRsaUxwY2EtVXhRZ3VuenYwMFZ4SzNwY2I1Z2xNazdkb3BXZ1o4VEk5cHp5aG90b09mUnl3MlFnaVFvUWZQMjM2X1hR?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "카카오페이 등 간편결제 앱 주민등록증 진위확인 도입",
+      "url": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249945&menuNo=200218"
+    },
+    {
+      "n": 6,
+      "title": "한국전력 해킹으로 152만명 정보 유출",
+      "url": "https://news.google.com/rss/articles/CBMi_wVBVV95cUxPc2VoSWJzb3NVdEpURzk3dVFGWl8zM284dno4MEo2dFpUY1lTWXlacTlTNUFyWFplZmhSTHRYdDd5bU9ZWmpUN25QYm5JSjR1Q08zMng2N0hTclpfLUZBRW9ZQ2dTTWxmTnh6X05YMjg4MTROX1Rzdk9BMUlyUkh2bGpTZEl3NUg1ZThiYXNzaHotTlVXTzdhQ2JvVzdxb3l4SHJOY2tENlNUR0pXangyX0xKMXJrVDlxTXFiVzlaYU5PRlBSSUROcFI3cHptUTQ0czJFVW5sSGhiZFdfdS1Rdnl2OUNCMTVVWVV2VmF5VVZtU1FUOUxaMGhkRVptVkFJelhJeUVndEE5Qy1kbGtrZTZTNnRyeVdSWEg5OWs2bGkyamI4OE5kdkJOR2VHMW1XUjAtdkpGN0FtOTFYYkJHRHV5aVdqci1abEhkdUxGc0VNRnZWRGFhc2VCNUM1RTZHZ2RSZV90eGNPdnB4MjR4RnV2dUxpNUhKb3pDbGUzcUo0aU5sdld0YndnV3BVMm1XbW9mUGdJaGFrcHAybUNHTFU1T0V6T084VDRiWlFHeE5xMDl6RWdrNkRqdjhxbl9NZ01nUFZ4LTZJRjg5VDBWTURzUGFmcDY4UTB2ekRSdEwwTVVBSXBYVjdwQVpReE95NzVfRnBnMFY1WEpPTEdWT0pYSlc0V0J4V1dUdy1EUk5NWWo2QVhwbWd6M0Qyb0NrQThwdnNUeUV3TC1yTG5XOFNTODk2dVFDOUZqZzYxd2hHcjNudHp1cU9TcEJUZzgwejNfVlYxZGVtazA5REljTHczOEwyQ2dTWGZLQ0ViNU5GU2hkWXVzbnhCMkFNWHA4dlJLSTlPRG9xVTBLVDNqNHc0Z2N2SXVXZ20wZnNybFVPM3RJck14Ym9PV1ZLcEVQc1pGbGNrVjFTenRYMGJnd3JZN0IxMU50TGZPd1lORFZBSEx4N1RBaXRDX3pTQnMzYWEycVJOM3hTNWJjZjNkY1BHaTZjMGowVDhRUndxQQ?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "GS건설 개인정보 침해 정부 직권조사 착수",
+      "url": "https://www.msit.go.kr/bbs/view.do?sCode=user&bbsSeqNo=94&nttSeqNo=3187955"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
