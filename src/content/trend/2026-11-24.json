@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-24",
+  "issue_no": 140,
+  "briefing": "한국 금융권과 공공기관이 연쇄 침해로 1억 건대 개인정보를 노출했다. 판결문 비식별처리 불완전으로 인한 재식별 위험과 PG 결제 인프라 침해는 국제수사로 확대되고 있다. AI 에이전트의 프롬프트인젝션 위협과 Cisco·Azure 등의 치명적 RCE 취약점이 실제 공격에 악용되고 있다.",
+  "keywords": [
+    "#AI프롬프트인젝션",
+    "#금융결제인프라침해",
+    "#개인정보재식별",
+    "#RCE취약점",
+    "#개인정보1억건유출"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "서울중앙지법 판결문 10건 AI로 재식별 가능",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209679"
+    },
+    {
+      "n": 2,
+      "title": "PG사 3곳 추가 침해 금융위 긴급소집",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5DMkJ0ZXJ1OUphc1dtcE9mS0U2ajIwMVBxemJqQVFQcWhvMlItekItdDJzckdETnhIbU5TYjM3aE1VbGJSc1FRdjU1OEpQZw?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "개인정보위 3년간 침해 1억4000만건 집계",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9EU1Exa3pCQm8ydEw4QUJkRmZvY3lSOVJidU1RamtrNFJVME1VSGJOZ25BV2piVHhOOFkwR2V1cEhFNUxrSmdnd0thWkFyN2NJa1N1QmFYcGhRVzhicVl3bEFwcU9naXM3cFdFQl9xU1F1LVk?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "인도 금융기관 AI 사이버공격 무단송금 피해",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
+    },
+    {
+      "n": 5,
+      "title": "금융권 16곳 해킹 조사 완료 국제공조 착수",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WeElGbVViYWNCYWt5YnVCVl91RjFXU0hzbF95aGRsN1VWQXVKMkRrMlJIY1NIWnVfX0FJaWgyejJ3OTFYLWUxMnQtRmRRcHF2T0xXZGlHMGJxSkJHd2dtN19MNjJkWFJYZE840gFwQVVfeXFMUHRXSTZHalkteWIyQVhlU0s3ZVFMU3BuREh3SmpSRU9wbHhYdHRLcjFIWnlmTkRYaW1QalJyWTVBQUxNXzVlR3BNLVVxUHhLdzZ6MmlJTXZkWWlQb1Q0VmhmdWNCQjdxQ2ZybS1IVFhjTg?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "HD현대로보틱스 해킹 개인정보 10개 항목 유출",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209681"
+    },
+    {
+      "n": 7,
+      "title": "KISA AI 에이전트 업무자동화 보안수칙",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000127&searchWrd=&menuNo=205021&pageIndex=1&categoryCode=&nttId=72323"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-131914",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+    },
+    {
+      "n": 9,
+      "title": "Cisco Expressway — 활발히 악용 중인 RCE",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+    },
+    {
+      "n": 10,
+      "title": "시놀로지 NAS 랜섬웨어 노출 위험",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209664"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2026-134882",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2026-46595",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46595"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2026-62841",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2026-130169",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130169"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2026-115873",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115873"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2026-103782",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103782"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-50691",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
