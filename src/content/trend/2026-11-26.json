@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-26",
+  "issue_no": 142,
+  "briefing": "한국 금융권에서 개인정보유출과 무단접근 사고가 계속 발생하고 있다. Check Point를 겨냥한 AI 기반 공격 캠페인이 금융·에너지·정부 등 22개 기관을 침해했으며, 금융당국은 AI 사이버 위협 대응 훈련을 강화하고 있다. 동시에 Drupal, Gitea, SQL Server 등 주요 소프트웨어에서 RCE와 권한상승 취약점이 계속 공개되고 있다.",
+  "keywords": [
+    "AI침해공격",
+    "금융권개인정보유출",
+    "RCE취약점",
+    "권한상승취약점"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "미국 FinCEN 무단접근으로 시스템 일부 중단",
+      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+    },
+    {
+      "n": 2,
+      "title": "Check Point 서버 24대 AI 공격 피해 확인",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+    },
+    {
+      "n": 3,
+      "title": "MG손보 가교보험사 예별손보 개인정보유출",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wbjM4c2ZEX3BDOVRWQ2owQlp6eEc4a2duY1R2VjAtQ282V0p1OU51aEt5akl3YkdSeVBJWkVXcG1hdDM1YTZTXzgwcE9taDZYcGk3MmE5cjVFRkFlUDF3bE56U2NkZ0pPaWxR0gFvQVVfeXFMT3BLZWVHb1J5QnRvWVNmNEV4TGhXV1g1QVNGUG9MQWlkbkdmTnVRZjlmZmhiSFZtTk0tcGdSMlppS1pZR1NDTC0wM2xoamtHbkpHeXh1WUYyYlVsWXlaZVhfa2RHOWxheGNiZ0Z0VE5z?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "공정위 은행 개인정보유출 면책조항 제동",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4zZHNmZWRHOFlmWGZOcHdmY2NhUUwxdXBCa05LV0FNUFhSbUE1X3ZyVDVVeGk1TUxjMGFrYmlobmwxYTdiczBfaE1GOFMwaVR6YWlpSW0tSDlFWE9vdGhsalFhUFRhbjEzbEl4MG11blNKbldYcWdURTM2bHg?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "가상자산거래소 입출금차단 12시간 허용",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vWFNDTEdXYnl5amhuVi1IQVVWWWVZVUpVRGVBbXZyTzZPcUNNUGhUNmpGT21TcDRDWnhia2REMldSN2NkMWVVUjVxTDkyNG5DSTBwVGNGRGE0MGgxMGVBZHpBclFkaGt4Y2tka2VIZ3VQUQ?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "삼일 안진 한영 회계법인 감사정보 유출",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95NEx2VUM1MVFvMHFtNWlyVWlJZ2o0T2R3ZVV4QWhsV3B5RGRFSDkybTBjaTJtMXRETjhrdzBsX3p2bF94NXhmcnQ5RzI0c0tFOUHSAVNBVV95cUxNOE5JSnN5dktLVndweFlEZy12N1hZdC1VWlVpVV8wczUwbk8zaVozRFNrRzZEUXJwUmMxRFdYamo3Zl9TX2dvTXhTck9aMnBNWmNzOA?oc=5"
+    },
+    {
+      "n": 7,
+      "title": "금융당국 5대 금융그룹과 AI위협 합동훈련",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9IVEYtMGNtaW9kQUFQdWJLcXF4ZFpINWFTTzRkbnFXUmhLb1EzRGY4aU5mZFRITnRLSkxVZEhLbGY2MDNCTkkxdmtZRDZxazczcUpxejNwNjhmQmRrcTNHM0MxU2V6NDlMYk5Pa2JDSTdoUQ?oc=5"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-60004",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004"
+    },
+    {
+      "n": 9,
+      "title": "CVE-2026-132165",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+    },
+    {
+      "n": 10,
+      "title": "CVE-2021-23758",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758"
+    },
+    {
+      "n": 11,
+      "title": "CVE-2015-3246",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246"
+    },
+    {
+      "n": 12,
+      "title": "CVE-2015-5287",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287"
+    },
+    {
+      "n": 13,
+      "title": "CVE-2022-0995",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995"
+    },
+    {
+      "n": 14,
+      "title": "CVE-2019-1068",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068"
+    },
+    {
+      "n": 15,
+      "title": "CVE-2023-25914",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914"
+    },
+    {
+      "n": 16,
+      "title": "CVE-2023-25915",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915"
+    },
+    {
+      "n": 17,
+      "title": "CVE-2026-133324",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
