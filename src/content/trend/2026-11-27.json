@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-27",
+  "issue_no": 143,
+  "briefing": "AI를 악용한 공격이 국가급 보안기관부터 금융권까지 고도화되며 확산되고 있다. 금융권에서만 37곳이 AI 기반 공격 도구로 침해를 입었고 47만 명의 정보가 유출되었으며, 생성형 AI 위변조를 이용한 신뢰 해킹 사기도 조직화되고 있다. 보안업체 자체도 공격 대상이 되면서 보안 위협이 광범위하게 심화되고 있다.",
+  "keywords": [
+    "AI펜테스팅악용",
+    "AI기반공격도구",
+    "신뢰해킹",
+    "금융권침해확대",
+    "국가급위협"
+  ],
+  "links": [
+    {
+      "n": 1,
+      "title": "아르텍스 해킹 CIA 금융보안원까지 피해 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PTDlPUjVMVkNjNnBINDlST1U5aFZQbFhZWFMtS2NTNWMzVzc1ejkzWF9DNjhiQzdob0NNSXpZNGRWdlMzZm1iY3gtTUlIX0s1UTBGRTctVm5oUW9GV0x6VkRUSVNhT0lrMVY00gFvQVVfeXFMT0EwNFRnS01xaG04YU9DVWhodjNERkVGZWg0REJrOW40QldhTG1HZ1ZZUzBpQU5uOW8tRnJtRlVmQWx0OHRiZDkxNjJQcWwzbVpNQmd5VFFZSFYtbEV4ajA2LUYySXRTX0paeGJ0SHRr?oc=5"
+    },
+    {
+      "n": 2,
+      "title": "금융권 AI 도입 안전성 2027년 본평가",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Eb0Q2VWdhRDBydkpkb1dCSnc2dEJCWS1kR1Y3UURVbjk2Zi1NUnBhLVJTWUw3R05HcUt5YnVqdXJBQVNwcnlpamxYWHhwZC1wMVE0X0ZHNnpHTjZoZGpzOXRDTTFVMWR0OHdIajVvRFHSAXRBVV95cUxPbTFwNFlGV0ZfR0UxZUVRQzRqMG9mU0tRQjBIcWI5XzFDSldCTmstZlI2ZXdmZkNKQ1BpSU92UVhqMERpd01IRmh0OEpLeExYSFJ1YnpaTWZqRVNKRC1RX2pwa2JGTFhnblpfa2Ryc3M4REFaUQ?oc=5"
+    },
+    {
+      "n": 3,
+      "title": "금융보안원 디지털자산 AI 위변조 사기 경고",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53OG1nN1VaTWdWd3o4SGRTLU5Qb3hWS2l6ZGE2WDcxS0dMY1pUeFRGLUZoU1U4ajZGMmI3U0dhWW5hRXp1Qk5rU0ZzVUR3WC0wRWJveQ?oc=5"
+    },
+    {
+      "n": 4,
+      "title": "금융권 AI 에이전트 행동 리스크 점검",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QeER6Szhqc21vb0VoVUhNZ2JrNnNqaWFycjFPV0J6cXdMdElpaTJBWUVLalBfSVBfckdzbkl3RWNjbXBjbmljSWVhaGhMekhkU0lXVmowcU1tRjBYcDZhdVJ4ZUpPbTNoU05J0gFuQVVfeXFMTmdjS0otNFNwTWZDNHZLS3h5WEtoa2VfbzlWSl9FbXhvN2dVTmQ3LUdrcEpWT1QtSEZTRlc3amxZVnJqQmZUQmhnYWxCRXgxQUE4YW1ic0Z3azd1QllhVEFhc1c0dGxhYjBCeUxCcEE?oc=5"
+    },
+    {
+      "n": 5,
+      "title": "금융권 37곳 침해 AI 공격도구 확인",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsTDNOV29PMWxvLXBTd0c4bWUtUHplTGt3M2xCdmpoRE9EVVpjVjYyV1dRc0xQN0tMNDYxMmp2YzJqZ1ViV3RnTkdDaE9NX25FcU5FUmhicnJadkdhMnlkN0xqT3JXSlRFcEUw?oc=5"
+    },
+    {
+      "n": 6,
+      "title": "페닌슐라에너지 미 우라늄 광산 가동 중단",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209724"
+    },
+    {
+      "n": 7,
+      "title": "체크포인트 서버 해킹 한국 조직도 포함",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=209720"
+    },
+    {
+      "n": 8,
+      "title": "CVE-2026-136716",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+    },
+    {
+      "n": 9,
+      "title": "Gmail 탈취 악성 크롬 확장",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
+    }
+  ],
+  "cards": [
+    "card_01.png",
+    "card_02.png",
+    "card_03.png",
+    "card_04.png",
+    "card_05.png",
+    "card_06.png",
+    "card_07.png",
+    "card_08.png",
+    "card_09.png"
+  ],
+  "cards_jpg": [
+    "card_01.jpg",
+    "card_02.jpg",
+    "card_03.jpg",
+    "card_04.jpg",
+    "card_05.jpg",
+    "card_06.jpg",
+    "card_07.jpg",
+    "card_08.jpg",
+    "card_09.jpg"
+  ]
+}
